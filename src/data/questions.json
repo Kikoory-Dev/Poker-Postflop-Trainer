@@ -1,0 +1,560 @@
+[
+  {
+    "id": "bt_flop_01",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "K♥ 7♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: K♥ 7♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — rainbow, unconnected, no flush or straight draws possible.",
+    "explanation": "Rainbow (three suits), unconnected, high-card board. No flush draws, no open-ended straight draws. Hands are either made or not — opponents can't profitably chase. Value bet strong hands without protection worries.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_02",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "Q♠ 7♠ 2♠",
+    "street": "flop",
+    "question": "Classify this flop: Q♠ 7♠ 2♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draws — any single spade has a draw, made flushes possible.",
+    "explanation": "Monotone board — all three cards the same suit. Anyone with a single spade has a flush draw, and flopped flushes are possible. Extremely wet despite being unconnected.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_03",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "9♠ 8♠ 7♦",
+    "street": "flop",
+    "question": "Classify this flop: 9♠ 8♠ 7♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draw (spades), multiple straight draws (JT, T6, 65, J6), made straights possible (JT, 65).",
+    "explanation": "Connected AND two-tone. JT and 65 already made straights. Any T, J, 6, or 5 has straight draw equity, plus spade flush draws. One of the wettest flop types.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_04",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "Q♦ T♦ 8♥",
+    "street": "flop",
+    "question": "Classify this flop: Q♦ T♦ 8♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draw (diamonds), straight draws (J9 made, K9, 97, AJ gutshots).",
+    "explanation": "Connected and two-tone. J9 flopped a straight. KJ, 97, J7 have open-enders or gutshots. Diamond draws add more. Classic wet board.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_05",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "K♣ 8♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: K♣ 8♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Club flush draw only — no realistic straight draws.",
+    "explanation": "Two-tone (two clubs) brings a flush draw, but unconnected ranks mean no straight draws. Drier than connected boards, wetter than rainbow. Hardin calls these semi-wet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_06",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "A♥ K♦ 4♣",
+    "street": "flop",
+    "question": "Classify this flop: A♥ K♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
+    "explanation": "Rainbow, mostly unconnected. QJ has a gutshot to Broadway but that's the only draw. High-card heavy — connects hard with raising ranges. Effectively dry.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_07",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "7♥ 7♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: 7♥ 7♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — paired, rainbow, unconnected.",
+    "explanation": "Paired rainbow board. No flush draws, no straight draws. Driest board type in poker. Either someone has trips/a pair or nothing.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_08",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "J♥ T♥ 9♥",
+    "street": "flop",
+    "question": "Classify this flop: J♥ T♥ 9♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made flushes, made straights (KQ, Q8, 87), every heart a flush draw, all straight draws live.",
+    "explanation": "Monotone AND fully connected. The wettest possible flop type. KQ/87 flopped straights, any heart flops a flush draw, sets are vulnerable to everything.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_09",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "A♠ 9♦ 4♠",
+    "street": "flop",
+    "question": "Classify this flop: A♠ 9♦ 4♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Spade flush draw; wheel gutshots (23, 35, 25 need two cards — minimal).",
+    "explanation": "Two-tone brings the flush draw. Ranks are disconnected so straight draws are negligible. Semi-wet: protect strong hands against the flush draw but otherwise value-focused.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_10",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "6♣ 5♦ 4♣",
+    "street": "flop",
+    "question": "Classify this flop: 6♣ 5♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made straights (87, 32), open-enders everywhere (any 7, 3), club flush draw.",
+    "explanation": "Low connected two-tone board. 87 and 32 made straights, any 7 or 3 has huge equity, clubs add flush draws. Low wet boards smash calling ranges (suited connectors) harder than raising ranges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_11",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "K♦ Q♣ 2♥",
+    "street": "flop",
+    "question": "Classify this flop: K♦ Q♣ 2♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Straight draws only: JT open-ender, AJ/AT/J9 gutshots. No flush draws.",
+    "explanation": "Rainbow but two broadways are connected. JT has an open-ender, AJ a gutshot. No flush draws. The connectivity makes it semi-wet despite the rainbow suits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_12",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "T♦ 9♣ 2♦",
+    "street": "flop",
+    "question": "Classify this flop: T♦ 9♣ 2♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Diamond flush draw, JQ/J8/87 straight draws around the T9.",
+    "explanation": "Two-tone with two connected middle cards. QJ, J8, 87 have straight draws, diamonds have flush draws. The deuce is a blank. Semi-wet leaning wet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_13",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "A♣ A♦ 7♠",
+    "street": "flop",
+    "question": "Classify this flop: A♣ A♦ 7♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — paired ace board, rainbow.",
+    "explanation": "Paired ace rainbow board. Whoever has the ace has trips; no draws exist. Extremely dry. Bluffing is effective because the board hits so few hands.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_14",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "8♥ 4♦ 3♥",
+    "street": "flop",
+    "question": "Classify this flop: 8♥ 4♦ 3♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Heart flush draw; 65/52/A2/A5 wheel-ish gutshots and open-enders.",
+    "explanation": "Two-tone low board. 65 has an open-ender, 52/62 gutshots, hearts draw to flush. Low boards favor the preflop caller's range (suited connectors, small pairs).",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_15",
+    "module": "1a",
+    "category": "Flop Texture",
+    "board": "Q♥ J♦ T♣",
+    "street": "flop",
+    "question": "Classify this flop: Q♥ J♦ T♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made straights (AK, 98, K9), every broadway has a draw, no flush draws (rainbow).",
+    "explanation": "Three connected broadways, rainbow. AK and 98 flopped straights; K9 too. Every AQ/KQ/KJ/AJ/T9 has pairs+draws. Rainbow saves it from being maximum wet, but it's still very wet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_01",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "Q♦ T♦ 8♥",
+    "street": "flop",
+    "question": "Board: Q♦ T♦ 8♥. Which made straight is possible on this flop?",
+    "options": [
+      "J9",
+      "KJ",
+      "97",
+      "AK"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "J9 makes the nut straight (J-9 fills Q-T-8 → Q-J-T-9-8). KJ and 97 are draws (gutshot/open-ender), not made hands. This distinction — made vs drawing — drives every postflop decision.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_02",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "9♠ 8♠ 7♦",
+    "street": "flop",
+    "question": "Board: 9♠ 8♠ 7♦. Which TWO hands flopped made straights?",
+    "options": [
+      "JT and 65",
+      "T9 and 76",
+      "QJ and 54",
+      "T8 and 96"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "JT makes J-T-9-8-7, 65 makes 9-8-7-6-5. T9/76 made pairs+draws. On triple-connected boards always check which two-card combos complete straights immediately.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_03",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "K♣ 8♦ 2♣",
+    "street": "flop",
+    "question": "Board: K♣ 8♦ 2♣. A player holds A♣ 5♣. What do they have?",
+    "options": [
+      "Nut flush draw",
+      "Made flush",
+      "Straight draw",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Two clubs in hand + two on board = four clubs, needing one more: nut flush draw (ace-high). ~36% to complete by river with two cards to come.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_04",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "J♥ T♥ 9♥",
+    "street": "flop",
+    "question": "Board: J♥ T♥ 9♥. A player holds Q♥ 2♦. What do they have?",
+    "options": [
+      "Flush draw + open-ended straight draw",
+      "Made flush",
+      "Only a gutshot",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Q♥ gives a flush draw (four hearts). The Q also gives an open-ended straight draw (K or 8 completes). Monster combo draw — roughly 54% equity vs one pair.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_05",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "A♥ K♦ 4♣",
+    "street": "flop",
+    "question": "Board: A♥ K♦ 4♣. A player holds Q♠ J♠. What do they have?",
+    "options": [
+      "Gutshot straight draw",
+      "Open-ended straight draw",
+      "Flush draw",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "QJ on AK4 needs exactly a ten for Broadway (A-K-Q-J-T): gutshot, 4 outs, ~16% by river. Not an open-ender — only one rank completes it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_06",
+    "module": "1a",
+    "category": "Draw Reading",
+    "board": "6♣ 5♦ 4♣",
+    "street": "flop",
+    "question": "Board: 6♣ 5♦ 4♣. A player holds 8♣ 7♣. What do they have?",
+    "options": [
+      "Made straight + flush draw",
+      "Only a flush draw",
+      "Only a straight draw",
+      "Two pair"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "87 completes 8-7-6-5-4 — a made straight — and two clubs add a flush draw to improve to even stronger. Monster hand: fast-play it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_01",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "K♥ 7♦ 2♣ → J♦",
+    "street": "turn",
+    "question": "Flop: K♥ 7♦ 2♣. Turn: J♦. How does the J♦ turn change this dry flop?",
+    "options": [
+      "Brings backdoor flush draw + gutshots — now semi-wet",
+      "Still completely dry",
+      "Completes a flush",
+      "Completes a straight"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Hardin's exact example: the dry K72 rainbow turns semi-wet on the J♦. AT/QT now have gutshots, diamond hands picked up backdoor flush draws. Hands that floated the flop just gained equity — barreling now needs more caution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_02",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "Q♦ T♦ 8♥ → 4♥",
+    "street": "turn",
+    "question": "Flop: Q♦ T♦ 8♥. Turn: 4♥. How does the 4♥ turn change this wet flop?",
+    "options": [
+      "Adds a backdoor heart draw — board stays wet, slightly wetter",
+      "Board is now dry",
+      "Completes the diamond flush",
+      "Kills all straight draws"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The 4♥ completes nothing but adds backdoor heart possibilities. K♥J♥-type hands gained extra equity. All original draws (diamonds, straights) remain live. Wet stays wet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_03",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "9♠ 8♠ 7♦ → 6♠",
+    "street": "turn",
+    "question": "Flop: 9♠ 8♠ 7♦. Turn: 6♠. How does the 6♠ turn change this board?",
+    "options": [
+      "Completes flushes AND the T-or-5 straight — maximum danger",
+      "Safe blank card",
+      "Only helps sets",
+      "Dries out the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Disaster card for one-pair hands: the 6♠ completes every spade flush draw AND now any T or 5 plays a straight. Two-pair and sets are in serious trouble. Value hands must re-evaluate immediately.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_04",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "K♣ 8♦ 2♣ → 8♥",
+    "street": "turn",
+    "question": "Flop: K♣ 8♦ 2♣. Turn: 8♥. How does pairing the board (8♥) change things?",
+    "options": [
+      "Trips possible, flush draw still live — counterfeits some two-pair outs",
+      "Completes the flush",
+      "Brings new straight draws",
+      "Nothing changes"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Pairing the 8 means 8x has trips. The club draw is still live. Paired boards reduce two-pair combos and make bluffing harder against stations who call with any 8.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_05",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "A♥ K♦ 4♣ → T♠",
+    "street": "turn",
+    "question": "Flop: A♥ K♦ 4♣. Turn: T♠. How does the T♠ turn change this board?",
+    "options": [
+      "QJ completes Broadway — the only straight is now made",
+      "Board stays unchanged",
+      "Flush completes",
+      "Pairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The T completes QJ's gutshot — Broadway (A-K-Q-J-T) is now made. If villain floated the flop with QJ, this is their card. Also gives J-x new gutshots. High boards + connecting turns favor preflop raisers' ranges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_06",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "7♥ 7♦ 2♣ → 2♦",
+    "street": "turn",
+    "question": "Flop: 7♥ 7♦ 2♣. Turn: 2♦. How does the 2♦ turn change this paired board?",
+    "options": [
+      "Double-paired — full houses possible, flush draw arrives",
+      "Completes a straight",
+      "Still no draws at all",
+      "Unpairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Board is now double-paired (77-22): any 7 has a full house, any 2 has a smaller one. The 2♦ also starts a backdoor diamond draw. Overpairs now beat fewer combos — counterfeiting matters.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_07",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "6♣ 5♦ 4♣ → 3♣",
+    "street": "turn",
+    "question": "Flop: 6♣ 5♦ 4♣. Turn: 3♣. How does the 3♣ turn change this board?",
+    "options": [
+      "Completes flushes AND 7/2 straights — extremely dangerous",
+      "Blank — nothing changes",
+      "Only helps two pair",
+      "Dries the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Triple threat: the 3♣ completes club flushes, any 7 now plays 7-6-5-4-3, any 2 plays 6-5-4-3-2. One of the worst possible turns for a flop value hand like a set of sixes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_08",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "Q♥ J♦ T♣ → T♠",
+    "street": "turn",
+    "question": "Flop: Q♥ J♦ T♣. Turn: T♠. How does pairing the ten change this wet board?",
+    "options": [
+      "Trips/boats arrive — straights lose value, bluff-catching changes",
+      "Completes a flush",
+      "Brings new straight draws",
+      "Nothing changes"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Pairing the T means flopped straights (AK, 98) are no longer the nuts — TT/QT/JT boats and trips beat them. Straight holders must slow down. Paired wet boards shift power to sets and two pair.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_09",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "A♠ 9♦ 4♠ → K♠",
+    "street": "turn",
+    "question": "Flop: A♠ 9♦ 4♠. Turn: K♠. How does the K♠ turn change this board?",
+    "options": [
+      "Completes the spade flush — flush is now made",
+      "Just a high card",
+      "Brings a straight draw only",
+      "Pairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Third spade completes every flush draw. AK-type hands also picked up top two. Any single high spade now has a strong made hand. Bet-sizing and calling ranges change completely once the flush arrives.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_10",
+    "module": "1b",
+    "category": "Turn Dynamics",
+    "board": "8♥ 4♦ 3♥ → 2♥",
+    "street": "turn",
+    "question": "Flop: 8♥ 4♦ 3♥. Turn: 2♥. How does the 2♥ turn change this board?",
+    "options": [
+      "Flush completes AND A5/65 straights arrive",
+      "Blank card",
+      "Only pairs matter now",
+      "Kills the draws"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The 2♥ completes heart flushes AND now A5 plays the wheel (5-4-3-2-A) while 65 makes 6-5-4-3-2. Low coordinated runouts hit calling ranges hard — proceed carefully with overpairs.",
+    "difficulty": "hard"
+  }
+]
