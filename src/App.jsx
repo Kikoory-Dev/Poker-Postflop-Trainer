@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import questionsData from "./data/questions.json";
+import module1Data from "./data/module1.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -8,7 +8,7 @@ const C = {
   green:"#6db87a", red:"#d96060", blue:"#70b4d4",
   purple:"#a98fe8", orange:"#e0845a",
 };
-const MOD_COLOR = { "1a":"#6db87a", "1b":"#d4a847", "2":"#a98fe8", "3":"#e0845a" };
+const MOD_COLOR = { "1":"#6db87a", "2":"#a98fe8", "3":"#e0845a" };
 const DIFF_COLOR = { easy:"#6db87a", medium:"#d4a847", hard:"#d96060" };
 const RED_SUITS = new Set(["♥","♦"]);
 
@@ -70,16 +70,21 @@ function handLabel(r, c) {
   return RANKS[c] + RANKS[r] + "o";
 }
 
-function RangeGrid({ selected, onToggle, revealed, correctSet }) {
+function RangeGrid({ selected, onToggle, revealed, correctSet, presetSet }) {
   return (
     <div style={{display:"grid",gridTemplateColumns:"repeat(13, 1fr)",gap:2,width:"100%",maxWidth:430,margin:"0 auto",touchAction:"manipulation"}}>
       {RANKS.map((_, r) =>
         RANKS.map((_, c) => {
           const label = handLabel(r, c);
+          const inPreset = !presetSet || presetSet.has(label);
           const isSelected = selected.has(label);
           const isCorrect = correctSet && correctSet.has(label);
-          let bg = C.bg3, border = C.border, color = C.muted;
-          if (!revealed) {
+          let bg = C.bg3, border = C.border, color = C.muted, opacity = 1;
+
+          // Hands outside the preset range are dimmed & non-interactive
+          if (presetSet && !inPreset) {
+            bg = "#161d14"; border = "#1c2418"; color = "#333d2e"; opacity = 0.4;
+          } else if (!revealed) {
             if (isSelected) { bg = `${C.accent}40`; border = C.accent; color = C.cream; }
           } else {
             if (isCorrect && isSelected)      { bg = "rgba(109,184,122,0.35)"; border = C.green; color = "#c8e8d0"; }
@@ -87,8 +92,9 @@ function RangeGrid({ selected, onToggle, revealed, correctSet }) {
             else if (!isCorrect && isSelected){ bg = "rgba(217,96,96,0.35)";  border = C.red;   color = "#f0c0c0"; }
           }
           const isPair = r === c;
+          const tappable = !revealed && inPreset;
           return (
-            <button key={label} onClick={() => !revealed && onToggle(label)} style={{aspectRatio:"1",padding:0,fontSize:8.5,fontWeight:isPair?800:600,fontFamily:"'Inter',-apple-system,sans-serif",background:bg,border:`1px solid ${border}`,borderRadius:4,color,cursor:revealed?"default":"pointer",WebkitTapHighlightColor:"transparent",display:"flex",alignItems:"center",justifyContent:"center",lineHeight:1,outline:"none"}}>{label}</button>
+            <button key={label} onClick={() => tappable && onToggle(label)} disabled={!tappable} style={{aspectRatio:"1",padding:0,fontSize:8.5,fontWeight:isPair?800:600,fontFamily:"'Inter',-apple-system,sans-serif",background:bg,border:`1px solid ${border}`,borderRadius:4,color,opacity,cursor:tappable?"pointer":"default",WebkitTapHighlightColor:"transparent",display:"flex",alignItems:"center",justifyContent:"center",lineHeight:1,outline:"none"}}>{label}</button>
           );
         })
       )}
@@ -138,7 +144,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...questionsData, ...RANGE_QUESTIONS];
+  const allQuestions = [...module1Data, ...RANGE_QUESTIONS];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -228,9 +234,8 @@ export default function App(){
         <div style={{display:"flex",flexDirection:"column",gap:8,marginBottom:22}}>
           {[
             {key:"all", label:"All Modules",    sub:`${allQuestions.length} questions`,                 color:C.accent},
-            {key:"1a",  label:"Board Texture",   sub:"Classify flops · identify draws",                  color:MOD_COLOR["1a"]},
-            {key:"1b",  label:"Turn Dynamics",   sub:"How turn & river cards change texture",            color:MOD_COLOR["1b"]},
-            {key:"2",   label:"Range Narrowing", sub:"Reconstruct villain's range — combo grid",         color:MOD_COLOR["2"]},
+            {key:"1",   label:"Board × Range",   sub:"Which hands connect with the board",               color:MOD_COLOR["1"]},
+            {key:"2",   label:"Range Narrowing", sub:"Reconstruct villain's range street by street",     color:MOD_COLOR["2"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;
@@ -266,7 +271,7 @@ export default function App(){
   );
 
   if(screen==="quiz"&&q){
-    const isGrid = q.module === "2";
+    const isGrid = !!q.correctRange;
     const qScore = getScore(progress[q.id]);
     const correctSet = isGrid ? new Set(q.correctRange) : null;
 
@@ -346,6 +351,7 @@ export default function App(){
                   }}
                   revealed={revealed}
                   correctSet={correctSet}
+                  presetSet={q.preset_range ? new Set(q.preset_range) : null}
                 />
                 {revealed && gridStats && (
                   <div style={{display:"flex",gap:12,justifyContent:"center",marginTop:10,flexWrap:"wrap"}}>
