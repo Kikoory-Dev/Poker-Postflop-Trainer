@@ -9,7 +9,7 @@ const C = {
   green:"#6db87a", red:"#d96060", blue:"#70b4d4",
   purple:"#a98fe8", orange:"#e0845a",
 };
-const MOD_COLOR = { "1":"#6db87a", "2a":"#70b4d4", "2":"#a98fe8", "3":"#e0845a" };
+const MOD_COLOR = { "1":"#6db87a", "2":"#70b4d4", "3":"#a98fe8", "4":"#e0845a" };
 const DIFF_COLOR = { easy:"#6db87a", medium:"#d4a847", hard:"#d96060" };
 const RED_SUITS = new Set(["♥","♦"]);
 
@@ -105,21 +105,21 @@ function RangeGrid({ selected, onToggle, revealed, correctSet, presetSet }) {
 
 const RANGE_QUESTIONS = [
   {
-    id: "rng_proto_01", module: "2", category: "Range Narrowing", difficulty: "medium",
+    id: "rng_proto_01", module: "3", category: "Range Narrowing", difficulty: "medium",
     scenario: "A TAG opens 3 BB from UTG (conservative 9.8% range). Everyone folds.",
     question: "Select every hand in a TAG's conservative UTG opening range.",
     correctRange: ["AA","KK","QQ","JJ","TT","99","88","77","66","AKs","AQs","AJs","ATs","KQs","KJs","JTs","AKo","AQo","AJo","KQo"],
     explanation: "UTG conservative = 66+, ATs+, KJs+, JTs, AJo+, KQo (9.8%). This is your App 1 knowledge applied in reverse — instead of deciding what to open, you reconstruct what villain opened. Range reading always starts from position + player type.",
   },
   {
-    id: "rng_proto_02", module: "2", category: "Range Narrowing", difficulty: "hard",
+    id: "rng_proto_02", module: "3", category: "Range Narrowing", difficulty: "hard",
     scenario: "A TAG opens UTG (9.8%). You call from BTN. Flop: K♠ 7♦ 2♣. The TAG c-bets 3/4 pot.",
     question: "A TAG c-bets this dry king-high flop with value hands and good semi-bluff candidates, checking medium-strength hands. Select the hands MOST likely in their c-betting range.",
     correctRange: ["AA","KK","77","AKs","AKo","KQs","AQs","AJs","ATs","AQo","AJo"],
     explanation: "On K72 rainbow a TAG value-bets AA, AK (top pair top kicker), KK/77 (sets), KQs. AQ/AJ/ATs c-bet as bluffs with overcard equity — this dry board misses their opponent's calling range so bluffing works. They check back QQ-88 (medium strength, pot control) and JTs (gives up). Note KK is in — flopped top set.",
   },
   {
-    id: "rng_proto_03", module: "2", category: "Range Narrowing", difficulty: "hard",
+    id: "rng_proto_03", module: "3", category: "Range Narrowing", difficulty: "hard",
     scenario: "A TAG opens UTG, you call BTN. Flop K♠ 7♦ 2♣ — TAG c-bets, you call. Turn: 3♥. The TAG fires a second barrel (double barrel).",
     question: "Your flop call signals a king or a pair to the TAG. They double-barrel only hands that beat your continuing range or have strong equity. Select their realistic double-barrel range.",
     correctRange: ["AA","KK","77","AKs","AKo"],
@@ -284,10 +284,10 @@ export default function App(){
         <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.14em",textTransform:"uppercase",marginBottom:10}}>Module</div>
         <div style={{display:"flex",flexDirection:"column",gap:8,marginBottom:22}}>
           {[
-            {key:"all", label:"All Modules",    sub:`${allQuestions.length} questions`,                 color:C.accent},
+            {key:"all", label:"All Modules",         sub:`${allQuestions.length} questions`,             color:C.accent},
             {key:"1",   label:"1 · Board × Range",    sub:"Which hands connect with the board",          color:MOD_COLOR["1"]},
-            {key:"2a",  label:"2a · Whose Board?",     sub:"Which player's range a flop favors",          color:MOD_COLOR["2a"]},
-            {key:"2",   label:"2b · Range Narrowing",  sub:"Reconstruct villain's range street by street", color:MOD_COLOR["2"]},
+            {key:"2",   label:"2 · Whose Board?",      sub:"Which player's range a flop favors",          color:MOD_COLOR["2"]},
+            {key:"3",   label:"3 · Range Narrowing",   sub:"Reconstruct villain's range street by street", color:MOD_COLOR["3"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;

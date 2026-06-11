@@ -1,97 +1,268 @@
 [
   {
     "id": "whose_01",
-    "module": "2a",
-    "category": "Whose Board",
+    "module": "2",
+    "category": "High / dry",
     "difficulty": "medium",
-    "board": "K♠ 7♦ 2♣",
-    "scenario": "UTG raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "board": "A♥ K♦ 4♣",
+    "scenario": "CO opens. BB calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller",
+      "The caller(s)",
       "Split — roughly even",
       "Impossible to say"
     ],
     "correct": 0,
-    "explanation": "K72 strongly favors the UTG raiser. Their tight range is full of Kx — AK, KQ, KJ — plus overpairs that smashed this dry king-high board. The BB's wide defending range has very few kings and connects poorly with disconnected high cards. Textbook c-bet board: the raiser bets almost their whole range and the caller has to fold a lot.",
-    "stat_raiser": "10% nutted · 35% strong+",
-    "stat_caller": "4% nutted · 8% strong+"
+    "explanation": "Ace-high dry boards massively favor the preflop raiser. The CO has all the strong aces — AK flopped top two, plus AQ, AJ, AA. The BB rarely holds an ace (most good Ax 3-bets or folds pre). The caller can't continue enough; bet small and relentlessly.",
+    "stat_raiser": "8% nutted · 13% strong+",
+    "stat_caller": "2% nutted · 3% strong+"
   },
   {
     "id": "whose_02",
-    "module": "2a",
-    "category": "Whose Board",
+    "module": "2",
+    "category": "High / dry",
     "difficulty": "medium",
-    "board": "6♥ 5♦ 4♣",
-    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "board": "K♠ Q♦ 7♣",
+    "scenario": "UTG opens. BB calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller",
-      "Split — roughly even",
-      "Impossible to say"
-    ],
-    "correct": 1,
-    "explanation": "Low connected boards favor the CALLER despite the raiser having more overpairs. Look past the overpairs — on 654 they're vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44, 87 — hands that flopped straights, draws and sets. The CO's AA/KK are strong but can't stack off comfortably. The caller's range is more 'nutted' here.",
-    "stat_raiser": "8% nutted · 27% strong+",
-    "stat_caller": "12% nutted · 27% strong+"
-  },
-  {
-    "id": "whose_03",
-    "module": "2a",
-    "category": "Whose Board",
-    "difficulty": "medium",
-    "board": "A♥ K♦ 4♣",
-    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
-    "question": "Whose range does this flop favor?",
-    "options": [
-      "The preflop raiser",
-      "The caller",
+      "The caller(s)",
       "Split — roughly even",
       "Impossible to say"
     ],
     "correct": 0,
-    "explanation": "Ace-high boards massively favor the preflop raiser. The CO has all the strong aces — AK flopped top two, plus AQ, AJ, AA. The BB rarely holds an ace in their defending range (most good Ax would 3-bet or fold preflop). The caller simply can't continue often enough. Bet small and relentlessly.",
-    "stat_raiser": "12% nutted · 16% strong+",
-    "stat_caller": "4% nutted · 6% strong+"
+    "explanation": "KQ7 rainbow favors the tight UTG raiser. They hold KQ (top two), AK, KJ, AQ, plus overpairs. The BB's wide range connects weakly — a few Kx and Qx but mostly air. Strong c-bet board.",
+    "stat_raiser": "17% nutted · 38% strong+",
+    "stat_caller": "6% nutted · 13% strong+"
   },
   {
-    "id": "whose_04",
-    "module": "2a",
-    "category": "Whose Board",
+    "id": "whose_03",
+    "module": "2",
+    "category": "High / two-tone",
     "difficulty": "medium",
-    "board": "8♠ 7♠ 6♥",
-    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "board": "A♠ Q♠ 5♦",
+    "scenario": "CO opens. BB calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Even with a flush draw present, AQ5 favors the raiser. The CO has AQ (top two), AA, AK, plus spade draws to the nuts. The BB has few aces or queens. The two-tone texture means bet for value AND protection, but the range edge is clearly the raiser's.",
+    "stat_raiser": "8% nutted · 18% strong+",
+    "stat_caller": "5% nutted · 11% strong+"
+  },
+  {
+    "id": "whose_04",
+    "module": "2",
+    "category": "Mid / connected",
+    "difficulty": "medium",
+    "board": "8♠ 7♠ 6♥",
+    "scenario": "CO opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
       "Split — roughly even",
       "Impossible to say"
     ],
     "correct": 1,
-    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66 plus huge draws. The CO raiser's overpairs (AA-99) are strong but face a board that smashes the caller's suited connectors. Even though CO is stronger preflop, on THIS texture the caller connects better. Check-heavy for the raiser.",
-    "stat_raiser": "14% nutted · 29% strong+",
-    "stat_caller": "19% nutted · 31% strong+"
+    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board smashing the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
+    "stat_raiser": "9% nutted · 41% strong+",
+    "stat_caller": "17% nutted · 46% strong+"
   },
   {
     "id": "whose_05",
-    "module": "2a",
-    "category": "Whose Board",
-    "difficulty": "hard",
-    "board": "Q♦ J♦ T♣",
-    "scenario": "BTN raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "module": "2",
+    "category": "Mid / connected",
+    "difficulty": "medium",
+    "board": "9♥ 8♦ 7♣",
+    "scenario": "MP opens. BB calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller",
+      "The caller(s)",
       "Split — roughly even",
       "Impossible to say"
     ],
-    "correct": 2,
-    "explanation": "Broadway boards like QJT play close. The caller has KK/K9/98/T9 making straights and the suited connectors that smash it; the BTN's wide steal range also connects hard (AK and 98 flopped straights, plus KQ, QJ, JT). Both ranges are full of strong hands and draws. Roughly even — neither side can bet recklessly. Pot-control medium hands, play draws aggressively.",
-    "stat_raiser": "21% nutted · 30% strong+",
-    "stat_caller": "21% nutted · 27% strong+"
+    "correct": 1,
+    "explanation": "987 rainbow favors the caller despite the raiser's overpairs. The BB holds T9, 98, 87, 76, JT, plus 65 and 56 — made straights and huge draws. MP's AA/KK are strong but vulnerable. The caller connects far better with this texture.",
+    "stat_raiser": "8% nutted · 52% strong+",
+    "stat_caller": "15% nutted · 49% strong+"
+  },
+  {
+    "id": "whose_06",
+    "module": "2",
+    "category": "Mid / two-tone",
+    "difficulty": "medium",
+    "board": "T♦ 9♦ 6♣",
+    "scenario": "CO opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "T96 two-tone strongly favors the caller. The BB has T9 (top two), 98, 87 draws, plus all the diamond flush draws and 55/66/99 sets. The caller's combined made+draw equity beats the raiser's overpair-heavy range. Caller can check-raise aggressively.",
+    "stat_raiser": "6% nutted · 37% strong+",
+    "stat_caller": "10% nutted · 36% strong+"
+  },
+  {
+    "id": "whose_07",
+    "module": "2",
+    "category": "Low / connected",
+    "difficulty": "medium",
+    "board": "6♥ 5♦ 4♣",
+    "scenario": "CO opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "Low connected boards favor the caller despite the raiser having more overpairs. On 654 those overpairs are vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44 — straights, sets, draws. Their nutted share is higher even though overpairs look strong.",
+    "stat_raiser": "5% nutted · 30% strong+",
+    "stat_caller": "7% nutted · 31% strong+"
+  },
+  {
+    "id": "whose_08",
+    "module": "2",
+    "category": "Low / two-tone",
+    "difficulty": "medium",
+    "board": "5♠ 4♠ 2♥",
+    "scenario": "BTN opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "542 two-tone favors the caller. The BB defends 54s (top two), 53s, 43s, A5s, A4s, plus spade draws and wheel gutshots. The BTN's wide range has overcards and overpairs that whiffed. The caller's draw-heavy connection wins this texture.",
+    "stat_raiser": "7% nutted · 30% strong+",
+    "stat_caller": "7% nutted · 38% strong+"
+  },
+  {
+    "id": "whose_09",
+    "module": "2",
+    "category": "Paired",
+    "difficulty": "medium",
+    "board": "K♥ K♦ 4♣",
+    "scenario": "UTG opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired king boards favor the tight raiser. UTG has more Kx (AK, KQ, KJ) giving trips, plus overpairs. The BB rarely has a king in their defending range. Paired boards reduce the caller's two-pair combos and let the raiser barrel relentlessly — bluffs work because villain so often has nothing.",
+    "stat_raiser": "1% nutted · 21% strong+",
+    "stat_caller": "1% nutted · 5% strong+"
+  },
+  {
+    "id": "whose_10",
+    "module": "2",
+    "category": "Paired / low",
+    "difficulty": "hard",
+    "board": "8♠ 8♦ 3♥",
+    "scenario": "CO opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired 8s on a low board narrowly favors the raiser. Their overpairs (99-AA) all beat an unpaired 8, and they have the same trip-8 combos (88 is in both ranges). The CO's strong+ share edges out the BB's. It's close — the key lesson is that paired boards generally favor the preflop aggressor because the caller's two-pair combos are removed. Barrel with overpairs, but size down.",
+    "stat_raiser": "1% nutted · 15% strong+",
+    "stat_caller": "2% nutted · 13% strong+"
+  },
+  {
+    "id": "whose_11",
+    "module": "2",
+    "category": "Dry / disconnected",
+    "difficulty": "medium",
+    "board": "K♠ 7♦ 2♣",
+    "scenario": "UTG opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that smashed it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
+    "stat_raiser": "5% nutted · 31% strong+",
+    "stat_caller": "2% nutted · 7% strong+"
+  },
+  {
+    "id": "whose_12",
+    "module": "2",
+    "category": "Dry / disconnected",
+    "difficulty": "medium",
+    "board": "Q♦ 8♣ 3♠",
+    "scenario": "MP opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Q83 rainbow favors the raiser. MP holds QJ, QT, AQ, KQ (top pair good kicker) plus overpairs. The BB's Qx is weaker (Q9, QT) and most of their range is air. Standard small c-bet board.",
+    "stat_raiser": "4% nutted · 28% strong+",
+    "stat_caller": "4% nutted · 10% strong+"
+  },
+  {
+    "id": "whose_13",
+    "module": "2",
+    "category": "Multiway / connected",
+    "difficulty": "hard",
+    "board": "J♥ T♥ 9♣",
+    "scenario": "CO opens. Two players call. Flop comes. (multiway pot)",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "On JT9 multiway the callers' ranges are favored — 25% nutted vs 16% — and nutted hands matter far more with two opponents. Someone often has a straight (KQ, Q8, 87) or a monster draw. The raiser's overpairs crater in value multiway. Lesson: only continue with nutted hands or strong draws; check everything marginal and never bluff into two players on a board this wet.",
+    "stat_raiser": "16% nutted · 56% strong+",
+    "stat_caller": "25% nutted · 62% strong+"
+  },
+  {
+    "id": "whose_14",
+    "module": "2",
+    "category": "Paired / ace",
+    "difficulty": "medium",
+    "board": "A♦ A♠ 6♣",
+    "scenario": "UTG opens. BB calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired aces overwhelmingly favor the raiser. UTG has many more aces (AK, AQ, AJ, AT) giving trips, plus the BB almost never has an ace. This is the driest board type — bluff relentlessly since villain connects almost never, and value bet trips thin.",
+    "stat_raiser": "4% nutted · 21% strong+",
+    "stat_caller": "2% nutted · 3% strong+"
   }
 ]
