@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import module1Data from "./data/module1.json";
 import module2aData from "./data/module2a.json";
+import module3Data from "./data/module3.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -145,7 +146,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...module1Data, ...module2aData, ...RANGE_QUESTIONS];
+  const allQuestions = [...module1Data, ...module2aData, ...module3Data];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -353,8 +354,11 @@ export default function App(){
 
         <div ref={scrollRef} style={{flex:1,overflowY:"auto",padding:"8px 18px 24px",WebkitOverflowScrolling:"touch"}}>
           <div style={{maxWidth:430,margin:"0 auto"}}>
-            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:12}}>
+            <div style={{display:"flex",gap:6,flexWrap:"wrap",marginBottom:12,alignItems:"center"}}>
               <span style={{fontSize:11,fontWeight:800,color:accent,background:`${accent}20`,padding:"4px 10px",borderRadius:8,textTransform:"uppercase",letterSpacing:"0.08em"}}>{q.category}</span>
+              {q.sequence && (
+                <span style={{fontSize:11,fontWeight:700,color:"#a98fe8",background:"rgba(169,143,232,0.16)",padding:"4px 10px",borderRadius:8}}>Hand {q.sequence} · Step {q.step}</span>
+              )}
               <span style={{fontSize:10,fontWeight:700,color:SCORE_COLOR[qScore],background:`${SCORE_COLOR[qScore]}18`,padding:"4px 10px",borderRadius:8,marginLeft:"auto"}}>{SCORE_LABEL[qScore]}</span>
             </div>
 
@@ -391,7 +395,7 @@ export default function App(){
             ) : (
               <div style={{marginBottom:12}}>
                 <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:8}}>
-                  <span style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.1em",textTransform:"uppercase"}}>Tap hands to select</span>
+                  <span style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.1em",textTransform:"uppercase"}}>{q.preset_range ? "Narrow from the previous range" : "Tap hands to select"}</span>
                   <span style={{fontSize:12,fontWeight:700,color:C.accent}}>{gridSelected.size} selected</span>
                 </div>
                 <RangeGrid
