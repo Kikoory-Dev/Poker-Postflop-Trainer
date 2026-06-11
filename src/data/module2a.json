@@ -1,0 +1,97 @@
+[
+  {
+    "id": "whose_01",
+    "module": "2a",
+    "category": "Whose Board",
+    "difficulty": "medium",
+    "board": "K♠ 7♦ 2♣",
+    "scenario": "UTG raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "K72 strongly favors the UTG raiser. Their tight range is full of Kx — AK, KQ, KJ — plus overpairs that smashed this dry king-high board. The BB's wide defending range has very few kings and connects poorly with disconnected high cards. Textbook c-bet board: the raiser bets almost their whole range and the caller has to fold a lot.",
+    "stat_raiser": "10% nutted · 35% strong+",
+    "stat_caller": "4% nutted · 8% strong+"
+  },
+  {
+    "id": "whose_02",
+    "module": "2a",
+    "category": "Whose Board",
+    "difficulty": "medium",
+    "board": "6♥ 5♦ 4♣",
+    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "Low connected boards favor the CALLER despite the raiser having more overpairs. Look past the overpairs — on 654 they're vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44, 87 — hands that flopped straights, draws and sets. The CO's AA/KK are strong but can't stack off comfortably. The caller's range is more 'nutted' here.",
+    "stat_raiser": "8% nutted · 27% strong+",
+    "stat_caller": "12% nutted · 27% strong+"
+  },
+  {
+    "id": "whose_03",
+    "module": "2a",
+    "category": "Whose Board",
+    "difficulty": "medium",
+    "board": "A♥ K♦ 4♣",
+    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Ace-high boards massively favor the preflop raiser. The CO has all the strong aces — AK flopped top two, plus AQ, AJ, AA. The BB rarely holds an ace in their defending range (most good Ax would 3-bet or fold preflop). The caller simply can't continue often enough. Bet small and relentlessly.",
+    "stat_raiser": "12% nutted · 16% strong+",
+    "stat_caller": "4% nutted · 6% strong+"
+  },
+  {
+    "id": "whose_04",
+    "module": "2a",
+    "category": "Whose Board",
+    "difficulty": "medium",
+    "board": "8♠ 7♠ 6♥",
+    "scenario": "CO raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66 plus huge draws. The CO raiser's overpairs (AA-99) are strong but face a board that smashes the caller's suited connectors. Even though CO is stronger preflop, on THIS texture the caller connects better. Check-heavy for the raiser.",
+    "stat_raiser": "14% nutted · 29% strong+",
+    "stat_caller": "19% nutted · 31% strong+"
+  },
+  {
+    "id": "whose_05",
+    "module": "2a",
+    "category": "Whose Board",
+    "difficulty": "hard",
+    "board": "Q♦ J♦ T♣",
+    "scenario": "BTN raiser opens preflop. BB caller (defending wide) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 2,
+    "explanation": "Broadway boards like QJT play close. The caller has KK/K9/98/T9 making straights and the suited connectors that smash it; the BTN's wide steal range also connects hard (AK and 98 flopped straights, plus KQ, QJ, JT). Both ranges are full of strong hands and draws. Roughly even — neither side can bet recklessly. Pot-control medium hands, play draws aggressively.",
+    "stat_raiser": "21% nutted · 30% strong+",
+    "stat_caller": "21% nutted · 27% strong+"
+  }
+]

@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import module1Data from "./data/module1.json";
+import module2aData from "./data/module2a.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -8,7 +9,7 @@ const C = {
   green:"#6db87a", red:"#d96060", blue:"#70b4d4",
   purple:"#a98fe8", orange:"#e0845a",
 };
-const MOD_COLOR = { "1":"#6db87a", "2":"#a98fe8", "3":"#e0845a" };
+const MOD_COLOR = { "1":"#6db87a", "2a":"#70b4d4", "2":"#a98fe8", "3":"#e0845a" };
 const DIFF_COLOR = { easy:"#6db87a", medium:"#d4a847", hard:"#d96060" };
 const RED_SUITS = new Set(["♥","♦"]);
 
@@ -144,7 +145,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...module1Data, ...RANGE_QUESTIONS];
+  const allQuestions = [...module1Data, ...module2aData, ...RANGE_QUESTIONS];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -198,6 +199,52 @@ export default function App(){
   const q=queue[idx];
   const accent=q?(MOD_COLOR[q.module]||C.accent):C.accent;
 
+  // ════════ MODULE 0 — INTRO ════════
+  if(screen==="intro"){
+    const sections = [
+      {
+        h: "The shift you're training",
+        b: "Losing players ask: \"I have this hand — will I lose if they have something better?\" That's single-hand, fear-based thinking. Winning players ask: \"What does my opponent's whole range look like, and how does this board hit their range versus mine?\" Every module here trains that second question until it becomes automatic.",
+      },
+      {
+        h: "Why range thinking wins",
+        b: "Your opponent doesn't have one hand — they have a range of possible hands based on their position and actions. The board hits that range in a predictable way. If you can see which hands they're likely to hold and how the board connects, you know how often they can continue, what they'll do, and how to respond — regardless of your own two cards.",
+      },
+      {
+        h: "How the modules build",
+        b: "Module 1 (Board × Range): see which hands connect with a board. Module 2a (Whose Board?): judge which player's range a flop favors. Module 2b (Range Narrowing): watch a range shrink street by street as actions remove combos. Module 3 (Player Types): how a station, nit, or TAG bends the range. Module 4 (Your Response): only now does your hand matter — the action falls out of the read.",
+      },
+      {
+        h: "The end state",
+        b: "When this clicks, you'll pause on every flop — even hands you're not in — and instinctively ask \"whose board is this?\" The action becomes obvious because you've done the reading. The app builds the reflex; the tables cement it. This takes months, not a weekend. That's normal.",
+      },
+    ];
+    return (
+      <div style={{minHeight:"100vh",background:C.bg,fontFamily:"'Inter',-apple-system,sans-serif",color:C.text,paddingTop:"env(safe-area-inset-top,0px)"}}>
+        <div style={{maxWidth:430,margin:"0 auto",padding:"16px 20px 60px"}}>
+          <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:24}}>
+            <button onClick={()=>setScreen("home")} style={{background:C.bg3,border:`1px solid ${C.border}`,borderRadius:10,padding:"7px 14px",color:C.muted,fontSize:13,fontWeight:600,cursor:"pointer",fontFamily:"'Inter',-apple-system,sans-serif",WebkitTapHighlightColor:"transparent"}}>← Home</button>
+            <span style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.14em",textTransform:"uppercase"}}>Module 0</span>
+          </div>
+          <h1 style={{margin:"0 0 6px",fontSize:30,fontWeight:900,color:C.cream,letterSpacing:"-0.03em",lineHeight:1.05}}>Why this<br/>works</h1>
+          <p style={{margin:"0 0 28px",fontSize:13,color:C.muted}}>The thinking shift behind every module</p>
+
+          {sections.map((s,i)=>(
+            <div key={i} style={{marginBottom:18,background:C.bg2,borderRadius:14,border:`1px solid ${C.border}`,padding:"18px"}}>
+              <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:10}}>
+                <div style={{width:24,height:24,borderRadius:7,background:`${C.accent}22`,color:C.accent,fontSize:13,fontWeight:800,display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0}}>{i+1}</div>
+                <h2 style={{margin:0,fontSize:16,fontWeight:800,color:C.cream}}>{s.h}</h2>
+              </div>
+              <p style={{margin:0,fontSize:14,fontWeight:500,color:C.sage,lineHeight:1.7}}>{s.b}</p>
+            </div>
+          ))}
+
+          <button onClick={()=>setScreen("home")} style={{width:"100%",height:54,marginTop:8,borderRadius:14,background:C.accent,color:"#1a2218",fontSize:16,fontWeight:800,border:"none",cursor:"pointer",fontFamily:"'Inter',-apple-system,sans-serif",WebkitTapHighlightColor:"transparent"}}>Start training →</button>
+        </div>
+      </div>
+    );
+  }
+
   if(screen==="home")return(
     <div style={{minHeight:"100vh",background:C.bg,fontFamily:"'Inter',-apple-system,sans-serif",color:C.text,paddingTop:"env(safe-area-inset-top,0px)"}}>
       <div style={{maxWidth:430,margin:"0 auto",padding:"28px 20px 170px"}}>
@@ -230,12 +277,17 @@ export default function App(){
           </div>
         </div>
 
+        <button onClick={()=>setScreen("intro")} style={{width:"100%",height:48,marginBottom:18,borderRadius:12,background:C.bg2,border:`1px solid ${C.accent}40`,color:C.accent,fontSize:14,fontWeight:700,cursor:"pointer",fontFamily:"'Inter',-apple-system,sans-serif",display:"flex",alignItems:"center",justifyContent:"center",gap:8,WebkitTapHighlightColor:"transparent"}}>
+          <span style={{fontSize:15}}>◆</span> Module 0 — Why this works (read first)
+        </button>
+
         <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.14em",textTransform:"uppercase",marginBottom:10}}>Module</div>
         <div style={{display:"flex",flexDirection:"column",gap:8,marginBottom:22}}>
           {[
             {key:"all", label:"All Modules",    sub:`${allQuestions.length} questions`,                 color:C.accent},
-            {key:"1",   label:"Board × Range",   sub:"Which hands connect with the board",               color:MOD_COLOR["1"]},
-            {key:"2",   label:"Range Narrowing", sub:"Reconstruct villain's range street by street",     color:MOD_COLOR["2"]},
+            {key:"1",   label:"1 · Board × Range",    sub:"Which hands connect with the board",          color:MOD_COLOR["1"]},
+            {key:"2a",  label:"2a · Whose Board?",     sub:"Which player's range a flop favors",          color:MOD_COLOR["2a"]},
+            {key:"2",   label:"2b · Range Narrowing",  sub:"Reconstruct villain's range street by street", color:MOD_COLOR["2"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;
@@ -368,6 +420,18 @@ export default function App(){
               </div>
             )}
 
+            {revealed && q.stat_raiser && (
+              <div style={{display:"flex",gap:8,marginBottom:12}}>
+                <div style={{flex:1,background:C.bg2,borderRadius:12,border:`1px solid ${C.border}`,padding:"12px 14px"}}>
+                  <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:"0.1em",textTransform:"uppercase",marginBottom:5}}>Raiser range</div>
+                  <div style={{fontSize:13,fontWeight:700,color:"#70b4d4"}}>{q.stat_raiser}</div>
+                </div>
+                <div style={{flex:1,background:C.bg2,borderRadius:12,border:`1px solid ${C.border}`,padding:"12px 14px"}}>
+                  <div style={{fontSize:10,fontWeight:700,color:C.muted,letterSpacing:"0.1em",textTransform:"uppercase",marginBottom:5}}>Caller range</div>
+                  <div style={{fontSize:13,fontWeight:700,color:"#e0845a"}}>{q.stat_caller}</div>
+                </div>
+              </div>
+            )}
             {revealed&&(
               <div style={{background:"rgba(109,184,122,0.07)",borderRadius:14,border:"1px solid rgba(109,184,122,0.2)",padding:"16px",marginBottom:12}}>
                 {q.draws && (
