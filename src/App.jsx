@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import module1Data from "./data/module1.json";
 import module2aData from "./data/module2a.json";
 import module3Data from "./data/module3.json";
+import module4Data from "./data/module4.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -146,7 +147,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...module1Data, ...module2aData, ...module3Data];
+  const allQuestions = [...module1Data, ...module2aData, ...module3Data, ...module4Data];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -289,6 +290,7 @@ export default function App(){
             {key:"1",   label:"1 · Board × Range",    sub:"Which hands connect with the board",          color:MOD_COLOR["1"]},
             {key:"2",   label:"2 · Whose Board?",      sub:"Which player's range a flop favors",          color:MOD_COLOR["2"]},
             {key:"3",   label:"3 · Range Narrowing",   sub:"Reconstruct villain's range street by street", color:MOD_COLOR["3"]},
+            {key:"4",   label:"4 · Player Types",      sub:"Exploit nits, stations, LAGs, maniacs",        color:MOD_COLOR["4"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;
@@ -365,6 +367,12 @@ export default function App(){
             <div style={{background:C.bg2,borderRadius:16,border:`1px solid ${accent}30`,padding:"18px",marginBottom:12}}>
               {q.scenario && (
                 <p style={{margin:"0 0 12px",fontSize:13,fontWeight:500,color:C.sage,lineHeight:1.6}}>{q.scenario}</p>
+              )}
+              {q.hud && (
+                <div style={{margin:"0 0 14px",padding:"10px 14px",background:"rgba(224,132,90,0.10)",border:"1px solid rgba(224,132,90,0.3)",borderRadius:10}}>
+                  <div style={{fontSize:10,fontWeight:800,color:"#e0845a",letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:4}}>HUD</div>
+                  <div style={{fontSize:13,fontWeight:600,color:C.cream,fontFamily:"'Inter',-apple-system,sans-serif"}}>{q.hud}</div>
+                </div>
               )}
               {q.board && (
                 <div style={{marginBottom:14}}><Board boardStr={q.board}/></div>
