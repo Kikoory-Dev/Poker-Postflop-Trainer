@@ -562,8 +562,13 @@
       "KQo",
       "QTo",
       "QJo",
-      "JTo"
+      "JTo",
+      "AKs",
+      "AKo",
+      "K9s",
+      "98s",
+      "98o"
     ],
-    "explanation": "Q♥ J♦ T♣ is wet, connected: 15 hand-types in the BTN range flop strong value. Three broadways — tons of two pair, straights, and pair+draw combos connect. A dangerous board even though it's rainbow."
+    "explanation": "Q♥ J♦ T♣ is wet, connected: 15 hand-types in the BTN range flop strong value. Three broadways — tons of two pair, straights, and pair+draw combos connect. A dangerous board even though it's rainbow. Note: AKs and AKo both flop the nut straight (A-K-Q-J-T) and belong in the 'or better' category. K9s makes the K-high straight (9-T-J-Q-K). 98s/98o make the Q-high straight (8-9-T-J-Q)."
   }
 ]
