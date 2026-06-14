@@ -220,9 +220,10 @@
       "T8s",
       "AQo",
       "KQo",
-      "QTo"
+      "QTo",
+      "J9s"
     ],
-    "explanation": "Q♦ T♦ 8♥ is wet: 12 hand-types in the BTN range flop strong value. Many more hands connect here — pairs, two pairs, and the board favors broadway-heavy ranges. Bet bigger for protection."
+    "explanation": "Q♦ T♦ 8♥ is wet: 12 hand-types in the BTN range flop strong value. Many more hands connect here — pairs, two pairs, and the board favors broadway-heavy ranges. Bet bigger for protection. J9s makes the Q-high straight (8-9-T-J-Q) and belongs in strong value."
   },
   {
     "id": "bx_strong_05",
