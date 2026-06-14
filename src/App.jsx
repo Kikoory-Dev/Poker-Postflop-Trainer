@@ -207,15 +207,15 @@ export default function App(){
     const sections = [
       {
         h: "The shift you're training",
-        b: "Losing players ask: \"I have this hand — will I lose if they have something better?\" That's single-hand, fear-based thinking. Winning players ask: \"What does my opponent's whole range look like, and how does this board hit their range versus mine?\" Every module here trains that second question until it becomes automatic.",
+        b: "Losing players ask: \"I have this hand — will I lose if they have something better?\" That's single-hand, fear-based thinking. Winning players ask: \"What does Villain's whole range look like, and how does this board hit their range versus mine?\" Every module here trains that second question until it becomes automatic.",
       },
       {
         h: "Why range thinking wins",
-        b: "Your opponent doesn't have one hand — they have a range of possible hands based on their position and actions. The board hits that range in a predictable way. If you can see which hands they're likely to hold and how the board connects, you know how often they can continue, what they'll do, and how to respond — regardless of your own two cards.",
+        b: "Villain doesn't have one hand — they have a range of possible hands based on their position and actions. The board hits that range in a predictable way. If you can see which hands they're likely to hold and how the board connects, you know how often they can continue, what they'll do, and how to respond — regardless of your own two cards.",
       },
       {
         h: "How the modules build",
-        b: "Module 1 (Board × Range): see which hands connect with a board. Module 2a (Whose Board?): judge which player's range a flop favors. Module 2b (Range Narrowing): watch a range shrink street by street as actions remove combos. Module 3 (Player Types): how a station, nit, or TAG bends the range. Module 4 (Your Response): only now does your hand matter — the action falls out of the read.",
+        b: "Module 1 (Board × Range): which hands from a given position connect with a board. Module 2a (Whose Board?): judge which player's range a flop favors and why. Module 3 (Range Narrowing): watch a range shrink street by street as Villain's actions remove combos. Module 4 (Player Types): how Villain's type — nit, calling station, LAG, TAG — changes their range and your response. Module 5 (Your Response): only now does your hand matter — the action falls out of the read.",
       },
       {
         h: "The end state",
