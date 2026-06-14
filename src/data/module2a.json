@@ -109,7 +109,7 @@
       "Impossible to say"
     ],
     "correct": 1,
-    "explanation": "T96 two-tone strongly favors the caller. The BB has T9 (top two), 98, 87 draws, plus all the diamond flush draws and 55/66/99 sets. The caller's combined made+draw equity beats the raiser's overpair-heavy range. Caller can check-raise aggressively.",
+    "explanation": "T96 two-tone strongly favors the caller. The BB has T9 (top two), 98, 87 draws, plus all the diamond flush draws and 66/99 sets. The caller's combined made+draw equity beats the raiser's overpair-heavy range. Caller can check-raise aggressively.",
     "stat_raiser": "6% nutted · 37% strong+",
     "stat_caller": "10% nutted · 36% strong+"
   },
