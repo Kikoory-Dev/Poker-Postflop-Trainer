@@ -4,7 +4,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "medium",
-    "scenario": "A TAG opened from UTG. You're reading their range on this flop.",
+    "scenario": "Villain (UTG, TAG) opened. You're reading their range on this flop.",
     "board": "K♠ 7♦ 2♣",
     "preset_range": [
       "AA",
@@ -28,7 +28,7 @@
       "AJo",
       "KQo"
     ],
-    "question": "From the UTG opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (UTG) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -45,7 +45,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "medium",
-    "scenario": "A TAG opened from UTG. You're reading their range on this flop.",
+    "scenario": "Villain (UTG, TAG) opened. You're reading their range on this flop.",
     "board": "A♥ K♦ 4♣",
     "preset_range": [
       "AA",
@@ -69,7 +69,7 @@
       "AJo",
       "KQo"
     ],
-    "question": "From the UTG opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (UTG) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -85,7 +85,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "medium",
-    "scenario": "A TAG opened from MP. You're reading their range on this flop.",
+    "scenario": "Villain (MP, TAG) opened. You're reading their range on this flop.",
     "board": "J♥ 6♦ 2♣",
     "preset_range": [
       "AA",
@@ -115,7 +115,7 @@
       "ATo",
       "KQo"
     ],
-    "question": "From the MP opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (MP) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -133,7 +133,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "hard",
-    "scenario": "A TAG opened from BTN. You're reading their range on this flop.",
+    "scenario": "Villain (BTN, TAG) opened. You're reading their range on this flop.",
     "board": "Q♦ T♦ 8♥",
     "preset_range": [
       "AA",
@@ -207,7 +207,7 @@
       "T9o",
       "98o"
     ],
-    "question": "From the BTN opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (BTN) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -230,7 +230,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "hard",
-    "scenario": "A TAG opened from CO. You're reading their range on this flop.",
+    "scenario": "Villain (CO, TAG) opened. You're reading their range on this flop.",
     "board": "9♠ 8♠ 7♦",
     "preset_range": [
       "AA",
@@ -283,7 +283,7 @@
       "KTo",
       "QJo"
     ],
-    "question": "From the CO opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (CO) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -308,7 +308,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "hard",
-    "scenario": "A TAG opened from BTN. You're reading their range on this flop.",
+    "scenario": "Villain (BTN, TAG) opened. You're reading their range on this flop.",
     "board": "K♣ 8♦ 2♣",
     "preset_range": [
       "AA",
@@ -382,7 +382,7 @@
       "T9o",
       "98o"
     ],
-    "question": "From the BTN opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (BTN) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
@@ -401,7 +401,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "hard",
-    "scenario": "A TAG opened from CO. You're reading their range on this flop.",
+    "scenario": "Villain (CO, TAG) opened. You're reading their range on this flop.",
     "board": "A♠ 9♦ 4♠",
     "preset_range": [
       "AA",
@@ -454,7 +454,7 @@
       "KTo",
       "QJo"
     ],
-    "question": "From the CO opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (CO) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "99",
@@ -474,7 +474,7 @@
     "module": "1",
     "category": "Board × Range",
     "difficulty": "hard",
-    "scenario": "A TAG opened from BTN. You're reading their range on this flop.",
+    "scenario": "Villain (BTN, TAG) opened. You're reading their range on this flop.",
     "board": "Q♥ J♦ T♣",
     "preset_range": [
       "AA",
@@ -548,7 +548,7 @@
       "T9o",
       "98o"
     ],
-    "question": "From the BTN opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
+    "question": "From Villain's (BTN) opening range, tap every hand that flopped TOP PAIR (good kicker) or better.",
     "correctRange": [
       "AA",
       "KK",
