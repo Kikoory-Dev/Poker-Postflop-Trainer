@@ -217,8 +217,8 @@ export default function App(){
         b: "Villain doesn't have one hand — they have a range of possible hands based on their position and actions. The board hits that range in a predictable way. If you can see which hands they're likely to hold and how the board connects, you know how often they can continue, what they'll do, and how to respond — regardless of your own two cards.",
       },
       {
-        h: "How the modules build",
-        b: "Module 1 (Board × Range): which hands from a given position connect with a board. Module 2a (Whose Board?): judge which player's range a flop favors and why. Module 3 (Range Narrowing): watch a range shrink street by street as Villain's actions remove combos. Module 4 (Player Types): how Villain's type — nit, calling station, LAG, TAG — changes their range and your response. Module 5 (Your Response): only now does your hand matter — the action falls out of the read.",
+        h: "How the modules build (Hardin's order)",
+        b: "1 Board Texture: wet vs dry, and whose range a board favors. 2 Hand-Strength Tiers: sort every hand into strong/medium/draw/weak — each has a default line. 3 The C-Bet Decision: the nine factors that decide bet vs check vs delay. 4 Turn & River Barrels: when to fire a second/third barrel and when to give up. 5 Playing as the Caller: how postflop changes when you don't have the initiative. 6 Range Reading: relative hand strength and narrowing villain's range street by street. 7 Read & Exploit: turn Smart-HUD stats into player types, then deviate from your defaults to attack their leaks. Each module mixes a concept, drills, and your own real hands.",
       },
       {
         h: "The end state",
