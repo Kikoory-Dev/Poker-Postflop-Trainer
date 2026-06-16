@@ -1,9 +1,11 @@
 import { useState, useEffect, useRef } from "react";
-import module1Data from "./data/module1.json";
-import module2aData from "./data/module2a.json";
-import module3Data from "./data/module3.json";
-import module4Data from "./data/module4.json";
-import module5Data from "./data/module5.json";
+import mod1 from "./data/mod1.json";
+import mod2 from "./data/mod2.json";
+import mod3 from "./data/mod3.json";
+import mod4 from "./data/mod4.json";
+import mod5 from "./data/mod5.json";
+import mod6 from "./data/mod6.json";
+import mod7 from "./data/mod7.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -12,7 +14,7 @@ const C = {
   green:"#6db87a", red:"#d96060", blue:"#70b4d4",
   purple:"#a98fe8", orange:"#e0845a",
 };
-const MOD_COLOR = { "1":"#6db87a", "2":"#70b4d4", "3":"#a98fe8", "4":"#e0845a", "5":"#c77dd6" };
+const MOD_COLOR = { "1":"#6db87a", "2":"#d4a847", "3":"#5a9fd4", "4":"#d4795a", "5":"#c77dd6", "6":"#5ac7b0", "7":"#e0845a" };
 const DIFF_COLOR = { easy:"#6db87a", medium:"#d4a847", hard:"#d96060" };
 const RED_SUITS = new Set(["♥","♦"]);
 
@@ -149,7 +151,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...module1Data, ...module2aData, ...module3Data, ...module4Data, ...module5Data];
+  const allQuestions = [...mod1, ...mod2, ...mod3, ...mod4, ...mod5, ...mod6, ...mod7];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -288,12 +290,14 @@ export default function App(){
         <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.14em",textTransform:"uppercase",marginBottom:10}}>Module</div>
         <div style={{display:"flex",flexDirection:"column",gap:8,marginBottom:22}}>
           {[
-            {key:"all", label:"All Modules",         sub:`${allQuestions.length} questions`,             color:C.accent},
-            {key:"1",   label:"1 · Board × Range",    sub:"Which hands connect with the board",          color:MOD_COLOR["1"]},
-            {key:"2",   label:"2 · Whose Board?",      sub:"Which player's range a flop favors",          color:MOD_COLOR["2"]},
-            {key:"3",   label:"3 · Range Narrowing",   sub:"Reconstruct villain's range street by street", color:MOD_COLOR["3"]},
-            {key:"4",   label:"4 · Player Types",      sub:"Exploit nits, stations, LAGs, maniacs",        color:MOD_COLOR["4"]},
-            {key:"5",   label:"5 · Board vs Range",    sub:"Read what villain hit \u2014 then respond",        color:MOD_COLOR["5"]},
+            {key:"all", label:"All Modules",            sub:`${allQuestions.length} questions`,                  color:C.accent},
+            {key:"1",   label:"1 · Board Texture",      sub:"Wet/dry & whose range a board favors",             color:MOD_COLOR["1"]},
+            {key:"2",   label:"2 · Hand-Strength Tiers", sub:"Strong / medium / draw / weak \u2014 the 4 buckets", color:MOD_COLOR["2"]},
+            {key:"3",   label:"3 · The C-Bet Decision",  sub:"The 9 factors: when to bet, check, delay",         color:MOD_COLOR["3"]},
+            {key:"4",   label:"4 · Turn & River Barrels", sub:"Double/triple barrel & when to give up",          color:MOD_COLOR["4"]},
+            {key:"5",   label:"5 · Playing as the Caller", sub:"Postflop when you're NOT the aggressor",          color:MOD_COLOR["5"]},
+            {key:"6",   label:"6 · Range Reading",       sub:"Relative strength; narrow villain's range",        color:MOD_COLOR["6"]},
+            {key:"7",   label:"7 · Read & Exploit",      sub:"HUD stats \u2192 player types \u2192 deviations",    color:MOD_COLOR["7"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;
