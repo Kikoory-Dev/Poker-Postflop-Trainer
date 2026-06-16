@@ -1,0 +1,149 @@
+[
+  {
+    "id": "pt_yr_01",
+    "module": "5",
+    "category": "Your Hand · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (3-bet pot). You open BTN with K♠T♠, a TAG 3-bets from the blinds, you call. Flop J♠Q♣6♦. Villain bets, you call. Turn (blank), villain bets again, you call. River 3♣ — villain fires a third barrel, near pot-sized.",
+    "hud": "Villain: TAG · 3-bet range here = QQ+/AK for value at micro",
+    "question": "Villain barrels all three streets on Q-J-6-x-x. What does their range hit, and what should you do with K-high (no pair)?",
+    "options": [
+      "Call — they could be bluffing with AK",
+      "Fold — a TAG firing 3 barrels into this board has QQ+/sets/AK that all beat K-high; you have no pair and no draw got there",
+      "Raise as a bluff — represent the straight",
+      "Call — you have two overcards to the board"
+    ],
+    "correct": 1,
+    "explanation": "This is your actual hand (lost ~97 BB). Villain's 3-bet range was QQ+/AK. The board J-Q-6 smashes that range: AK now has a pair+gutshot or top pair, QQ is an overpair, JJ/sets are crushing you. A TAG does NOT fire three barrels as a bluff at micro. You held K-high with no pair — you were drawing nearly dead by the turn. The discipline: when a tight player's range beats your hand and they keep betting big, fold. You don't need to 'catch' a bluff that isn't there."
+  },
+  {
+    "id": "pt_yr_02",
+    "module": "5",
+    "category": "Your Hand · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND. You raise BTN with A♣Q♣, a player 4-bets preflop, you call. Flop 8h 4c Ks. Checks through. Turn (blank) villain bets, you call. River 4d pairs the board — you bet, villain calls and shows Q♦Q♥.",
+    "hud": "Villain: 4-bet preflop = extremely strong (QQ+/AK at micro)",
+    "question": "Against a preflop 4-bet, you flopped ace-high on K-8-4. What was the core mistake?",
+    "options": [
+      "Betting the river — value-betting ace-high into a 4-bettor's range that always beats it",
+      "Calling the turn was fine",
+      "Folding preflop would have been too tight",
+      "Nothing — A-high is a good bluff-catcher"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (lost ~105 BB). A 4-bet at micro is QQ+/AK — a range that has you crushed or dominated (AK has your AQ outkicked; QQ+ beats ace-high outright). You have ace-high on K-8-4: you beat nothing in their continuing range. Betting the river turns your hand into a bluff against a range that never folds the better hands and never called preflop with worse. Against a 4-bet, ace-high is a check-fold by the river, not a value bet. The leak: not respecting that the 4-bet range is uniformly strong."
+  },
+  {
+    "id": "pt_yr_03",
+    "module": "5",
+    "category": "Your Hand · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND. Multiway limped pot, you over-limp T♠8♠ on the BTN. Flop A♠T♣3♥. Checks to you, you check back. Turn 8♣ gives you two pair-ish (tens and eights... actually pair of tens + pair... you have T8 = two pair tens and eights). You bet, one caller. River J♠. Villain bets big.",
+    "hud": "Villain: unknown limper, called your turn bet, leads river",
+    "question": "You have T8 (two pair: tens & eights) on A-T-3-8-J. Villain check-calls turn then leads river big. How does the river change things?",
+    "options": [
+      "Call — two pair is strong, always good",
+      "Be cautious — J completes QT/KQ straights and the A-J two pair beats you; a limper leading big into you on the river often has it. Two pair (no top pair) is a bluff-catcher at best",
+      "Raise for value — two pair wants to get it in",
+      "Fold instantly — two pair is trash here"
+    ],
+    "correct": 1,
+    "explanation": "Based on your real T8s hand. Two pair feels strong, but locate it in villain's range: the A-T-3 flop means many of their calling hands contain an ace (Ax two pair now beats your tens-and-eights), and the J completes Q-T and K-Q straights. A passive limper who suddenly leads big into you on the river is rarely bluffing at micro. Your 'two pair' is actually a weak bluff-catcher because the better two pairs (Ax) and straights all got there. This is the over-limp downstream cost: you build a multiway pot with a hand that makes second-best hands."
+  },
+  {
+    "id": "pt_g_01",
+    "module": "5",
+    "category": "Whose Range · Drill",
+    "difficulty": "easy",
+    "scenario": "You raise CO, the BB (a TAG) calls. Flop comes A♥K♦4♣.",
+    "question": "Whose range does this A-K-4 flop favor?",
+    "options": [
+      "BB's range — they have more aces and kings",
+      "Your range — as the preflop raiser you have far more AK, AQ, AA, KK; the BB's flatting range is capped (no AK/AA, those 3-bet)",
+      "Neither — it's a coin flip",
+      "BB's — they flopped a set more often"
+    ],
+    "correct": 1,
+    "explanation": "As the preflop raiser into a caller, A-K-4 hits YOUR range hard. You hold all the strong aces and kings (AK, AQ, AA, KK) that a tight BB would have 3-bet preflop, not flat-called. The BB's calling range is capped — mostly suited connectors, small pairs, suited broadways that miss this board. This is a board to c-bet aggressively: their range can't continue often."
+  },
+  {
+    "id": "pt_g_02",
+    "module": "5",
+    "category": "Whose Range · Drill",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, the BB calls. Flop 7♥6♥5♣.",
+    "question": "Whose range does 7-6-5 (two-tone, connected) favor?",
+    "options": [
+      "Your range — you have the overpairs",
+      "BB's range — their wide defending range (suited connectors, 89, 98, 44, sets, two pair, flush draws) connects with this board far more than your high-card-heavy opening range",
+      "Yours — you have AA/KK",
+      "Neither matters on a low board"
+    ],
+    "correct": 1,
+    "explanation": "This is a low, connected, wet board that favors the CALLER's range. The BB's defending range is full of hands that smash 7-6-5: 98s, 89, 44-66, 87, 75s, plus flush draws. Your BTN opening range is high-card heavy (big aces, broadways) that mostly whiffs here. Even your overpairs (AA-88) are vulnerable on this draw-heavy texture. Lesson: c-bet less here, and don't stack off light — when the board favors their range, proceed cautiously."
+  },
+  {
+    "id": "pt_g_03",
+    "module": "5",
+    "category": "Hand Strength · Drill",
+    "difficulty": "medium",
+    "scenario": "You hold A♦Q♦. Two different boards: (X) K-Q-2 rainbow vs a tight 3-bettor who keeps betting. (Y) Q-7-2 rainbow vs a passive caller who check-calls once.",
+    "question": "Same top pair (Q) — how does your relative hand strength differ between board X and Y?",
+    "options": [
+      "Same strength — top pair is top pair",
+      "Strong on both",
+      "Weak on X (3-bettor's range = QQ+/AK all beat or dominate your pair of queens; the king also helps them), reasonable on Y (passive caller's range has many worse Qx, draws, that your AQ beats)",
+      "Weak on both — fold AQ always"
+    ],
+    "correct": 2,
+    "explanation": "Top pair is not one thing — its value is relative to villain's range. On board X (K-Q-2 vs a 3-bettor), their range is QQ+/AK: KK/QQ/AA beat you, AK has top pair better kicker or AA/KK, and AQ ties at best. Your pair of queens is crushed. On board Y (Q-7-2 vs a passive caller), their range has lots of worse queens (KQ, QJ, QT), draws, and middle pairs your AQ dominates. Identical card strength, opposite decision — because the range and board are different."
+  },
+  {
+    "id": "pt_g_04",
+    "module": "5",
+    "category": "Your Response · Drill",
+    "difficulty": "hard",
+    "scenario": "You raise, a NIT calls. Flop Q♠8♦3♣ (dry). You c-bet, nit calls. Turn 8♠ (pairs board). You bet again, nit raises.",
+    "question": "A nit who called flop then RAISES the paired turn. You hold A-Q (top pair top kicker). Action?",
+    "options": [
+      "Re-raise for value — TPTK is strong",
+      "Call and pay off — they could have a worse queen",
+      "Fold or proceed very cautiously — a nit raising a paired board represents trips (8x), an overpair, or a set; TPTK is now a bluff-catcher that beats almost nothing in a nit's raising range",
+      "Shove — never fold top pair top kicker"
+    ],
+    "correct": 2,
+    "explanation": "Player type sets the range, and a NIT's turn-raising range is the tightest in poker. On Q-8-3-8, a nit raises with trips (88, Q8, 83s), overpairs (99+), or a set — essentially nothing you beat. Your AQ was strong on the flop but the nit's RAISE redefines their range to hands that crush top pair. TPTK is a trophy hand for beginners but here it's a bluff-catcher against a range with no bluffs. Fold. This is the antidote to your biggest leak: when a tight player's aggression represents a range that beats one pair, believe them."
+  },
+  {
+    "id": "pt_g_05",
+    "module": "5",
+    "category": "Your Response · Drill",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB (calling station) calls. Flop J♣9♦4♠. You c-bet, station calls. Turn 2♥. You hold A♠J♦ (top pair top kicker).",
+    "question": "Against a CALLING STATION on J-9-4-2, you have TPTK. Best line?",
+    "options": [
+      "Check — pot control against a station",
+      "Bet for value — a station calls with many worse Jx, 9x, draws, and gutshots; TPTK is ahead of their wide calling range and you want value",
+      "Fold — too dangerous",
+      "Check-fold the turn"
+    ],
+    "correct": 1,
+    "explanation": "Player type flips the answer. Against a calling STATION, TPTK on J-9-4-2 is a clear value bet — their range for calling is enormously wide (any Jx, 9x, gutshots, overcards, draws), and you beat almost all of it. The same hand you'd pot-control or fold against a nit, you bet thinly for value against a station. The station's weakness is calling too much, so you punish by value betting relentlessly with hands like TPTK. Read the player, then act."
+  },
+  {
+    "id": "pt_g_06",
+    "module": "5",
+    "category": "Whose Range · Drill",
+    "difficulty": "hard",
+    "scenario": "You 3-bet preflop with A♥K♥, original raiser (TAG) calls. Flop 9♣6♠2♦ (dry, low).",
+    "question": "You have AK-high (no pair) on 9-6-2. Whose range does the board favor, and what's your play?",
+    "options": [
+      "Check — you missed",
+      "C-bet — as the 3-bettor, this dry low board favors YOUR range (overpairs AA-TT) far more than their flat-calling range; your AK has backdoors + overcards and a c-bet folds out their air. You represent the overpairs they can't have",
+      "Give up — AK is just ace-high",
+      "Check-call to bluff-catch"
+    ],
+    "correct": 1,
+    "explanation": "As the 3-bettor, your range is the strong one: AA, KK, QQ, AK — the overpairs dominate a 9-6-2 board. The caller's range (which would 4-bet AA/KK at micro) is capped at hands like TT-JJ, AQ, suited connectors. A c-bet leverages your range advantage: you credibly represent the overpairs they rarely hold, and even though you have only ace-high, you have two overcards and backdoor equity. This is range-based c-betting — the board favors your range, so you bet regardless of your specific holding."
+  }
+]
