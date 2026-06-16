@@ -78,5 +78,37 @@
     ],
     "correct": 1,
     "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace smashes the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right."
+  },
+  {
+    "id": "cbd_06",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise CO, BTN (a thinking TAG) calls — you are OUT of position. Flop A♠T♦6♣. You have K♣Q♦ (no pair, gutshot to the broadway).",
+    "question": "OOP vs a TAG on A-T-6 with KQ gutshot. C-bet?",
+    "options": [
+      "Always c-bet — you have the ace advantage",
+      "Small c-bet is defensible (range favors you, you have a backdoor + gutshot), but be ready to give up vs a raise; OOP without a made hand, one-and-done is fine",
+      "Bet big",
+      "Check-fold always"
+    ],
+    "correct": 1,
+    "explanation": "Position is a c-bet factor. The A-T-6 board favors your range (you have the aces), so a small c-bet as a range bet is fine — and KQ has a gutshot + backdoors. But you're OOP with no made hand: plan to give up if raised or if called and you don't improve. Don't turn a one-time range bet into multi-street spew without equity. C-bet, then proceed honestly."
+  },
+  {
+    "id": "cbd_07",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise, get TWO callers. Flop J♥T♥9♠ (extremely wet, multiway). You have A♠A♦ (overpair, no heart).",
+    "question": "Overpair on a super-wet multiway board (J-T-9 two-tone). C-bet?",
+    "options": [
+      "Bet big for value — it's aces",
+      "Check or bet small with give-up plan — this board crushes two callers' ranges (straights, two pair, sets, flush+straight draws); AA is now a vulnerable one-pair hand multiway",
+      "Shove",
+      "Always stack off"
+    ],
+    "correct": 1,
+    "explanation": "Multiway + extreme wetness downgrades even aces. J-T-9 two-tone connects with two callers' ranges enormously: KQ/Q8/87 straights, sets, two pair, combo draws. Your AA holds ONE pair with no heart — its relative strength multiway is poor. This is the overvaluing-one-pair trap in its purest form. Bet small for protection at most, and be fully prepared to fold to significant action. Do not stack off a single pair here."
   }
 ]
