@@ -1,0 +1,66 @@
+[
+  {
+    "id": "trb_01",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♠K♣ on Q♦7♠2♣ (flop), one caller. Turn K♥ — you now have top pair top kicker.",
+    "question": "You improved to TPTK on the turn. Plan?",
+    "options": [
+      "Check — pot control",
+      "Double barrel for value — you have a value hand worth betting, and the K improved you; build the pot",
+      "Give up",
+      "Slow play"
+    ],
+    "correct": 1,
+    "explanation": "Hardin's turn criteria #1: 'we have a value hand worth betting.' You turned TPTK — bet for value. Betting the turn is crucial to building the pot for a larger river bet. Any card that improves your hand to a stronger value hand is a barrel candidate."
+  },
+  {
+    "id": "trb_02",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You semi-bluff c-bet J♠T♠ on 9♠6♦2♣ (flop) with a flush draw + overcards, one caller. Turn 8♥ — you pick up an open-ended straight draw too (now OESD + flush draw).",
+    "question": "Turn gave you a monster combo draw. Barrel?",
+    "options": [
+      "Check — you still have nothing made",
+      "Double barrel semi-bluff — you picked up barreling equity (flush + straight draws = ~15 outs) plus fold equity",
+      "Fold",
+      "Only bet if you hit"
+    ],
+    "correct": 1,
+    "explanation": "Hardin's turn criteria #2: 'we pick up turn barreling equity.' You now have ~15 outs (9 flush + 6 straight, minus overlap) AND fold equity. Combo draws this strong are mandatory double barrels — you have huge equity when called and fold equity when not. The backdoor-becomes-draw turn is the classic barrel card."
+  },
+  {
+    "id": "trb_03",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet K♣Q♦ on 8♠5♦3♥ (flop), one caller. Turn 2♣ (total blank, didn't help you). You have two overcards, no draw. Opponent folds to turn c-bets only 30% of the time.",
+    "question": "Blank turn, no equity gained, sticky opponent. Barrel again?",
+    "options": [
+      "Yes — keep the pressure",
+      "Yes — represent an overpair",
+      "No — you have no value, no equity gain, and low fold equity (30% fold to turn cbet). Give up / check",
+      "Bet small"
+    ],
+    "correct": 2,
+    "explanation": "None of Hardin's four barrel criteria are met: no value hand, no barreling equity gained, opponent doesn't fold enough (30%), and no scare card hit your range. Firing a second barrel here is spew. Check and give up — you'll often still see a free showdown or fold the river. Knowing when to STOP barreling is as important as when to start."
+  },
+  {
+    "id": "trb_04",
+    "module": "4",
+    "category": "Triple Barrel · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND. You called a 3-bet with K♠T♠ on Q-J-6. Villain bets flop, you call. Turn blank, villain bets again, you call. River blank, villain fires a THIRD barrel (near pot).",
+    "question": "Villain triple-barrels into you. You have K-high (the gutshot bricked). Action?",
+    "options": [
+      "Call — they might be bluffing",
+      "Fold — a TAG emptying the clip (3 barrels) on Q-J-6-x-x has a value range (QQ+/sets/AK-made) that you never beat with K-high; micro players don't triple-barrel bluff",
+      "Raise",
+      "Call, you have a blocker"
+    ],
+    "correct": 1,
+    "explanation": "Your real hand (−97 BB). When a tight player fires all three streets ('empties the clip') at micro stakes, it's almost never a bluff — their range is strong made hands that beat your busted K-high. You picked up nothing. The whole hand was a lesson in this: each call compounded the leak. Fold to the triple barrel — believe the story their betting tells."
+  }
+]
