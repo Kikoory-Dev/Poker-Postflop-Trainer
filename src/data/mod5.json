@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cal_01",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "easy",
+    "scenario": "You called a BTN open from the BB with 7♥6♥ (capped range — you'd 3-bet your premiums). Flop 8♠5♦2♣ — you have an open-ended straight draw. PFR c-bets.",
+    "question": "As the OOP caller with a draw facing a c-bet, best option?",
+    "options": [
+      "Check/fold — you have nothing made",
+      "Check/call — you have a real draw (OESD, 8 outs) with implied odds, and your range is capped so raising bloats vs their initiative",
+      "Check/raise big",
+      "Donk lead"
+    ],
+    "correct": 1,
+    "explanation": "As the pre-flop caller you're OOP with a capped range and no initiative. With a genuine draw (OESD), check/calling is standard — you have the odds to continue and keep your range disguised. Hardin lists your OOP options as donk/check-fold/check-call/check-raise; with a drawing hand and no made value, check-call is the disciplined default."
+  },
+  {
+    "id": "cal_02",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You called a CO open in position on the BTN with A♦J♦. Flop J♣8♠3♥ — top pair good kicker. PFR c-bets.",
+    "question": "In position as the caller with TPGK facing a c-bet, plan?",
+    "options": [
+      "Raise for value immediately",
+      "Call — you have a strong one-pair hand in position; calling keeps their bluffs/worse Jx in, lets you control the pot and realize equity with position",
+      "Fold",
+      "Check behind"
+    ],
+    "correct": 1,
+    "explanation": "As the IP caller, your options vs a c-bet are fold/call/raise. With TPGK, calling is usually better than raising: you keep their c-bet bluffs and worse Jx in the pot, you have position to control later streets, and raising mostly folds out worse and bloats vs an uncapped aggressor range. Note your range is capped (no AA/KK/AK — you'd 3-bet those), so play it as the strong-one-pair hand it is, in position."
+  },
+  {
+    "id": "cal_03",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You called an open from the BB with 4♦4♥ (set-mining). Flop K♠Q♦7♣ — you missed your set, have a pair of fours (under everything). PFR c-bets.",
+    "question": "You set-mined 44, missed, now have bottom pair on a high board. Action?",
+    "options": [
+      "Check/call — pair of fours has value",
+      "Check/fold — you set-mined and missed; on K-Q-7 your 44 beats nothing in their c-betting range, and you have no draw",
+      "Check/raise bluff",
+      "Float to steal later"
+    ],
+    "correct": 1,
+    "explanation": "Set-mining is the WHOLE plan with small pairs — if you miss the set, you're done. On K-Q-7, pair of fours is essentially the same as no pair: their c-betting range (Kx, Qx, overpairs, broadway) crushes you, and you have no draw. Check/fold. The implied-odds reason to call preflop evaporates the moment you don't flop the set. Don't get attached to a tiny pair."
+  },
+  {
+    "id": "cal_04",
+    "module": "5",
+    "category": "As the Caller · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND. You over-limped T♠8♠ on the BTN behind a limper. Flop A♠T♣3♥ — middle pair (tens). You check it through. Turn 8♣ — now two pair (T+8). You bet, one call. River J♠. Villain leads big into you.",
+    "question": "As the limped-pot caller with turned two pair, villain leads big on the J river. Read?",
+    "options": [
+      "Call — two pair is strong",
+      "Caution/fold-lean — the J completes KQ/QT straights, the ace-high flop means Ax two pair beats you; a passive player leading big on the river rarely bluffs. Your two pair is a bluff-catcher at best",
+      "Raise for value",
+      "Snap-call always"
+    ],
+    "correct": 1,
+    "explanation": "Your real T8s hand. Playing as the caller in a limped multiway pot, you made a vulnerable two pair. The river J completes obvious straights and your tens-and-eights loses to any Ax two pair and all straights. A passive limper leading big into you is screaming value at micro. Two pair FEELS strong but its relative strength here is weak — bluff-catcher at best. This over-limp set up a hand that makes second-best hands — the leak started preflop."
+  }
+]
