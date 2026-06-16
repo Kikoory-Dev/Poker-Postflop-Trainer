@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cbd_01",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "easy",
+    "scenario": "You raised BTN, BB calls. Flop A♦7♣2♥ (dry, disconnected). You have Q♠J♠ (nothing).",
+    "question": "Should you c-bet this dry ace-high board even with nothing?",
+    "options": [
+      "No — you missed, check",
+      "Yes — dry ace-high board favors your raising range; BB's capped range whiffs, high fold equity",
+      "Yes but only for value",
+      "No — never bluff"
+    ],
+    "correct": 1,
+    "explanation": "C-bet. The A-7-2 rainbow board hits YOUR range (you have the aces, BB would 3-bet AA/AK) and misses the BB's capped calling range. High fold equity + range advantage = textbook c-bet bluff, even holding QJ. Board texture + range advantage drive this, not your cards."
+  },
+  {
+    "id": "cbd_02",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raised, and got THREE callers. Flop 9♥8♥7♣ (very wet, multiway). You have A♠A♦ (overpair).",
+    "question": "How does multiway + wet board change your overpair c-bet?",
+    "options": [
+      "Bet huge for value, always",
+      "Bet for value AND protection — but be ready to fold to heavy action; multiway wet boards crush overpairs often",
+      "Check — too scared",
+      "Slow play"
+    ],
+    "correct": 1,
+    "explanation": "Number of opponents + vulnerability are key factors. AA is strong, but 9-8-7 two-tone with THREE opponents is dangerous — straights, two pair, sets, flush draws all live in those ranges. Hardin: bet for value+protection to deny equity, but your overpair's relative strength is much lower multiway. Don't stack off light. This is exactly the 'overvaluing one pair' trap on a wet multiway board."
+  },
+  {
+    "id": "cbd_03",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raised, one caller. Flop K♠K♦4♣ (paired, dry). You have A♥Q♥ (ace-high).",
+    "question": "Paired dry board, you have ace-high. C-bet or check?",
+    "options": [
+      "Check — you have nothing",
+      "C-bet — paired dry boards favor the aggressor's range and are great bluff spots; caller rarely has a king, folds most of their range",
+      "Bet for value",
+      "Fold"
+    ],
+    "correct": 1,
+    "explanation": "C-bet bluff. Paired dry boards (K-K-4) are premium c-bet bluffing spots: the caller rarely holds the trips (few Kx in a flat-call range), your range credibly contains kings and overpairs, and most of their range (small pairs, broadway misses) folds. Board texture + range advantage = bet, despite ace-high."
+  },
+  {
+    "id": "cbd_04",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "hard",
+    "scenario": "You raised BTN, the BB (a calling station, fold-to-cbet 25%) calls. Flop 6♠5♠4♦ (wet, low). You have A♣K♦ (two overcards, no pair, no draw).",
+    "question": "Against a station on a wet low board with AK-high, c-bet?",
+    "options": [
+      "Yes — represent the overpair",
+      "Yes — AK is strong",
+      "No — wet board smashes a station's wide calling range, and they don't fold (25% fold-to-cbet); no fold equity, no made hand. Check/give up",
+      "Bet huge"
+    ],
+    "correct": 2,
+    "explanation": "When NOT to c-bet: low fold equity + board favors their range + you have no made hand/draw. A 6-5-4 board hits a station's wide range hard (any two pair, straight, draw), and a 25% fold-to-cbet means they won't fold. Firing AK-high here has no value (worse doesn't call) and no fold equity (they don't fold). Check. Opponent tendency + board texture override 'AK is pretty.'"
+  },
+  {
+    "id": "cbd_05",
+    "module": "3",
+    "category": "Delayed C-Bet · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND. You 3-bet B♥B (wait: QJs) and reach a flop A-J-7 with middle pair (the J). You CHECK the flop as the aggressor (pot control). Turn is a blank.",
+    "question": "You checked flop with middle pair on an ace-high board. Was that check correct, and what now?",
+    "options": [
+      "Wrong — always c-bet as aggressor",
+      "Correct pot-control check (ace hits caller's range, your J is medium-strength); now you can call one bet or take a delayed thin-value/showdown line",
+      "Should have folded preflop",
+      "Bet big now"
+    ],
+    "correct": 1,
+    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace smashes the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right."
+  }
+]
