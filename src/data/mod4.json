@@ -62,5 +62,37 @@
     ],
     "correct": 1,
     "explanation": "Your real hand (−97 BB). When a tight player fires all three streets ('empties the clip') at micro stakes, it's almost never a bluff — their range is strong made hands that beat your busted K-high. You picked up nothing. The whole hand was a lesson in this: each call compounded the leak. Fold to the triple barrel — believe the story their betting tells."
+  },
+  {
+    "id": "trb_05",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♥9♦ on 9♣6♠2♦ (top pair), one caller. Turn K♠ (overcard to your pair). Opponent is a TAG who called the flop.",
+    "question": "You have middle-strength top pair (9s), turn brings an overcard K. Barrel again?",
+    "options": [
+      "Yes — keep betting top pair",
+      "Check — the K is a scare card that hits the CALLER's range (Kx that floated), not yours; your 9s is now medium and vulnerable. Pot-control, don't barrel into the card that helped them",
+      "Bet big",
+      "Shove"
+    ],
+    "correct": 1,
+    "explanation": "Your double-barrel rate (65%) runs high, and this is the kind of turn to check. The K is a scare card that hits the caller's flop-calling range (any Kx, KJ/KQ floats) more than yours. Barreling here bets into the exact card that improved them, and your pair of nines is only medium strength. Check for pot control. Knowing which turns to SHUT DOWN on is the other half of barreling."
+  },
+  {
+    "id": "trb_06",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You c-bet Q♠Q♦ on 8♦5♣2♠ (overpair), one caller. Turn 7♥ (mostly blank). TAG opponent, folds to turn cbet ~55%.",
+    "question": "Overpair QQ on a dry-ish board, blank turn, opponent folds to turn barrels often. Plan?",
+    "options": [
+      "Check — pot control",
+      "Double barrel for value + denial — QQ is a strong value hand worth betting, the board is dry (low straight/flush risk), and the opponent over-folds turns; bet to extract from worse and deny equity",
+      "Give up",
+      "Slowplay"
+    ],
+    "correct": 1,
+    "explanation": "This IS a barrel — and shows barreling isn't always wrong. Hardin criteria: you have a value hand worth betting (QQ overpair, dry board with little that beat you), and the opponent folds to turn cbets 55% (good fold equity). Bet for value and denial. The skill is distinguishing THIS (strong value, dry board, foldy opponent) from the previous spot (medium hand, scare card, sticky opponent). Same action, opposite reasoning — read the factors."
   }
 ]
