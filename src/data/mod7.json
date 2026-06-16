@@ -1,0 +1,189 @@
+[
+  {
+    "id": "pt_id_01",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "easy",
+    "scenario": "You sit down and your HUD shows this opponent over a decent sample.",
+    "hud": "VPIP 15 · PFR 12 · Fold to CBet 70% · 3Bet 4%",
+    "question": "What player type is this?",
+    "options": [
+      "Nit (very tight, risk-averse)",
+      "Calling station",
+      "Maniac",
+      "LAG"
+    ],
+    "correct": 0,
+    "explanation": "Low VPIP/PFR (15/12) with a small gap, plus a high fold-to-cbet — classic Nit. They play only premium hands and fold when they miss. Respect their aggression (they only bet the near-nuts) but steal relentlessly when they show weakness."
+  },
+  {
+    "id": "pt_id_02",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "easy",
+    "scenario": "Your HUD on this player over 200 hands.",
+    "hud": "VPIP 50 · PFR 8 · Fold to CBet 15% · Fold to 3Bet 12%",
+    "question": "What player type is this?",
+    "options": [
+      "Nit",
+      "Calling station (loose, never folds)",
+      "TAG",
+      "Maniac"
+    ],
+    "correct": 1,
+    "explanation": "High VPIP (50) with low PFR (8) = loose-passive. The giveaway for a calling STATION specifically is the very low fold-to-cbet (15%) and fold-to-3bet (12%) — they hate to fold. Never bluff this player. Value bet relentlessly and size up: they'll call with bottom pair or ace-high."
+  },
+  {
+    "id": "pt_id_03",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "Your HUD on this player.",
+    "hud": "VPIP 65 · PFR 53 · Fold to CBet 20% · 3Bet 22%",
+    "question": "What player type is this?",
+    "options": [
+      "LAG (good loose-aggressive)",
+      "Maniac (bad aggressive)",
+      "TAG",
+      "Nit"
+    ],
+    "correct": 1,
+    "explanation": "VPIP 65 / PFR 53 is extreme — far looser and more aggressive than even Villain (LAG) (30/28). This is a Maniac: uncontrolled aggression, betting and raising relentlessly without a sound plan. Don't try to out-bluff them. Trap with strong hands and let them barrel into you — they'll stack off light."
+  },
+  {
+    "id": "pt_tp_nit",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "medium",
+    "scenario": "You hold A♣J♦ on J♥ 7♠ 3♣ (top pair top kicker). You bet the flop, Villain (nit) CALLS. Turn 2♦, you bet again, Villain (nit) RAISES big.",
+    "hud": "Villain: NIT (VPIP 15 · never bluffs)",
+    "question": "Villain (nit) just raised your turn bet. What do you do with top pair top kicker?",
+    "options": [
+      "Call — it's only top pair",
+      "Fold — Villain (nit)'s raise is the near-nuts",
+      "Re-raise for value",
+      "Shove"
+    ],
+    "correct": 1,
+    "explanation": "This is the textbook hero-fold spot. Villain (nit) raising the turn means a set, two pair, or better — they do not bluff and don't raise worse for value. Hardin: 'If there is ever a time to make a big hero fold with top-pair-top-kicker, it's against Villain (nit).' TPTK is a strong hand, but against THIS player it's beat. Fold."
+  },
+  {
+    "id": "pt_tp_station",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "medium",
+    "scenario": "You hold A♣J♦ on J♥ 7♠ 3♣ (top pair top kicker). The board is dry.",
+    "hud": "Villain: CALLING STATION (VPIP 50 · fold-to-cbet 15%)",
+    "question": "It's checked to you on the flop against Villain (calling station). Best line with TPTK?",
+    "options": [
+      "Check — pot control vs a tough player",
+      "Bet large for value — they call with worse",
+      "Bet small to keep them in",
+      "Bluff-bet to fold them out"
+    ],
+    "correct": 1,
+    "explanation": "Against Villain (calling station), value bet LARGE with your strong hands. They call with bottom pair, ace-high, gutshots — hands far worse than your TPTK. The mistake players make is betting small or checking 'to control the pot.' No — extract maximum. They won't fold, so charge them. Never bluff them, always value-bet thin and big."
+  },
+  {
+    "id": "pt_tp_lag",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "hard",
+    "scenario": "You hold A♣J♦ on J♥ 7♠ 3♣ (top pair top kicker). You bet flop, Villain (lag) calls. Turn 2♦, you check, Villain (lag) BETS big.",
+    "hud": "Villain: LAG (VPIP 30 · bluffs a lot)",
+    "question": "Villain (LAG) bets after you check the turn. What do you do with TPTK?",
+    "options": [
+      "Fold — they have a strong range",
+      "Call — their betting range is full of bluffs",
+      "Always raise",
+      "Check-fold future streets"
+    ],
+    "correct": 1,
+    "explanation": "Against Villain (LAG), do NOT respect aggression the way you would Villain (nit). Their betting range includes mediocre made hands, weak draws, and pure bluffs. TPTK is a clear call — you beat the large bluffing portion of their range. Hardin: make hero calls vs LAGs you'd never make vs Villain (nit). Same hand, opposite decision from Villain (nit) spot above."
+  },
+  {
+    "id": "pt_bluff_station",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "easy",
+    "scenario": "You raised preflop and missed completely: A♥ K♥ on 8♣ 6♠ 2♦. You c-bet, Villain (station) calls. Turn is a blank. You have ace-high, no draw.",
+    "hud": "Villain: CALLING STATION",
+    "question": "Should you fire a second barrel as a bluff?",
+    "options": [
+      "Yes — keep applying pressure",
+      "No — never bluff Villain (calling station)",
+      "Yes — they might fold this time",
+      "Only if the river is scary"
+    ],
+    "correct": 1,
+    "explanation": "Never bluff Villain (calling station). They hate to fold and will call you down with bottom pair or ace-high. A second barrel here just spews chips. Give up, check it down, and hope your ace-high is good. Save your bets for when you have a real hand — then value bet large."
+  },
+  {
+    "id": "pt_bluff_nit",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "You're the preflop aggressor. Flop comes and you both have wide ranges. Villain (nit) checks to you on a dry board.",
+    "hud": "Villain: NIT (folds to 70% of c-bets)",
+    "question": "You have a marginal hand. Best play?",
+    "options": [
+      "Check behind — pot control",
+      "C-bet — they fold far too often",
+      "Only bet with made hands",
+      "Give up"
+    ],
+    "correct": 1,
+    "explanation": "Exploit Villain (nit)'s biggest leak: they fold to a high percentage of c-bets. Bet relentlessly on dry boards — your actual hand barely matters because they fold so often when they miss. When they DON'T fold (call or raise), believe them and shut down. The fold equity alone makes c-betting hugely profitable here."
+  },
+  {
+    "id": "pt_pre_nit",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Folded to you on the BTN. The blinds are both nits who fold their blinds very often.",
+    "hud": "Both blinds: NITS",
+    "question": "How should you adjust your BTN opening range?",
+    "options": [
+      "Tighten — they only play strong hands",
+      "Widen significantly — steal their blinds relentlessly",
+      "No change",
+      "Only open premiums"
+    ],
+    "correct": 1,
+    "explanation": "Steal relentlessly. Nits fold their blinds at a high rate, so open a much wider range than standard from the BTN — the dead money is yours for the taking. This is one of the most profitable adjustments in poker: attacking tight players' blinds. If they wake up with a 3-bet, give them credit and fold the junk."
+  },
+  {
+    "id": "pt_pre_station",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Villain (calling station) limps in front of you. You're on the BTN with a decent-but-not-premium hand like K♠T♠.",
+    "hud": "Limper: CALLING STATION",
+    "question": "Best approach?",
+    "options": [
+      "Limp behind",
+      "Isolation-raise larger than normal for value",
+      "Fold — too speculative",
+      "3-bet bluff"
+    ],
+    "correct": 1,
+    "explanation": "Iso-raise, and size UP. You want to play heads-up in position against their weak, wide calling range — and since they over-call, build the pot now with a hand that dominates much of their range. Bigger sizing exploits their inability to fold. Don't limp behind and let others in; isolate the fish."
+  },
+  {
+    "id": "pt_draw_nit",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "hard",
+    "scenario": "You have a flush draw: A♥5♥ on K♥8♥2♣. Villain (nit) leads big into you on the flop.",
+    "hud": "Villain: NIT betting into you",
+    "question": "How do you read Villain (nit)'s big lead, and what's your play?",
+    "options": [
+      "They're bluffing — raise",
+      "They have a strong made hand — but your draw + overcard has equity, call with proper odds",
+      "Fold the flush draw",
+      "Shove as a bluff"
+    ],
+    "correct": 1,
+    "explanation": "Villain (nit) leading big = strong made hand (set, two pair, top pair strong kicker), almost never a bluff. But you have the nut flush draw plus an ace overcard — real equity. The read tells you you're behind NOW, but your draw justifies continuing if the pot odds are right. Don't raise (they won't fold), just call and realize your equity. Reading the type tells you it's a made hand; the math tells you to draw."
+  }
+]
