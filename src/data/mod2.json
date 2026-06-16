@@ -78,5 +78,53 @@
     ],
     "correct": 2,
     "explanation": "Your real hand. K-high with only a gutshot (4 outs) against a TAG's QQ+/AK 3-betting range is a WEAK/marginal holding, not a real draw. You have no pair, no showdown value, and minimal equity vs a range that smashed Q-J-6. This is the hand you lost ~97 BB with by continuing. Correctly categorizing it as weak = fold to the flop bet and move on."
+  },
+  {
+    "id": "hsc_06",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "You raise, BB calls. Flop K♦Q♠5♣. You hold K♣J♠ (top pair, J kicker). BB check-calls flop, check-calls turn, then LEADS big on a 2♥ river.",
+    "question": "Top pair decent kicker, but BB suddenly leads the river. Re-categorize your hand NOW.",
+    "options": [
+      "Still strong value — bet/call",
+      "Now a bluff-catcher — passive player leading after calling twice has KQ/sets/two-pair; your TPGK demotes to medium-at-best; lean fold to big lead",
+      "Draw",
+      "Weak — but bluff-raise"
+    ],
+    "correct": 1,
+    "explanation": "Hand strength is dynamic — it changes street by street with the action. KJ was strong on the flop, but a passive caller who suddenly leads big on the river has upgraded their range to hands that beat one pair (KQ two pair, sets, slowplayed monsters). Your TPGK demotes to a bluff-catcher, and at micro a passive river lead is rarely a bluff. Recategorize and lean fold. This is the exact discipline that plugs your biggest leak."
+  },
+  {
+    "id": "hsc_07",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "You raise with 8♠8♦, one caller. Flop 8♥4♣2♦ — you flopped a set (three eights) on a dry board.",
+    "question": "Category and default plan with a set on a dry board?",
+    "options": [
+      "Strong value (monster) — bet/build the pot for stacks; occasionally slowplay one street on very dry boards",
+      "Medium — pot control",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "A set is a STRONG VALUE monster. Default: bet and build the pot to play for stacks. On a very dry board (8-4-2) you can occasionally check ONE street to let them catch up or bluff, but the goal is getting stacks in. This is the opposite end from the one-pair trap — when you truly have it, maximize."
+  },
+  {
+    "id": "hsc_08",
+    "module": "2",
+    "category": "Categorize · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND. You 4-bet-call preflop... wait, you CALLED a 4-bet with A♣Q♣. Flop K-8-4 checks through. Turn blank, villain bets, you call. River pairs the board; you BET and villain shows QQ.",
+    "question": "Against a 4-bettor (QQ+/AK), categorize your A-Q on K-8-4 and find the leak.",
+    "options": [
+      "Medium — has showdown value",
+      "Weak vs this range — A-high beats nothing a 4-bettor continues with; betting river turns it into a bluff that only worse folds and better calls",
+      "Strong",
+      "Draw"
+    ],
+    "correct": 1,
+    "explanation": "Your real hand (−105 BB). A 4-bet range (QQ+/AK) crushes ace-high: every hand that continues beats you. A-Q on K-8-4 is a WEAK hand here — no pair, no draw, dominated. Betting the river is the cardinal error: worse hands (none exist in their range) won't call, better hands always do. Check-fold by the river. Correct categorization = recognizing ace-high is worthless vs a uniformly strong range."
   }
 ]
