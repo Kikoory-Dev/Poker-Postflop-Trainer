@@ -62,5 +62,37 @@
     ],
     "correct": 1,
     "explanation": "Your real T8s hand. Playing as the caller in a limped multiway pot, you made a vulnerable two pair. The river J completes obvious straights and your tens-and-eights loses to any Ax two pair and all straights. A passive limper leading big into you is screaming value at micro. Two pair FEELS strong but its relative strength here is weak — bluff-catcher at best. This over-limp set up a hand that makes second-best hands — the leak started preflop."
+  },
+  {
+    "id": "cal_05",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a BTN open from the BB with K♥9♥. Flop K♣7♠2♦ — top pair, weak kicker. PFR c-bets small. You're OOP.",
+    "question": "OOP caller, top pair weak kicker facing a small c-bet. Best line?",
+    "options": [
+      "Check-raise for value",
+      "Check-call — TPWK has showdown value but a weak kicker; calling keeps their bluffs in and controls the pot OOP; raising bloats vs a capped-but-uncapped aggressor and folds out worse",
+      "Donk lead big",
+      "Check-fold"
+    ],
+    "correct": 1,
+    "explanation": "As the OOP caller with top-pair-weak-kicker, check-calling is the disciplined line. You have showdown value worth continuing, but the weak kicker means you don't want to build a big pot — check-raising bloats the pot OOP with a one-pair hand and folds out the bluffs you beat. Call, control the pot, reassess on the turn. Don't turn a medium hand into a big-pot hand from out of position."
+  },
+  {
+    "id": "cal_06",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BTN with A♠5♠. Flop 9♠6♠2♣ — flush draw + ace overcard. PFR c-bets. You're IN position.",
+    "question": "IP caller with the nut flush draw facing a c-bet. Best line?",
+    "options": [
+      "Fold — only a draw",
+      "Call OR raise as a semi-bluff — nut flush draw with position is a premium draw; calling keeps their range wide and disguised, raising adds fold equity. Both fine; calling is lower-variance",
+      "Check behind",
+      "Always fold draws"
+    ],
+    "correct": 1,
+    "explanation": "As the IP caller with the nut flush draw, you have a premium drawing hand and position — both calling and semi-bluff raising are valid. Calling realizes equity cheaply, keeps their bluffs in, and disguises your hand; raising adds fold equity and can win it now. At micro vs a c-betting range, calling is the lower-variance default and lets you stack off when you hit the nuts. Position makes draws much more playable — you control the pot and see free cards when checked to."
   }
 ]
