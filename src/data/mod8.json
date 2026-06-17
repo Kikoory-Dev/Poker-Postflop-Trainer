@@ -190,5 +190,133 @@
     ],
     "correct": 0,
     "explanation": "The mirror of reading sizing: when YOU have a strong hand on a wet board, bet big. Draws have equity against your set, so you charge them the maximum and build toward stacks while you're a favorite. Slowplaying a set on a wet board lets draws hit cheaply and costs you value. (Slowplay is only for monsters on DRY boards where nothing can catch up.) Size to your hand and the board: big with strong value on wet textures."
+  },
+  {
+    "id": "sz_real_06",
+    "module": "8",
+    "category": "Facing Aggression · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−105bb). QJs (two pair, Q+J) on 7h-Qc-Th flop (TWO hearts). Villain check-raises flop (2bb→6bb), bets turn 12bb, bets river 25bb. You called all three. Board ran out 7h Qc Th Jh 5d (third heart on turn).",
+    "question": "You have two pair, but villain check-raises a two-flush board then barrels as the flush completes. Action by the river?",
+    "options": [
+      "Fold by the turn/river — the check-raise + barrels on a flushing board scream a made flush (villain had Ah3h); two pair is a bluff-catcher that loses to the obvious draw that got there",
+      "Call — two pair is too strong to fold",
+      "Raise the river",
+      "Call, hearts might be a bluff"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had the nut-ish flush, Ah3h). Two pair FEELS strong, but the line + board redefine it: a check-raise on a two-heart board followed by continued barrels as the flush completes is a made flush almost every time at micro. Your two pair beats nothing that's betting three streets here. The flush draw was screaming from the flop check-raise; when it gets there and they keep firing, fold. Board texture + betting line over raw hand strength."
+  },
+  {
+    "id": "sz_real_07",
+    "module": "8",
+    "category": "Facing Aggression · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−102bb). A5o, you flop a SET of fives on 2-5-5-K-3. River: villain bets 4bb, you raise to 15bb, villain RE-RAISES to 38bb, you call. Villain had KK (turned a bigger boat: kings full).",
+    "question": "You have trip/full-house fives, but when you raise the river villain re-raises big. Is this a fold or a cooler?",
+    "options": [
+      "Mostly a cooler — but the re-raise over your raise should give pause; on a paired board (5-5 + K), villain's re-raise range is boats that beat trips (KK, 33, K5). Folding trips-with-weak-kicker to a re-raise is defensible",
+      "Snap-call, trips is the nuts",
+      "Re-raise again",
+      "Always fold trips"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had KK = kings full, beating your fives full... actually 555+K = fives full of kings, vs KK = kings full of fives, which wins). This is closer to a cooler, but there's a lesson: on a PAIRED board, when villain re-raises your river raise, their range is full houses that beat your trips/lower boat. With a weak-kicker trips on a paired board, a re-raise is a yellow flag. You won't always fold here, but recognizing that the re-raise rep beats you is the skill — don't auto-stack-off trips on paired boards vs a re-raise."
+  },
+  {
+    "id": "sz_real_08",
+    "module": "8",
+    "category": "Facing Aggression · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (−102bb). AJo with a straight draw on 5-8-6-T-7 (you have an open-ender). On the flop, villain leads for 57bb — an ALL-IN OVERBET into a small pot. You called 39bb with just the draw.",
+    "question": "Villain shoves an overbet on the flop. You have a bare straight draw (no made hand). Call?",
+    "options": [
+      "Fold — a flop overbet shove means you're being asked to call your whole stack with only draw equity (~32%); the pot odds and implied odds don't justify stacking off on a draw vs a committed range",
+      "Call — open-enders always continue",
+      "Raise",
+      "Call, you have overcards too"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had 99). A flop overbet all-in is the clearest 'I'm committed' signal — you're risking your stack to draw. An open-ended draw is ~32% by the river; calling off a full stack as a ~32% underdog with no fold equity (they're all-in) is −EV. Draws want to either semi-bluff (fold equity) or call a CHEAP price with implied odds — not stack off as the underdog vs an all-in. Fold the draw to the shove."
+  },
+  {
+    "id": "sz_real_09",
+    "module": "8",
+    "category": "Over-Barreling · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−101bb). JJ on a K-8-3 flop (you have an UNDERPAIR to the king). You bet ~75bb (overbet/jam), villain raises all-in, you call. Villain had AA.",
+    "question": "You have JJ on K-8-3 — an underpair to the king. You jammed the flop and called the raise. What's the lesson?",
+    "options": [
+      "JJ is a medium hand on a K-high board (underpair) — overbet-jamming and stacking off bloats the pot vs a range (Kx, AA, AK, sets) that beats an underpair; pot-control instead",
+      "JJ is an overpair, always stack off",
+      "It's a cooler",
+      "Fold JJ preflop"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had AA). JJ on K-8-3 is NOT an overpair — there's a king out, so it's an underpair / medium-strength hand. Jamming it and calling a raise commits a stack with one pair that's behind any Kx, AA, AK, and sets. The discipline: when an overcard to your pair is on the board, downgrade it to medium and pot-control — don't play it like an overpair. Stacking off JJ on a K-high board is the overvaluing-one-pair leak."
+  },
+  {
+    "id": "sz_real_10",
+    "module": "8",
+    "category": "Facing Aggression · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−100bb). 96s, two pair on 4c-Kc-9c-6s-7d (board has THREE clubs). You bet turn 10bb (called), bet river 38bb, villain RAISES to 88bb, you call 50bb more. Villain had Ac6c — the nut flush.",
+    "question": "You have two pair (9s+6s) on a three-club board. You bet the river, villain raises big. Action?",
+    "options": [
+      "Fold — three clubs are out; villain raising your river bet on a flush board has the flush (or a boat). Two pair with no club is drawing dead to those. Don't call the raise",
+      "Call — two pair is strong",
+      "Re-raise",
+      "Call, maybe a bluff"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had the nut flush). On a three-flush board, two pair without a card of that suit is a bluff-catcher at best — and when villain RAISES your bet, they're repping the flush or a full house, both of which crush you. The three-club board is the read: any aggression means the flush is likely there. Betting into it and then calling the raise is double trouble. When the flush board fills and you get raised, two pair folds."
+  },
+  {
+    "id": "sz_real_11",
+    "module": "8",
+    "category": "Facing Aggression · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (−100bb). AKo, two pair (A+K) on Ts-Qc-Ah-Qs-8s. You bet flop 6bb (called), bet turn 26bb, villain RAISES to 32bb, you call. The board is also THREE spades by the river. Villain had QhTh.",
+    "question": "You have two pair (aces and queens) but villain raises your turn bet on a board going three-spades. Read?",
+    "options": [
+      "Caution — the turn raise represents a better hand (the board paired queens, so trips/boats are possible, plus the flush draw); your two pair (aces up) can be behind Qx trips, and the spade flush looms. Proceed carefully, lean fold to more pressure",
+      "Snap it off, aces up is huge",
+      "Re-raise for value",
+      "Always call two pair"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had QT = trip queens by raising, on the Q-paired board). Your two pair is aces-and-queens, but the board pairing the queen means villain's raise can be Qx (trip queens) which crushes you — and the three-spade runout adds flushes. A turn raise on a paired, flushing board is a strong-range action. 'Aces up' feels huge but is often second-best here. Read the board: paired + flushing + raise = your two pair is vulnerable; don't stack off."
+  },
+  {
+    "id": "sz_gen_08",
+    "module": "8",
+    "category": "Sizing Read · Drill",
+    "difficulty": "medium",
+    "scenario": "You have a flush draw (9 outs, ~36% by river) on the flop. Villain shoves all-in for about the size of the pot. You'd be calling roughly 1/3 of the final pot to continue.",
+    "question": "Flush draw facing a pot-sized flop shove. Is this a call?",
+    "options": [
+      "Roughly breakeven/marginal — a flush draw is ~36% by the river; pot odds on a pot-sized shove give ~33% needed, so it's close but only with NO worse foldable equity considerations; thin call at best, fold if unsure",
+      "Always call, flush draws are gold",
+      "Always fold draws to shoves",
+      "Re-raise"
+    ],
+    "correct": 0,
+    "explanation": "Math over feel: a 9-out flush draw is ~36% to hit by the river (rule of 4 on the flop). A pot-sized shove asks you to call ~33% pot odds, so a flush draw is a marginal/slightly-profitable call IF you'll see both cards (you will, since they're all-in). But a bare straight draw (~32%) or fewer outs becomes a fold. Know your outs and the odds — don't call shoves on draws by reflex; calculate."
+  },
+  {
+    "id": "sz_gen_09",
+    "module": "8",
+    "category": "Over-Barreling · Drill",
+    "difficulty": "medium",
+    "scenario": "You have top pair top kicker on a DRY board (A-7-2 rainbow) vs a calling station. You want max value across three streets.",
+    "question": "TPTK on a dry board vs a station — how do you extract maximum?",
+    "options": [
+      "Bet all three streets at a size they'll call (medium-large) — stations pay off; value bet relentlessly, don't slow down or check 'to trap'",
+      "Check to induce bluffs",
+      "Bet small to keep them in",
+      "Check the river, just call"
+    ],
+    "correct": 0,
+    "explanation": "Against a calling station with a genuine value hand on a dry board, the leak would be UNDER-betting or checking 'to trap' — stations don't bluff, so trapping just misses value. Bet all three streets at a size they'll call. The mirror of your discipline lessons: when you're ahead with real value vs a player who can't fold, the mistake is betting too little or too few streets. Strong value vs a station = three streets of value."
   }
 ]
