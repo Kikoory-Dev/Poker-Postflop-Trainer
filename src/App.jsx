@@ -6,6 +6,7 @@ import mod4 from "./data/mod4.json";
 import mod5 from "./data/mod5.json";
 import mod6 from "./data/mod6.json";
 import mod7 from "./data/mod7.json";
+import mod8 from "./data/mod8.json";
 
 const C = {
   bg:"#1a2218", bg2:"#212d1f", bg3:"#273324",
@@ -14,7 +15,7 @@ const C = {
   green:"#6db87a", red:"#d96060", blue:"#70b4d4",
   purple:"#a98fe8", orange:"#e0845a",
 };
-const MOD_COLOR = { "1":"#6db87a", "2":"#d4a847", "3":"#5a9fd4", "4":"#d4795a", "5":"#c77dd6", "6":"#5ac7b0", "7":"#e0845a" };
+const MOD_COLOR = { "1":"#6db87a", "2":"#d4a847", "3":"#5a9fd4", "4":"#d4795a", "5":"#c77dd6", "6":"#5ac7b0", "7":"#e0845a", "8":"#d4a04a" };
 const DIFF_COLOR = { easy:"#6db87a", medium:"#d4a847", hard:"#d96060" };
 const RED_SUITS = new Set(["♥","♦"]);
 
@@ -151,7 +152,7 @@ export default function App(){
 
   useEffect(()=>saveProgress(progress),[progress]);
 
-  const allQuestions = [...mod1, ...mod2, ...mod3, ...mod4, ...mod5, ...mod6, ...mod7];
+  const allQuestions = [...mod1, ...mod2, ...mod3, ...mod4, ...mod5, ...mod6, ...mod7, ...mod8];
   const filtered = allQuestions.filter(q => moduleF === "all" ? true : q.module === moduleF);
 
   const totalAttempts = Object.values(progress).reduce((a,p)=>a+p.seen,0);
@@ -302,6 +303,7 @@ export default function App(){
             {key:"5",   label:"5 · Playing as the Caller", sub:"Postflop when you're NOT the aggressor",          color:MOD_COLOR["5"]},
             {key:"6",   label:"6 · Range Reading",       sub:"Relative strength; narrow villain's range",        color:MOD_COLOR["6"]},
             {key:"7",   label:"7 · Read & Exploit",      sub:"HUD stats \u2192 player types \u2192 deviations",    color:MOD_COLOR["7"]},
+            {key:"8",   label:"8 · Sizing & Discipline",  sub:"Read bet sizes; fold to pressure; stop over-barreling",  color:MOD_COLOR["8"]},
           ].map(m=>{
             const active = moduleF===m.key;
             const count = m.key==="all"?allQuestions.length:allQuestions.filter(q=>q.module===m.key).length;
