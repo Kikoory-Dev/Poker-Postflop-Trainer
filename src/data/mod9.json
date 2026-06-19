@@ -1,0 +1,178 @@
+[
+  {
+    "id": "cm_concept_01",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "You have a strong-LOOKING hand (overpair / top pair top kicker / two pair). Stacks are 100bb+ and a lot of money is about to go in.",
+    "question": "Before stacking off 100bb+, what is the ONE question to ask?",
+    "options": [
+      "Does my hand beat their VALUE range — or does it just look strong?",
+      "Is my hand better than average?",
+      "Do I have top pair?",
+      "Am I getting good odds?"
+    ],
+    "correct": 0,
+    "explanation": "This is THE discipline that fixes your biggest leak. Strong-LOOKING hands (overpairs, TPTK, two pair) are not the same as hands that beat the range committing 100bb. When stacks go in deep, villain's range narrows to the nuts-ish: sets, better two pair, dominating aces, AA/KK. Ask: does my hand beat that VALUE range? If it only beats bluffs and worse one-pair hands, it's a fold — no matter how strong it looks."
+  },
+  {
+    "id": "cm_concept_02",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "A loose-aggressive villain (47% VPIP, 20% 3-bet) has been 'pushing a lot'. He 5-bet jams 100bb+ over your 4-bet.",
+    "question": "Villain is loose/aggressive overall. Does that mean his 100bb 5-bet-JAM range is wide?",
+    "options": [
+      "No — wide preflop does NOT mean wide at a 100bb all-in; even a maniac's stack-off range is mostly QQ+/AK",
+      "Yes — he's loose, so call wide",
+      "Yes — he could have anything",
+      "Only if he's on tilt"
+    ],
+    "correct": 0,
+    "explanation": "This is the exact error from your AJo hand. A player can be 47% VPIP / 20% 3-bet and STILL only 5-bet-jam 100bb with QQ+, AK. Loose players are wide INTO pots and on early streets — but their full-stack commitment range collapses to a strong core. You correctly read he was aggressive; the mistake was applying 'he's wide' to a 100bb jam, where it doesn't hold. Wide preflop ≠ wide all-in."
+  },
+  {
+    "id": "cm_real_01",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−105bb, AJo, SB, 100bb+ deep). MP opens, you 3-bet to 9bb, MP 4-bets to 23bb, you 5-bet to 50bb, MP jams 100bb+. You called. He had AK.",
+    "question": "You 5-bet AJo and faced a 100bb jam. Call or fold?",
+    "options": [
+      "Fold — AJo is DOMINATED by the jamming range (AK, AQ, AA all crush it); it's never ahead of a 5-bet-jam",
+      "Call — you're priced in",
+      "Call — he's aggressive",
+      "Call — AJ is a strong hand"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had AK — exactly what you told yourself he didn't have). AJo is one of the WORST hands to stack off 100bb because it's dominated by the entire value jamming range: AK and AQ dominate it, AA crushes it, and you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak."
+  },
+  {
+    "id": "cm_real_02",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−117bb, KK, SB). Flop J-5-4, you bet. Turn 6: you check, villain bets, you check-RAISE big, villain re-raises all-in. You called.",
+    "question": "You have KK (overpair) on J-5-4-6. Villain re-raises all-in over your turn check-raise. Action?",
+    "options": [
+      "Fold — a re-raise over your check-raise = a set or two pair; KK is one pair and beaten",
+      "Call — KK is too strong to fold",
+      "It's a cooler, call",
+      "Re-raise"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that crush one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it."
+  },
+  {
+    "id": "cm_real_03",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−105bb, AQs, BTN). Flop K-4-8, you c-bet (called). Turn 4: villain leads big, you raise/commit. He had QQ.",
+    "question": "You have AQ on a K-high board — you don't even have a pair. Villain bets into you on the turn. Commit?",
+    "options": [
+      "Fold — AQ-high on a K-high board is behind any Kx, pairs, and the betting range; no reason to commit with ace-high",
+      "Call — overcards",
+      "Raise — represent the king",
+      "Call — gutshot equity"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had QQ). AQ on K-4-8 is just ace-high — no pair. Stacking off ace-high vs a villain leading into you is drawing nearly dead to a pair. This is the same family as the AJ and AK hands: committing a big pot with a hand that doesn't beat the value range. Ace-high commits to nothing."
+  },
+  {
+    "id": "cm_real_04",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−128bb, AKo, BTN). Flop 8-7-6 two-tone (very wet), you c-bet 13bb, villain check-raises. You committed. He had AA.",
+    "question": "AK-high on 8-7-6 two-tone, villain check-raises. Commit?",
+    "options": [
+      "Fold — wet board + check-raise = made hands and big draws crush ace-high; you have no pair, no real draw",
+      "Call — two overcards",
+      "Re-raise as a bluff",
+      "Call to hit"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had AA). On 8-7-6 two-tone, a check-raise is sets, two pair, straights, big draws, and overpairs. Ace-high has no pair and no clean draw. C-betting was fine; committing to the check-raise with air is the leak. Fold and keep your stack."
+  },
+  {
+    "id": "cm_gen_01",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "medium",
+    "scenario": "You have TPTK (top pair top kicker) 100bb deep. Villain check-raises the flop and jams the turn on a dry board.",
+    "question": "TPTK, 100bb deep, villain check-raise then turn jam on a dry board. Commit?",
+    "options": [
+      "Fold — a check-raise then jam on a dry board (no draws to charge) is value: sets and two pair; TPTK is one pair",
+      "Call — TPTK is the top of my range",
+      "Call — he could be bluffing",
+      "Raise"
+    ],
+    "correct": 0,
+    "explanation": "On a dry board there are no draws, so villain has no reason to fast-play unless he has it. A check-raise-then-jam line on a dry board is the nuts-ish: sets, two pair. TPTK is one pair — strong-looking, second-best here. Fold. Dry board + huge aggression = value, and one pair isn't enough to stack off."
+  },
+  {
+    "id": "cm_gen_02",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "medium",
+    "scenario": "You open AQo, a tight player 3-bets, you call. Flop comes Q-high. You bet, they raise big, then jam the turn.",
+    "question": "Top pair (Q) with A kicker vs a tight 3-bettor who raises flop and jams turn. Commit?",
+    "options": [
+      "Lean fold — a tight 3-bettor's raise-then-jam range (AA, KK, QQ, AQ, sets) has top-pair beaten or tied at best",
+      "Snap call, TPTK is huge",
+      "Always call top pair",
+      "Re-raise"
+    ],
+    "correct": 0,
+    "explanation": "Against a TIGHT 3-bettor specifically, top pair good kicker is in bad shape when they commit: their value range is overpairs (AA/KK) that beat you, QQ (a set), AQ (a chop), and sets. You beat almost nothing that stacks off. Tight range + big commitment = fold your one pair. Read the OPPONENT'S range, not just your hand's strength."
+  },
+  {
+    "id": "cm_gen_03",
+    "module": "9",
+    "category": "Commitment · Mindset",
+    "difficulty": "medium",
+    "scenario": "You're up ~180bb and tell yourself 'just 7-9 more hands, then I quit.' A loose villain offers you a 3-bet/4-bet war with a marginal hand.",
+    "question": "You've decided to quit soon and are sitting on a big win. How should the 'last few hands' be played?",
+    "options": [
+      "TIGHTER, not looser — deciding to quit drops your focus; play your last hands disciplined or just quit NOW",
+      "Looser — get one more big pot before leaving",
+      "The same as always",
+      "Gamble it up, you're already up"
+    ],
+    "correct": 0,
+    "explanation": "This is the 'quit on a high' leak — and it's real, not superstition. When you decide to quit, focus drops and you subconsciously want to 'finish on action,' so marginal spots get played looser. The disaster that 'always happens when you say you'll quit' is YOU loosening up, not variance. The fix: when you decide to quit, the next hand plays TIGHTER — or better, quit now. A leaving player folds everything marginal."
+  },
+  {
+    "id": "cm_gen_04",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "medium",
+    "scenario": "You flop a set (strong) but the board is paired (e.g. you have 99 on 9-7-7). Villain jams big over your bet.",
+    "question": "You have a set, but the board is PAIRED and villain jams. Is this still an easy commit?",
+    "options": [
+      "Pause — on a paired board, villain's jam can be a full house (trips, the other pair); your set can be behind. Consider the specific board and range",
+      "Snap call, sets always get it in",
+      "Fold your set",
+      "Sets never lose"
+    ],
+    "correct": 0,
+    "explanation": "Usually a set commits happily — but the discipline is recognizing the EXCEPTION: on a paired board, full houses are possible, and a huge jam can rep exactly that. A set is strong, but 'strong' is relative to the range committing. Most of the time you call; the skill is noticing the paired-board spots where even a set should slow down. The principle generalizes: always ask what beats you in THIS specific spot."
+  },
+  {
+    "id": "cm_gen_05",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "Reviewing your biggest losses: AJ vs AK, KK vs a set, AQ vs QQ, AK vs AA, KQ vs AA.",
+    "question": "What do all these expensive losses have in common?",
+    "options": [
+      "A strong-LOOKING hand committed a big pot against a range that beat it — one repeatable leak",
+      "Pure bad luck / variance",
+      "Bad cards",
+      "Playing too tight"
+    ],
+    "correct": 0,
+    "explanation": "Every one is the SAME leak: getting a strong-but-second-best hand all-in against a value range that dominates it. It's not variance (you weren't ahead) and not bad cards — it's one fixable discipline error, concentrated in the biggest pots where it costs the most. Fix the commitment decision and the bulk of your big losses disappear. This is the single most valuable fix in your game right now."
+  }
+]
