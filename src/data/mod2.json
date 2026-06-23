@@ -148,7 +148,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BTN calls. Flop Q♥Q♦7♣, BTN checks... wait, CO is first to act. CO holds A♥Q♠.",
+    "scenario": "CO opens, BTN calls. Flop Q♥Q♦7♣. CO holds A♥Q♠. BTN checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value (trips, top kicker)",
@@ -180,23 +180,23 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BB defends vs BTN's open (BB calls). Flop 7♥6♥2♣, BB checks, BTN bets, BB check-raises. BB holds 8♥5♥.",
+    "scenario": "BTN opens, BB calls. Flop 7♥6♥2♣, BTN bets, BB check-raises. BB holds 8♥5♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Strong value (made straight + flush draw)",
+      "Strong — play it like value (15-out combo draw)",
       "Medium",
-      "Draw — semi-bluff only",
+      "Draw — but just call, don't raise",
       "Weak"
     ],
     "correct": 0,
-    "explanation": "8♥5♥ on 7-6-2 with two hearts is a made straight (8-7-6-5-... needs the 4 or 9 — wait: 8-7-6-5 is four to a straight). Re-read: 8-5 on 7-6-2 = open-ended (a 4 or 9 completes) PLUS a flush draw = a monster combo DRAW, not a made hand. Treat as STRONG: huge equity (straight outs + flush outs + you can barrel/raise). This is the top end of 'draw' that plays like value — the combo draw upgrades it. Get aggressive."
+    "explanation": "8♥5♥ on 7♥6♥2♣ is a massive combo DRAW that plays like STRONG value: an open-ended straight draw (8-7-6-5 needs a 9 or 4) PLUS the heart flush draw — roughly 15 outs, often a favorite against one pair. You're OOP as the caller and you've check-raised: correct, because with this much equity you want to build the pot and deny equity now. The combo draw upgrades you to the value end of the spectrum — get aggressive."
   },
   {
     "id": "hsc_13",
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "CO opens, BB calls. Flop K♣8♦3♠, BB checks. CO holds 8♠8♥ (a flopped set)... no — CO holds A♦8♣ (middle pair, ace kicker).",
+    "scenario": "CO opens, BB calls. Flop K♣8♦3♠. CO holds A♦8♣. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -228,7 +228,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "MP opens, BB calls. Flop J♣9♦4♠, BB checks. MP holds T♠T♥ (an overpair... no, J is higher) — MP holds T♠T♥, an UNDERPAIR to the jack.",
+    "scenario": "MP opens, BB calls. Flop J♣9♦4♠. MP holds T♠T♥. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -292,7 +292,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BB calls. Flop 8♦7♦2♣, BB checks, CO bets, BB calls. Turn K♠, BB checks. CO holds A♦6♦ (nut flush draw + a gutshot... 6-7-8 needs a 5 or... ). CO holds A♦6♦: nut flush draw.",
+    "scenario": "CO opens, BB calls. Flop 8♦7♦2♣, CO bets, BB calls. Turn K♠. CO holds A♦6♦. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -301,7 +301,7 @@
       "Weak"
     ],
     "correct": 2,
-    "explanation": "A♦6♦ on a two-diamond board is a DRAW — the nut flush draw (~9 outs, ~19% turn, ~35% by river from the flop). You're IP as the aggressor. Semi-bluff: you can barrel the turn with fold equity plus the best possible flush draw. The K turn doesn't hit your range hard but you still have the nut draw — keep applying pressure or take a free card if priced poorly."
+    "explanation": "A♦6♦ on a two-diamond board (8♦7♦2♣) is a DRAW — the nut flush draw (~9 outs, ~35% by the river from the flop). You're IP as the aggressor (CO vs BB). Semi-bluff: barrel the turn with fold equity plus the best possible flush draw. The K turn doesn't improve you, but the nut draw is enough equity to keep applying pressure or take a free card if the price is wrong."
   },
   {
     "id": "hsc_20",
@@ -324,7 +324,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop 6♠5♠2♦, BB checks. BTN holds 4♠3♠ — a made... 6-5-4-3 needs a 7 or A2; 4-3 on 6-5-2 = open-ended (7 or A... a 7 makes 7-6-5-4-3, an A makes... no). BTN holds 4♠3♠: open-ended straight draw + flush draw.",
+    "scenario": "BTN opens, BB calls. Flop 9♠8♠2♦. BTN holds T♠7♠. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -333,7 +333,7 @@
       "Weak"
     ],
     "correct": 2,
-    "explanation": "4♠3♠ on 6♠5♠2♦ is a big combo DRAW: an open-ended straight draw (any 7 or any A... a 7 completes 7-6-5-4-3; the wheel needs an A AND... it's at least an OESD via the 7) PLUS the spade flush draw. You're IP as the aggressor. Strong semi-bluff — huge equity (straight + flush outs) and fold equity. Bet and barrel; this draw plays like value."
+    "explanation": "T♠7♠ on 9♠8♠2♦ is a big combo DRAW: an open-ended straight draw (any J or 6 completes T-9-8-7 into a straight) PLUS the spade flush draw. That's ~15 outs of combined equity. You're IP as the aggressor (BTN vs BB). Strong semi-bluff — huge equity if called plus fold equity now. Bet and barrel good turns; this draw plays like value, not a check-back."
   },
   {
     "id": "hsc_22",
