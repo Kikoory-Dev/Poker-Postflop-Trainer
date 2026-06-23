@@ -32,7 +32,7 @@
     ],
     "correct": 2,
     "draws": "Flush draws — any single spade has a draw, made flushes possible.",
-    "explanation": "Monotone board — all three cards the same suit. Anyone with a single spade has a flush draw, and flopped flushes are possible. Extremely wet despite being unconnected.",
+    "explanation": "WET. Q♠7♠2♠ is MONOTONE — a flush is already possible (anyone with two spades has it), and there are many one-card spade draws. There's no straight connectivity, but a maxed-out flush dimension makes the board wet on its own (this is the exception to the 'one category = semi-wet' rule). GOING FORWARD: proceed cautiously without a spade — single-suited boards crush ranges that hold the suit. With a strong non-flush hand, bet to charge one-card draws but don't stack off light; with the flush or a big spade, you can play fast.",
     "difficulty": "medium"
   },
   {
@@ -104,7 +104,7 @@
     ],
     "correct": 0,
     "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
-    "explanation": "Rainbow, mostly unconnected. QJ has a gutshot to Broadway but that's the only draw. High-card heavy — connects hard with raising ranges. Effectively dry.",
+    "explanation": "DRY. A♥K♦4♣ is rainbow with two disconnected big cards and a low card. The only straight draw is a lone QJ gutshot — not enough connectivity to count. No flush draw, essentially no straights = dry. GOING FORWARD: this favors the preflop raiser heavily (AK, AQ, AA, KK all smash it). You can c-bet small and often as the aggressor; a check-raise here is rarely a draw, so it's usually real value — respect it.",
     "difficulty": "easy"
   },
   {
@@ -210,9 +210,9 @@
       "Wet",
       "Cannot classify"
     ],
-    "correct": 1,
+    "correct": 2,
     "draws": "Diamond flush draw, JQ/J8/87 straight draws around the T9.",
-    "explanation": "Two-tone with two connected middle cards. QJ, J8, 87 have straight draws, diamonds have flush draws. The deuce is a blank. Semi-wet leaning wet.",
+    "explanation": "WET. T♦9♣2♦ has BOTH draw categories live: a diamond flush draw AND real straight draws (T-9 is connected — QJ, J8, 87, 86 all draw). Both axes active = wet. GOING FORWARD: bet bigger with your value hands to charge the draws, and be willing to commit strong made hands now (equity shifts a lot by the river). Don't slow-play sets here — too many turns change who's ahead.",
     "difficulty": "medium"
   },
   {
@@ -246,9 +246,9 @@
       "Wet",
       "Cannot classify"
     ],
-    "correct": 1,
+    "correct": 2,
     "draws": "Heart flush draw; 65/52/A2/A5 wheel-ish gutshots and open-enders.",
-    "explanation": "Two-tone low board. 65 has an open-ender, 52/62 gutshots, hearts draw to flush. Low boards favor the preflop caller's range (suited connectors, small pairs).",
+    "explanation": "WET (on the softer side). 8♥4♦3♥ has a heart flush draw AND low straight draws (the 4-3 brings 65, 56, A2, 67 type draws). Both categories live = wet, though less coordinated than a broadway board. GOING FORWARD: still size up with value to charge the flush + straight draws, but you can barrel a bit more selectively than on a high wet board since fewer premium hands connect with 8-4-3.",
     "difficulty": "medium"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "correct": 2,
     "draws": "Made straights (AK, 98, K9), every broadway has a draw, no flush draws (rainbow).",
-    "explanation": "Three connected broadways, rainbow. AK and 98 flopped straights; K9 too. Every AQ/KQ/KJ/AJ/T9 has pairs+draws. Rainbow saves it from being maximum wet, but it's still very wet.",
+    "explanation": "WET. Q♥J♦T♣ is rainbow (no flush draw) but the straight dimension is MAXED — it's the most connected board in poker: AK and K9 have open-enders, and any K or 9 makes a straight, plus AK is already a made straight. A fully connected run plays wet even without a flush draw (the mirror of monotone). GOING FORWARD: equities run close, so bet big with value and made straights, and be cautious with one-pair hands — this board hits a caller's range (KQ, JT, T9, QJ) hard. Don't overcommit an overpair here.",
     "difficulty": "medium"
   },
   {
@@ -822,5 +822,245 @@
     "explanation": "Paired aces overwhelmingly favor the raiser. UTG has many more aces (AK, AQ, AJ, AT) giving trips, plus the BB almost never has an ace. This is the driest board type — bluff relentlessly since villain connects almost never, and value bet trips thin.",
     "stat_raiser": "4% nutted · 21% strong+",
     "stat_caller": "2% nutted · 3% strong+"
+  },
+  {
+    "id": "bt_flop_16",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: J♣ 6♣ 2♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "SEMI-WET. One category live: a club flush draw, but no straight connectivity (J-6-2 disconnected). GOING FORWARD: one draw type means moderate danger. As the aggressor you can c-bet and barrel selectively; without the flush draw completing, scare cards are limited to clubs — you only need to slow down when the flush comes."
+  },
+  {
+    "id": "bt_flop_17",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 8♦ 7♦ 6♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "WET. Both categories maxed: a diamond flush draw AND a hugely connected run (8-7-6 — any 5, 9, T makes straights, tons of OESDs). GOING FORWARD: this smashes a caller's range. Bet big with value/made straights, charge the draws, and don't stack off one pair or an overpair — too many hands beat you and too many turns shift equity."
+  },
+  {
+    "id": "bt_flop_18",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: A♠ A♦ K♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Paired top card, one other big card, rainbow, no straight draws (only a KQ-ish gutter), no flush draw. GOING FORWARD: heavily favors the preflop raiser (AK, AQ, KK). C-bet small and often; folds come easily from air. A check-raise on a paired dry board is almost always trips+ — believe it."
+  },
+  {
+    "id": "bt_flop_19",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: T♥ T♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Paired board, low side card, rainbow, no draws. GOING FORWARD: ranges barely connect, so this is a great small-c-bet bluffing spot as the aggressor — most hands missed. When you face big aggression here, it's usually a ten or an overpair; one pair is a bluff-catcher at best."
+  },
+  {
+    "id": "bt_flop_20",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: Q♠ J♠ 4♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "SEMI-WET. One category: a spade flush draw plus the Q-J adds only a few high straight draws (KT, T9-type) — modest, so this sits at semi-wet, not full wet. GOING FORWARD: charge the flush draw with value, but you have more room to barrel than on a fully wet board since the 4 is a blank and straights are limited."
+  },
+  {
+    "id": "bt_flop_21",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 9♥ 5♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Rainbow, disconnected (9-5-2), no flush draw, no real straight draws. GOING FORWARD: classic dry board — c-bet small as the aggressor with range advantage. Few draws means few legitimate check-raises; treat aggression as value."
+  },
+  {
+    "id": "bt_flop_22",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: K♠ Q♠ J♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "WET. Monotone AND fully connected — both axes maxed at once. Made flushes exist, made straights (AT) exist, and Broadway draws are everywhere. GOING FORWARD: extreme caution without a strong spade or made hand. This is the kind of board where even top set wants to be careful; bet big with the nuts, fold marginal hands to heavy action."
+  },
+  {
+    "id": "bt_flop_23",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 7♠ 7♥ K♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Paired board, rainbow, one high card, no draws. GOING FORWARD: favors the raiser (Kx, overpairs). Good small-c-bet spot; a raise here reps trips or an overpair. One pair (a king) is fine for one street but fold to escalating aggression on a paired board — boats are possible."
+  },
+  {
+    "id": "bt_flop_24",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 6♦ 5♦ 4♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "WET. Flush draw (diamonds) + maxed straight connectivity (6-5-4: any 3, 7, 8 completes, plus 78/87/A2 draws). GOING FORWARD: this hammers a caller's range. Charge draws with big bets, commit strong made hands, and never slow-play a set here — the board changes on a huge fraction of turns."
+  },
+  {
+    "id": "bt_flop_25",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: A♣ 7♦ 2♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Rainbow, ace-high, disconnected, no draws. GOING FORWARD: textbook aggressor board — you have the range edge (more aces). C-bet small and frequently; fold equity is high. Donk-bets and check-raises here are rarely draws, so they're usually weak or value, not semi-bluffs."
+  },
+  {
+    "id": "bt_flop_26",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: J♦ T♦ 9♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "WET. Flush draw (diamonds) + a very connected run (J-T-9: KQ, Q8, 87 all draw, any Q/8 makes straights). GOING FORWARD: big danger board that favors the caller (KQ, QT, JT, T9). Size up with value, be cautious with overpairs and one-pair hands, and don't bloat the pot with a marginal made hand out of position."
+  },
+  {
+    "id": "bt_flop_27",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: K♥ 5♠ 5♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY. Paired board, rainbow, one high card, no straight or flush draws. GOING FORWARD: favors the raiser; great spot to c-bet small with your whole range. A check-raise reps a five or an overpair — on a paired board, escalating aggression threatens a full house, so don't stack off one pair."
+  },
+  {
+    "id": "bt_flop_28",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: Q♣ 9♣ 5♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "SEMI-WET. One category: a club flush draw, with only minor straight presence (Q-9 leaves a JT gutshot-ish draw). GOING FORWARD: moderate board — charge the flush draw with value but you can still barrel turns that aren't clubs fairly freely, since straights are sparse."
+  },
+  {
+    "id": "bt_flop_29",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 8♠ 8♦ 8♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "DRY (trips board). Three of a kind on board, rainbow, no flush draw, no straight draws. GOING FORWARD: ranges barely differ, so it plays dry — c-bet small with your whole range or check to induce. Big aggression reps an overpair, a big kicker, or the case eight; one pair is mostly a bluff-catcher."
+  },
+  {
+    "id": "bt_flop_30",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: T♣ 8♣ 3♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "SEMI-WET. One category live: a club flush draw plus a modest straight presence (T-8 gives 9-x and J9/97 draws). It's right on the dry side of the semi-wet/wet line — the gap between T and 8 keeps it from being fully connected. GOING FORWARD: charge the flush draw, barrel selectively, and reassess if a 9 or club lands (those complete the draws)."
   }
 ]
