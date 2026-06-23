@@ -126,5 +126,357 @@
     ],
     "correct": 1,
     "explanation": "A-Q on K-8-4 is ace-high, and vs a tight 4-bet range (QQ+/AK) it's WEAK — it beats nothing villain bets (KK, AA, AK, QQ all beat or dominate it). Facing the river bet with ace-high, you're a bluff-catcher that catches no bluffs (a tight 4-bettor isn't bluffing here), so it's a fold. (Postflop categorization only: your hand is weak vs this range and should give up — the earlier streets are taken as given.)"
+  },
+  {
+    "id": "hsc_09",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "BTN opens, BB calls. Flop A♦K♠5♥, BB checks. BTN holds A♣K♦.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "Top two pair (aces and kings) on A-K-5 is STRONG VALUE. You're IP as the aggressor (BTN vs BB). Bet for value across streets — you beat all Ax, Kx, and sets-that-aren't-there; only 55 and the rare two-pair combos beat you. Build the pot."
+  },
+  {
+    "id": "hsc_10",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "CO opens, BTN calls. Flop Q♥Q♦7♣, BTN checks... wait, CO is first to act. CO holds A♥Q♠.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value (trips, top kicker)",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "Trip queens with an ace kicker on Q-Q-7 is STRONG VALUE. You're OOP as the aggressor (CO vs BTN). Bet for value — almost nothing beats you (only QQ itself or 77 full). Build the pot; trips on a paired board is a near-monster, just be alert if the board pairs higher later."
+  },
+  {
+    "id": "hsc_11",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "UTG opens, CO calls. Flop 9♠9♦4♣. UTG holds A♠9♥.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value (trips)",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "Trip nines with an ace kicker is STRONG VALUE. You're OOP as the aggressor (UTG vs CO). Bet for value — you crush the Tx/Jx/pair hands that call. On a paired board your trips want to build the pot; only 44 (full house) or 9x with a better kicker beats you, both rare."
+  },
+  {
+    "id": "hsc_12",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BB defends vs BTN's open (BB calls). Flop 7♥6♥2♣, BB checks, BTN bets, BB check-raises. BB holds 8♥5♥.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value (made straight + flush draw)",
+      "Medium",
+      "Draw — semi-bluff only",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "8♥5♥ on 7-6-2 with two hearts is a made straight (8-7-6-5-... needs the 4 or 9 — wait: 8-7-6-5 is four to a straight). Re-read: 8-5 on 7-6-2 = open-ended (a 4 or 9 completes) PLUS a flush draw = a monster combo DRAW, not a made hand. Treat as STRONG: huge equity (straight outs + flush outs + you can barrel/raise). This is the top end of 'draw' that plays like value — the combo draw upgrades it. Get aggressive."
+  },
+  {
+    "id": "hsc_13",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "CO opens, BB calls. Flop K♣8♦3♠, BB checks. CO holds 8♠8♥ (a flopped set)... no — CO holds A♦8♣ (middle pair, ace kicker).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium strength",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "Middle pair (the 8) with an ace kicker on K-8-3 is MEDIUM STRENGTH — showdown value, but any Kx beats you and the board has an overcard to your pair. You're IP as the aggressor (CO vs BB). Pot control: one bet at most, then lean toward checking. Don't build a big pot with middle pair."
+  },
+  {
+    "id": "hsc_14",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BTN opens, BB calls. Flop A♠T♦6♣, BB checks, BTN bets, BB calls. Turn 3♥, BB checks. BTN holds A♣7♦ (top pair, weak kicker).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium strength",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "Top pair with a weak kicker (A7 on A-T-6) is MEDIUM. You're IP as the aggressor (BTN vs BB). You beat worse aces and pairs but lose to AT/AJ+/two pair/sets. Pot control — you've bet once; now check back the turn rather than bloating the pot. Get to a cheap showdown."
+  },
+  {
+    "id": "hsc_15",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "MP opens, BB calls. Flop J♣9♦4♠, BB checks. MP holds T♠T♥ (an overpair... no, J is higher) — MP holds T♠T♥, an UNDERPAIR to the jack.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium strength",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "TT on J-9-4 is an UNDERPAIR to the jack = MEDIUM strength (a one-pair hand beaten by any Jx). You're IP as the aggressor (MP vs BB). Pot control — you can bet once for protection/thin value, but don't stack off: an underpair to the top card is not a commit hand. Check-back-ish, fold to heavy aggression."
+  },
+  {
+    "id": "hsc_16",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "CO opens, BTN 3-bets, CO calls. Flop K♦7♠2♣. CO holds Q♣Q♥ (an underpair to the king).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium strength",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "QQ on a K-high board is an UNDERPAIR = MEDIUM. You're OOP as the caller vs a 3-bettor (CO called BTN's 3-bet). A 3-bettor's range has plenty of Kx (AK, KK) plus AA. Your QQ beats their bluffs/AQ but loses to the king-heavy value. Pot control / bluff-catch one street; do NOT stack off an underpair on a K-high board vs a 3-bet range."
+  },
+  {
+    "id": "hsc_17",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BTN opens, BB calls. Flop 5♣5♦K♠, BB checks, BTN bets, BB calls. Turn 9♥, BB checks. BTN holds 7♦7♠ (a pair below the king, board paired fives).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium strength",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "77 on K-5-5 is a small pair below the king = MEDIUM (one pair, beaten by any Kx and the trip-fives hands). You're IP as the aggressor. Pot control — check back the turn; your sevens have showdown value vs missed overcards but can't stand much pressure. Don't barrel a small pair on a king-high paired board."
+  },
+  {
+    "id": "hsc_18",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "BTN opens, BB calls. Flop A♠K♦7♠, BB checks. BTN holds Q♠J♠ (flush draw + gutshot).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw — semi-bluff",
+      "Weak"
+    ],
+    "correct": 2,
+    "explanation": "Q♠J♠ on A♠K♦7♠ is a DRAW: the nut flush draw (spades) plus a gutshot (a T makes Broadway). You're IP as the aggressor (BTN vs BB). Semi-bluff — you have big equity (flush + straight outs) plus fold equity, and the nut-flush-draw means you're never drawing to a second-best flush. Bet, and barrel good turns."
+  },
+  {
+    "id": "hsc_19",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "CO opens, BB calls. Flop 8♦7♦2♣, BB checks, CO bets, BB calls. Turn K♠, BB checks. CO holds A♦6♦ (nut flush draw + a gutshot... 6-7-8 needs a 5 or... ). CO holds A♦6♦: nut flush draw.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw — semi-bluff with the nut flush draw",
+      "Weak"
+    ],
+    "correct": 2,
+    "explanation": "A♦6♦ on a two-diamond board is a DRAW — the nut flush draw (~9 outs, ~19% turn, ~35% by river from the flop). You're IP as the aggressor. Semi-bluff: you can barrel the turn with fold equity plus the best possible flush draw. The K turn doesn't hit your range hard but you still have the nut draw — keep applying pressure or take a free card if priced poorly."
+  },
+  {
+    "id": "hsc_20",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BB defends vs CO open (BB calls). Flop T♥9♥3♣, BB checks, CO bets, BB calls. Turn 2♦, BB checks, CO bets, BB calls. River 6♣. BB holds Q♥J♥ — missed flush + missed straight, now just Q-high.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw (still)",
+      "Weak — give up"
+    ],
+    "correct": 3,
+    "explanation": "By the river the draws all missed: Q♥J♥ on T-9-3-2-6 is now just Q-high = WEAK. You're OOP as the caller and you've called two streets with a draw that bricked. A missed draw with no showdown value is a check-fold (or a bluff only if you have a strong read and fold equity). Don't pay off the river with queen-high. The category changes when the draw misses."
+  },
+  {
+    "id": "hsc_21",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BTN opens, BB calls. Flop 6♠5♠2♦, BB checks. BTN holds 4♠3♠ — a made... 6-5-4-3 needs a 7 or A2; 4-3 on 6-5-2 = open-ended (7 or A... a 7 makes 7-6-5-4-3, an A makes... no). BTN holds 4♠3♠: open-ended straight draw + flush draw.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw — strong combo draw, semi-bluff",
+      "Weak"
+    ],
+    "correct": 2,
+    "explanation": "4♠3♠ on 6♠5♠2♦ is a big combo DRAW: an open-ended straight draw (any 7 or any A... a 7 completes 7-6-5-4-3; the wheel needs an A AND... it's at least an OESD via the 7) PLUS the spade flush draw. You're IP as the aggressor. Strong semi-bluff — huge equity (straight + flush outs) and fold equity. Bet and barrel; this draw plays like value."
+  },
+  {
+    "id": "hsc_22",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "MP opens, BB calls. Flop K♠Q♦7♣, BB checks. MP holds 6♥5♥ — no pair, no draw.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 3,
+    "explanation": "6♥5♥ on K-Q-7 is a complete whiff — no pair, no draw, no overcards of value = WEAK. You're IP as the aggressor. A single c-bet bluff is defensible vs a foldy opponent (you have initiative), but there's no hand to build a pot with. Default: one stab at most, then give up. Don't barrel air."
+  },
+  {
+    "id": "hsc_23",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "CO opens, BTN calls. Flop A♥A♦9♠, CO bets, BTN calls. Turn 4♣, CO checks, BTN checks. River 2♦, CO checks, BTN bets. CO holds K♣Q♣ — king-high, no pair.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak — fold to the river bet"
+    ],
+    "correct": 3,
+    "explanation": "K♣Q♣ on A-A-9-4-2 is king-high, no pair = WEAK. You're OOP as the aggressor but you gave up (checked turn and river). When BTN bets the river after you showed weakness, king-high beats only a bluff — and you have no reason to think this is one. Fold. King-high is not a bluff-catcher worth a river call here."
+  },
+  {
+    "id": "hsc_24",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BTN opens, BB calls. Flop J♦8♣3♠, BB checks, BTN bets, BB check-raises. BTN holds A♣5♣ — ace-high, no pair, no draw.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak — fold to the check-raise"
+    ],
+    "correct": 3,
+    "explanation": "A♣5♣ on J-8-3 is ace-high with no pair and no draw = WEAK. You're IP as the aggressor, but a check-raise on a dryish board reps real strength (Jx+, sets, two pair). Ace-high has no equity to continue and no showdown value worth defending. Fold to the check-raise. Don't 'float' with nothing."
+  },
+  {
+    "id": "hsc_25",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "easy",
+    "scenario": "UTG opens, BB calls. Flop Q♠J♠4♥, BB checks. UTG holds 7♦7♣ — an underpair, no spade, no straight draw.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 3,
+    "explanation": "77 on Q-J-4 is an underpair beneath TWO overcards (Q and J), no draw = effectively WEAK here (closer to weak than medium — it beats only a pure bluff or a lower pair, and it's behind every Qx/Jx plus draws). You're OOP as the aggressor. One small c-bet is fine for protection/fold equity, but treat it as give-up-able: fold to a raise or a second barrel. Low pair on a high two-overcard board is not a hand to commit."
+  },
+  {
+    "id": "hsc_26",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "hard",
+    "scenario": "BTN opens, BB (a calling station) calls. Flop K♦9♣4♠, BTN bets, BB calls. Turn 9♦, BB checks. BTN holds K♣Q♠ (top pair, good kicker) vs a station.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value — bet all three streets for thin value vs a station",
+      "Medium — pot control",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "Top pair good kicker vs a CALLING STATION is effectively STRONG VALUE for value-betting purposes — against a player who never folds and calls with worse Kx/9x/pairs, you should bet all three streets for value, NOT pot-control. The player type upgrades your line: vs a thinking TAG you'd pot-control TPGK, but vs a station you milk it. Same hand, different plan based on the opponent."
+  },
+  {
+    "id": "hsc_27",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "hard",
+    "scenario": "CO opens, BB calls. Flop 7♣6♣5♦, BB checks, CO bets, BB calls. Turn K♠, BB checks, CO bets, BB calls. River K♥, BB leads big. CO holds 9♣8♣ — a made straight (9-8-7-6-5) plus the board paired kings.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value — but a paired board means re-evaluate vs a big lead",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "9♣8♣ on 7-6-5-K-K made a straight on the flop — STRONG. But hand strength is DYNAMIC: the board paired kings on the river AND a passive player suddenly leads big into you. A straight loses to a full house (any Kx, 77/66/55) now possible. You're IP as the aggressor, but a big river lead from a passive player on a paired board is a yellow flag. Still usually a call (your straight beats most of their range), but recognize you're no longer the stone nuts — this is the 'strong, but re-evaluate on the paired runout' lesson."
+  },
+  {
+    "id": "hsc_28",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "BTN opens, BB calls. Flop T♠T♦6♣, BB checks, BTN bets, BB calls. Turn 2♠, BB checks, BTN bets, BB calls. River 6♠ (board double-paired: T-T-6-2-6). BTN holds A♠Q♠ — ace-high, missed everything.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value",
+      "Medium",
+      "Draw",
+      "Weak — give up, no showdown value"
+    ],
+    "correct": 3,
+    "explanation": "A♠Q♠ on T-T-6-2-6 is ace-high — WEAK, no pair, no draw got there (the spade flush didn't complete). You're IP as the aggressor and you've fired two streets; a third barrel into a double-paired board only folds out hands that already beat ace-high rarely and gets called by any pair. Give up and check behind / fold. No showdown value worth betting; don't triple-barrel air."
+  },
+  {
+    "id": "hsc_29",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "medium",
+    "scenario": "CO opens, BB calls. Flop 4♥4♦K♣, BB checks, CO bets, BB calls. Turn 8♠, BB leads. CO holds A♦K♦ (top pair top kicker on a paired board).",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value — but note the paired board",
+      "Medium",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 0,
+    "explanation": "AK on K-4-4 is top pair top kicker = STRONG VALUE — you beat all Kx and pairs. You're IP as the aggressor. The paired board (44) means trips are possible (any 4), but those are few combos; a BB lead on the turn is more often a king, a worse pair, or a bluff than quad/trip fours. Keep value-betting, but stay aware that on a paired board your one-pair-plus-top-kicker isn't invulnerable to the rare 4x. Default: continue for value."
+  },
+  {
+    "id": "hsc_30",
+    "module": "2",
+    "category": "Categorize",
+    "difficulty": "hard",
+    "scenario": "BB defends vs BTN open (BB calls). Flop 9♥8♥7♠ (very wet), BB checks, BTN bets, BB raises. BTN holds A♥A♣ — an overpair on a coordinated board, facing a check-raise.",
+    "question": "Categorize your hand strength and name the default plan.",
+    "options": [
+      "Strong value — easy commit",
+      "Medium — pot control / proceed with caution",
+      "Draw",
+      "Weak"
+    ],
+    "correct": 1,
+    "explanation": "AA on 9-8-7 two-tone is an overpair — but on this VERY wet board, facing a check-raise, it's functionally MEDIUM-and-cautious, not an easy commit. The check-raising range (sets, two pair, made straights, big combo draws) crushes or flips your overpair. You're IP as the aggressor; one pair (even aces) is not a stack-off here. Pot control / call once and reassess; don't get it all-in on 9-8-7 vs a check-raise. The board texture demotes even aces."
   }
 ]
