@@ -4,8 +4,8 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "You open from CO, BB calls. Flop K♠7♥2♣. You hold A♣K♦ (top pair, ace kicker). BB checks to you.",
-    "question": "Which Hardin hand-strength category is this?",
+    "scenario": "CO opens, BB calls. Flop K♠7♥2♣. CO holds A♣K♦. BB checks. You are CO.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
       "Medium strength",
@@ -13,15 +13,15 @@
       "Weak"
     ],
     "correct": 0,
-    "explanation": "Top pair top kicker on a dry board is STRONG VALUE. Default: bet for value across multiple streets — value betting is where most micro-stakes profit comes from. You want worse Kx, pairs, and draws to pay you off. (You're the aggressor in position here, so you can bet all three streets comfortably.)"
+    "explanation": "Top pair top kicker (A♣K♦ on K-7-2) is STRONG VALUE. You're the preflop raiser and in position (CO vs BB) — bet for value across multiple streets; value betting is where most micro profit comes from. You want worse Kx, pairs, and draws to pay you off."
   },
   {
     "id": "hsc_02",
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "You open from MP, BTN calls. Flop J♦8♠5♥. You hold J♠9♣ (top pair, NINE kicker). Turn 2♣. A tight BTN has called once and you're first to act.",
-    "question": "Category for top pair with a weak kicker vs a tight caller?",
+    "scenario": "MP opens, BTN calls. Flop J♦8♠5♥, MP bets, BTN calls. Turn 2♣. MP holds J♠9♣. MP is first to act; BTN has been tight. You are MP.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
       "Medium strength",
@@ -29,102 +29,102 @@
       "Draw"
     ],
     "correct": 1,
-    "explanation": "Top pair with a WEAK kicker (the 9) is MEDIUM STRENGTH — it has showdown value but is dominated by better Jx. Default: pot control — check, or thin-value bet only vs weaker opponents. Against a tight caller whose range is firming up, don't bloat the pot with a one-pair, weak-kicker hand. (Note: if your kicker were an A or K, this would be top pair TOP kicker = Strong value, a different category. The kicker is what splits strong from medium here.)"
+    "explanation": "Top pair with a WEAK kicker (J9 on J-8-5) is MEDIUM STRENGTH — showdown value, but dominated by better Jx. You're OOP (MP vs BTN) as the aggressor, and the tight caller's range is firming up. Pot control: check, or thin-value bet only vs weaker players. Don't bloat the pot with a one-pair weak-kicker hand. (If the kicker were an A/K, this would be top pair TOP kicker = Strong — the kicker splits the tiers.)"
   },
   {
     "id": "hsc_03",
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "You open from BTN, BB calls. Flop T♠9♦4♣. You hold Q♠J♠ — an open-ended straight draw (any K or 8 makes it) + backdoor flush + two overcards. BB checks.",
-    "question": "Category and default plan with a strong draw in position?",
+    "scenario": "BTN opens, BB calls. Flop T♠9♦4♣. BTN holds Q♠J♠. BB checks. You are BTN.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Weak — check/fold",
-      "Medium — check down",
-      "Strong value — bet for value",
-      "Draw — semi-bluff with the equity behind it"
+      "Weak",
+      "Medium",
+      "Strong value",
+      "Draw"
     ],
     "correct": 3,
-    "explanation": "This is a DRAW — and a strong one (8 straight outs + two overcards + backdoor flush). Default: semi-bluff. You have real equity if called AND fold equity now, and you can barrel many turns. As the in-position aggressor, betting is better than checking: you can win it now or improve. This is the 'draw upgrades you' principle — bet, don't check."
+    "explanation": "This is a DRAW — and a strong one: an open-ended straight draw (any K or 8, 8 outs) + two overcards + a backdoor flush. You're in position (BTN vs BB) as the aggressor. Default: semi-bluff — you have equity if called AND fold equity now, and can barrel many turns. The draw upgrades you from 'nothing yet' to a betting hand; don't check it back."
   },
   {
     "id": "hsc_04",
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "You open from CO, a loose-passive 'calling station' in the BB calls. Flop K♣9♠4♦. You hold A♥5♥ — ace-high, no pair, no draw. The station checks to you.",
-    "question": "Category and best line against a calling station?",
+    "scenario": "CO opens, BB calls. BB is a loose-passive calling station. Flop K♣9♠4♦, CO bets, BB calls. Turn 7♦. CO holds A♥5♥. BB checks. You are CO.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Weak — check/give up, don't fire at a station",
-      "Strong value — bet",
-      "Medium — thin value",
-      "Draw — semi-bluff"
+      "Weak",
+      "Strong value",
+      "Medium",
+      "Draw"
     ],
     "correct": 0,
-    "explanation": "Ace-high with no pair and no draw is WEAK. A weak-hand bluff only works vs players who FOLD — and a calling station never folds. Firing here is lighting money on fire; you have no fold equity and no showdown value worth protecting. Check and give up unless you improve. THE PLAYER TYPE determines the line: vs a high-fold-to-c-bet reg you could bluff once, but never bluff a station."
+    "explanation": "Ace-high, no pair, no draw is WEAK. You're IP as the aggressor, but the opponent is a calling station who doesn't fold — so a bluff has no fold equity and you have no showdown value worth betting. Check and give up unless you improve. The PLAYER TYPE drives the line: vs a high-fold reg one stab is fine, but never fire at a station with air."
   },
   {
     "id": "hsc_05",
     "module": "2",
     "category": "Categorize · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND. Villain (a TAG) 3-bets preflop, you CALL with K♠T♠ (you're the caller). Flop 6♦Q♣J♠ — you have K-high with an OPEN-ENDED straight draw: any A makes Broadway (A-K-Q-J-T) and any 9 makes K-Q-J-T-9. Villain bets.",
-    "question": "Honestly categorize K-high + an 8-out open-ender vs a 3-bettor's range.",
+    "scenario": "A TAG 3-bets preflop, Hero calls with K♠T♠. Flop 6♦Q♣J♠. The 3-bettor bets. Hero is out of position. You are Hero.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
       "Medium — showdown value",
-      "Weak — only a few outs, fold",
-      "Draw — 8 outs (any A or 9) + an overcard; enough equity to continue"
+      "Weak — only a few outs",
+      "Draw — 8 outs (any A or 9) + an overcard, enough equity to continue"
     ],
     "correct": 3,
-    "explanation": "This is a DRAW, and a real one: any A (4) or any 9 (4) completes a straight = 8 outs, ~31% by the river, plus the K is an overcard with some additional outs. That's NOT a weak 4-out gutshot — it's an open-ended draw with enough equity to continue (call or, depending on price and fold equity, raise as a semi-bluff). As the CALLER out of position vs a 3-bettor you must respect their strong range, but 8 outs + overcard is a continue, not a fold. (Correcting an earlier version of this card that miscounted it as a 4-out gutshot — it's 8 outs.)"
+    "explanation": "This is a DRAW: any A (4) or any 9 (4) completes a straight = 8 outs (~31% by the river), plus the K overcard adds a few more. Not a weak gutshot — a real open-ended draw. You're OOP as the caller vs a 3-bettor's strong range, so respect it, but 8 outs + overcard is a continue (call, or semi-bluff-raise depending on price/fold equity), not a fold. (Postflop spot only — the preflop call is taken as given.)"
   },
   {
     "id": "hsc_06",
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "You open from BTN, BB calls (you're the aggressor in position). Flop K♦Q♠5♣, BB check-calls. Turn 3♠, BB check-calls again. River 2♥ — and now BB suddenly LEADS big into you. You hold K♣J♠ (top pair, J kicker).",
-    "question": "BB check-called twice then leads big on the river. Re-categorize your hand NOW.",
+    "scenario": "BTN opens, BB calls. Flop K♦Q♠5♣, BB checks, BTN bets, BB calls. Turn 3♠, BB checks, BTN bets, BB calls. River 2♥, BB leads big. BTN holds K♣J♠. You are BTN.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Still strong value — raise",
-      "Bluff-catcher at best — a passive player who leads after calling twice has KQ, sets, two pair; lean fold",
+      "Strong value — raise",
+      "Bluff-catcher at best — lean fold",
       "Draw",
       "Weak — bluff-raise"
     ],
     "correct": 1,
-    "explanation": "Hand strength is DYNAMIC — it changes street by street with the action. KJ (top pair, J kicker) was decent on the flop, but a passive player who calls twice then suddenly leads big has upgraded to a range that beats one pair: KQ (two pair), sets, slowplayed monsters. Your top-pair-decent-kicker demotes to a bluff-catcher, and passive players rarely turn a made hand into a bluff. Lean fold to the big lead. The ACTION redefines the category."
+    "explanation": "Hand strength is DYNAMIC — it shifts with the action. K♣J♠ (top pair, J kicker) was decent on the flop, but a passive player who check-called twice then suddenly leads big on a blank river has a range that beats one pair: KQ (two pair), sets, slowplayed monsters. Your top-pair-decent-kicker demotes to a bluff-catcher, and passive players rarely turn a hand into a bluff. Lean fold to the big lead. The action redefines the tier."
   },
   {
     "id": "hsc_07",
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "You open from MP, BTN calls (you're the aggressor in position). Flop 8♥4♣2♦ — you hold 8♠8♦, a flopped set of eights on a dry board. BTN checks.",
-    "question": "Category and default plan with a set on a dry board?",
+    "scenario": "MP opens, BTN calls. Flop 8♥4♣2♦. MP holds 8♠8♦. BTN checks. You are MP.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Strong value (monster) — build the pot toward stacks; occasionally slowplay one street on a very dry board",
+      "Strong value (monster) — build the pot; occasionally slowplay one street on a very dry board",
       "Medium — pot control",
       "Draw",
       "Weak"
     ],
     "correct": 0,
-    "explanation": "A set is a STRONG VALUE monster. Default: bet and build the pot toward getting stacks in. On a very dry board (8-4-2 rainbow, no draws) you can occasionally slowplay ONE street to let them catch up or bluff, since nothing realistically outdraws you cheaply — but the default is still to build the pot. Don't get fancy and check it down."
+    "explanation": "A set is a STRONG VALUE monster. You're IP as the aggressor on a dry board (8-4-2 rainbow, no draws). Default: bet and build toward stacks. You can occasionally slowplay ONE street here since nothing realistically outdraws you cheaply — but the default is to build the pot, not check it down."
   },
   {
     "id": "hsc_08",
     "module": "2",
     "category": "Categorize · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND. Villain 4-bets preflop and you CALL with A♣Q♣ (you're the caller, vs a tight QQ+/AK 4-bet range). Flop K-8-4 checks through. Turn (a blank), villain bets, you call. River pairs the board; you BET, and villain shows QQ.",
-    "question": "Categorize your A-Q on K-8-4 vs a 4-bettor's range — and name the leak.",
+    "scenario": "Villain 4-bets preflop, Hero calls with A♣Q♣. Flop K-8-4 checks through. Turn (blank), Villain bets, Hero calls. River pairs the board; Villain bets. Villain's range is QQ+/AK. Hero is the caller. You are Hero.",
+    "question": "Categorize your hand strength and name the default plan.",
     "options": [
-      "Medium — has showdown value",
-      "Weak vs this range — A-high beats nothing a 4-bettor continues with; betting the river only folds out worse and gets called by better",
+      "Medium — showdown value",
+      "Weak vs this range — A-high beats nothing the 4-bettor continues with",
       "Strong",
       "Draw"
     ],
     "correct": 1,
-    "explanation": "A-Q on K-8-4 is just ace-high — and vs a tight 4-bet range (QQ+/AK) it's WEAK: it beats nothing villain continues with (they have KK, AA, AK, QQ — all of which beat or dominate you). Two leaks here: (1) the river BET turns ace-high into a bluff that only worse hands fold to and only better hands call — a pure spew; and (2) the deeper leak is PREFLOP — flat-calling a 4-bet with AQ is itself questionable, since vs a QQ+/AK 4-bet range you're dominated. You were bound to lose at showdown with ace-high; the fix is folding AQ to the 4-bet, or at minimum giving up postflop instead of betting. Honest read: this hand was a preflop leak that compounded postflop."
+    "explanation": "A-Q on K-8-4 is ace-high, and vs a tight 4-bet range (QQ+/AK) it's WEAK — it beats nothing villain bets (KK, AA, AK, QQ all beat or dominate it). Facing the river bet with ace-high, you're a bluff-catcher that catches no bluffs (a tight 4-bettor isn't bluffing here), so it's a fold. (Postflop categorization only: your hand is weak vs this range and should give up — the earlier streets are taken as given.)"
   }
 ]
