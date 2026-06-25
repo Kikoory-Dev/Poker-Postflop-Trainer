@@ -45,7 +45,7 @@
       "Call — AJ is strong"
     ],
     "correct": 0,
-    "explanation": "From your own play (you called and lost 105bb; villain had AK — exactly what you told yourself he didn't have). AJo is one of the worst hands to stack off 100bb because it's DOMINATED by the jamming range: AK and AQ dominate it, AA crushes it, you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak."
+    "explanation": "From your own play (you called and lost 105bb; villain had AK — exactly what you told yourself he didn't have). AJo is one of the worst hands to stack off 100bb because it's DOMINATED by the jamming range: AK and AQ dominate it, AA has it well beaten, you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak."
   },
   {
     "id": "cm_real_02",
@@ -61,7 +61,7 @@
       "Re-raise"
     ],
     "correct": 0,
-    "explanation": "From your own play (you called and lost 117bb; villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that crush one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it."
+    "explanation": "From your own play (you called and lost 117bb; villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that are well ahead of one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it."
   },
   {
     "id": "cm_real_03",
