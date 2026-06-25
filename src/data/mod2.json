@@ -173,7 +173,7 @@
       "Weak"
     ],
     "correct": 0,
-    "explanation": "Trip nines with an ace kicker is STRONG VALUE. You're OOP as the aggressor (UTG vs CO). Bet for value — you crush the Tx/Jx/pair hands that call. On a paired board your trips want to build the pot; only 44 (full house) or 9x with a better kicker beats you, both rare."
+    "explanation": "Trip nines with an ace kicker is STRONG VALUE. You're OOP as the aggressor (UTG vs CO). Bet for value — you dominate the Tx/Jx/pair hands that call. On a paired board your trips want to build the pot; only 44 (full house) or 9x with a better kicker beats you, both rare."
   },
   {
     "id": "hsc_12",
@@ -477,6 +477,6 @@
       "Weak"
     ],
     "correct": 1,
-    "explanation": "AA on 9-8-7 two-tone is an overpair — but on this VERY wet board, facing a check-raise, it's functionally MEDIUM-and-cautious, not an easy commit. The check-raising range (sets, two pair, made straights, big combo draws) crushes or flips your overpair. You're IP as the aggressor; one pair (even aces) is not a stack-off here. Pot control / call once and reassess; don't get it all-in on 9-8-7 vs a check-raise. The board texture demotes even aces."
+    "explanation": "AA on 9-8-7 two-tone is an overpair — but on this VERY wet board, facing a check-raise, it's functionally MEDIUM-and-cautious, not an easy commit. The check-raising range (sets, two pair, made straights, big combo draws) is well ahead of or flipping against your overpair. You're IP as the aggressor; one pair (even aces) is not a stack-off here. Pot control / call once and reassess; don't get it all-in on 9-8-7 vs a check-raise. The board texture demotes even aces."
   }
 ]
