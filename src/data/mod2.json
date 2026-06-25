@@ -4,7 +4,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "CO opens, BB calls. Flop K♠7♥2♣. CO holds A♣K♦. BB checks. You are CO.",
+    "scenario": "CO opens, BB calls. Flop K♠7♥2♣. Hero (CO) holds A♣K♦. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -20,7 +20,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "MP opens, BTN calls. Flop J♦8♠5♥, MP bets, BTN calls. Turn 2♣. MP holds J♠9♣. MP is first to act; BTN has been tight. You are MP.",
+    "scenario": "MP opens, BTN calls. Flop J♦8♠5♥, MP bets, BTN calls. Turn 2♣. Hero (MP) holds J♠9♣. MP is first to act; BTN has been tight.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -36,7 +36,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop T♠9♦4♣. BTN holds Q♠J♠. BB checks. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop T♠9♦4♣. Hero (BTN) holds Q♠J♠. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Weak",
@@ -52,7 +52,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BB calls. BB is a loose-passive calling station. Flop K♣9♠4♦, CO bets, BB calls. Turn 7♦. CO holds A♥5♥. BB checks. You are CO.",
+    "scenario": "CO opens, BB calls. BB is a loose-passive calling station. Flop K♣9♠4♦, CO bets, BB calls. Turn 7♦. Hero (CO) holds A♥5♥. BB checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Weak",
@@ -68,7 +68,7 @@
     "module": "2",
     "category": "Categorize · Real",
     "difficulty": "hard",
-    "scenario": "A TAG 3-bets preflop, Hero calls with K♠T♠ (Hero is out of position). Flop 6♦Q♣J♠. The 3-bettor bets. You are Hero.",
+    "scenario": "A TAG 3-bets preflop, Hero calls with K♠T♠ (Hero is out of position). Flop 6♦Q♣J♠. The 3-bettor bets.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -84,7 +84,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop K♦Q♠5♣, BB checks, BTN bets, BB calls. Turn 3♠, BB checks, BTN bets, BB calls. River 2♥, BB leads big. BTN holds K♣J♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop K♦Q♠5♣, BB checks, BTN bets, BB calls. Turn 3♠, BB checks, BTN bets, BB calls. River 2♥, BB leads big. Hero (BTN) holds K♣J♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value — raise",
@@ -100,7 +100,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "MP opens, BTN calls. Flop 8♥4♣2♦. MP holds 8♠8♦. BTN checks. You are MP.",
+    "scenario": "MP opens, BTN calls. Flop 8♥4♣2♦. Hero (MP) holds 8♠8♦. BTN checks.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value (monster) — build the pot; occasionally slowplay one street on a very dry board",
@@ -116,7 +116,7 @@
     "module": "2",
     "category": "Categorize · Real",
     "difficulty": "hard",
-    "scenario": "Villain 4-bets preflop, Hero calls with A♣Q♣ (Hero is the caller; Villain's range is QQ+/AK). Flop K-8-4 checks through. Turn blank, Villain bets, Hero calls. River pairs the board, Villain bets. You are Hero.",
+    "scenario": "Villain 4-bets preflop, Hero calls with A♣Q♣ (Hero is the caller; Villain's range is QQ+/AK). Flop K-8-4 checks through. Turn blank, Villain bets, Hero calls. River pairs the board, Villain bets.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Medium — showdown value",
@@ -132,7 +132,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "BTN opens, BB calls. Flop A♦K♠5♥, BB checks. BTN holds A♣K♦. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop A♦K♠5♥, BB checks. Hero (BTN) holds A♣K♦.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -141,14 +141,14 @@
       "Weak"
     ],
     "correct": 0,
-    "explanation": "Top two pair (aces and kings) on A-K-5 is STRONG VALUE. You're IP as the aggressor (BTN vs BB). Bet for value across streets — you beat all Ax, Kx, and sets-that-aren't-there; only 55 and the rare two-pair combos beat you. Build the pot."
+    "explanation": "Top two pair (aces and kings) on A♦K♠5♥ is STRONG VALUE. Hero is IP as the aggressor (BTN vs BB). Only a set beats you here — 55, or the unlikely AA/KK after BB just flat-called; every Ax, Kx, and lower two pair is crushed. Note the heart flush draw on the board: bet BIG for value AND protection — you want to charge the flush draws and worse made hands a premium, and there's no reason to keep the pot small when almost nothing beats you. Size up and build toward stacks."
   },
   {
     "id": "hsc_10",
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BTN calls. Flop Q♥Q♦7♣, BTN checks. CO holds A♥Q♠. You are CO.",
+    "scenario": "CO opens, BTN calls. Flop Q♥Q♦7♣, BTN checks. Hero (CO) holds A♥Q♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value (trips, top kicker)",
@@ -164,7 +164,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "UTG opens, CO calls. Flop 9♠9♦4♣. UTG holds A♠9♥. You are UTG.",
+    "scenario": "UTG opens, CO calls. Flop 9♠9♦4♣. Hero (UTG) holds A♠9♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value (trips)",
@@ -180,7 +180,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop 7♥6♥2♣, BTN bets, BB check-raises. BB holds 8♥5♥. You are BB.",
+    "scenario": "BTN opens, BB calls. Flop 7♥6♥2♣, BTN bets, BB check-raises. Hero (BB) holds 8♥5♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong — play it like value (15-out combo draw)",
@@ -196,7 +196,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "CO opens, BB calls. Flop K♣8♦3♠, BB checks. CO holds A♦8♣. You are CO.",
+    "scenario": "CO opens, BB calls. Flop K♣8♦3♠, BB checks. Hero (CO) holds A♦8♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -212,7 +212,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop A♠T♦6♣, BB checks, BTN bets, BB calls. Turn 3♥, BB checks. BTN holds A♣7♦. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop A♠T♦6♣, BB checks, BTN bets, BB calls. Turn 3♥, BB checks. Hero (BTN) holds A♣7♦.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -228,7 +228,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "MP opens, BB calls. Flop J♣9♦4♠, BB checks. MP holds T♠T♥. You are MP.",
+    "scenario": "MP opens, BB calls. Flop J♣9♦4♠, BB checks. Hero (MP) holds T♠T♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -244,7 +244,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BTN 3-bets, CO calls. Flop K♦7♠2♣. CO holds Q♣Q♥. You are CO.",
+    "scenario": "CO opens, BTN 3-bets, CO calls. Flop K♦7♠2♣. Hero (CO) holds Q♣Q♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -260,7 +260,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop 5♣5♦K♠, BB checks, BTN bets, BB calls. Turn 9♥, BB checks. BTN holds 7♦7♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop 5♣5♦K♠, BB checks, BTN bets, BB calls. Turn 9♥, BB checks. Hero (BTN) holds 7♦7♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -276,7 +276,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "BTN opens, BB calls. Flop A♠K♦7♠, BB checks. BTN holds Q♠J♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop A♠K♦7♠, BB checks. Hero (BTN) holds Q♠J♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -292,7 +292,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BB calls. Flop 8♦7♦2♣, CO bets, BB calls. Turn K♠, BB checks. CO holds A♦6♦. You are CO.",
+    "scenario": "CO opens, BB calls. Flop 8♦7♦2♣, CO bets, BB calls. Turn K♠, BB checks. Hero (CO) holds A♦6♦.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -308,7 +308,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BB calls. Flop T♥9♥3♣, BB checks, CO bets, BB calls. Turn 2♦, BB checks, CO bets, BB calls. River 6♣, BB checks, CO bets. BB to act. BB holds Q♥J♥. You are BB.",
+    "scenario": "CO opens, BB calls. Flop T♥9♥3♣, BB checks, CO bets, BB calls. Turn 2♦, BB checks, CO bets, BB calls. River 6♣, BB checks, CO bets. BB to act. Hero (BB) holds Q♥J♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -324,7 +324,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop 9♠8♠2♦, BB checks. BTN holds T♠7♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop 9♠8♠2♦, BB checks. Hero (BTN) holds T♠7♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -340,7 +340,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "MP opens, BB calls. Flop K♠Q♦7♣, BB checks. MP holds 6♥5♥. You are MP.",
+    "scenario": "MP opens, BB calls. Flop K♠Q♦7♣, BB checks. Hero (MP) holds 6♥5♥.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -356,7 +356,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BTN calls. Flop A♥A♦9♠, CO bets, BTN calls. Turn 4♣, CO checks, BTN checks. River 2♦, CO checks, BTN bets. CO holds K♣Q♣. You are CO.",
+    "scenario": "CO opens, BTN calls. Flop A♥A♦9♠, CO bets, BTN calls. Turn 4♣, CO checks, BTN checks. River 2♦, CO checks, BTN bets. Hero (CO) holds K♣Q♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -372,7 +372,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop J♦8♣3♠, BB checks, BTN bets, BB check-raises. BTN holds A♣5♣. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop J♦8♣3♠, BB checks, BTN bets, BB check-raises. Hero (BTN) holds A♣5♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -388,7 +388,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "easy",
-    "scenario": "UTG opens, BB calls. Flop Q♠J♠4♥, BB checks. UTG holds 7♦7♣. You are UTG.",
+    "scenario": "UTG opens, BB calls. Flop Q♠J♠4♥, BB checks. Hero (UTG) holds 7♦7♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -404,7 +404,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "hard",
-    "scenario": "BTN opens, BB calls. BB is a calling station. Flop K♦9♣4♠, BTN bets, BB calls. Turn 9♦, BB checks. BTN holds K♣Q♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. BB is a calling station. Flop K♦9♣4♠, BTN bets, BB calls. Turn 9♦, BB checks. Hero (BTN) holds K♣Q♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value — bet all three streets for thin value vs a station",
@@ -420,7 +420,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "hard",
-    "scenario": "CO opens, BB calls. Flop 7♣6♣5♦, BB checks, CO bets, BB calls. Turn K♠, BB checks, CO bets, BB calls. River K♥, BB leads big. CO holds 9♣8♣. You are CO.",
+    "scenario": "CO opens, BB calls. Flop 7♣6♣5♦, BB checks, CO bets, BB calls. Turn K♠, BB checks, CO bets, BB calls. River K♥, BB leads big. Hero (CO) holds 9♣8♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value — but a paired board means re-evaluate vs a big lead",
@@ -436,7 +436,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "BTN opens, BB calls. Flop T♠T♦6♣, BB checks, BTN bets, BB calls. Turn 2♠, BB checks, BTN bets, BB calls. River 6♠, BB checks. BTN holds A♠Q♠. You are BTN.",
+    "scenario": "BTN opens, BB calls. Flop T♠T♦6♣, BB checks, BTN bets, BB calls. Turn 2♠, BB checks, BTN bets, BB calls. River 6♠, BB checks. Hero (BTN) holds A♠Q♠.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value",
@@ -452,7 +452,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "medium",
-    "scenario": "CO opens, BB calls. Flop 4♥4♦K♣, BB checks, CO bets, BB calls. Turn 8♠, BB leads. CO holds A♦K♦. You are CO.",
+    "scenario": "CO opens, BB calls. Flop 4♥4♦K♣, BB checks, CO bets, BB calls. Turn 8♠, BB leads. Hero (CO) holds A♦K♦.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value — but note the paired board",
@@ -468,7 +468,7 @@
     "module": "2",
     "category": "Categorize",
     "difficulty": "hard",
-    "scenario": "BB defends vs BTN open (BB calls). Flop 9♥8♥7♠, BB checks, BTN bets, BB raises. BTN holds A♥A♣. You are BTN.",
+    "scenario": "BB defends vs BTN open (BB calls). Flop 9♥8♥7♠, BB checks, BTN bets, BB raises. Hero (BTN) holds A♥A♣.",
     "question": "Categorize your hand strength and name the default plan.",
     "options": [
       "Strong value — easy commit",
