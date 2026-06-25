@@ -32,7 +32,7 @@
     ],
     "correct": 2,
     "draws": "Flush draws — any single spade has a draw, made flushes possible.",
-    "explanation": "WET. Q♠7♠2♠ is MONOTONE — a flush is already possible (anyone with two spades has it), and there are many one-card spade draws. There's no straight connectivity, but a maxed-out flush dimension makes the board wet on its own (this is the exception to the 'one category = semi-wet' rule). GOING FORWARD: proceed cautiously without a spade — single-suited boards crush ranges that hold the suit. With a strong non-flush hand, bet to charge one-card draws but don't stack off light; with the flush or a big spade, you can play fast.",
+    "explanation": "WET. Q♠7♠2♠ is MONOTONE — a flush is already possible (anyone with two spades has it), and there are many one-card spade draws. There's no straight connectivity, but a maxed-out flush dimension makes the board wet on its own (this is the exception to the 'one category = semi-wet' rule). GOING FORWARD: proceed cautiously without a spade — single-suited boards dominate ranges that hold the suit. With a strong non-flush hand, bet to charge one-card draws but don't stack off light; with the flush or a big spade, you can play fast.",
     "difficulty": "medium"
   },
   {
@@ -104,7 +104,7 @@
     ],
     "correct": 0,
     "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
-    "explanation": "DRY. A♥K♦4♣ is rainbow with two disconnected big cards and a low card. The only straight draw is a lone QJ gutshot — not enough connectivity to count. No flush draw, essentially no straights = dry. GOING FORWARD: this favors the preflop raiser heavily (AK, AQ, AA, KK all smash it). You can c-bet small and often as the aggressor; a check-raise here is rarely a draw, so it's usually real value — respect it.",
+    "explanation": "DRY. A♥K♦4♣ is rainbow with two disconnected big cards and a low card. The only straight draw is a lone QJ gutshot — not enough connectivity to count. No flush draw, essentially no straights = dry. GOING FORWARD: this favors the preflop raiser heavily (AK, AQ, AA, KK all connect hard with it). You can c-bet small and often as the aggressor; a check-raise here is rarely a draw, so it's usually real value — respect it.",
     "difficulty": "easy"
   },
   {
@@ -176,7 +176,7 @@
     ],
     "correct": 2,
     "draws": "Made straights (87, 32), open-enders everywhere (any 7, 3), club flush draw.",
-    "explanation": "Low connected two-tone board. 87 and 32 made straights, any 7 or 3 has huge equity, clubs add flush draws. Low wet boards smash calling ranges (suited connectors) harder than raising ranges.",
+    "explanation": "Low connected two-tone board. 87 and 32 made straights, any 7 or 3 has huge equity, clubs add flush draws. Low wet boards connect hard with calling ranges (suited connectors) harder than raising ranges.",
     "difficulty": "medium"
   },
   {
@@ -853,7 +853,7 @@
       "Cannot classify"
     ],
     "correct": 2,
-    "explanation": "WET. Both categories maxed: a diamond flush draw AND a hugely connected run (8-7-6 — any 5, 9, T makes straights, tons of OESDs). GOING FORWARD: this smashes a caller's range. Bet big with value/made straights, charge the draws, and don't stack off one pair or an overpair — too many hands beat you and too many turns shift equity."
+    "explanation": "WET. Both categories maxed: a diamond flush draw AND a hugely connected run (8-7-6 — any 5, 9, T makes straights, tons of OESDs). GOING FORWARD: this connects hard with a caller's range. Bet big with value/made straights, charge the draws, and don't stack off one pair or an overpair — too many hands beat you and too many turns shift equity."
   },
   {
     "id": "bt_flop_18",
@@ -965,7 +965,7 @@
       "Cannot classify"
     ],
     "correct": 2,
-    "explanation": "WET. Flush draw (diamonds) + maxed straight connectivity (6-5-4: any 3, 7, 8 completes, plus 78/87/A2 draws). GOING FORWARD: this hammers a caller's range. Charge draws with big bets, commit strong made hands, and never slow-play a set here — the board changes on a huge fraction of turns."
+    "explanation": "WET. Flush draw (diamonds) + maxed straight connectivity (6-5-4: any 3, 7, 8 completes, plus 78/87/A2 draws). GOING FORWARD: this connects hard with a caller's range. Charge draws with big bets, commit strong made hands, and never slow-play a set here — the board changes on a huge fraction of turns."
   },
   {
     "id": "bt_flop_25",
@@ -997,7 +997,7 @@
       "Cannot classify"
     ],
     "correct": 2,
-    "explanation": "WET. A diamond flush draw plus an extremely connected run: J-T-9 is so coordinated that several hands already MAKE a straight — KQ (K-Q-J-T-9), Q8 (Q-J-T-9-8), and 87 (J-T-9-8-7) are all made straights, and any Q or 8 completes one. On top of that there are flush draws and gutshots (e.g. AK needs a Q). GOING FORWARD: a big danger board that smashes a caller's range (KQ, QT, JT, T9). Size up with strong value, and be very cautious with overpairs and one-pair hands — they're often already behind a made straight here, especially out of position."
+    "explanation": "WET. A diamond flush draw plus an extremely connected run: J-T-9 is so coordinated that several hands already MAKE a straight — KQ (K-Q-J-T-9), Q8 (Q-J-T-9-8), and 87 (J-T-9-8-7) are all made straights, and any Q or 8 completes one. On top of that there are flush draws and gutshots (e.g. AK needs a Q). GOING FORWARD: a big danger board that connects hard with a caller's range (KQ, QT, JT, T9). Size up with strong value, and be very cautious with overpairs and one-pair hands — they're often already behind a made straight here, especially out of position."
   },
   {
     "id": "bt_flop_27",
