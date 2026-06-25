@@ -900,8 +900,8 @@
       "Wet",
       "Cannot classify"
     ],
-    "correct": 1,
-    "explanation": "SEMI-WET. One category: a spade flush draw plus the Q-J adds only a few high straight draws (KT, T9-type) — modest, so this sits at semi-wet, not full wet. GOING FORWARD: charge the flush draw with value, but you have more room to barrel than on a fully wet board since the 4 is a blank and straights are limited."
+    "correct": 2,
+    "explanation": "WET. Both draw categories are live: a spade flush draw AND genuine straight draws — Q-J is highly connected, so KT is a full open-ender (8 outs) and T9/AK/AT add more. Flush draw + real OESDs = wet. GOING FORWARD: this favors a caller's range (KQ, QJ, JT, KT, T9) and has lots of equity flying around. Size up with value to charge the draws, and be cautious stacking off one-pair hands — many turns change who's ahead."
   },
   {
     "id": "bt_flop_21",
@@ -917,7 +917,7 @@
       "Cannot classify"
     ],
     "correct": 0,
-    "explanation": "DRY. Rainbow, disconnected (9-5-2), no flush draw, no real straight draws. GOING FORWARD: classic dry board — c-bet small as the aggressor with range advantage. Few draws means few legitimate check-raises; treat aggression as value."
+    "explanation": "DRY. Rainbow (no flush draw) and widely spaced (9-5-2). There are a couple of minor straight draws (a 7-8 is an open-ender, and a few gutshots like 6-7 or 3-4), but they're sparse and low-frequency in most ranges — not enough to lift it out of the dry bucket. GOING FORWARD: still a classic dry board — c-bet small as the aggressor with range advantage. Few draws means few legitimate check-raises; treat big aggression as value-heavy."
   },
   {
     "id": "bt_flop_22",
@@ -997,7 +997,7 @@
       "Cannot classify"
     ],
     "correct": 2,
-    "explanation": "WET. Flush draw (diamonds) + a very connected run (J-T-9: KQ, Q8, 87 all draw, any Q/8 makes straights). GOING FORWARD: big danger board that favors the caller (KQ, QT, JT, T9). Size up with value, be cautious with overpairs and one-pair hands, and don't bloat the pot with a marginal made hand out of position."
+    "explanation": "WET. A diamond flush draw plus an extremely connected run: J-T-9 is so coordinated that several hands already MAKE a straight — KQ (K-Q-J-T-9), Q8 (Q-J-T-9-8), and 87 (J-T-9-8-7) are all made straights, and any Q or 8 completes one. On top of that there are flush draws and gutshots (e.g. AK needs a Q). GOING FORWARD: a big danger board that smashes a caller's range (KQ, QT, JT, T9). Size up with strong value, and be very cautious with overpairs and one-pair hands — they're often already behind a made straight here, especially out of position."
   },
   {
     "id": "bt_flop_27",
