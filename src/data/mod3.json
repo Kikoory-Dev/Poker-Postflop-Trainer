@@ -77,7 +77,7 @@
       "Bet big now"
     ],
     "correct": 1,
-    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace smashes the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right."
+    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace connects hard with the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right."
   },
   {
     "id": "cbd_06",
