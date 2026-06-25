@@ -629,7 +629,7 @@
       "Impossible to say"
     ],
     "correct": 1,
-    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board smashing the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
+    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board that connects well with the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
     "stat_raiser": "9% nutted · 41% strong+",
     "stat_caller": "17% nutted · 46% strong+"
   },
@@ -762,7 +762,7 @@
       "Impossible to say"
     ],
     "correct": 0,
-    "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that smashed it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
+    "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that connect well with it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
     "stat_raiser": "5% nutted · 31% strong+",
     "stat_caller": "2% nutted · 7% strong+"
   },
