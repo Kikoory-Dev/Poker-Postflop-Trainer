@@ -857,7 +857,7 @@
       "Call — you have two overcards to the board"
     ],
     "correct": 1,
-    "explanation": "This is your actual hand (lost ~97 BB). Villain's 3-bet range was QQ+/AK. The board J-Q-6 connects hard with that range: AK now has a pair+gutshot or top pair, QQ is an overpair, JJ/sets are crushing you. A TAG does NOT fire three barrels as a bluff at micro. You held K-high with no pair — you were drawing nearly dead by the turn. The discipline: when a tight player's range beats your hand and they keep betting big, fold. You don't need to 'catch' a bluff that isn't there."
+    "explanation": "This is your actual hand (lost ~97 BB). Villain's 3-bet range was QQ+/AK. The board J-Q-6 connects hard with that range: AK now has a pair+gutshot or top pair, QQ is an overpair, JJ/sets have you well beaten. A TAG does NOT fire three barrels as a bluff at micro. You held K-high with no pair — you were drawing nearly dead by the turn. The discipline: when a tight player's range beats your hand and they keep betting big, fold. You don't need to 'catch' a bluff that isn't there."
   },
   {
     "id": "pt_yr_02",
@@ -874,7 +874,7 @@
       "Nothing — A-high is a good bluff-catcher"
     ],
     "correct": 0,
-    "explanation": "Your real hand (lost ~105 BB). A 4-bet at micro is QQ+/AK — a range that has you crushed or dominated (AK has your AQ outkicked; QQ+ beats ace-high outright). You have ace-high on K-8-4: you beat nothing in their continuing range. Betting the river turns your hand into a bluff against a range that never folds the better hands and never called preflop with worse. Against a 4-bet, ace-high is a check-fold by the river, not a value bet. The leak: not respecting that the 4-bet range is uniformly strong."
+    "explanation": "Your real hand (lost ~105 BB). A 4-bet at micro is QQ+/AK — a range that has you dominated (AK has your AQ outkicked; QQ+ beats ace-high outright). You have ace-high on K-8-4: you beat nothing in their continuing range. Betting the river turns your hand into a bluff against a range that never folds the better hands and never called preflop with worse. Against a 4-bet, ace-high is a check-fold by the river, not a value bet. The leak: not respecting that the 4-bet range is uniformly strong."
   },
   {
     "id": "pt_yr_03",
@@ -939,7 +939,7 @@
       "Weak on both — fold AQ always"
     ],
     "correct": 2,
-    "explanation": "Top pair is not one thing — its value is relative to villain's range. On board X (K-Q-2 vs a 3-bettor), their range is QQ+/AK: KK/QQ/AA beat you, AK has top pair better kicker or AA/KK, and AQ ties at best. Your pair of queens is crushed. On board Y (Q-7-2 vs a passive caller), their range has lots of worse queens (KQ, QJ, QT), draws, and middle pairs your AQ dominates. Identical card strength, opposite decision — because the range and board are different."
+    "explanation": "Top pair is not one thing — its value is relative to villain's range. On board X (K-Q-2 vs a 3-bettor), their range is QQ+/AK: KK/QQ/AA beat you, AK has top pair better kicker or AA/KK, and AQ ties at best. Your pair of queens is well behind. On board Y (Q-7-2 vs a passive caller), their range has lots of worse queens (KQ, QJ, QT), draws, and middle pairs your AQ dominates. Identical card strength, opposite decision — because the range and board are different."
   },
   {
     "id": "pt_g_04",
