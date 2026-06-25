@@ -45,7 +45,7 @@
       "Float to steal later"
     ],
     "correct": 1,
-    "explanation": "Set-mining is the WHOLE plan with small pairs — if you miss the set, you're done. On K-Q-7, pair of fours is essentially the same as no pair: their c-betting range (Kx, Qx, overpairs, broadway) crushes you, and you have no draw. Check/fold. The implied-odds reason to call preflop evaporates the moment you don't flop the set. Don't get attached to a tiny pair."
+    "explanation": "Set-mining is the WHOLE plan with small pairs — if you miss the set, you're done. On K-Q-7, pair of fours is essentially the same as no pair: their c-betting range (Kx, Qx, overpairs, broadway) has you beaten, and you have no draw. Check/fold. The implied-odds reason to call preflop evaporates the moment you don't flop the set. Don't get attached to a tiny pair."
   },
   {
     "id": "cal_04",
