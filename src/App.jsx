@@ -135,14 +135,14 @@ const RANGE_QUESTIONS = [
   },
 ];
 
-const SESSION_SIZES = [5, 10, 15, 20, 30, 999];
+const SESSION_SIZES = [15, 30, 45, 60, 999];
 
 export default function App(){
   const [screen, setScreen] = useState("home");
   const [progress, setProgress] = useState(loadProgress);
   const [moduleF, setModuleF] = useState("all");
   const [sessionSize, setSessionSize] = useState(15);
-  const APP_VERSION = "1.1";
+  const APP_VERSION = "1.2";
   const [queue, setQueue] = useState([]);
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState(null);
