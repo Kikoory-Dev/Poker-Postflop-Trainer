@@ -61,7 +61,7 @@
       "Re-raise"
     ],
     "correct": 0,
-    "explanation": "Your real hand (villain had JJ — a set). KK is a strong overpair, but the ACTION redefines it: when villain re-raises all-in over your turn check-raise, their range is sets and two pair — hands that crush one pair. The check-raise itself was aggressive; calling the re-raise jam is where the stack goes. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the 'overvaluing one pair' leak at its most expensive."
+    "explanation": "Your real hand (villain had JJ — a set). KK is a strong overpair, but the ACTION redefines it: when villain re-raises all-in over your turn check-raise, their range is sets and two pair — hands that are well ahead of one pair. The check-raise itself was aggressive; calling the re-raise jam is where the stack goes. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the 'overvaluing one pair' leak at its most expensive."
   },
   {
     "id": "sz_real_05",
@@ -141,7 +141,7 @@
       "Check-raise"
     ],
     "correct": 0,
-    "explanation": "Two lessons fuse here: don't barrel into the scare card, and downgrade TPTK when the draw completes. The third heart smashes villain's calling range (they called two streets often WITH the flush draw). Betting turns your one pair into a bluff that worse can't call and better always calls. Check, and fold to a bet — a value-bet here only gets called by the flush. Sizing/board awareness over 'I have top pair.'"
+    "explanation": "Two lessons fuse here: don't barrel into the scare card, and downgrade TPTK when the draw completes. The third heart connects hard with villain's calling range (they called two streets often WITH the flush draw). Betting turns your one pair into a bluff that worse can't call and better always calls. Check, and fold to a bet — a value-bet here only gets called by the flush. Sizing/board awareness over 'I have top pair.'"
   },
   {
     "id": "sz_gen_05",
@@ -269,7 +269,7 @@
       "Call, maybe a bluff"
     ],
     "correct": 0,
-    "explanation": "Your real hand (villain had the nut flush). On a three-flush board, two pair without a card of that suit is a bluff-catcher at best — and when villain RAISES your bet, they're repping the flush or a full house, both of which crush you. The three-club board is the read: any aggression means the flush is likely there. Betting into it and then calling the raise is double trouble. When the flush board fills and you get raised, two pair folds."
+    "explanation": "Your real hand (villain had the nut flush). On a three-flush board, two pair without a card of that suit is a bluff-catcher at best — and when villain RAISES your bet, they're repping the flush or a full house, both of which has you beaten. The three-club board is the read: any aggression means the flush is likely there. Betting into it and then calling the raise is double trouble. When the flush board fills and you get raised, two pair folds."
   },
   {
     "id": "sz_real_11",
@@ -285,7 +285,7 @@
       "Always call two pair"
     ],
     "correct": 0,
-    "explanation": "Your real hand (villain had QT = trip queens by raising, on the Q-paired board). Your two pair is aces-and-queens, but the board pairing the queen means villain's raise can be Qx (trip queens) which crushes you — and the three-spade runout adds flushes. A turn raise on a paired, flushing board is a strong-range action. 'Aces up' feels huge but is often second-best here. Read the board: paired + flushing + raise = your two pair is vulnerable; don't stack off."
+    "explanation": "Your real hand (villain had QT = trip queens by raising, on the Q-paired board). Your two pair is aces-and-queens, but the board pairing the queen means villain's raise can be Qx (trip queens) which has you beaten — and the three-spade runout adds flushes. A turn raise on a paired, flushing board is a strong-range action. 'Aces up' feels huge but is often second-best here. Read the board: paired + flushing + raise = your two pair is vulnerable; don't stack off."
   },
   {
     "id": "sz_gen_08",
