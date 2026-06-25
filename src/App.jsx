@@ -135,13 +135,14 @@ const RANGE_QUESTIONS = [
   },
 ];
 
-const SESSION_SIZES = [10, 15, 20, 34];
+const SESSION_SIZES = [5, 10, 15, 20, 30, 999];
 
 export default function App(){
   const [screen, setScreen] = useState("home");
   const [progress, setProgress] = useState(loadProgress);
   const [moduleF, setModuleF] = useState("all");
   const [sessionSize, setSessionSize] = useState(15);
+  const APP_VERSION = "1.1";
   const [queue, setQueue] = useState([]);
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -321,10 +322,11 @@ export default function App(){
           })}
         </div>
 
+        <div style={{textAlign:"right",fontSize:10,color:C.muted,marginBottom:14}}>v{APP_VERSION}</div>
         <div style={{fontSize:11,fontWeight:700,color:C.muted,letterSpacing:"0.14em",textTransform:"uppercase",marginBottom:9}}>Session size</div>
         <div style={{display:"flex",gap:6,marginBottom:20}}>
           {SESSION_SIZES.map(n=>(
-            <button key={n} onClick={()=>setSessionSize(n)} style={{flex:1,height:36,borderRadius:10,border:`1.5px solid ${sessionSize===n?C.accent:C.border}`,background:sessionSize===n?`${C.accent}28`:"transparent",color:sessionSize===n?C.accent:C.muted,fontSize:14,fontWeight:700,cursor:"pointer",fontFamily:"'Inter',-apple-system,sans-serif",WebkitTapHighlightColor:"transparent"}}>{n}</button>
+            <button key={n} onClick={()=>setSessionSize(n)} style={{flex:1,height:36,borderRadius:10,border:`1.5px solid ${sessionSize===n?C.accent:C.border}`,background:sessionSize===n?`${C.accent}28`:"transparent",color:sessionSize===n?C.accent:C.muted,fontSize:14,fontWeight:700,cursor:"pointer",fontFamily:"'Inter',-apple-system,sans-serif",WebkitTapHighlightColor:"transparent"}}>{n===999?"All":n}</button>
           ))}
         </div>
       </div>
