@@ -301,7 +301,7 @@
       "A9o",
       "JTs"
     ],
-    "explanation": "9♠ 8♠ 7♦ is very wet: 14 hand-types in the CO range flop strong value. The most connected board type. So many hands smash this that a c-bet faces lots of resistance — check back medium hands. JTs makes the J-high straight (7-8-9-T-J)."
+    "explanation": "9♠ 8♠ 7♦ is very wet: 14 hand-types in the CO range flop strong value. The most connected board type. So many hands connect hard with this that a c-bet faces lots of resistance — check back medium hands. JTs makes the J-high straight (7-8-9-T-J)."
   },
   {
     "id": "bx_strong_06",
@@ -857,7 +857,7 @@
       "Call — you have two overcards to the board"
     ],
     "correct": 1,
-    "explanation": "This is your actual hand (lost ~97 BB). Villain's 3-bet range was QQ+/AK. The board J-Q-6 smashes that range: AK now has a pair+gutshot or top pair, QQ is an overpair, JJ/sets are crushing you. A TAG does NOT fire three barrels as a bluff at micro. You held K-high with no pair — you were drawing nearly dead by the turn. The discipline: when a tight player's range beats your hand and they keep betting big, fold. You don't need to 'catch' a bluff that isn't there."
+    "explanation": "This is your actual hand (lost ~97 BB). Villain's 3-bet range was QQ+/AK. The board J-Q-6 connects hard with that range: AK now has a pair+gutshot or top pair, QQ is an overpair, JJ/sets are crushing you. A TAG does NOT fire three barrels as a bluff at micro. You held K-high with no pair — you were drawing nearly dead by the turn. The discipline: when a tight player's range beats your hand and they keep betting big, fold. You don't need to 'catch' a bluff that isn't there."
   },
   {
     "id": "pt_yr_02",
@@ -923,7 +923,7 @@
       "Neither matters on a low board"
     ],
     "correct": 1,
-    "explanation": "This is a low, connected, wet board that favors the CALLER's range. The BB's defending range is full of hands that smash 7-6-5: 98s, 89, 44-66, 87, 75s, plus flush draws. Your BTN opening range is high-card heavy (big aces, broadways) that mostly whiffs here. Even your overpairs (AA-88) are vulnerable on this draw-heavy texture. Lesson: c-bet less here, and don't stack off light — when the board favors their range, proceed cautiously."
+    "explanation": "This is a low, connected, wet board that favors the CALLER's range. The BB's defending range is full of hands that connect hard with 7-6-5: 98s, 89, 44-66, 87, 75s, plus flush draws. Your BTN opening range is high-card heavy (big aces, broadways) that mostly whiffs here. Even your overpairs (AA-88) are vulnerable on this draw-heavy texture. Lesson: c-bet less here, and don't stack off light — when the board favors their range, proceed cautiously."
   },
   {
     "id": "pt_g_03",
@@ -955,7 +955,7 @@
       "Shove — never fold top pair top kicker"
     ],
     "correct": 2,
-    "explanation": "Player type sets the range, and a NIT's turn-raising range is the tightest in poker. On Q-8-3-8, a nit raises with trips (88, Q8, 83s), overpairs (99+), or a set — essentially nothing you beat. Your AQ was strong on the flop but the nit's RAISE redefines their range to hands that crush top pair. TPTK is a trophy hand for beginners but here it's a bluff-catcher against a range with no bluffs. Fold. This is the antidote to your biggest leak: when a tight player's aggression represents a range that beats one pair, believe them."
+    "explanation": "Player type sets the range, and a NIT's turn-raising range is the tightest in poker. On Q-8-3-8, a nit raises with trips (88, Q8, 83s), overpairs (99+), or a set — essentially nothing you beat. Your AQ was strong on the flop but the nit's RAISE redefines their range to hands that are well ahead of top pair. TPTK is a trophy hand for beginners but here it's a bluff-catcher against a range with no bluffs. Fold. This is the antidote to your biggest leak: when a tight player's aggression represents a range that beats one pair, believe them."
   },
   {
     "id": "pt_g_05",
