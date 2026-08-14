@@ -8,12 +8,12 @@
     "question": "Should you c-bet this dry ace-high board even with nothing?",
     "options": [
       "No — you missed, check",
-      "Yes — dry ace-high board favors your raising range; BB's capped range whiffs, high fold equity",
+      "Yes — range advantage",
       "Yes but only for value",
       "No — never bluff"
     ],
     "correct": 1,
-    "explanation": "C-bet. The A-7-2 rainbow board hits YOUR range (you have the aces, BB would 3-bet AA/AK) and misses the BB's capped calling range. High fold equity + range advantage = textbook c-bet bluff, even holding QJ. Board texture + range advantage drive this, not your cards."
+    "explanation": "C-bet. The A-7-2 rainbow board hits YOUR range (you have the aces, BB would 3-bet AA/AK) and misses the BB's capped calling range. High fold equity + range advantage = textbook c-bet bluff, even holding QJ. Board texture + range advantage drive this, not your cards. Yes — dry ace-high board favors your raising range; BB's capped range whiffs, high fold equity."
   },
   {
     "id": "cbd_02",
@@ -24,12 +24,12 @@
     "question": "How does multiway + wet board change your overpair c-bet?",
     "options": [
       "Bet huge for value, always",
-      "Bet for value AND protection — but be ready to fold to heavy action; multiway wet boards crush overpairs often",
+      "Bet for value + protection",
       "Check — too scared",
       "Slow play"
     ],
     "correct": 1,
-    "explanation": "Number of opponents + vulnerability are key factors. AA is strong, but 9-8-7 two-tone with THREE opponents is dangerous — straights, two pair, sets, flush draws all live in those ranges. Hardin: bet for value+protection to deny equity, but your overpair's relative strength is much lower multiway. Don't stack off light. This is exactly the 'overvaluing one pair' trap on a wet multiway board."
+    "explanation": "Number of opponents + vulnerability are key factors. AA is strong, but 9-8-7 two-tone with THREE opponents is dangerous — straights, two pair, sets, flush draws all live in those ranges. Hardin: bet for value+protection to deny equity, but your overpair's relative strength is much lower multiway. Don't stack off light. This is exactly the 'overvaluing one pair' trap on a wet multiway board. Bet for value AND protection — but be ready to fold to heavy action; multiway wet boards crush overpairs often."
   },
   {
     "id": "cbd_03",
@@ -40,12 +40,12 @@
     "question": "Paired dry board, you have ace-high. C-bet or check?",
     "options": [
       "Check — you have nothing",
-      "C-bet — paired dry boards favor the aggressor's range and are great bluff spots; caller rarely has a king, folds most of their range",
+      "C-bet — bluff spot",
       "Bet for value",
       "Fold"
     ],
     "correct": 1,
-    "explanation": "C-bet bluff. Paired dry boards (K-K-4) are premium c-bet bluffing spots: the caller rarely holds the trips (few Kx in a flat-call range), your range credibly contains kings and overpairs, and most of their range (small pairs, broadway misses) folds. Board texture + range advantage = bet, despite ace-high."
+    "explanation": "C-bet bluff. Paired dry boards (K-K-4) are premium c-bet bluffing spots: the caller rarely holds the trips (few Kx in a flat-call range), your range credibly contains kings and overpairs, and most of their range (small pairs, broadway misses) folds. Board texture + range advantage = bet, despite ace-high. C-bet — paired dry boards favor the aggressor's range and are great bluff spots; caller rarely has a king, folds most of their range."
   },
   {
     "id": "cbd_04",
@@ -57,11 +57,11 @@
     "options": [
       "Yes — represent the overpair",
       "Yes — AK is strong",
-      "No — wet board smashes a station's wide calling range, and they don't fold (25% fold-to-cbet); no fold equity, no made hand. Check/give up",
+      "No — check/give up",
       "Bet huge"
     ],
     "correct": 2,
-    "explanation": "When NOT to c-bet: low fold equity + board favors their range + you have no made hand/draw. A 6-5-4 board hits a station's wide range hard (any two pair, straight, draw), and a 25% fold-to-cbet means they won't fold. Firing AK-high here has no value (worse doesn't call) and no fold equity (they don't fold). Check. Opponent tendency + board texture override 'AK is pretty.'"
+    "explanation": "When NOT to c-bet: low fold equity + board favors their range + you have no made hand/draw. A 6-5-4 board hits a station's wide range hard (any two pair, straight, draw), and a 25% fold-to-cbet means they won't fold. Firing AK-high here has no value (worse doesn't call) and no fold equity (they don't fold). Check. Opponent tendency + board texture override 'AK is pretty.' No — wet board smashes a station's wide calling range, and they don't fold (25% fold-to-cbet); no fold equity, no made hand."
   },
   {
     "id": "cbd_05",
@@ -72,12 +72,12 @@
     "question": "You checked flop with middle pair on an ace-high board. Was that check correct, and what now?",
     "options": [
       "Wrong — always c-bet as aggressor",
-      "Correct pot-control check (ace hits caller's range, your J is medium-strength); now you can call one bet or take a delayed thin-value/showdown line",
+      "Correct — pot-control check",
       "Should have folded preflop",
       "Bet big now"
     ],
     "correct": 1,
-    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace connects hard with the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right."
+    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace connects hard with the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right. Correct pot-control check (ace hits caller's range, your J is medium-strength); now you can call one bet or take a delayed thin-value/showdown line."
   },
   {
     "id": "cbd_06",
@@ -88,12 +88,12 @@
     "question": "OOP vs a TAG on A-T-6 with KQ gutshot. C-bet?",
     "options": [
       "Always c-bet — you have the ace advantage",
-      "Small c-bet is defensible (range favors you, you have a backdoor + gutshot), but be ready to give up vs a raise; OOP without a made hand, one-and-done is fine",
+      "Small c-bet, one-and-done",
       "Bet big",
       "Check-fold always"
     ],
     "correct": 1,
-    "explanation": "Position is a c-bet factor. The A-T-6 board favors your range (you have the aces), so a small c-bet as a range bet is fine — and KQ has a gutshot + backdoors. But you're OOP with no made hand: plan to give up if raised or if called and you don't improve. Don't turn a one-time range bet into multi-street spew without equity. C-bet, then proceed honestly."
+    "explanation": "Position is a c-bet factor. The A-T-6 board favors your range (you have the aces), so a small c-bet as a range bet is fine — and KQ has a gutshot + backdoors. But you're OOP with no made hand: plan to give up if raised or if called and you don't improve. Don't turn a one-time range bet into multi-street spew without equity. C-bet, then proceed honestly. Small c-bet is defensible (range favors you, you have a backdoor + gutshot), but be ready to give up vs a raise; OOP without a made hand, one-and-done is fine."
   },
   {
     "id": "cbd_07",
@@ -104,11 +104,11 @@
     "question": "Overpair on a super-wet multiway board (J-T-9 two-tone). C-bet?",
     "options": [
       "Bet big for value — it's aces",
-      "Check or bet small with give-up plan — this board crushes two callers' ranges (straights, two pair, sets, flush+straight draws); AA is now a vulnerable one-pair hand multiway",
+      "Check/small bet, give-up plan",
       "Shove",
       "Always stack off"
     ],
     "correct": 1,
-    "explanation": "Multiway + extreme wetness downgrades even aces. J-T-9 two-tone connects with two callers' ranges enormously: KQ/Q8/87 straights, sets, two pair, combo draws. Your AA holds ONE pair with no heart — its relative strength multiway is poor. This is the overvaluing-one-pair trap in its purest form. Bet small for protection at most, and be fully prepared to fold to significant action. Do not stack off a single pair here."
+    "explanation": "Multiway + extreme wetness downgrades even aces. J-T-9 two-tone connects with two callers' ranges enormously: KQ/Q8/87 straights, sets, two pair, combo draws. Your AA holds ONE pair with no heart — its relative strength multiway is poor. This is the overvaluing-one-pair trap in its purest form. Bet small for protection at most, and be fully prepared to fold to significant action. Do not stack off a single pair here. Check or bet small with give-up plan — this board crushes two callers' ranges (straights, two pair, sets, flush+straight draws); AA is now a vulnerable one-pair hand multiway."
   }
 ]

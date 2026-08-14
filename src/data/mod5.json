@@ -8,12 +8,12 @@
     "question": "As the OOP caller with a draw facing a c-bet, best option?",
     "options": [
       "Check/fold — you have nothing made",
-      "Check/call — you have a real draw (OESD, 8 outs) with implied odds, and your range is capped so raising bloats vs their initiative",
+      "Check/call — real draw, odds",
       "Check/raise big",
       "Donk lead"
     ],
     "correct": 1,
-    "explanation": "As the pre-flop caller you're OOP with a capped range and no initiative. With a genuine draw (OESD), check/calling is standard — you have the odds to continue and keep your range disguised. Hardin lists your OOP options as donk/check-fold/check-call/check-raise; with a drawing hand and no made value, check-call is the disciplined default."
+    "explanation": "As the pre-flop caller you're OOP with a capped range and no initiative. With a genuine draw (OESD), check/calling is standard — you have the odds to continue and keep your range disguised. Hardin lists your OOP options as donk/check-fold/check-call/check-raise; with a drawing hand and no made value, check-call is the disciplined default. Check/call — you have a real draw (OESD, 8 outs) with implied odds, and your range is capped so raising bloats vs their initiative."
   },
   {
     "id": "cal_02",
@@ -24,12 +24,12 @@
     "question": "In position as the caller with TPGK facing a c-bet, plan?",
     "options": [
       "Raise for value immediately",
-      "Call — you have a strong one-pair hand in position; calling keeps their bluffs/worse Jx in, lets you control the pot and realize equity with position",
+      "Call — strong pair, IP",
       "Fold",
       "Check behind"
     ],
     "correct": 1,
-    "explanation": "As the IP caller, your options vs a c-bet are fold/call/raise. With TPGK, calling is usually better than raising: you keep their c-bet bluffs and worse Jx in the pot, you have position to control later streets, and raising mostly folds out worse and bloats vs an uncapped aggressor range. Note your range is capped (no AA/KK/AK — you'd 3-bet those), so play it as the strong-one-pair hand it is, in position."
+    "explanation": "As the IP caller, your options vs a c-bet are fold/call/raise. With TPGK, calling is usually better than raising: you keep their c-bet bluffs and worse Jx in the pot, you have position to control later streets, and raising mostly folds out worse and bloats vs an uncapped aggressor range. Note your range is capped (no AA/KK/AK — you'd 3-bet those), so play it as the strong-one-pair hand it is, in position. Call — you have a strong one-pair hand in position; calling keeps their bluffs/worse Jx in, lets you control the pot and realize equity with position."
   },
   {
     "id": "cal_03",
@@ -40,12 +40,12 @@
     "question": "You set-mined 44, missed, now have bottom pair on a high board. Action?",
     "options": [
       "Check/call — pair of fours has value",
-      "Check/fold — you set-mined and missed; on K-Q-7 your 44 beats nothing in their c-betting range, and you have no draw",
+      "Check/fold — missed the mine",
       "Check/raise bluff",
       "Float to steal later"
     ],
     "correct": 1,
-    "explanation": "Set-mining is the WHOLE plan with small pairs — if you miss the set, you're done. On K-Q-7, pair of fours is essentially the same as no pair: their c-betting range (Kx, Qx, overpairs, broadway) has you beaten, and you have no draw. Check/fold. The implied-odds reason to call preflop evaporates the moment you don't flop the set. Don't get attached to a tiny pair."
+    "explanation": "Set-mining is the WHOLE plan with small pairs — if you miss the set, you're done. On K-Q-7, pair of fours is essentially the same as no pair: their c-betting range (Kx, Qx, overpairs, broadway) has you beaten, and you have no draw. Check/fold. The implied-odds reason to call preflop evaporates the moment you don't flop the set. Don't get attached to a tiny pair. Check/fold — you set-mined and missed; on K-Q-7 your 44 beats nothing in their c-betting range, and you have no draw."
   },
   {
     "id": "cal_04",
@@ -56,12 +56,12 @@
     "question": "As the limped-pot caller with turned two pair, villain leads big on the J river. Read?",
     "options": [
       "Call — two pair is strong",
-      "Caution/fold-lean — the J completes KQ/QT straights, the ace-high flop means Ax two pair beats you; a passive player leading big on the river rarely bluffs. Your two pair is a bluff-catcher at best",
+      "Caution — lean fold",
       "Raise for value",
       "Snap-call always"
     ],
     "correct": 1,
-    "explanation": "Your real T8s hand. Playing as the caller in a limped multiway pot, you made a vulnerable two pair. The river J completes obvious straights and your tens-and-eights loses to any Ax two pair and all straights. A passive limper leading big into you is screaming value at micro. Two pair FEELS strong but its relative strength here is weak — bluff-catcher at best. This over-limp set up a hand that makes second-best hands — the leak started preflop."
+    "explanation": "Your real T8s hand. Playing as the caller in a limped multiway pot, you made a vulnerable two pair. The river J completes obvious straights and your tens-and-eights loses to any Ax two pair and all straights. A passive limper leading big into you is screaming value at micro. Two pair FEELS strong but its relative strength here is weak — bluff-catcher at best. This over-limp set up a hand that makes second-best hands — the leak started preflop. The J completes KQ/QT straights, the ace-high flop means Ax two pair beats you; a passive player leading big on the river rarely bluffs. Your two pair is a bluff-catcher at best."
   },
   {
     "id": "cal_05",
@@ -72,12 +72,12 @@
     "question": "OOP caller, top pair weak kicker facing a small c-bet. Best line?",
     "options": [
       "Check-raise for value",
-      "Check-call — TPWK has showdown value but a weak kicker; calling keeps their bluffs in and controls the pot OOP; raising bloats vs a capped-but-uncapped aggressor and folds out worse",
+      "Check-call, pot control",
       "Donk lead big",
       "Check-fold"
     ],
     "correct": 1,
-    "explanation": "As the OOP caller with top-pair-weak-kicker, check-calling is the disciplined line. You have showdown value worth continuing, but the weak kicker means you don't want to build a big pot — check-raising bloats the pot OOP with a one-pair hand and folds out the bluffs you beat. Call, control the pot, reassess on the turn. Don't turn a medium hand into a big-pot hand from out of position."
+    "explanation": "As the OOP caller with top-pair-weak-kicker, check-calling is the disciplined line. You have showdown value worth continuing, but the weak kicker means you don't want to build a big pot — check-raising bloats the pot OOP with a one-pair hand and folds out the bluffs you beat. Call, control the pot, reassess on the turn. Don't turn a medium hand into a big-pot hand from out of position. TPWK has showdown value but a weak kicker; calling keeps their bluffs in and controls the pot OOP; raising bloats vs a capped-but-uncapped aggressor and folds out worse."
   },
   {
     "id": "cal_06",
@@ -88,11 +88,11 @@
     "question": "IP caller with the nut flush draw facing a c-bet. Best line?",
     "options": [
       "Fold — only a draw",
-      "Call OR raise as a semi-bluff — nut flush draw with position is a premium draw; calling keeps their range wide and disguised, raising adds fold equity. Both fine; calling is lower-variance",
+      "Call/raise — premium draw",
       "Check behind",
       "Always fold draws"
     ],
     "correct": 1,
-    "explanation": "As the IP caller with the nut flush draw, you have a premium drawing hand and position — both calling and semi-bluff raising are valid. Calling realizes equity cheaply, keeps their bluffs in, and disguises your hand; raising adds fold equity and can win it now. At micro vs a c-betting range, calling is the lower-variance default and lets you stack off when you hit the nuts. Position makes draws much more playable — you control the pot and see free cards when checked to."
+    "explanation": "As the IP caller with the nut flush draw, you have a premium drawing hand and position — both calling and semi-bluff raising are valid. Calling realizes equity cheaply, keeps their bluffs in, and disguises your hand; raising adds fold equity and can win it now. At micro vs a c-betting range, calling is the lower-variance default and lets you stack off when you hit the nuts. Position makes draws much more playable — you control the pot and see free cards when checked to. Nut flush draw with position is a premium draw; calling keeps their range wide and disguised, raising adds fold equity. Both fine; calling is lower-variance."
   }
 ]

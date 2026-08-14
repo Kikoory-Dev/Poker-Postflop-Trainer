@@ -7,7 +7,7 @@
     "scenario": "You have a strong-LOOKING hand (overpair / top pair top kicker / two pair). Stacks are 100bb+ and a lot of money is about to go in.",
     "question": "Before stacking off 100bb+, what is the ONE question to ask?",
     "options": [
-      "Does my hand beat their value range, or just look strong?",
+      "Beats their value range?",
       "Is my hand better than average?",
       "Do I have at least top pair?",
       "Am I getting a decent price?"
@@ -23,7 +23,7 @@
     "scenario": "A loose-aggressive villain (47% VPIP, 20% 3-bet) has been 'pushing a lot'. He 5-bet jams 100bb+ over your 4-bet.",
     "question": "Villain is loose/aggressive overall. Does that mean his 100bb 5-bet-JAM range is wide?",
     "options": [
-      "No — even a maniac's 100bb jam is mostly QQ+/AK",
+      "No — even maniacs jam QQ+/AK",
       "Yes — he's loose, so call him wide",
       "Yes — he could have anything here",
       "Only if he happens to be on tilt"
@@ -39,13 +39,13 @@
     "scenario": "You have AJo in the SB, 100bb+ deep. MP opens to 2.5bb, you 3-bet to 9bb, MP 4-bets to 23bb, you 5-bet to 50bb, MP jams 100bb+ all-in.",
     "question": "You 5-bet AJo and faced a 100bb jam. Call or fold?",
     "options": [
-      "Fold — AJo is dominated by the jam range",
+      "Fold — dominated by the jam",
       "Call — you're priced in",
       "Call — he's aggressive",
       "Call — AJ is strong"
     ],
     "correct": 0,
-    "explanation": "From your own play (you called and lost 105bb; villain had AK — exactly what you told yourself he didn't have). AJo is one of the worst hands to stack off 100bb because it's DOMINATED by the jamming range: AK and AQ dominate it, AA has it well beaten, you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak."
+    "explanation": "From your own play (you called and lost 105bb; villain had AK — exactly what you told yourself he didn't have). AJo is one of the worst hands to stack off 100bb because it's DOMINATED by the jamming range: AK and AQ dominate it, AA has it well beaten, you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak. AJo is dominated by the jam range."
   },
   {
     "id": "cm_real_02",
@@ -55,13 +55,13 @@
     "scenario": "You have KK in the SB. Flop J-5-4, you bet (called). Turn 6: you check, villain bets, you check-raise big, villain re-raises all-in over you.",
     "question": "You have KK (overpair) on J-5-4-6. Villain re-raises all-in over your turn check-raise. Action?",
     "options": [
-      "Fold — the re-raise reps a set; KK is one pair",
+      "Fold — re-raise reps a set",
       "Call — KK is too strong to fold",
       "It's a cooler, call it",
       "Re-raise"
     ],
     "correct": 0,
-    "explanation": "From your own play (you called and lost 117bb; villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that are well ahead of one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it."
+    "explanation": "From your own play (you called and lost 117bb; villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that are well ahead of one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it. The re-raise reps a set; KK is one pair."
   },
   {
     "id": "cm_real_03",
@@ -71,13 +71,13 @@
     "scenario": "You have AQs on the BTN. Flop K-4-8, you c-bet (called). Turn 4: villain leads big into you.",
     "question": "You have AQ on a K-high board — you don't even have a pair. Villain bets into you on the turn. Commit?",
     "options": [
-      "Fold — ace-high commits to nothing here",
+      "Fold — ace-high, no pair",
       "Call — overcards",
       "Raise — represent the king",
       "Call — gutshot equity"
     ],
     "correct": 0,
-    "explanation": "From your own play (you raised/committed and lost 105bb; villain had QQ). AQ on K-4-8 is just ace-high — no pair. Stacking off ace-high vs a villain leading into you is drawing nearly dead to a pair. Same family as the AJ and AK hands: committing a big pot with a hand that doesn't beat the value range. Ace-high commits to nothing."
+    "explanation": "From your own play (you raised/committed and lost 105bb; villain had QQ). AQ on K-4-8 is just ace-high — no pair. Stacking off ace-high vs a villain leading into you is drawing nearly dead to a pair. Same family as the AJ and AK hands: committing a big pot with a hand that doesn't beat the value range. Ace-high commits to nothing. Ace-high commits to nothing here."
   },
   {
     "id": "cm_real_04",
@@ -87,13 +87,13 @@
     "scenario": "You have AKo on the BTN. Flop 8-7-6 two-tone (very wet), you c-bet 13bb, villain check-raises.",
     "question": "AK-high on 8-7-6 two-tone, villain check-raises. Commit?",
     "options": [
-      "Fold — ace-high, no pair, no draw vs a raise",
+      "Fold — no pair, no draw",
       "Call — two overcards",
       "Re-raise as a bluff",
       "Call to hit"
     ],
     "correct": 0,
-    "explanation": "From your own play (you committed and lost 128bb; villain had AA). On 8-7-6 two-tone, a check-raise is sets, two pair, straights, big draws, and overpairs. Ace-high has no pair and no clean draw. C-betting was fine; committing to the check-raise with air is the leak. Fold and keep your stack."
+    "explanation": "From your own play (you committed and lost 128bb; villain had AA). On 8-7-6 two-tone, a check-raise is sets, two pair, straights, big draws, and overpairs. Ace-high has no pair and no clean draw. C-betting was fine; committing to the check-raise with air is the leak. Fold and keep your stack. Ace-high, no pair, no draw vs a raise."
   },
   {
     "id": "cm_gen_01",
@@ -103,13 +103,13 @@
     "scenario": "You have TPTK (top pair top kicker) 100bb deep. Villain check-raises the flop and jams the turn on a dry board.",
     "question": "TPTK, 100bb deep, villain check-raise then turn jam on a dry board. Commit?",
     "options": [
-      "Fold — dry-board check-raise/jam is value; TPTK is one pair",
+      "Fold — dry-board jam is value",
       "Call — TPTK is the top of my range",
       "Call — he could be bluffing",
       "Raise"
     ],
     "correct": 0,
-    "explanation": "On a dry board there are no draws, so villain has no reason to fast-play unless he has it. A check-raise-then-jam line on a dry board is the nuts-ish: sets, two pair. TPTK is one pair — strong-looking, second-best here. Fold. Dry board + huge aggression = value, and one pair isn't enough to stack off."
+    "explanation": "On a dry board there are no draws, so villain has no reason to fast-play unless he has it. A check-raise-then-jam line on a dry board is the nuts-ish: sets, two pair. TPTK is one pair — strong-looking, second-best here. Fold. Dry board + huge aggression = value, and one pair isn't enough to stack off. Dry-board check-raise/jam is value; TPTK is one pair."
   },
   {
     "id": "cm_gen_02",
@@ -119,13 +119,13 @@
     "scenario": "You open AQo, a tight player 3-bets, you call. Flop comes Q-high. You bet, they raise big, then jam the turn.",
     "question": "Top pair (Q) with A kicker vs a tight 3-bettor who raises flop and jams turn. Commit?",
     "options": [
-      "Lean fold — a tight player's jam beats top pair",
+      "Lean fold — their jam beats you",
       "Snap call, TPTK is huge",
       "Always call top pair",
       "Re-raise"
     ],
     "correct": 0,
-    "explanation": "Against a TIGHT 3-bettor specifically, top pair good kicker is in bad shape when they commit: their value range is overpairs (AA/KK) that beat you, QQ (a set), AQ (a chop), and sets. You beat almost nothing that stacks off. Tight range + big commitment = fold your one pair. Read the OPPONENT'S range, not just your hand's strength."
+    "explanation": "Against a TIGHT 3-bettor specifically, top pair good kicker is in bad shape when they commit: their value range is overpairs (AA/KK) that beat you, QQ (a set), AQ (a chop), and sets. You beat almost nothing that stacks off. Tight range + big commitment = fold your one pair. Read the OPPONENT'S range, not just your hand's strength. A tight player's jam beats top pair."
   },
   {
     "id": "cm_gen_03",
@@ -151,13 +151,13 @@
     "scenario": "You have 66 on a J-J-6 flop — sixes full of jacks (a full house). Villain jams big over your bet.",
     "question": "You have a full house (low boat) on a PAIRED board and villain jams. Always an easy commit?",
     "options": [
-      "Pause — a low full house isn't the nuts on a paired board: any Jx makes a bigger boat (jacks full), JJ is quads. Read the board and range.",
+      "Pause — check what beats you",
       "Snap it in, a full house is the nuts",
       "Fold the full house",
       "Full houses never lose"
     ],
     "correct": 0,
-    "explanation": "A set on a paired board is automatically a FULL HOUSE — but not always a winning one. Here 66 on J-J-6 is sixes full of jacks, which loses to any Jx (jacks full of sixes) and to JJ (quads). The discipline: a LOW full house on a paired board looks like a monster but can be second-best. Usually you commit; the skill is recognizing the paired-board spots where a bigger boat is in villain's jamming range. Always ask what beats you on THIS board."
+    "explanation": "A set on a paired board is automatically a FULL HOUSE — but not always a winning one. Here 66 on J-J-6 is sixes full of jacks, which loses to any Jx (jacks full of sixes) and to JJ (quads). The discipline: a LOW full house on a paired board looks like a monster but can be second-best. Usually you commit; the skill is recognizing the paired-board spots where a bigger boat is in villain's jamming range. Always ask what beats you on THIS board. A low full house isn't the nuts on a paired board: any Jx makes a bigger boat (jacks full), JJ is quads. Read the board and range."
   },
   {
     "id": "cm_gen_05",
@@ -167,7 +167,7 @@
     "scenario": "Reviewing your biggest losses: AJ vs AK, KK vs a set, AQ vs QQ, AK vs AA, KQ vs AA.",
     "question": "What do all these expensive losses have in common?",
     "options": [
-      "A strong-looking hand committed against a better range",
+      "Strong hand vs a better range",
       "Pure bad luck / variance",
       "Bad cards",
       "Playing too tight"

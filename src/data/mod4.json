@@ -8,12 +8,12 @@
     "question": "You improved to TPTK on the turn. Plan?",
     "options": [
       "Check — pot control",
-      "Double barrel for value — you have a value hand worth betting, and the K improved you; build the pot",
+      "Double barrel for value",
       "Give up",
       "Slow play"
     ],
     "correct": 1,
-    "explanation": "Hardin's turn criteria #1: 'we have a value hand worth betting.' You turned TPTK — bet for value. Betting the turn is crucial to building the pot for a larger river bet. Any card that improves your hand to a stronger value hand is a barrel candidate."
+    "explanation": "Hardin's turn criteria #1: 'we have a value hand worth betting.' You turned TPTK — bet for value. Betting the turn is crucial to building the pot for a larger river bet. Any card that improves your hand to a stronger value hand is a barrel candidate. Double barrel for value — you have a value hand worth betting, and the K improved you; build the pot."
   },
   {
     "id": "trb_02",
@@ -24,12 +24,12 @@
     "question": "Turn gave you a monster combo draw. Barrel?",
     "options": [
       "Check — you still have nothing made",
-      "Double barrel semi-bluff — you picked up barreling equity (flush + straight draws = ~15 outs) plus fold equity",
+      "Double barrel semi-bluff",
       "Fold",
       "Only bet if you hit"
     ],
     "correct": 1,
-    "explanation": "Hardin's turn criteria #2: 'we pick up turn barreling equity.' You now have ~15 outs (9 flush + 6 straight, minus overlap) AND fold equity. Combo draws this strong are mandatory double barrels — you have huge equity when called and fold equity when not. The backdoor-becomes-draw turn is the classic barrel card."
+    "explanation": "Hardin's turn criteria #2: 'we pick up turn barreling equity.' You now have ~15 outs (9 flush + 6 straight, minus overlap) AND fold equity. Combo draws this strong are mandatory double barrels — you have huge equity when called and fold equity when not. The backdoor-becomes-draw turn is the classic barrel card. Double barrel semi-bluff — you picked up barreling equity (flush + straight draws = ~15 outs) plus fold equity."
   },
   {
     "id": "trb_03",
@@ -41,11 +41,11 @@
     "options": [
       "Yes — keep the pressure",
       "Yes — represent an overpair",
-      "No — you have no value, no equity gain, and low fold equity (30% fold to turn cbet). Give up / check",
+      "No — give up / check",
       "Bet small"
     ],
     "correct": 2,
-    "explanation": "None of Hardin's four barrel criteria are met: no value hand, no barreling equity gained, opponent doesn't fold enough (30%), and no scare card hit your range. Firing a second barrel here is spew. Check and give up — you'll often still see a free showdown or fold the river. Knowing when to STOP barreling is as important as when to start."
+    "explanation": "None of Hardin's four barrel criteria are met: no value hand, no barreling equity gained, opponent doesn't fold enough (30%), and no scare card hit your range. Firing a second barrel here is spew. Check and give up — you'll often still see a free showdown or fold the river. Knowing when to STOP barreling is as important as when to start. No — you have no value, no equity gain, and low fold equity (30% fold to turn cbet)."
   },
   {
     "id": "trb_04",
@@ -56,12 +56,12 @@
     "question": "Villain triple-barrels into you. You have K-high (the gutshot bricked). Action?",
     "options": [
       "Call — they might be bluffing",
-      "Fold — a TAG emptying the clip (3 barrels) on Q-J-6-x-x has a value range (QQ+/sets/AK-made) that you never beat with K-high; micro players don't triple-barrel bluff",
+      "Fold — believe the story",
       "Raise",
       "Call, you have a blocker"
     ],
     "correct": 1,
-    "explanation": "Your real hand (−97 BB). When a tight player fires all three streets ('empties the clip') at micro stakes, it's almost never a bluff — their range is strong made hands that beat your busted K-high. You picked up nothing. The whole hand was a lesson in this: each call compounded the leak. Fold to the triple barrel — believe the story their betting tells."
+    "explanation": "Your real hand (−97 BB). When a tight player fires all three streets ('empties the clip') at micro stakes, it's almost never a bluff — their range is strong made hands that beat your busted K-high. You picked up nothing. The whole hand was a lesson in this: each call compounded the leak. Fold to the triple barrel — believe the story their betting tells. Fold — a TAG emptying the clip (3 barrels) on Q-J-6-x-x has a value range (QQ+/sets/AK-made) that you never beat with K-high; micro players don't triple-barrel bluff."
   },
   {
     "id": "trb_05",
@@ -72,12 +72,12 @@
     "question": "You have middle-strength top pair (9s), turn brings an overcard K. Barrel again?",
     "options": [
       "Yes — keep betting top pair",
-      "Check — the K is a scare card that hits the CALLER's range (Kx that floated), not yours; your 9s is now medium and vulnerable. Pot-control, don't barrel into the card that helped them",
+      "Check — scare card for them",
       "Bet big",
       "Shove"
     ],
     "correct": 1,
-    "explanation": "Your double-barrel rate (65%) runs high, and this is the kind of turn to check. The K is a scare card that hits the caller's flop-calling range (any Kx, KJ/KQ floats) more than yours. Barreling here bets into the exact card that improved them, and your pair of nines is only medium strength. Check for pot control. Knowing which turns to SHUT DOWN on is the other half of barreling."
+    "explanation": "Your double-barrel rate (65%) runs high, and this is the kind of turn to check. The K is a scare card that hits the caller's flop-calling range (any Kx, KJ/KQ floats) more than yours. Barreling here bets into the exact card that improved them, and your pair of nines is only medium strength. Check for pot control. Knowing which turns to SHUT DOWN on is the other half of barreling. The K is a scare card that hits the CALLER's range (Kx that floated), not yours; your 9s is now medium and vulnerable. Pot-control, don't barrel into the card that helped them."
   },
   {
     "id": "trb_06",
@@ -88,11 +88,11 @@
     "question": "Overpair QQ on a dry-ish board, blank turn, opponent folds to turn barrels often. Plan?",
     "options": [
       "Check — pot control",
-      "Double barrel for value + denial — QQ is a strong value hand worth betting, the board is dry (low straight/flush risk), and the opponent over-folds turns; bet to extract from worse and deny equity",
+      "Double barrel, value + denial",
       "Give up",
       "Slowplay"
     ],
     "correct": 1,
-    "explanation": "This IS a barrel — and shows barreling isn't always wrong. Hardin criteria: you have a value hand worth betting (QQ overpair, dry board with little that beat you), and the opponent folds to turn cbets 55% (good fold equity). Bet for value and denial. The skill is distinguishing THIS (strong value, dry board, foldy opponent) from the previous spot (medium hand, scare card, sticky opponent). Same action, opposite reasoning — read the factors."
+    "explanation": "This IS a barrel — and shows barreling isn't always wrong. Hardin criteria: you have a value hand worth betting (QQ overpair, dry board with little that beat you), and the opponent folds to turn cbets 55% (good fold equity). Bet for value and denial. The skill is distinguishing THIS (strong value, dry board, foldy opponent) from the previous spot (medium hand, scare card, sticky opponent). Same action, opposite reasoning — read the factors. Double barrel for value + denial — QQ is a strong value hand worth betting, the board is dry (low straight/flush risk), and the opponent over-folds turns; bet to extract from worse and deny equity."
   }
 ]
