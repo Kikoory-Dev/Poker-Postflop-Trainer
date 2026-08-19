@@ -469,7 +469,7 @@ export default function App(){
                     <p style={{margin:0,fontSize:13,fontWeight:500,color:C.sage,lineHeight:1.6}}>{q.draws}</p>
                   </div>
                 )}
-                <p style={{margin:0,fontSize:14,fontWeight:500,color:C.sage,lineHeight:1.7}}>{q.explanation}</p>
+                <p style={{margin:0,fontSize:14,fontWeight:500,color:C.sage,lineHeight:1.7,whiteSpace:"pre-line"}}>{q.explanation}</p>
               </div>
             )}
 

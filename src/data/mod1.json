@@ -14,7 +14,7 @@
   ],
   "correct": 0,
   "draws": "None — rainbow, unconnected, no flush or straight draws possible.",
-  "explanation": "Rainbow (three suits), unconnected, high-card board. No flush draws, no open-ended straight draws. Hands are either made or not — opponents can't profitably chase. Value bet strong hands without protection worries.",
+  "explanation": "TEXTURE: DRY. Rainbow, three unconnected ranks — no flush draw, no straight draws of any kind.\n\nGOING FORWARD: Hands are made or not; nobody's chasing. Bet for value without worrying about protection, and don't expect much redraw equity to run you down.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — range advantage is huge and folds come easy from air.\nCALLER: defend selectively; without a pair or overcards you're mostly folding to continued aggression, since there's no draw to stick around with.\n\nREADING VILLAIN: With no draws live, any check-raise or donk-bet is almost always a real hand (top pair+) rather than a semi-bluff — respect it more than you would on a coordinated board.",
   "difficulty": "easy"
  },
  {
@@ -32,7 +32,7 @@
   ],
   "correct": 2,
   "draws": "Flush draws — any single spade has a draw, made flushes possible.",
-  "explanation": "WET. Q♠7♠2♠ is MONOTONE — a flush is already possible (anyone with two spades has it), and there are many one-card spade draws. There's no straight connectivity, but a maxed-out flush dimension makes the board wet on its own (this is the exception to the 'one category = semi-wet' rule). GOING FORWARD: proceed cautiously without a spade — single-suited boards dominate ranges that hold the suit. With a strong non-flush hand, bet to charge one-card draws but don't stack off light; with the flush or a big spade, you can play fast.",
+  "explanation": "TEXTURE: WET. Monotone — a flush is already possible and every single spade is a one-card draw. No straight connectivity, but a maxed flush dimension alone is enough to call this wet.\n\nGOING FORWARD: Ranges holding one spade dominate. Bet for value but don't stack off non-flush holdings, and expect big pots here mainly when someone actually has the suit.\n\nHERO ACTION:\nAGGRESSOR: bet to charge one-card draws, but check back marginal non-spade hands rather than barrel blind.\nCALLER: with a spade, you can call and even raise as a semi-bluff; without one, treat top pair as a bluff-catcher and don't overcommit.\n\nREADING VILLAIN: Raises and big bets skew toward the flush (made or drawing) far more than on a normal board — a bluff-raise is rarer here because the monotone texture gives so many legitimate flush combos to raise with instead.",
   "difficulty": "medium"
  },
  {
@@ -50,7 +50,7 @@
   ],
   "correct": 2,
   "draws": "Flush draw (spades), multiple straight draws (JT, T6, 65, J6), made straights possible (JT, 65).",
-  "explanation": "Connected AND two-tone. JT and 65 already made straights. Any T, J, 6, or 5 has straight draw equity, plus spade flush draws. One of the wettest flop types.",
+  "explanation": "TEXTURE: WET. Connected and two-tone — JT and 65 are already made straights, and any T/J/6/5 adds a draw on top of the spade flush draw. One of the wettest flop types possible.\n\nGOING FORWARD: Equities run very close. Protect and charge with big bets; slow-playing anything less than the nuts is dangerous since the board changes constantly.\n\nHERO ACTION:\nAGGRESSOR: bet bigger than usual to make draws pay full price, and be ready to check back marginal one-pair hands against resistance.\nCALLER: you can profitably call or raise with straight and flush draws — the implied odds and fold equity are both real here.\n\nREADING VILLAIN: Aggression from either side is a genuine mix of value and strong draws — don't assume a raise is \"just a draw,\" and don't assume it's \"just value\" either. Play your own equity.",
   "difficulty": "medium"
  },
  {
@@ -68,7 +68,7 @@
   ],
   "correct": 2,
   "draws": "Flush draw (diamonds), straight draws (J9 made, K9, 97, AJ gutshots).",
-  "explanation": "Connected and two-tone. J9 flopped a straight. KJ, 97, J7 have open-enders or gutshots. Diamond draws add more. Classic wet board.",
+  "explanation": "TEXTURE: WET. Connected and two-tone — J9 is already a straight, KJ/97/J7 have open-enders or gutshots, and diamonds add a flush draw on top.\n\nGOING FORWARD: Classic wet board — bet big to charge the many draws, and treat one pair as vulnerable rather than a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, and don't be afraid to check back thinner value against big resistance since so many hands beat one pair here.\nCALLER: draws (gutshots, open-enders, the flush draw) are worth continuing with, especially in position where you can realize equity.\n\nREADING VILLAIN: This board supports real semi-bluffing ranges, so raises deserve respect — but it also supports value raises from made straights, so a big raise from a tight player is more often for value than a bluff.",
   "difficulty": "medium"
  },
  {
@@ -86,7 +86,7 @@
   ],
   "correct": 1,
   "draws": "Club flush draw only — no realistic straight draws.",
-  "explanation": "Two-tone (two clubs) brings a flush draw, but unconnected ranks mean no straight draws. Drier than connected boards, wetter than rainbow. Hardin calls these semi-wet.",
+  "explanation": "TEXTURE: SEMI-WET. Two clubs bring a flush draw, but the ranks (K-8-2) are too spread out for any real straight draw. One live category only.\n\nGOING FORWARD: Drier than a fully connected board but wetter than rainbow — the flush draw is the only thing to actually worry about.\n\nHERO ACTION:\nAGGRESSOR: c-bet as normal, size a bit up if you want to directly charge the flush draw, and barrel non-club turns fairly freely.\nCALLER: a backdoor or made flush draw is worth continuing with; without clubs you need a king or better to keep going.\n\nREADING VILLAIN: Since straights aren't in play, treat aggression as either about the flush draw or about a king/overpair — there's no third category (a straight-based semi-bluff) to worry about.",
   "difficulty": "medium"
  },
  {
@@ -104,7 +104,7 @@
   ],
   "correct": 0,
   "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
-  "explanation": "DRY. A♥K♦4♣ is rainbow with two disconnected big cards and a low card. The only straight draw is a lone QJ gutshot — not enough connectivity to count. No flush draw, essentially no straights = dry. GOING FORWARD: this favors the preflop raiser heavily (AK, AQ, AA, KK all connect hard with it). You can c-bet small and often as the aggressor; a check-raise here is rarely a draw, so it's usually real value — respect it.",
+  "explanation": "TEXTURE: DRY. Rainbow with two disconnected big cards and a low card. Gutshots do technically exist — QJ, QT, or JT each complete a straight needing one exact card — but the ace caps the top of the run, so none of them can ever be open-ended; they're capped at a 4-out gutshot, and each needs one specific two-card combo. Thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, AA, KK) connects with this board far more often than the caller's does. But dry isn't the same as safe — a caller who called with A4, K4, or 44 already has two pair or a set, not a draw, so real aggression still deserves respect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — fold equity is high and protection is barely a concern against a range this thin on draws.\nCALLER: without top pair or better you're usually giving this up; the rare gutshot (QJ/QT/JT) isn't wide or strong enough to continue for on its own.\n\nREADING VILLAIN: A check-raise here means two pair or better — A4, K4, 44-type hands, or a slow-played monster. There's no real drawing range to semi-bluff with, so take it at face value and fold marginal one-pair hands.",
   "difficulty": "easy"
  },
  {
@@ -122,7 +122,7 @@
   ],
   "correct": 0,
   "draws": "None — paired, rainbow, unconnected.",
-  "explanation": "Paired rainbow board. No flush draws, no straight draws. Driest board type in poker. Either someone has trips/a pair or nothing.",
+  "explanation": "TEXTURE: DRY. Paired rainbow board, no flush draw, no straight draw — the driest board type in poker.\n\nGOING FORWARD: Nearly binary — someone has trips/a strong pair, or they have nothing. Bluffing is effective precisely because so few hands connect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide, or even check back your whole range sometimes since so little changes on future streets.\nCALLER: without a seven or an overpair, most hands are just giving up to continued pressure.\n\nREADING VILLAIN: Escalating aggression (a raise, not just a call) is a strong signal of trips or better — paired boards don't offer much to bluff-raise with, so take it seriously.",
   "difficulty": "easy"
  },
  {
@@ -140,7 +140,7 @@
   ],
   "correct": 2,
   "draws": "Made flushes, made straights (KQ, Q8, 87), every heart a flush draw, all straight draws live.",
-  "explanation": "Monotone AND fully connected. The wettest possible flop type. KQ/87 flopped straights, any heart flops a flush draw, sets are vulnerable to everything.",
+  "explanation": "TEXTURE: WET. Monotone and fully connected at once — the wettest possible flop. KQ/87 are made straights, any heart is a flush draw, and even sets are vulnerable to everything.\n\nGOING FORWARD: This is a board where the nuts change hands constantly. Big bets are for protection and value, not just \"getting money in.\"\n\nHERO ACTION:\nAGGRESSOR: bet big with strong hands, but be genuinely willing to check back or fold overpairs and worse to real resistance.\nCALLER: flush draws, straight draws, and combo draws are all worth playing aggressively — you often have more outs than you think.\n\nREADING VILLAIN: On a board this coordinated, raises are a legitimate mix of nutted hands and strong draws in roughly equal measure — play your own hand's equity and blockers rather than trying to narrow it down.",
   "difficulty": "medium"
  },
  {
@@ -158,7 +158,7 @@
   ],
   "correct": 1,
   "draws": "Spade flush draw; wheel gutshots (23, 35, 25 need two cards — minimal).",
-  "explanation": "Two-tone brings the flush draw. Ranks are disconnected so straight draws are negligible. Semi-wet: protect strong hands against the flush draw but otherwise value-focused.",
+  "explanation": "TEXTURE: SEMI-WET. Two-tone brings a spade flush draw; the disconnected ranks (A-9-4) leave straight draws essentially irrelevant.\n\nGOING FORWARD: One live category — protect against the flush draw, but otherwise this plays like a value-focused ace-high board.\n\nHERO ACTION:\nAGGRESSOR: bet for value, sizing up a touch if you want to directly punish the flush draw.\nCALLER: a spade is worth continuing with; without one, you need an ace or a strong pair to keep playing.\n\nREADING VILLAIN: Watch for the flush completing (a third spade) as the one real scare card — outside of that, treat aggression as ace-heavy value rather than a wide bluffing range.",
   "difficulty": "medium"
  },
  {
@@ -176,7 +176,7 @@
   ],
   "correct": 2,
   "draws": "Made straights (87, 32), open-enders everywhere (any 7, 3), club flush draw.",
-  "explanation": "Low connected two-tone board. 87 and 32 made straights, any 7 or 3 has huge equity, clubs add flush draws. Low wet boards connect hard with calling ranges (suited connectors) harder than raising ranges.",
+  "explanation": "TEXTURE: WET. Low, connected, two-tone — 87 and 32 are made straights, any 7 or 3 adds huge equity, and clubs bring a flush draw on top.\n\nGOING FORWARD: Low wet boards actually connect harder with calling ranges (suited connectors, small pairs) than with a typical preflop raiser's range — expect the caller to have more of this board than usual.\n\nHERO ACTION:\nAGGRESSOR: don't assume range advantage just because you raised preflop — size up for value/protection and be ready to give up against real resistance.\nCALLER: this is exactly the kind of board your suited connectors and small pairs were built for; play draws aggressively.\n\nREADING VILLAIN: Because the caller's range hits this board hard, raises and check-raises deserve more credit here than on a high-card board — don't default to \"it's probably a bluff.\"",
   "difficulty": "medium"
  },
  {
@@ -194,7 +194,7 @@
   ],
   "correct": 1,
   "draws": "Straight draws only: JT open-ender, AJ/AT/J9 gutshots. No flush draws.",
-  "explanation": "Rainbow but two broadways are connected. JT has an open-ender, AJ a gutshot. No flush draws. The connectivity makes it semi-wet despite the rainbow suits.",
+  "explanation": "TEXTURE: SEMI-WET. Rainbow (no flush draw), but two connected broadways give real straight equity — JT has an open-ender, AJ a gutshot.\n\nGOING FORWARD: The connectivity alone is enough to lift this out of \"dry\" even without a flush draw — treat it as moderately dangerous, not safe.\n\nHERO ACTION:\nAGGRESSOR: c-bet as usual, but recognize JT/AJ-type hands have real outs, so barrel turns that complete a straight less confidently.\nCALLER: an open-ender or gutshot here is worth a call, especially with overcard backup (AJ, AT).\n\nREADING VILLAIN: Raises are more believable as straight-draw semi-bluffs than on a truly dry board, but still lean toward value (Kx, QQ+) since there's no flush draw inflating the bluffing range.",
   "difficulty": "medium"
  },
  {
@@ -212,7 +212,7 @@
   ],
   "correct": 2,
   "draws": "Diamond flush draw, JQ/J8/87 straight draws around the T9.",
-  "explanation": "WET. T♦9♣2♦ has BOTH draw categories live: a diamond flush draw AND real straight draws (T-9 is connected — QJ, J8, 87, 86 all draw). Both axes active = wet. GOING FORWARD: bet bigger with your value hands to charge the draws, and be willing to commit strong made hands now (equity shifts a lot by the river). Don't slow-play sets here — too many turns change who's ahead.",
+  "explanation": "TEXTURE: WET. Both categories live — a diamond flush draw and real straight draws (T-9 connects with QJ, J8, 87, 86).\n\nGOING FORWARD: With both axes active, bet bigger with value to charge everything at once, and commit strong made hands now — equity shifts a lot by the river.\n\nHERO ACTION:\nAGGRESSOR: size up and don't slow-play sets — too many turns flip who's ahead.\nCALLER: draws here are live and often correctly priced or better, especially combo draws (a diamond plus a gutshot).\n\nREADING VILLAIN: Big aggression is a real mix of value and semi-bluffs; don't overfold to raises with a strong made hand, but don't call down blind either — the board keeps moving.",
   "difficulty": "medium"
  },
  {
@@ -230,7 +230,7 @@
   ],
   "correct": 0,
   "draws": "None — paired ace board, rainbow.",
-  "explanation": "Paired ace rainbow board. Whoever has the ace has trips; no draws exist. Extremely dry. Bluffing is effective because the board hits so few hands.",
+  "explanation": "TEXTURE: DRY. Paired ace rainbow board — whoever has the ace has trips, and there are no draws of any kind.\n\nGOING FORWARD: Extremely binary. Bluffing is effective because the board misses almost everyone, but real hands (trips, full houses) are also live.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — this board favors your range if you raised with more aces.\nCALLER: without an ace or a strong pocket pair, you're usually folding quickly.\n\nREADING VILLAIN: A check-raise here almost always means trips or a monster; there's nothing to semi-bluff with, so take escalating aggression at face value.",
   "difficulty": "easy"
  },
  {
@@ -248,7 +248,7 @@
   ],
   "correct": 2,
   "draws": "Heart flush draw; 65/52/A2/A5 wheel-ish gutshots and open-enders.",
-  "explanation": "WET (on the softer side). 8♥4♦3♥ has a heart flush draw AND low straight draws (the 4-3 brings 65, 56, A2, 67 type draws). Both categories live = wet, though less coordinated than a broadway board. GOING FORWARD: still size up with value to charge the flush + straight draws, but you can barrel a bit more selectively than on a high wet board since fewer premium hands connect with 8-4-3.",
+  "explanation": "TEXTURE: WET (softer side). A heart flush draw plus live low straight draws (4-3 connects with 65, 56, A2, 67 types) — both categories active.\n\nGOING FORWARD: Wet, but fewer premium preflop hands connect with 8-4-3 than with a high wet board, so you can be a bit more selective barrelling than on, say, QJT.\n\nHERO ACTION:\nAGGRESSOR: size up to charge the flush and straight draws, but recognize your range hits this less often, so barrel selectively rather than on autopilot.\nCALLER: low suited connectors and small pairs do well here — play draws for equity and fold equity both.\n\nREADING VILLAIN: Aggression is a real mix, but slightly more caller-favored than a high wet board — give a bit more credit to raises from the caller's side of the pot.",
   "difficulty": "medium"
  },
  {
@@ -266,7 +266,7 @@
   ],
   "correct": 2,
   "draws": "Made straights (AK, 98, K9), every broadway has a draw, no flush draws (rainbow).",
-  "explanation": "WET. Q♥J♦T♣ is rainbow (no flush draw) but the straight dimension is MAXED — it's the most connected board in poker: AK and K9 have open-enders, and any K or 9 makes a straight, plus AK is already a made straight. A fully connected run plays wet even without a flush draw (the mirror of monotone). GOING FORWARD: equities run close, so bet big with value and made straights, and be cautious with one-pair hands — this board hits a caller's range (KQ, JT, T9, QJ) hard. Don't overcommit an overpair here.",
+  "explanation": "TEXTURE: WET. Rainbow (no flush draw), but the straight dimension is maxed — AK is already a straight, and any K or 9 makes one. Full connectivity alone plays just as wet as a flush draw would.\n\nGOING FORWARD: Equities run close even without a flush draw. Bet big with value and made straights, and treat one-pair hands as vulnerable, not a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, but don't overcommit an overpair — this board hits a caller's range (KQ, JT, T9, QJ) hard.\nCALLER: any broadway connects here, so calling and even raising with open-enders or pair-plus-draw combos is well justified.\n\nREADING VILLAIN: Made straights are common enough on this texture that big aggression deserves real respect — a rainbow board doesn't mean safe, and this is the clearest example of why.",
   "difficulty": "medium"
  },
  {
@@ -837,7 +837,7 @@
    "Cannot classify"
   ],
   "correct": 1,
-  "explanation": "SEMI-WET. One category live: a club flush draw, but no straight connectivity (J-6-2 disconnected). GOING FORWARD: one draw type means moderate danger. As the aggressor you can c-bet and barrel selectively; without the flush draw completing, scare cards are limited to clubs — you only need to slow down when the flush comes."
+  "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with J-6-2 too disconnected for any real straight draw.\n\nGOING FORWARD: Moderate danger. The flush draw is the only thing to actually track; everything else about this board plays dry.\n\nHERO ACTION:\nAGGRESSOR: c-bet and barrel fairly freely — you only need to slow down when a third club lands.\nCALLER: a club (made or drawing) is worth continuing with; without one, treat this like a dry board and don't overextend.\n\nREADING VILLAIN: Aggression away from a club scare card is almost always about a jack or better, not a straight-based bluff — there isn't one to have."
  },
  {
   "id": "bt_flop_17",
@@ -853,7 +853,7 @@
    "Cannot classify"
   ],
   "correct": 2,
-  "explanation": "WET. Both categories maxed: a diamond flush draw AND a hugely connected run (8-7-6 — any 5, 9, T makes straights, tons of OESDs). GOING FORWARD: this connects hard with a caller's range. Bet big with value/made straights, charge the draws, and don't stack off one pair or an overpair — too many hands beat you and too many turns shift equity."
+  "explanation": "TEXTURE: WET. Both categories maxed — a diamond flush draw and a hugely connected run (any 5, 9, or T makes a straight, with open-enders everywhere).\n\nGOING FORWARD: This connects hard with a caller's range. Bet big with value and made straights, and don't stack off one pair or even an overpair.\n\nHERO ACTION:\nAGGRESSOR: size up to charge draws, and be honest with yourself about how often you're actually ahead with just one pair here.\nCALLER: this is a great board to defend and play back on with draws — both equity and fold equity are real.\n\nREADING VILLAIN: Give real credit to aggression from either side; too many hands beat one pair here for a raise to be dismissed as \"probably nothing.\""
  },
  {
   "id": "bt_flop_18",
@@ -869,7 +869,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Paired top card, one other big card, rainbow, no straight draws (only a KQ-ish gutter), no flush draw. GOING FORWARD: heavily favors the preflop raiser (AK, AQ, KK). C-bet small and often; folds come easily from air. A check-raise on a paired dry board is almost always trips+ — believe it."
+  "explanation": "TEXTURE: DRY. Paired top card, one other big card, rainbow. Gutshots technically exist (QJ, QT, or JT, each needing one exact card), but the ace caps the run so none can be open-ended, and there's no flush draw — thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, KK) connects far more often than the caller's does. But dry isn't safe — a caller who called with a king already has two pair (kings and aces), and pocket kings flopped a full house. Neither is a draw, both are real value.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — folds come easily from air, and protection is barely a concern.\nCALLER: without a king, an ace, or a big pocket pair, most hands are giving this one up quickly.\n\nREADING VILLAIN: A check-raise on a paired dry board like this means trips or better — usually a king (two pair) or the case ace/full house. There's no drawing range to semi-bluff with, so believe it."
  },
  {
   "id": "bt_flop_19",
@@ -885,7 +885,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Paired board, low side card, rainbow, no draws. GOING FORWARD: ranges barely connect, so this is a great small-c-bet bluffing spot as the aggressor — most hands missed. When you face big aggression here, it's usually a ten or an overpair; one pair is a bluff-catcher at best."
+  "explanation": "TEXTURE: DRY. Paired board, low side card, rainbow, no draws of any kind.\n\nGOING FORWARD: Ranges barely connect with this board — a great small-bet bluffing spot, since most hands missed entirely.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — fold equity is high and there's nothing to protect against.\nCALLER: without a ten or an overpair, one pair is a bluff-catcher at best against real pressure.\n\nREADING VILLAIN: Big aggression here is usually a ten or an overpair, not a bluff — treat one pair as a call-down candidate rather than a hand to raise with."
  },
  {
   "id": "bt_flop_20",
@@ -901,7 +901,7 @@
    "Cannot classify"
   ],
   "correct": 2,
-  "explanation": "WET. Both draw categories are live: a spade flush draw AND genuine straight draws — Q-J is highly connected, so KT is a full open-ender (8 outs) and T9/AK/AT add more. Flush draw + real OESDs = wet. GOING FORWARD: this favors a caller's range (KQ, QJ, JT, KT, T9) and has lots of equity flying around. Size up with value to charge the draws, and be cautious stacking off one-pair hands — many turns change who's ahead."
+  "explanation": "TEXTURE: WET. Both categories live — a spade flush draw and genuine straight equity (Q-J is highly connected: KT is a full open-ender, T9/AK/AT add more).\n\nGOING FORWARD: This favors a caller's range (KQ, QJ, JT, KT, T9) with lots of equity in play. Size up with value to charge the draws.\n\nHERO ACTION:\nAGGRESSOR: bet bigger, and be cautious stacking off one-pair hands — many turns change who's ahead.\nCALLER: open-enders and flush draws are both worth playing for value and fold equity here.\n\nREADING VILLAIN: Aggression is a real mix of value and strong draws; don't assume a raise is \"just\" a flush draw when the straight equity is this live too."
  },
  {
   "id": "bt_flop_21",
@@ -917,7 +917,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Rainbow (no flush draw) and widely spaced (9-5-2). There are a couple of minor straight draws (a 7-8 is an open-ender, and a few gutshots like 6-7 or 3-4), but they're sparse and low-frequency in most ranges — not enough to lift it out of the dry bucket. GOING FORWARD: still a classic dry board — c-bet small as the aggressor with range advantage. Few draws means few legitimate check-raises; treat big aggression as value-heavy."
+  "explanation": "TEXTURE: DRY. Rainbow and widely spaced (9-5-2). A few minor gutshots exist (6-7, 3-4 types) but they're too sparse and low-frequency to count.\n\nGOING FORWARD: Classic dry board — few legitimate draws means few legitimate check-raises.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — range advantage and fold equity are both high.\nCALLER: without a pair of nines or better, most hands are folding to continued pressure.\n\nREADING VILLAIN: Treat big aggression as value-heavy; the sparse straight equity here isn't enough to support a real semi-bluffing range."
  },
  {
   "id": "bt_flop_22",
@@ -933,7 +933,7 @@
    "Cannot classify"
   ],
   "correct": 2,
-  "explanation": "WET. Monotone AND fully connected — both axes maxed at once. Made flushes exist, made straights (AT) exist, and Broadway draws are everywhere. GOING FORWARD: extreme caution without a strong spade or made hand. This is the kind of board where even top set wants to be careful; bet big with the nuts, fold marginal hands to heavy action."
+  "explanation": "TEXTURE: WET. Monotone and fully connected at once — both axes maxed. Made flushes exist, AT is a made straight, and broadway draws are everywhere.\n\nGOING FORWARD: Extreme caution without a strong spade or made hand — even top set wants to tread carefully here.\n\nHERO ACTION:\nAGGRESSOR: bet big with the nuts, but fold marginal hands to heavy resistance rather than force it.\nCALLER: strong spades and made straights should be played fast; weaker holdings need a plan for when it gets expensive.\n\nREADING VILLAIN: This is as close to \"believe the aggression\" as poker gets — the range of hands that connect this well with the board is deep, so heavy pressure is rarely a pure bluff."
  },
  {
   "id": "bt_flop_23",
@@ -949,7 +949,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Paired board, rainbow, one high card, no draws. GOING FORWARD: favors the raiser (Kx, overpairs). Good small-c-bet spot; a raise here reps trips or an overpair. One pair (a king) is fine for one street but fold to escalating aggression on a paired board — boats are possible."
+  "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no draws.\n\nGOING FORWARD: Favors the raiser's range (Kx, overpairs). A good spot to c-bet small and wide.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — a raise back reps trips or an overpair, so you can fold marginal hands to real resistance without much regret.\nCALLER: one pair (a king) is fine for one street, but don't chase escalating aggression — boats are live on a paired board.\n\nREADING VILLAIN: A raise here reps trips or an overpair specifically; there's no draw-based bluffing range to muddy the read."
  },
  {
   "id": "bt_flop_24",
@@ -965,7 +965,7 @@
    "Cannot classify"
   ],
   "correct": 2,
-  "explanation": "WET. Flush draw (diamonds) + maxed straight connectivity (6-5-4: any 3, 7, 8 completes, plus 78/87/A2 draws). GOING FORWARD: this connects hard with a caller's range. Charge draws with big bets, commit strong made hands, and never slow-play a set here — the board changes on a huge fraction of turns."
+  "explanation": "TEXTURE: WET. A diamond flush draw plus maxed straight connectivity — any 3, 7, or 8 completes a straight, on top of 78/87/A2-type draws.\n\nGOING FORWARD: This connects hard with a caller's range — charge draws with big bets and commit strong made hands now.\n\nHERO ACTION:\nAGGRESSOR: size up, and never slow-play a set here — the board changes on a huge fraction of turns.\nCALLER: low connected boards like this are where suited connectors and small pairs earn their keep; play draws aggressively.\n\nREADING VILLAIN: Give real credit to aggression from the caller's side especially — this board disproportionately favors hands that call preflop over hands that raise."
  },
  {
   "id": "bt_flop_25",
@@ -981,7 +981,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Rainbow, ace-high, widely disconnected. The only draw possible is a backdoor wheel gutshot (34/45/35 using the A-2), which is a tiny, marginal part of any range — so this plays as effectively dry, not semi-wet (no live flush or open-ended draws). GOING FORWARD: textbook aggressor board — you have the range edge (more aces). C-bet small and frequently; fold equity is high. Donk-bets and check-raises here are rarely draws, so they're usually weak or value, not semi-bluffs."
+  "explanation": "TEXTURE: DRY. Rainbow, ace-high, widely disconnected. The only draw is a backdoor wheel gutshot (34/45/35 using the A-2), which needs runner-runner — too marginal to count as semi-wet.\n\nGOING FORWARD: The range advantage (more aces) sits with the preflop raiser, and fold equity is high. But a caller who called with A7, A2, 72, 22, or 77 already has two pair or trips, not a draw — those specific combos are live traps even though the overall range still favors the raiser.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and frequently — this is a range-bet spot, not a hand-by-hand decision.\nCALLER: without an ace or a pair that matches the board, most hands are giving this up quickly and cheaply.\n\nREADING VILLAIN: Donk-bets and check-raises here are rarely bluffs — with almost nothing to draw to, aggression is either a weak lead or genuine two pair/trips, not a semi-bluff."
  },
  {
   "id": "bt_flop_26",
@@ -997,7 +997,7 @@
    "Cannot classify"
   ],
   "correct": 2,
-  "explanation": "WET. A diamond flush draw plus an extremely connected run: J-T-9 is so coordinated that several hands already MAKE a straight — KQ (K-Q-J-T-9), Q8 (Q-J-T-9-8), and 87 (J-T-9-8-7) are all made straights, and any Q or 8 completes one. On top of that there are flush draws and gutshots (e.g. AK needs a Q). GOING FORWARD: a big danger board that connects hard with a caller's range (KQ, QT, JT, T9). Size up with strong value, and be very cautious with overpairs and one-pair hands — they're often already behind a made straight here, especially out of position."
+  "explanation": "TEXTURE: WET. A diamond flush draw plus an extremely connected run — KQ, Q8, and 87 are all already made straights, and any Q or 8 completes one.\n\nGOING FORWARD: A big danger board that connects hard with a caller's range (KQ, QT, JT, T9). Size up with strong value.\n\nHERO ACTION:\nAGGRESSOR: be very cautious with overpairs and one-pair hands — they're often already behind a made straight here.\nCALLER: this is one of the best boards to play back on aggressively, since made straights and strong draws are both live in your range.\n\nREADING VILLAIN: Especially out of position, big aggression on this board is genuinely scary — made straights are common enough that folding overpairs to heavy pressure is often correct."
  },
  {
   "id": "bt_flop_27",
@@ -1013,7 +1013,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY. Paired board, rainbow, one high card, no straight or flush draws. GOING FORWARD: favors the raiser; great spot to c-bet small with your whole range. A check-raise reps a five or an overpair — on a paired board, escalating aggression threatens a full house, so don't stack off one pair."
+  "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no straight or flush draws.\n\nGOING FORWARD: Favors the raiser — a great spot to c-bet small with your whole range.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, and don't be afraid to give up cheaply when it goes wrong since little is invested.\nCALLER: one pair is fine for a street, but don't stack off — escalating aggression on a paired board threatens a full house.\n\nREADING VILLAIN: A check-raise reps a five or an overpair specifically — there's no draw-based semi-bluffing range on a board like this."
  },
  {
   "id": "bt_flop_28",
@@ -1029,7 +1029,7 @@
    "Cannot classify"
   ],
   "correct": 1,
-  "explanation": "SEMI-WET. One category: a club flush draw, with only minor straight presence (Q-9 leaves a JT gutshot-ish draw). GOING FORWARD: moderate board — charge the flush draw with value but you can still barrel turns that aren't clubs fairly freely, since straights are sparse."
+  "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with only minor straight presence (Q-9 leaves a thin JT-type gutshot).\n\nGOING FORWARD: Moderate board — charge the flush draw with value, but straights are sparse enough to mostly ignore.\n\nHERO ACTION:\nAGGRESSOR: barrel non-club turns fairly freely; you're mainly playing around one scare card.\nCALLER: a club is worth continuing with; without one, you need a queen or better to keep going.\n\nREADING VILLAIN: Watch for the flush completing as the main danger — outside of that, treat aggression as value-heavy rather than a wide semi-bluffing range."
  },
  {
   "id": "bt_flop_29",
@@ -1045,7 +1045,7 @@
    "Cannot classify"
   ],
   "correct": 0,
-  "explanation": "DRY (trips board). Three of a kind on board, rainbow, no flush draw, no straight draws. GOING FORWARD: ranges barely differ, so it plays dry — c-bet small with your whole range or check to induce. Big aggression reps an overpair, a big kicker, or the case eight; one pair is mostly a bluff-catcher."
+  "explanation": "TEXTURE: DRY (trips board). Three of a kind on board, rainbow, no flush draw, no straight draws — ranges barely differ from each other here.\n\nGOING FORWARD: Plays dry despite looking unusual — c-bet small with your whole range, or check to induce since so little is at stake for most hands.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, or check back to keep the pot manageable — either is fine given how little separates most holdings.\nCALLER: one pair is mostly a bluff-catcher; only a big kicker or the case eight really wants to build the pot.\n\nREADING VILLAIN: Big aggression reps an overpair, a big kicker, or the case eight specifically — there's no draw to bluff with on a trips board."
  },
  {
   "id": "bt_flop_30",
@@ -1061,6 +1061,6 @@
    "Cannot classify"
   ],
   "correct": 1,
-  "explanation": "SEMI-WET. One category live: a club flush draw plus a modest straight presence (T-8 gives 9-x and J9/97 draws). It's right on the dry side of the semi-wet/wet line — the gap between T and 8 keeps it from being fully connected. GOING FORWARD: charge the flush draw, barrel selectively, and reassess if a 9 or club lands (those complete the draws)."
+  "explanation": "TEXTURE: SEMI-WET, right on the dry side of the line. One category live — a club flush draw — plus a modest straight presence (T-8 gives 9-x and J9/97-type draws), but the T-8 gap keeps it short of fully connected.\n\nGOING FORWARD: Charge the flush draw and reassess if a 9 or a club lands — those are the two cards that actually change this board.\n\nHERO ACTION:\nAGGRESSOR: barrel selectively rather than on autopilot — the board is calmer than a true wet board but not as safe as a dry one.\nCALLER: a club or a nine-based draw is worth continuing with; otherwise treat it close to a dry board.\n\nREADING VILLAIN: Aggression on a completing card (9 or club) deserves real respect; away from those, lean toward treating raises as value."
  }
 ]
