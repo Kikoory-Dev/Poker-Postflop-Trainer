@@ -446,7 +446,7 @@
   ],
   "correct": 0,
   "draws": "",
-  "explanation": "Pairing the 8 means 8x has trips. The club draw is still live. Paired boards reduce two-pair combos and make bluffing harder against stations who call with any 8.",
+  "explanation": "Pairing the 8 gives trip eights to anyone holding just one 8 — the board itself now supplies the second 8, so a lone 8x jumps straight past any two-pair hand that doesn't include an 8 (like K2). That's the counterfeit: a hand that was behind before the turn is now ahead of a two-pair hand it used to lose to. The club flush draw is unaffected and still live. It also makes bluffing tougher — a station who called with 'any 8' now has trips, not just a pair, so more pressure doesn't fold them.",
   "difficulty": "medium"
  },
  {
@@ -1061,6 +1061,6 @@
    "Cannot classify"
   ],
   "correct": 1,
-  "explanation": "TEXTURE: SEMI-WET, right on the dry side of the line. One category live — a club flush draw — plus a modest straight presence (T-8 gives 9-x and J9/97-type draws), but the T-8 gap keeps it short of fully connected.\n\nGOING FORWARD: Charge the flush draw and reassess if a 9 or a club lands — those are the two cards that actually change this board.\n\nHERO ACTION:\nAGGRESSOR: barrel selectively rather than on autopilot — the board is calmer than a true wet board but not as safe as a dry one.\nCALLER: a club or a nine-based draw is worth continuing with; otherwise treat it close to a dry board.\n\nREADING VILLAIN: Aggression on a completing card (9 or club) deserves real respect; away from those, lean toward treating raises as value."
+  "explanation": "TEXTURE: SEMI-WET, right on the dry side of the line. Two categories are technically live — a club flush draw and some straight potential — but they're not equal: the flush draw is full-strength (any two clubs is a 9-out draw), while the T-8 gap means most of the straight equity is a gutshot (Q9, 96-type) rather than a clean open-ender — only a 9-x hand with the right side card (J9, 79) gets a full open-ended draw. It's semi-wet because only one of the two categories carries a full out-count.\n\nGOING FORWARD: Charge the flush draw and reassess if a 9 or a club lands — those are the two cards that actually change this board.\n\nHERO ACTION:\nAGGRESSOR: barrel selectively rather than on autopilot — the board is calmer than a true wet board but not as safe as a dry one.\nCALLER: a club or a nine-based draw is worth continuing with; otherwise treat it close to a dry board.\n\nREADING VILLAIN: Aggression on a completing card (9 or club) deserves real respect; away from those, lean toward treating raises as value."
  }
 ]

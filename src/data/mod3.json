@@ -68,7 +68,7 @@
     "module": "3",
     "category": "Delayed C-Bet · Real",
     "difficulty": "medium",
-    "scenario": "YOUR HAND. You 3-bet B♥B (wait: QJs) and reach a flop A-J-7 with middle pair (the J). You CHECK the flop as the aggressor (pot control). Turn is a blank.",
+    "scenario": "YOUR HAND. You 3-bet with QJs and reach a flop A-J-7 with middle pair (the J). You CHECK the flop as the aggressor, out of position (pot control). Turn is a blank.",
     "question": "You checked flop with middle pair on an ace-high board. Was that check correct, and what now?",
     "options": [
       "Wrong — always c-bet as aggressor",
@@ -77,7 +77,7 @@
       "Bet big now"
     ],
     "correct": 1,
-    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a CORRECT pot-control play — the ace connects hard with the caller's range and your jack is only medium strength. This is a legit delayed-c-bet / showdown-value line, NOT a missed c-bet. The leak in the real hand came later (calling big bets with one pair), not from this check. Checking was right. Correct pot-control check (ace hits caller's range, your J is medium-strength); now you can call one bet or take a delayed thin-value/showdown line."
+    "explanation": "Based on your real QJs hand. Checking middle pair OOP on an ace-high board is a defensible pot-control play — one pair, mediocre kicker, out of position, against a range that still holds better jacks, sets, and the ace itself. That's real showdown value, but not a hand that gains much from barrelling: a raise makes you fold anyway, so betting mostly just risks chips to fold out worse jacks and busted overcards. One caveat on the reasoning, not the conclusion: this isn't really about 'the ace favoring the caller' — in 3-bet pots the ace often favors YOUR range more, since most weak aces get folded to a 3-bet before the flop ever happens. The real case for checking is simpler — OOP, medium strength, nothing extra to protect, so take a cheap look and decide later. Calling this a 'delayed c-bet' is also a bit of a stretch: that term normally describes checking IN POSITION and betting later once you've seen a free card; OOP, you're not delaying anything, you're just checking. The actual leak in the real hand came later — calling big bets with one pair — not from this initial check."
   },
   {
     "id": "cbd_06",

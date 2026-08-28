@@ -397,7 +397,7 @@
    "Weak — check/fold"
   ],
   "correct": 3,
-  "explanation": "77 on Q-J-4 is an underpair beneath TWO overcards (Q and J), no draw = effectively WEAK here (closer to weak than medium — it beats only a pure bluff or a lower pair, and it's behind every Qx/Jx plus draws). You're OOP as the aggressor. One small c-bet is fine for protection/fold equity, but treat it as give-up-able: fold to a raise or a second barrel. Low pair on a high two-overcard board is not a hand to commit."
+  "explanation": "77 on Q-J-4 is an underpair beneath TWO overcards (Q and J), no draw — effectively WEAK (it only beats a pure bluff or a lower pair, and loses to every Qx/Jx plus any draw). You're UTG, the preflop raiser, and you're IN POSITION here — BB acts first. Because this board favors your opening range, a small c-bet is a standard range-bet for protection and fold equity, but the hand has nothing behind it: give up to any raise or a second barrel rather than trying to realize showdown value. 'Weak — check/fold' describes the ceiling of the hand and the plan past one street, not a literal ban on ever betting it."
  },
  {
   "id": "hsc_26",
@@ -413,7 +413,7 @@
    "Weak — check/fold"
   ],
   "correct": 0,
-  "explanation": "Top pair good kicker vs a CALLING STATION is effectively STRONG VALUE for value-betting purposes — against a player who never folds and calls with worse Kx/9x/pairs, you should bet all three streets for value, NOT pot-control. The player type upgrades your line: vs a thinking TAG you'd pot-control TPGK, but vs a station you milk it. Same hand, different plan based on the opponent."
+  "explanation": "Top pair good kicker vs a CALLING STATION is effectively STRONG VALUE for value-betting purposes — against a player who never folds and calls with worse Kx and pairs, you should bet all three streets for value, NOT pot-control. Note the turn 9 pairs the board, which upgrades any 9x she was calling with into trips — but a true station's range skews toward worse kings and underpairs rather than specifically 9x, so the value case still holds; just don't be shocked by a raise here. The player type upgrades your line: vs a thinking TAG you'd pot-control TPGK, but vs a station you milk it, eyes open to what the board just gave her. Same hand, different plan based on the opponent."
  },
  {
   "id": "hsc_27",
