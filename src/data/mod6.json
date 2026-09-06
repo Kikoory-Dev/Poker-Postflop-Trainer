@@ -988,5 +988,101 @@
     ],
     "correct": 1,
     "explanation": "As the 3-bettor, your range is the strong one: AA, KK, QQ, AK — the overpairs dominate a 9-6-2 board. The caller's range (which would 4-bet AA/KK at micro) is capped at hands like TT-JJ, AQ, suited connectors. A c-bet leverages your range advantage: you credibly represent the overpairs they rarely hold, and even though you have only ace-high, you have two overcards and backdoor equity. This is range-based c-betting — the board favors your range, so you bet regardless of your specific holding. As the 3-bettor, this dry low board favors YOUR range (overpairs AA-TT) far more than their flat-calling range; your AK has backdoors + overcards and a c-bet folds out their air."
+  },
+  {
+    "id": "pt_g_07",
+    "module": "6",
+    "category": "Whose Range · Drill",
+    "difficulty": "easy",
+    "scenario": "A tight UTG opens, a wide BB defends and calls. Flop comes 6♠5♦4♣.",
+    "question": "Whose range does this 6-5-4 board favor?",
+    "options": [
+      "BB's wide range — packed with these connectors",
+      "UTG's — they have more big cards",
+      "Neither — totally neutral board",
+      "UTG's — tight ranges love low boards"
+    ],
+    "correct": 0,
+    "explanation": "A low, connected rainbow board like 6-5-4 is exactly the kind of texture a wide, unselective BB defending range is built for — suited connectors, one-gappers, and small pockets all smash this. A tight UTG opening range, by contrast, is stacked with big cards and premium pairs that mostly miss a board this low. BB's wide range favors this board — low, connected textures hit a wide defending range far harder than a tight opening range; the raiser should slow down more than usual here."
+  },
+  {
+    "id": "pt_g_08",
+    "module": "6",
+    "category": "Whose Range · Drill",
+    "difficulty": "easy",
+    "scenario": "CO opens with a normal opening range, BB calls. Flop comes K♣8♦3♥.",
+    "question": "Whose range does this K-8-3 board favor?",
+    "options": [
+      "BB's — they defend with more kings",
+      "Neither — coin flip board",
+      "BB's — the 8 pairs a good chunk of their wide calling range",
+      "CO's — loaded with Kx and big pairs BB would fold or 3-bet"
+    ],
+    "correct": 3,
+    "explanation": "High, disconnected boards like K-8-3 are the mirror image of a low connected board: the preflop raiser's range is full of exactly the hands that crush this texture (big kings, premium pairs), while a calling range has already shed a lot of its strongest Kx and pairs at the 3-betting stage. CO's range favors this board — a raiser's range concentrates big cards and pairs on high, dry boards; keep betting here."
+  },
+  {
+    "id": "pt_g_09",
+    "module": "6",
+    "category": "Hand Strength · Drill",
+    "difficulty": "medium",
+    "scenario": "You hold K♣T♣ (top pair, so-so kicker) in two spots: (X) K♦Q♠J♥ against a player who just raised you on this exact texture, (Y) K♠4♦2♣ against a straightforward opponent who just calls once.",
+    "question": "Same top pair (K) — how does relative strength differ between board X and board Y?",
+    "options": [
+      "Strong on both — top pair is top pair",
+      "Weak on both — fold KT always",
+      "Dangerous on X, comfortable on Y",
+      "Identical — the opponent's action never matters"
+    ],
+    "correct": 2,
+    "explanation": "Board X is a straight-heavy, broadway-packed texture where a raise usually means two pair, a straight, or a set — and your ten kicker doesn't even beat many worse kings there. Board Y is dry and disconnected, facing a single passive call, where plenty of worse kings, pairs, and busted overcards make up the range. Same top pair, opposite risk level — the texture and the specific action change everything about what this hand is worth."
+  },
+  {
+    "id": "pt_g_10",
+    "module": "6",
+    "category": "Hand Strength · Drill",
+    "difficulty": "medium",
+    "scenario": "You hold A♠K♦ (top pair top kicker) on K♥8♦3♣ in two situations: (X) heads-up against one caller, (Y) three-way with two callers still in the hand.",
+    "question": "Same TPTK — how does relative strength differ between heads-up and three-way?",
+    "options": [
+      "Strong both ways, but size more cautiously 3-way",
+      "Identical — bet the same amount always",
+      "Weak in both — this hand never holds up",
+      "Stronger 3-way — more players to pay you off"
+    ],
+    "correct": 0,
+    "explanation": "TPTK on a dry, disconnected board is a real hand either way — the difference is how much confidence to put behind it. Heads-up, you're only beating one range; three-way, you need to beat two ranges at once, and the combined chance that at least one of two opponents connected (two pair, a set, a slow-played overpair) is meaningfully higher than for either one alone. Bet both ways, but size and commit more freely heads-up than with the same exact hand three-way."
+  },
+  {
+    "id": "pt_g_11",
+    "module": "6",
+    "category": "Your Response · Drill",
+    "difficulty": "hard",
+    "scenario": "A calling station has called both flop and turn passively with no aggression at all. On the river, out of nowhere, they check-raise you. You hold top two pair.",
+    "question": "A station suddenly check-raises the river after two streets of pure passivity. Action?",
+    "options": [
+      "Re-raise — top two pair is simply too strong to ever slow down",
+      "Call — they're a station, this can't be real",
+      "Shove — never fold two pair",
+      "Proceed very cautiously — the sudden change is the real signal"
+    ],
+    "correct": 3,
+    "explanation": "A player's overall tendency describes their DEFAULT behavior, not a guarantee about every single action — and a sudden, uncharacteristic check-raise after two streets of pure passivity is one of the strongest signals in poker, precisely because it's out of character. Two pair is a good hand, but 'they're usually passive' doesn't override 'they just did something they almost never do.' Slow down — a station abandoning their usual pattern for a check-raise is telling you something real; don't let the general read override the specific action."
+  },
+  {
+    "id": "pt_g_12",
+    "module": "6",
+    "category": "Your Response · Drill",
+    "difficulty": "hard",
+    "scenario": "A TAG has bet the flop and turn for value on a coordinated board. On the river, a card falls that completes an obvious flush draw, and the TAG suddenly checks after two confident barrels. You hold a bluff-catcher-type second pair.",
+    "question": "A confident bettor suddenly checks when the flush card lands. Action?",
+    "options": [
+      "Fold automatically — they must have the flush now",
+      "Bet for thin value — the check often signals missed equity",
+      "Check behind always with a bluff-catcher",
+      "Raise big to fold out the flush"
+    ],
+    "correct": 1,
+    "explanation": "A player who's been betting confidently for two streets and then suddenly checks when a scare card arrives is frequently signaling that the card hurt THEM, not you — many players check back when their own two-pair-or-set hand no longer feels safe against a completed draw. Bet for thin value — a sudden check after aggressive barrelling is often weakness or caution rather than the busted flush completing; a bluff-catcher-type hand can profitably bet into that pattern."
   }
 ]
