@@ -110,5 +110,373 @@
     ],
     "correct": 1,
     "explanation": "Multiway + extreme wetness downgrades even aces. J-T-9 two-tone connects with two callers' ranges enormously: KQ/Q8/87 straights, sets, two pair, combo draws. Your AA holds ONE pair with no heart — its relative strength multiway is poor. This is the overvaluing-one-pair trap in its purest form. Bet small for protection at most, and be fully prepared to fold to significant action. Do not stack off a single pair here. Check or bet small with give-up plan — this board crushes two callers' ranges (straights, two pair, sets, flush+straight draws); AA is now a vulnerable one-pair hand multiway."
+  },
+  {
+    "id": "cbd_08",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "easy",
+    "scenario": "You raise UTG, BB calls. Flop K♦ 7♠ 2♣ (dry, disconnected, rainbow). You have 9♠ 8♠ (nothing, backdoor spade draw).",
+    "question": "Dry king-high board, your UTG range vs BB's flatting range — c-bet with nothing?",
+    "options": [
+      "Bet small — range edge",
+      "Check — you missed completely",
+      "Bet big — polarize the range",
+      "Check-raise as a bluff line"
+    ],
+    "correct": 0,
+    "explanation": "C-bet small. UTG's opening range is loaded with big cards and pairs that connect with K-7-2, while BB's flatting range (suited connectors, small pairs, weak kings) mostly misses or holds something too weak to continue. Range advantage plus a backdoor spade draw is more than enough to fire a small, high-frequency bet — you don't need a made hand when the board itself does the work. Bet small — UTG's range dominates this dry king-high board and BB folds a lot; the backdoor draw is a bonus, not the reason to bet."
+  },
+  {
+    "id": "cbd_09",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise CO, a tight-passive BB (folds to c-bet 78% of the time, rarely continues without a real hand) calls. Flop Q♣ 8♦ 3♥ (dry, rainbow). You have 6♣ 5♣ (nothing, backdoor flush + gutshot).",
+    "question": "Against a nit who folds to c-bets 78% of the time, does your hand strength matter much here?",
+    "options": [
+      "Need a pair first",
+      "Bet — fold equity alone",
+      "Never bet without equity",
+      "Only with the nut draw"
+    ],
+    "correct": 1,
+    "explanation": "Opponent tendency can outweigh hand strength as a factor. A 78% fold-to-cbet rate on a dry Q-8-3 board means most of this player's range folds regardless of what you hold — close to a bet-any-two-cards spot. Your backdoor flush and gutshot are a nice bonus if called, but they're not the reason to bet; the read is. Bet — an extremely high fold-to-cbet stat on a dry board makes your two cards almost irrelevant; you're betting the opponent, not your hand."
+  },
+  {
+    "id": "cbd_10",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls. Effective stacks are 22bb. Flop J♥ 8♣ 4♠ (dry-ish, rainbow). You have A♠ J♠ (top pair, top kicker).",
+    "question": "Short effective stacks (22bb), you flop top pair top kicker — c-bet, or check to control the pot?",
+    "options": [
+      "Check — protect the stack",
+      "Check-call passively",
+      "Bet — get stacks in short",
+      "Min-bet only"
+    ],
+    "correct": 2,
+    "explanation": "Stack depth is a real c-bet factor, and it cuts the opposite way from what many players assume. At 22bb, there isn't enough room left behind for a scary multi-street escalation to actually threaten you — you're often pot-committed with TPTK by the turn regardless. Pot control matters far more when stacks are deep and the downside of a big pot is large; short, it barely matters. Bet — with stacks this short, TPTK wants to build the pot and get to showdown or an all-in, not shrink it."
+  },
+  {
+    "id": "cbd_11",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "hard",
+    "scenario": "You raise CO, BTN calls. Flop 9♠ 6♠ 2♥ (two-tone spades, low). You have A♠ 4♥ (ace-high, nothing else, but the ace of spades).",
+    "question": "You hold the ace of spades — no pair, no real draw of your own — on a two-spade flop. Does that blocker change anything about c-betting?",
+    "options": [
+      "No — blocker is irrelevant",
+      "Yes — it's the flush draw",
+      "No — need a pair or better",
+      "Yes — supports a bluff"
+    ],
+    "correct": 3,
+    "explanation": "Blockers are a real, if smaller, factor. Holding the A♠ doesn't give you a draw, but it removes the single most threatening combo (the nut flush draw) from BTN's continuing range, and makes it slightly less likely they have two spades at all. Combined with a reasonably dry underlying structure (9-6-2, no straight threats), that's enough to lean toward a bluff here rather than an automatic check. Bet — the ace of spades blocks BTN's best two-tone hands, tipping a close spot toward a bluff."
+  },
+  {
+    "id": "cbd_12",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls. Flop K♠ 9♦ 4♣ (dry). You have Q♥ J♥ (ace-high—no, king-high—no: queen-high with a gutshot to the broadway and a backdoor heart draw).",
+    "question": "Borderline hand — no pair, but a gutshot (any T) plus a backdoor flush draw. Does the extra equity change a close c-bet decision?",
+    "options": [
+      "Yes — tips it toward betting",
+      "No — too thin to matter here",
+      "No — need a pair at minimum",
+      "Yes — it's strong enough to bet for value"
+    ],
+    "correct": 0,
+    "explanation": "Range advantage alone (you have kings, BB's range is capped) already makes this a lean-bet spot; the gutshot plus backdoor flush just adds enough extra equity to make betting the clear default instead of a coinflip decision. It's not a value bet — QJ isn't ahead of much — but as a semi-bluff with real backup equity, it's a profitable c-bet where a pure air hand might be more marginal. Bet — range advantage plus a real (if thin) equity backup is enough to make this a clean semi-bluff, not a value bet."
+  },
+  {
+    "id": "cbd_13",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "hard",
+    "scenario": "You 3-bet from the BB, BTN calls. Flop A♣ T♠ 6♥ (ace-high, dry). You have K♥ Q♥ (nothing, backdoor flush + gutshot).",
+    "question": "3-bet pot, ace-high flop, you whiffed completely. Does being the 3-bettor change how often you should c-bet here versus a normal single-raised pot?",
+    "options": [
+      "No — plays identically either way",
+      "Bet more — you keep more aces",
+      "Bet less — caller's range is stronger here",
+      "No — always check air out of position"
+    ],
+    "correct": 1,
+    "explanation": "In 3-bet pots, ace-high boards usually favor the 3-bettor, not the caller — most players fold their weaker aces (A9, A8, and worse) to a 3-bet before the flop ever happens, while a 3-betting range plausibly still holds real Ax value (AK, AQ, sometimes AJ) alongside bluffs like this KQ. That's the opposite of the instinct that 'the ace hits the caller.' Bet small and often — 3-bet pots on ace-high boards are a classic spot to c-bet at high frequency, precisely because your own range is the one more likely to hold the ace."
+  },
+  {
+    "id": "cbd_14",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "Two players limp, you raise from the CO (isolating). Only the first limper (a wide, passive limp-caller) calls. Flop J♠ 6♣ 3♦ (dry, disconnected). You have 8♣ 7♣ (nothing, backdoor flush + backdoor straight).",
+    "question": "You isolated a limper who almost never limp-raises with a big hand. Does that capped range change your c-bet frequency here?",
+    "options": [
+      "No — a limper could still have anything",
+      "No — only bet actual made hands",
+      "Bet more — their range is capped",
+      "Yes — but only with a big sizing"
+    ],
+    "correct": 2,
+    "explanation": "Preflop action shapes ranges just as much as the board does. A player who limps and then just calls a raise (rather than 3-betting) is very unlikely to be sitting on AA/KK/AK — those hands usually raise. Their range is wide but weak on a J-6-3 board, which makes this an easy, high-frequency c-bet even with zero pair equity. Bet — the limp-call line caps this opponent's range hard, and a dry disconnected flop mostly misses what's left of it."
+  },
+  {
+    "id": "cbd_15",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "easy",
+    "scenario": "You raise BTN, BB calls. Flop K♦ 8♣ 2♠ (dry, rainbow, favors your range heavily). You have 4♠ 4♥ (bottom pair-ish pocket pair, no draw).",
+    "question": "This board strongly favors your range as a pure range bet. What sizing fits that plan best?",
+    "options": [
+      "Bet pot-plus, always",
+      "Sizing doesn't matter here",
+      "Bet exactly half pot always",
+      "Bet small, high frequency"
+    ],
+    "correct": 3,
+    "explanation": "Sizing is part of the c-bet decision, not an afterthought. On boards this dry and this favorable to your range, the correct plan is usually to bet SMALL across almost your entire range — a 25–35% bet still gets folds from most of what BB is holding, and betting small lets you do this with a much wider range (including thin pairs like 44) without risking much when called. A big bet here would just be overpaying for fold equity you already had cheaply. Bet small and often — the range advantage does the work; a big sizing would only add unnecessary risk for very little extra fold equity."
+  },
+  {
+    "id": "cbd_16",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls. Flop 9♠ 9♦ 4♣ (paired, dry). You have A♥ A♠ (overpair, now effectively trips-adjacent since you block none of the 9s but hold a huge overpair).",
+    "question": "A paired 9-9-4 board, one caller, you hold aces. Bet big or small?",
+    "options": [
+      "Bet big — near the effective nuts here",
+      "Check — paired boards are too dangerous",
+      "Bet small — stay cautious just in case",
+      "Bet, then auto-fold to any raise"
+    ],
+    "correct": 0,
+    "explanation": "Not every paired board is scary — a low, dry pair like 9-9-4 rarely improves a single caller's range into something that beats an overpair; very few flatting hands contain a 9, and there's no realistic straight or flush draw here at all. Against one opponent, AA is close to the effective nuts on this specific texture. Bet big — low dry paired boards are one of the best spots to get real value and protection with an overpair; don't shrink the bet out of a generic fear of 'paired boards.'"
+  },
+  {
+    "id": "cbd_17",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise CO, only the BB calls (heads-up pot). Flop Q♣ 7♠ 3♥ (dry, rainbow). You have K♠ T♠ (king-high, backdoor spade draw).",
+    "question": "Heads-up, dry board, king-high with nothing but backdoors — does facing just one opponent make this an easier bluff than it would be multiway?",
+    "options": [
+      "No — opponent count is irrelevant here",
+      "Yes — fold equity is higher 1-on-1",
+      "No — you should never bluff with air",
+      "Yes — but only if you also have a pair"
+    ],
+    "correct": 1,
+    "explanation": "Fold equity shrinks fast with each extra opponent — needing everyone to fold gets harder the more people are in the hand. Heads-up, you only need one range to fold often enough, and a capped, dry-board-missing BB range does exactly that. The same king-high hand that's a clear bet heads-up becomes far more marginal against two or three callers. Bet — heads-up is the easiest number of opponents to bluff profitably; this same hand gets much worse multiway."
+  },
+  {
+    "id": "cbd_18",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "hard",
+    "scenario": "A very tight UTG player min-raises, BB (also tight) just calls. You're watching this hand as a study example. Flop K♠ J♥ 6♣ (looks scary — two broadway cards). BB's likely holding, given they didn't 3-bet a tight UTG open, is capped well below AA/KK/AK.",
+    "question": "The flop LOOKS dangerous (two broadway cards), but what does BB's preflop action (just calling a tight UTG open) tell you about c-betting this board as UTG?",
+    "options": [
+      "Board danger is all that matters here",
+      "BB definitely has AK, so check",
+      "Bet freely — their range is capped",
+      "Preflop action never affects postflop reads"
+    ],
+    "correct": 2,
+    "explanation": "A board can look scary in the abstract while still being a good c-bet, once you account for what the caller's range actually contains. A tight player who flats a tight UTG open (instead of 3-betting) has almost certainly already discarded AA, KK, and usually AK/AQ — exactly the hands that would make K-J-6 dangerous for the raiser. Bet — read the range the preflop action actually leaves behind, not just the raw texture; a capped range makes even a broadway-heavy flop a good c-bet."
+  },
+  {
+    "id": "cbd_19",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls. Flop J♠ T♠ 4♥ (two-tone, one gap). You have J♥ 9♥ (top pair, plus a flush draw of your own on a different suit — no, correction: you have the flush draw live on hearts, top pair of jacks).",
+    "question": "Top pair with a flush draw of your own, on a two-tone board where BB could easily have a spade draw too. Bet small to keep the pot manageable, or bet big to charge draws?",
+    "options": [
+      "Bet small — no need to inflate",
+      "Check — too many draws live",
+      "Bet big only vs a station",
+      "Bet big — protect real equity"
+    ],
+    "correct": 3,
+    "explanation": "When you actually have a made hand with real equity to protect — not just a range-advantage bluff — the correct response to a draw-heavy board is to size UP, not down. Betting big charges BB's flush draw and any weaker jack close to the price they need, and it builds a pot you're happy to have with a hand this strong on this texture. Bet big — you have a genuine hand and real protection needs here; this is a value-and-protection spot, not a cheap range bet."
+  },
+  {
+    "id": "cbd_20",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "medium",
+    "scenario": "You raise SB, BB calls (a wide, unselective calling range from BB in this matchup). Flop A♠ 8♣ 3♠ (dry, rainbow). You have K♣ K♥ (overpair, second-nut pair).",
+    "question": "Overpair below the ace on a dry ace-high board — does the ace change how you view KK here?",
+    "options": [
+      "Bet — still beats most continues",
+      "Check — an ace out is too scary",
+      "Bet, auto-fold to any raise",
+      "Check-call only, never bet"
+    ],
+    "correct": 0,
+    "explanation": "An ace on board doesn't automatically neuter a big pocket pair — it only matters if the opponent's range contains enough actual aces to worry about. Against a wide, unselective BB calling range, most of what continues is worse pairs, ace-high, and draws, all of which KK beats. Bet for value and protection — don't let 'there's an ace out there' override the fact that most hands that can call still lose to kings; just stay alert if a wide range suddenly gets aggressive."
+  },
+  {
+    "id": "cbd_21",
+    "module": "3",
+    "category": "C-Bet Factors",
+    "difficulty": "hard",
+    "scenario": "You raise CO, BB calls (BB folds to c-bet 70%+, and you hold blockers: A♠ K♠ on a board with two spades). Flop Q♠ 8♠ 4♥ (two-tone, dry underneath). You have nothing but ace-king with the nut flush blocker.",
+    "question": "Fold equity is high, range favors you, AND you block the nut flush — three factors stacking in the same direction. How confidently should you c-bet?",
+    "options": [
+      "Cautiously — it's a coincidence",
+      "Confidently — factors are stacking",
+      "Not at all — no pair overrides it",
+      "Only with a backdoor draw too"
+    ],
+    "correct": 1,
+    "explanation": "None of these factors alone would be a slam dunk, but they compound: a high fold-to-cbet read means most hands fold regardless of texture; range advantage means your continuing range is also stronger than BB's; and holding the nut flush blocker specifically removes their best bluff-catcher/redraw. When factors stack instead of conflict, that's exactly when to bet with the most confidence and frequency, not less. Bet with full confidence — stacked, agreeing factors are the strongest version of a c-bet spot; this is close to a mandatory bluff."
+  },
+  {
+    "id": "cbd_22",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise UTG (narrow range), BB defends (wide range, standard defense). Flop 8♥ 7♠ 6♣ (low, connected, rainbow). You have Q♣ Q♥ (overpair).",
+    "question": "A narrow UTG range meeting a wide BB defending range on a low connected board — does 'you raised, so you have range advantage' still apply here?",
+    "options": [
+      "Yes — raiser always has the edge",
+      "Yes — only due to the overpair",
+      "No — this board favors BB's range",
+      "No — range advantage never matters"
+    ],
+    "correct": 2,
+    "explanation": "Range advantage isn't automatic just because you raised — it depends on which range fits the board. UTG's range is high-card-heavy and skips right past 8-7-6; BB's wide defending range is full of exactly the suited connectors, one-gappers, and small pairs that smash this texture into two pair, straights, and sets. QQ is still a real hand, but this is a bet-small-or-check spot, not a confident value bet. Check or bet small with a give-up plan — this board is one of the rare textures where the caller's range is actually stronger than the raiser's."
+  },
+  {
+    "id": "cbd_23",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise, get called by THREE players. Flop K♠ 6♥ 2♣ (fairly dry, rainbow). You have Q♥ J♥ (nothing, backdoor flush + gutshot).",
+    "question": "Three callers, a fairly dry board, you have nothing. Does the dry texture make this a good bluff anyway?",
+    "options": [
+      "Yes — dry boards are always good",
+      "Yes — with backdoor equity",
+      "No — the hand type is too weak",
+      "No — fold equity collapses 3-way"
+    ],
+    "correct": 3,
+    "explanation": "Board texture and number of opponents are separate factors, and a bad number of opponents can override an otherwise-good texture. Even on a dry flop, getting three different ranges to all fold at once is much harder than getting one to fold — someone is statistically likely to have connected with a king, a pocket pair, or overs worth continuing with. Check — three-way pots need a real hand or a real draw to bet profitably; dry texture alone doesn't rescue a pure bluff against this many opponents."
+  },
+  {
+    "id": "cbd_24",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls. Flop Q♠ 9♠ 4♠ (monotone spades). You have A♥ Q♥ (top pair, top kicker, no spade at all).",
+    "question": "Monotone flop, you have top pair top kicker but zero spades yourself. C-bet as normal?",
+    "options": [
+      "No — no blockers, play it safe",
+      "Yes — TPTK is TPTK",
+      "Yes — bet big to charge it",
+      "No — fold TPTK immediately"
+    ],
+    "correct": 0,
+    "explanation": "Monotone boards are the one texture where 'range advantage' arguments break down fastest — with three of one suit already out, a made flush is live in a meaningful slice of any calling range, and you hold zero blockers to it. TPTK is still a fine hand to get to showdown with, but firing big bets you can't comfortably continue against is the leak. Check or bet small — a good hand with no blockers on a monotone board should play for pot control, not maximum value, until you know more."
+  },
+  {
+    "id": "cbd_25",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "easy",
+    "scenario": "You raise, a loose-passive calling station calls. Flop J♠ T♥ 4♣ (two-tone, connected). You have 8♥ 6♥ (gutshot only — needs exactly a 9 — no overcards, no flush draw of your own suit that matters here).",
+    "question": "A weak gutshot, no overcards, against a station who never folds. C-bet as a semi-bluff?",
+    "options": [
+      "Yes — any draw is worth a bet",
+      "No — no fold equity, weak draw",
+      "Yes — bet big to fold out flushes",
+      "No — should've folded preflop"
+    ],
+    "correct": 1,
+    "explanation": "Semi-bluffing needs at least one of two things to work: fold equity, or good enough equity/implied odds to justify the money on its own. A calling station supplies neither the fold equity (they don't fold) nor is a single lone gutshot (4 outs, no overcards) strong enough equity to bet purely for value either. Check — against a no-fold opponent, a weak draw like this should take a free or cheap card, not build the pot with a bet that accomplishes nothing."
+  },
+  {
+    "id": "cbd_26",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "hard",
+    "scenario": "Effective stacks are 220bb (very deep). You raise, one caller. Flop K♥ T♠ 9♠ (drawy, two-tone). You have A♣ K♣ (top pair, weak-ish kicker relative to the deep stacks, no spade).",
+    "question": "Very deep stacks, top pair on a drawy two-tone board with a mediocre kicker for the depth. Bet as usual?",
+    "options": [
+      "Yes — top pair always bets",
+      "Yes — bet bigger since it's deep",
+      "No — deep stacks need pot control",
+      "No — fold top pair outright"
+    ],
+    "correct": 2,
+    "explanation": "Stack depth cuts both ways depending on the hand — short stacks favor building the pot with top pair (session cbd_10), but very deep stacks do the opposite: the more money that can go in behind, the more dangerous it is to inflate a pot with a vulnerable one-pair hand on a coordinated board, since a determined opponent has the room to make you pay for being wrong. Check for pot control — this is exactly the kind of spot where 'stack off with one pair, deep, on a drawy board' turns into the costliest recurring leak in a player's game."
+  },
+  {
+    "id": "cbd_27",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "hard",
+    "scenario": "You 3-bet from the BB, BTN calls. Flop 8♠ 7♥ 6♠ (low, connected, two-tone). You have A♥ K♣ (ace-king, no pair, no draw).",
+    "question": "3-bet pot again — but this time the flop is low and very connected instead of ace-high. Does the general '3-bet pots favor the aggressor' rule still hold?",
+    "options": [
+      "Yes — 3-bet pots always favor you",
+      "Yes — you hold two overcards",
+      "No — shouldn't have 3-bet at all",
+      "No — this board favors BTN's range"
+    ],
+    "correct": 3,
+    "explanation": "The '3-bet pots favor the aggressor' heuristic comes from range construction, not from being the 3-bettor by title — it holds on ace-high and king-high boards because those cards concentrate in the 3-bettor's range. A low, connected board flips that: BTN's flatting range (suited connectors, pocket pairs) hits 8-7-6 far harder than a range full of big cards and premium pairs does. Check/give up — don't blanket-apply the ace-high lesson to every 3-bet-pot board; the specific texture still decides whose range it favors."
+  },
+  {
+    "id": "cbd_28",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise, one caller (a very straightforward, 'face-up' player who calls with any pair or draw and basically never bluffs or folds a draw once in). Flop J♠ T♥ 8♣ (very wet, connected). You have 4♠ 3♣ (nothing, no blockers to anything relevant).",
+    "question": "Wet, connected board, a caller who never folds a pair or a draw, and your hand blocks nothing useful. C-bet?",
+    "options": [
+      "No — no fold equity, no blockers",
+      "Yes — wet boards invite bluffs",
+      "Yes — bet big to fold out draws",
+      "No — raise instead of betting"
+    ],
+    "correct": 0,
+    "explanation": "A wet board is only a good bluffing texture when it also produces folds — against a player who calls any pair or draw and won't fold once committed, the same board that scares off a normal range does nothing here. Your hand also blocks none of their likely holdings (no jack, ten, or eight, no relevant suit), so there's no added leverage either. Check — fold equity is the actual engine behind a bluff; without it, board texture and blockers can't save the bet."
+  },
+  {
+    "id": "cbd_29",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "hard",
+    "scenario": "You raise, BB (a player you've tagged as tight preflop, but who you've also seen call down very wide and never fold once they see a flop) calls. Flop K♥ J♥ 9♠ (two broadway cards, drawy). You have Q♣ T♠ (nothing but a gutshot to the nut straight).",
+    "question": "This player is 'tight' by preflop stats, but their actual postflop tendency is to never fold once in a hand. Which read should drive your c-bet decision?",
+    "options": [
+      "Their tight preflop stat",
+      "Their actual postflop stickiness",
+      "Neither — always bet the gutshot",
+      "Preflop stat, bigger sample size"
+    ],
+    "correct": 1,
+    "explanation": "Fold-to-cbet is a postflop stat, and it doesn't automatically follow from a player being tight preflop — those measure different decisions entirely. A player can easily be selective about which hands they play and still refuse to fold any of them once they've committed to seeing a flop. Check or bet small purely for the backup equity, not for fold equity — don't borrow a 'tight players fold' assumption from the wrong stat; use what you've actually observed them do postflop."
+  },
+  {
+    "id": "cbd_30",
+    "module": "3",
+    "category": "When NOT to C-Bet",
+    "difficulty": "medium",
+    "scenario": "You raise BTN, BB calls — you are in position. Flop 8♣ 5♠ 2♥ (dry, low, disconnected). You have K♥ 6♥ (king-high, backdoor flush draw only, no pair).",
+    "question": "In position, marginal backdoor-only hand, dry low board. Is betting or checking back the better default?",
+    "options": [
+      "Always bet — never check in position",
+      "Bet big to end it now",
+      "Check back — free card, no risk",
+      "Check-raise if BB leads"
+    ],
+    "correct": 2,
+    "explanation": "Being in position doesn't mean betting more of your weakest hands — it means you have the option to check back cheaply and still see the next card for free, without the risk a check carries out of position (facing a bet you can't profitably continue against). With a hand this marginal (king-high, no pair, just a backdoor draw), that free look is often worth more than the thin fold equity a bet would generate. Check back — position is most valuable as the ability to control the pot for free, not as a green light to bet everything."
   }
 ]
