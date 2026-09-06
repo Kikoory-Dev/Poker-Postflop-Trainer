@@ -23,12 +23,12 @@
     "scenario": "A loose-aggressive villain (47% VPIP, 20% 3-bet) has been 'pushing a lot'. He 5-bet jams 100bb+ over your 4-bet.",
     "question": "Villain is loose/aggressive overall. Does that mean his 100bb 5-bet-JAM range is wide?",
     "options": [
-      "No — even maniacs jam QQ+/AK",
       "Yes — he's loose, so call him wide",
+      "No — even maniacs jam QQ+/AK",
       "Yes — he could have anything here",
       "Only if he happens to be on tilt"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "This is the exact error from your AJo hand. A player can be 47% VPIP / 20% 3-bet and STILL only 5-bet-jam 100bb with QQ+, AK. Loose players are wide INTO pots and on early streets — but their full-stack commitment range collapses to a strong core. You correctly read he was aggressive; the mistake was applying 'he's wide' to a 100bb jam, where it doesn't hold. Wide preflop ≠ wide all-in."
   },
   {
@@ -39,12 +39,12 @@
     "scenario": "You have AJo in the SB, 100bb+ deep. MP opens to 2.5bb, you 3-bet to 9bb, MP 4-bets to 23bb, you 5-bet to 50bb, MP jams 100bb+ all-in.",
     "question": "You 5-bet AJo and faced a 100bb jam. Call or fold?",
     "options": [
-      "Fold — dominated by the jam",
       "Call — you're priced in",
       "Call — he's aggressive",
+      "Fold — dominated by the jam",
       "Call — AJ is strong"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "From your own play (you called and lost 105bb; villain had AK — exactly what you told yourself he didn't have). AJo is one of the worst hands to stack off 100bb because it's DOMINATED by the jamming range: AK and AQ dominate it, AA has it well beaten, you're only flipping vs QQ-JJ. AJo wants to 3-bet and FOLD to the 4-bet, or 3-bet/call once — never build a 5-bet stack-off pot. The aggression read was fine; the hand choice was the leak. AJo is dominated by the jam range."
   },
   {
@@ -55,12 +55,12 @@
     "scenario": "You have KK in the SB. Flop J-5-4, you bet (called). Turn 6: you check, villain bets, you check-raise big, villain re-raises all-in over you.",
     "question": "You have KK (overpair) on J-5-4-6. Villain re-raises all-in over your turn check-raise. Action?",
     "options": [
-      "Fold — re-raise reps a set",
       "Call — KK is too strong to fold",
       "It's a cooler, call it",
-      "Re-raise"
+      "Re-raise",
+      "Fold — re-raise reps a set"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "From your own play (you called and lost 117bb; villain had a set of jacks). KK LOOKS strong, but the ACTION redefines it: a re-raise over your turn check-raise is sets and two pair — hands that are well ahead of one pair. An overpair is still ONE PAIR. When the betting screams a set, even KK folds. This is the leak's signature: a strong-looking hand committed against a range that beats it. The re-raise reps a set; KK is one pair."
   },
   {
@@ -87,12 +87,12 @@
     "scenario": "You have AKo on the BTN. Flop 8-7-6 two-tone (very wet), you c-bet 13bb, villain check-raises.",
     "question": "AK-high on 8-7-6 two-tone, villain check-raises. Commit?",
     "options": [
-      "Fold — no pair, no draw",
       "Call — two overcards",
+      "Fold — no pair, no draw",
       "Re-raise as a bluff",
       "Call to hit"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "From your own play (you committed and lost 128bb; villain had AA). On 8-7-6 two-tone, a check-raise is sets, two pair, straights, big draws, and overpairs. Ace-high has no pair and no clean draw. C-betting was fine; committing to the check-raise with air is the leak. Fold and keep your stack. Ace-high, no pair, no draw vs a raise."
   },
   {
@@ -103,12 +103,12 @@
     "scenario": "You have TPTK (top pair top kicker) 100bb deep. Villain check-raises the flop and jams the turn on a dry board.",
     "question": "TPTK, 100bb deep, villain check-raise then turn jam on a dry board. Commit?",
     "options": [
-      "Fold — dry-board jam is value",
       "Call — TPTK is the top of my range",
       "Call — he could be bluffing",
+      "Fold — dry-board jam is value",
       "Raise"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "On a dry board there are no draws, so villain has no reason to fast-play unless he has it. A check-raise-then-jam line on a dry board is the nuts-ish: sets, two pair. TPTK is one pair — strong-looking, second-best here. Fold. Dry board + huge aggression = value, and one pair isn't enough to stack off. Dry-board check-raise/jam is value; TPTK is one pair."
   },
   {
@@ -119,12 +119,12 @@
     "scenario": "You open AQo, a tight player 3-bets, you call. Flop comes Q-high. You bet, they raise big, then jam the turn.",
     "question": "Top pair (Q) with A kicker vs a tight 3-bettor who raises flop and jams turn. Commit?",
     "options": [
-      "Lean fold — their jam beats you",
       "Snap call, TPTK is huge",
       "Always call top pair",
-      "Re-raise"
+      "Re-raise",
+      "Lean fold — their jam beats you"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Against a TIGHT 3-bettor specifically, top pair good kicker is in bad shape when they commit: their value range is overpairs (AA/KK) that beat you, QQ (a set), AQ (a chop), and sets. You beat almost nothing that stacks off. Tight range + big commitment = fold your one pair. Read the OPPONENT'S range, not just your hand's strength. A tight player's jam beats top pair."
   },
   {
@@ -151,12 +151,12 @@
     "scenario": "You have 66 on a J-J-6 flop — sixes full of jacks (a full house). Villain jams big over your bet.",
     "question": "You have a full house (low boat) on a PAIRED board and villain jams. Always an easy commit?",
     "options": [
-      "Pause — check what beats you",
       "Snap it in, a full house is the nuts",
+      "Pause — check what beats you",
       "Fold the full house",
       "Full houses never lose"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "A set on a paired board is automatically a FULL HOUSE — but not always a winning one. Here 66 on J-J-6 is sixes full of jacks, which loses to any Jx (jacks full of sixes) and to JJ (quads). The discipline: a LOW full house on a paired board looks like a monster but can be second-best. Usually you commit; the skill is recognizing the paired-board spots where a bigger boat is in villain's jamming range. Always ask what beats you on THIS board. A low full house isn't the nuts on a paired board: any Jx makes a bigger boat (jacks full), JJ is quads. Read the board and range."
   },
   {
@@ -167,12 +167,316 @@
     "scenario": "Reviewing your biggest losses: AJ vs AK, KK vs a set, AQ vs QQ, AK vs AA, KQ vs AA.",
     "question": "What do all these expensive losses have in common?",
     "options": [
-      "Strong hand vs a better range",
       "Pure bad luck / variance",
       "Bad cards",
+      "Strong hand vs a better range",
       "Playing too tight"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Every one is the SAME leak: getting a strong-but-second-best hand all-in against a value range that dominates it. It's not variance (you weren't ahead) and not bad cards — it's one fixable discipline error, concentrated in the biggest pots where it costs the most. Fix the commitment decision and the bulk of your big losses disappear. This is the single most valuable fix in your game right now."
+  },
+  {
+    "id": "cm_real_05",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND. AQ, BB, 100bb+ deep. Board 4d-8d-Ad-6s (three diamonds by the turn). You flop trip aces, bet, get called. Turn: you bet, villain check-raises, you RE-RAISE all-in, villain calls.",
+    "question": "Trip aces on a three-flush board. Villain check-raises your turn bet. Best response?",
+    "options": [
+      "Fold — trips can't call a raise",
+      "Call, don't re-raise",
+      "Re-raise all-in, trips is huge",
+      "Check back and give up"
+    ],
+    "correct": 1,
+    "explanation": "Your real hand (villain had 7d-Td — a flush already made by the flop). Trip aces LOOKS like a monster, but on a board with three of one suit, a raise is exactly the action a made flush takes. Folding trips outright is too weak given how strong the hand looks and plays; but re-raising all-in — what actually happened — turns a bad spot into the worst possible one. The disciplined middle path is to call and let the hand go if more flush-consistent action follows, not to pile in more chips on a board built for someone else's hand."
+  },
+  {
+    "id": "cm_real_06",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (+161.6bb, you won). ATo, UTG. You raise, get 3-bet small, call. Villain shoves the flop into you with just top pair (tens). You call and river a second pair (aces) to beat villain's QQ.",
+    "question": "You called a flop shove with only top pair and rivered two pair to win. Was calling the shove the right decision at the time?",
+    "options": [
+      "Yes — it worked out, so it was fine",
+      "Yes — top pair is always enough",
+      "No — the result doesn't prove it",
+      "No — you should never call flop shoves"
+    ],
+    "correct": 2,
+    "explanation": "This is the outcome-bias trap. At the moment you called, you had one pair (tens) against a shoving range that's usually ahead of top pair (here, QQ, an overpair). Winning the hand because the river gave you two pair doesn't rewrite the math of the decision you actually faced. Judge the call by what you knew when you made it, not by how the last card fell — otherwise you'll repeat a -EV call because it happened to pay off once."
+  },
+  {
+    "id": "cm_real_07",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (+123.2bb, you won). AKo, CO. You raise, villain 3-bets, you 4-bet, villain jams 100bb+, you call. Villain had QQ.",
+    "question": "AK facing a jam after your 4-bet. Is calling here the same mistake as the AJo hand?",
+    "options": [
+      "No — AK flips much of that range",
+      "Yes — any ace-king combo should fold",
+      "No, it's only correct because you won",
+      "Yes — dominated hands never call"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand. This is the useful contrast to the AJo spot: AJo is dominated by most of a jamming range (AK, AQ, AA all crush it), but AK is a different animal — it flips against QQ-JJ, dominates AQ/AJ, and is only a clear underdog to AA/KK. Calling off with AK here is a standard, correct decision regardless of this specific result. Not every 'ace-something' hand belongs in the same fold bucket — kicker and hand strength matter enormously."
+  },
+  {
+    "id": "cm_real_08",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (+121bb, you won). QQ, CO, 3-bet pot with two callers. Flop 8h-9h-5c (two hearts). Villain leads, you raise big, one villain calls with TT, the other (with J9) folds.",
+    "question": "QQ overpair, multiway, two-heart flop. You raise over a lead. Right decision?",
+    "options": [
+      "No — always fold overpairs multiway",
+      "Yes, but only worked out",
+      "No — the two hearts make it automatic",
+      "Yes — still the best hand here"
+    ],
+    "correct": 3,
+    "explanation": "Your real hand. Multiway pots and two-tone boards deserve real caution, but QQ here is still ahead of what's actually continuing — a worse pair (TT) and a hand that folds. Raising for value and protection is correct; blanket-folding every overpair the moment a board looks slightly wet would be overcorrecting in the other direction. The fix from this module is 'know your value range,' not 'always assume you're beat.'"
+  },
+  {
+    "id": "cm_real_09",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−107.2bb). 44, BB, 3-bet pot. Flop A-T-7 (you have nothing — no pair, no draw). Villain checks, you bet, villain check-raises, you RE-RAISE ALL-IN with just your pocket fours.",
+    "question": "You have a small pocket pair that missed completely on an A-high flop, and villain check-raises. You shoved anyway. Read?",
+    "options": [
+      "Fold — 44 has no business raising here",
+      "Call — pot committed already",
+      "Shove is fine, fold equity is high",
+      "Call, they could be weak"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had Ad-Th — top two pair). A pocket pair below the board's top card, with no set and no draw, is not a hand to be building a stack-off pot with — it's a pure air-with-a-pair holding on this specific board. When villain check-raises an A-high flop, they have a huge chunk of A-x and made hands; shoving over that with 44 has almost no fold equity against the hands that continue and is drawing thin against the rest. Give up the bluff."
+  },
+  {
+    "id": "cm_real_10",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−103.8bb). AT, BTN. Board runs out T-3-3-8-K. You have tens and threes (two pair, using the board's pair of 3s). Villain bets flop, turn, and river; you call all three.",
+    "question": "Two pair using the board's own pair. Villain bets three streets. Correct all the way down?",
+    "options": [
+      "Yes — two pair is a strong holding",
+      "No — any 3 beats you now",
+      "Yes, because you had a kicker",
+      "No — you should have folded preflop"
+    ],
+    "correct": 1,
+    "explanation": "Your real hand (villain had Ah-3h — trip threes). When the board itself pairs, everyone at the table 'has' that pair for free — the only way to have MORE than the board's pair is to hold the matching card yourself. Your two pair here is really just 'the board plus a kicker'; any single 3 in villain's hand jumps them to trips, which beats you outright. Calling down three streets assuming your two pair is safe ignores exactly the hands that beat it."
+  },
+  {
+    "id": "cm_real_11",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−101.4bb). JJ, SB, 3-bet pot. Flop K-8-3 (a king is out — JJ is an underpair). You bet, villain shoves a small overbet-raise, you call.",
+    "question": "JJ in a 3-bet pot on a king-high flop, facing a shove. Call?",
+    "options": [
+      "Call — JJ is a premium pocket pair",
+      "Call — 3-bet pots run bigger",
+      "Fold — JJ is an underpair here",
+      "Raise, don't just call"
+    ],
+    "correct": 2,
+    "explanation": "Your real hand (villain had AA). JJ is a strong pocket pair in a vacuum, but the king on the flop makes it an UNDERPAIR, not an overpair — the same trap as the AK-high spot earlier in this module. In a 3-bet pot specifically, villain's continuing range is concentrated at the top: AA, KK, sets, and Kx. JJ beats almost none of that. 'Premium preflop' doesn't mean 'premium on this flop' — the board changes everything."
+  },
+  {
+    "id": "cm_real_12",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−111bb). KQ, SB. Board Q-J-T-4-2 (three connected cards on the flop alone). You flop top pair (queens) and call down three streets of aggression.",
+    "question": "Top pair on a heavily connected board (Q-J-T), three streets of aggression. Call it all off?",
+    "options": [
+      "Fold — straights are common here",
+      "Call — top pair is still top pair here",
+      "Call, kicker is live",
+      "Raise, deny the draw"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand (villain had Ah-Kc — the Broadway straight, using the board's Q-J-T). A flop with three connected cards (here Q-J-T) turns 'just one pair' into a genuinely weak holding, because so many two-card combinations complete a straight through it. Continued aggression on a board like this should shift your read heavily toward straights and sets, not stay anchored to 'I have top pair.' The board's texture matters as much as your hand's rank."
+  },
+  {
+    "id": "cm_real_13",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−109.1bb). AQ, SB. Board runs Q-2-K-2-2 (the board itself makes trip deuces by the river). You have top kicker over the board's trips. Villain bets big the river; you call.",
+    "question": "The board has trip deuces by the river. You're just playing top kicker over it. Villain bets big. Call?",
+    "options": [
+      "Call — you have the best kicker",
+      "Fold — any pair now makes a boat",
+      "Call — trips can't improve further",
+      "Fold — you never had a pair at all"
+    ],
+    "correct": 1,
+    "explanation": "Your real hand (villain had AA — aces full of deuces). When the board itself makes trips, your kicker is the only thing separating you from anyone else who didn't pair up — which means ANY pocket pair in villain's hand instantly makes a full house that beats you. 'I have the best kicker' stops mattering the moment a full house is possible. This is the paired-board lesson taken to its extreme: three of a kind on the board is a loud warning, not a green light."
+  },
+  {
+    "id": "cm_real_14",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "hard",
+    "scenario": "YOUR HAND (−111bb). KQ, SB. Flop Q-A-7 (you pair the queen — second pair, ace on board). You check-call flop, bet-call turn, then call a big river bet.",
+    "question": "Second pair (not even top pair) on an ace-high board, called down three streets. Standard leak?",
+    "options": [
+      "No — kings and queens are strong",
+      "No — the price was good enough",
+      "Yes, but only on the river",
+      "Yes — a clean fold"
+    ],
+    "correct": 3,
+    "explanation": "Your real hand (villain had Ad-Ah — trip aces from the start). This is the module's core leak in its simplest form, without even the excuse of a strong-looking hand: second pair on a board with a scarier, higher card (the ace) than your own pair. There's no 'it looked so strong' story here — this is just calling down too light against consistent aggression. When you don't even have top pair, the bar for continuing should be much higher, not lower."
+  },
+  {
+    "id": "cm_real_15",
+    "module": "9",
+    "category": "Commitment · Real",
+    "difficulty": "medium",
+    "scenario": "YOUR HAND (−109.4bb). AQ, HJ. You raise, get 3-bet, 4-bet, and face a jam. You call. Villain had Kd-Ad (AK) — you're dominated by the same ace.",
+    "question": "AQ facing heavy preflop aggression and a jam. Compare this to the AK spot earlier — is this hand different?",
+    "options": [
+      "Yes — AQ is dominated by AK too",
+      "No — AQ and AK are basically the same",
+      "No — AQ always flips like AK does",
+      "Yes, but only against tight players"
+    ],
+    "correct": 0,
+    "explanation": "Your real hand. This is the other side of the AK-vs-AJ contrast from earlier in the module: AQ, like AJ, is a hand that LOOKS premium but is dominated by a meaningful slice of a heavy preflop jamming range — specifically any AK, plus obviously AA/KK. Unlike AK itself (which flips or dominates most of that same range), AQ is often on the losing end of exactly the hands willing to get it in this deep. Same 'one ace, good kicker' shape as AJ — same commitment trap."
+  },
+  {
+    "id": "cm_concept_03",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "Low-stakes recreational and unknown opponents rarely make a large commitment (a big raise or jam) purely as a bluff.",
+    "question": "At low stakes, when an unknown/recreational player makes a huge preflop or postflop commitment, what should you assume?",
+    "options": [
+      "A bluff — they're scared",
+      "50/50, totally unreadable",
+      "Real value most of the time — low-stakes players rarely bluff that big",
+      "Always a draw, not made"
+    ],
+    "correct": 2,
+    "explanation": "Bluffing a huge commitment requires a player to both conceive of the bluff and execute it under pressure — a skill unevenly distributed at low stakes. When an unknown or recreational opponent makes a jam or a very large raise, the base rate strongly favors genuine value. This doesn't mean 'never bluff-catch,' just that your default assumption at low stakes should lean toward real strength rather than a clever bluff."
+  },
+  {
+    "id": "cm_concept_04",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "AJ, AQ, and similar 'one-ace, good kicker' hands look premium preflop, but share a specific danger once stacks get deep and the pot gets big.",
+    "question": "What's the specific danger with these hands in big pots?",
+    "options": [
+      "They can't ever make a pair with the board",
+      "Domination by AK/AA when they connect",
+      "They're actually too tight to play",
+      "They only lose small pots ever"
+    ],
+    "correct": 1,
+    "explanation": "The danger isn't that these hands are weak — it's that when they DO connect (pairing their ace), they're often dominated by exactly the hands willing to build a big pot: AK, AQ/AJ against each other, and AA. A dominated top pair loses a stack instead of a small pot, because both players think they're ahead. This is why 'one ace, good kicker' hands want to build pots when cheap and shrink them when expensive, not the reverse."
+  },
+  {
+    "id": "cm_concept_05",
+    "module": "9",
+    "category": "Commitment · Concept",
+    "difficulty": "medium",
+    "scenario": "Reviewing your last 50 big losses shows most came from one-pair hands with strong kickers (AJ, AQ, KQ) rather than pure garbage hands.",
+    "question": "What does this pattern suggest as the fix?",
+    "options": [
+      "Play fewer hands preflop overall",
+      "Switch games or move stakes down",
+      "Nothing — it's just normal variance",
+      "Tighten stack-off standards here"
+    ],
+    "correct": 3,
+    "explanation": "Every one of these is the SAME leak, concentrated in a specific hand family: strong-looking one-pair hands that get all-in against a range that dominates them. It's not variance (the money mostly wasn't ahead when it went in) and not about playing fewer hands overall — it's a specific, fixable decision point. Tightening exactly when these particular hands face heavy commitment fixes the majority of your biggest losses without changing anything else about your game."
+  },
+  {
+    "id": "cm_gen_06",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "hard",
+    "scenario": "You have an overpair (JJ), 100bb deep. Villain check-raises the flop on a three-flush board (Kh-8h-3h), then bets big the turn.",
+    "question": "Overpair vs a check-raise and turn barrel on a three-flush board. Commit?",
+    "options": [
+      "Call, it's still an overpair",
+      "Raise again for protection",
+      "Fold — the flush is very likely already made",
+      "Check-raise them back"
+    ],
+    "correct": 2,
+    "explanation": "A check-raise followed by a turn barrel on a board with three cards of one suit is one of the clearest 'made flush' signals in poker. JJ is an overpair in a vacuum, but an overpair is still just one pair — it loses to the flush every time. The stronger the action on a monochrome-leaning board, the less your own pair rank matters."
+  },
+  {
+    "id": "cm_gen_07",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "hard",
+    "scenario": "You flop bottom set (33) on 3-9-K. A tight player jams the turn after the board pairs again (K-9-3-9).",
+    "question": "Bottom set on a board that just paired again, facing a tight player's jam. Commit?",
+    "options": [
+      "Snap-call, a set is always the nuts here",
+      "Pause — a bigger boat is possible",
+      "Fold, sets never win big pots",
+      "Raise for value first"
+    ],
+    "correct": 1,
+    "explanation": "A set on a board that pairs a second time is automatically a full house — but not always the best one. Here, 99 makes a bigger boat (nines full) than your threes full, and even KK makes trips that beat your low set outright via a bigger full house on a runout like this. A tight player specifically jamming this board should make you stop and check what beats you before assuming your set is automatically good."
+  },
+  {
+    "id": "cm_gen_08",
+    "module": "9",
+    "category": "Commitment · Drill",
+    "difficulty": "medium",
+    "scenario": "You have top two pair on a dry board (K-7-2), 100bb deep. A LAG known for barreling with air jams the turn after you raise.",
+    "question": "Two pair on a dry board vs a known bluff-heavy LAG's jam. Commit?",
+    "options": [
+      "Call — dry board plus a bluff-heavy villain favors you",
+      "Fold, jams are always strong",
+      "Check the odds, then fold",
+      "Raise again for more value"
+    ],
+    "correct": 0,
+    "explanation": "Villain type matters as much as the board. A dry board (K-7-2) has few big combinations to jam for pure value, and a LAG known for barreling with air brings a meaningfully bluff-heavy range to that jam. Top two pair beats a large chunk of that range. This is the flip side of the module's main lesson — sometimes the discipline is to keep calling, not to keep folding, when both the board and the opponent type say so."
+  },
+  {
+    "id": "cm_gen_09",
+    "module": "9",
+    "category": "Commitment · Mindset",
+    "difficulty": "medium",
+    "scenario": "You make a disciplined fold on a big hand. Villain shows a stone-cold bluff — meaning you would have won by calling.",
+    "question": "Villain shows a bluff after your good fold. What should you take from this?",
+    "options": [
+      "Start calling those spots down",
+      "You clearly made a mistake",
+      "Nothing — a good decision still loses to a bluff sometimes",
+      "Never fold there again"
+    ],
+    "correct": 2,
+    "explanation": "A single bluff shown after a fold tells you almost nothing about whether the fold itself was correct — it's one data point, and villains do sometimes bluff even in spots where value is far more common. Changing your strategy off one shown bluff is the same outcome-bias trap as changing it off one lucky river. Judge the decision by the range and frequencies, not by the one hand you got to see."
+  },
+  {
+    "id": "cm_gen_10",
+    "module": "9",
+    "category": "Commitment · Mindset",
+    "difficulty": "medium",
+    "scenario": "Right after a big stack-off loss, you feel a strong urge to win it back immediately, this session.",
+    "question": "What's the disciplined response to the urge to 'get it back' right after a big loss?",
+    "options": [
+      "Play noticeably looser to recoup it faster",
+      "Move up in stakes to win more",
+      "Quit thinking, play on autopilot",
+      "Notice the urge, keep your normal standards"
+    ],
+    "correct": 3,
+    "explanation": "The urge to immediately recover a big loss is exactly the mindset that produces the NEXT big loss — it pushes you toward looser calls, bigger bluffs, and higher stakes, all to fix a number that a single hand can't reliably fix anyway. The disciplined response is to notice the urge as a signal, not a plan, and keep playing your normal standards (or take a break if the urge is strong). Chasing losses is how one bad hand becomes two."
   }
 ]
