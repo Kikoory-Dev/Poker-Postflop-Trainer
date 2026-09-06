@@ -94,5 +94,389 @@
     ],
     "correct": 1,
     "explanation": "As the IP caller with the nut flush draw, you have a premium drawing hand and position — both calling and semi-bluff raising are valid. Calling realizes equity cheaply, keeps their bluffs in, and disguises your hand; raising adds fold equity and can win it now. At micro vs a c-betting range, calling is the lower-variance default and lets you stack off when you hit the nuts. Position makes draws much more playable — you control the pot and see free cards when checked to. Nut flush draw with position is a premium draw; calling keeps their range wide and disguised, raising adds fold equity. Both fine; calling is lower-variance."
+  },
+  {
+    "id": "cal_07",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open from the BB with J♠T♠. Flop 9♠8♠2♥ — open-ended straight draw + flush draw (a huge combo draw). PFR c-bets. You're OOP.",
+    "question": "OOP caller with a monster combo draw (flush + OESD) facing a c-bet. Best line?",
+    "options": [
+      "Check-raise as a semi-bluff",
+      "Check/call only, keep it cheap",
+      "Check/fold, too speculative",
+      "Donk lead big"
+    ],
+    "correct": 0,
+    "explanation": "With a combo draw this big (roughly 15 outs) plus real fold equity from raising, check-raising is one of Hardin's listed OOP options and it's the right one here — you either win the pot immediately or get called/re-raised with excellent equity behind. Just calling underplays a hand this strong, and check-raising disguises it far better than waiting for the flop to run out. Check-raise as a semi-bluff — a combo draw this big has both huge equity and real fold equity; raising captures both instead of just calling passively."
+  },
+  {
+    "id": "cal_08",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a CO open on the BTN with Q♣Q♦. Flop 9♥6♣2♦, PFR c-bets, you call. Turn J♠ (an overcard). PFR c-bets again.",
+    "question": "IP caller with an overpair, turn brings an overcard, PFR barrels again. Best plan?",
+    "options": [
+      "Raise for value now",
+      "Call — keep your range hidden",
+      "Fold to the second barrel",
+      "Check back next street automatically"
+    ],
+    "correct": 1,
+    "explanation": "As the in-position caller, raising here turns a hand that's still often best into a bloated pot against a range that could easily have flopped or turned a jack. Calling keeps the pot manageable, keeps worse hands and bluffs in, and preserves your positional advantage to reassess on the river. QQ overpairs don't need to raise to realize their value when they're already ahead of most of what continues. Call — an overpair still beats most of the continuing range; raising here risks folding out worse and getting action only from better."
+  },
+  {
+    "id": "cal_09",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a UTG open from the BB with K♦Q♦. Flop A♠9♣4♥ — nothing, backdoor equity only. UTG c-bets a large 85% pot size (rather than a normal 50-65%).",
+    "question": "A much bigger-than-normal c-bet size on a board you missed. Does the bigger size change how wide you should continue?",
+    "options": [
+      "No — size never matters, only your hand",
+      "Yes — call wider, big bets fold-equity-hunt more",
+      "Yes — call only real hands/draws, tighten up",
+      "No — always fold to any overbet"
+    ],
+    "correct": 2,
+    "explanation": "A larger-than-standard c-bet size usually means a more polarized range (very strong hands and pure bluffs), and it also demands better pot odds to continue — you're paying more to see the next card. With nothing but backdoor equity here, this is an easy fold, and the oversized bet is one more reason, not a reason to call wider. Tighten your continuing range — bigger sizing means paying more for the same equity, so you need more equity (a real hand or a real draw) to justify calling, not less."
+  },
+  {
+    "id": "cal_10",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "easy",
+    "scenario": "You call a CO open on the BTN with A♣T♣, and the SB also calls behind you (three-way to the flop). Flop A♠8♦3♥ — top pair, decent kicker. CO c-bets, SB folds.",
+    "question": "You have top pair in what was a three-way pot (now heads-up after SB folded). Does the fact it started three-way still matter?",
+    "options": [
+      "Play cautious since it started 3-way earlier",
+      "Fold — 3-way pots are too risky",
+      "Raise big to end it now",
+      "Normal heads-up decision — SB is gone"
+    ],
+    "correct": 3,
+    "explanation": "Once a player folds, their range and their money are no longer part of the equation — you're now facing exactly one opponent's range and one bet, identical to if the hand had started heads-up. Continuing to play as if it's still a three-way pot after someone's already folded is a common but pointless overcaution. Call — treat this as the heads-up decision it now is; SB folding removes them entirely, it's not a reason to play more scared with a decent top pair."
+  },
+  {
+    "id": "cal_11",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "easy",
+    "scenario": "You call a BTN open on the BB with K♥J♥. Flop 9♥5♦2♣ — two overcards plus a backdoor flush draw, nothing made. PFR c-bets small (30% pot).",
+    "question": "Two overcards and a backdoor flush draw, facing a small bet. Call or fold?",
+    "options": [
+      "Call — cheap price for real backup equity",
+      "Fold — you have no pair and no real draw at all",
+      "Raise as a bluff",
+      "Donk lead instead"
+    ],
+    "correct": 0,
+    "explanation": "A small bet size means a cheap price to continue, and two live overcards plus a backdoor flush draw add up to more equity than it looks like at first glance — you're not drawing dead, and the price is right for speculative equity like this. This wouldn't be a call against a bigger bet, but 30% pot is cheap enough. Call — the small sizing means you're only paying a little to keep real, if modest, equity alive; this becomes a fold fast if the bet size goes up."
+  },
+  {
+    "id": "cal_12",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a CO open on the BTN with 9♣8♦ (nothing). Flop K♠6♥2♣ — total miss. CO c-bets. You have position, and CO has a history of checking the turn when their c-bet gets called and nothing changes.",
+    "question": "You missed completely but you're in position. What's the plan behind calling here?",
+    "options": [
+      "Fold — there's no reason at all to continue with air",
+      "Call as a float — bet the turn if checked to",
+      "Raise as a bluff immediately",
+      "Call planning to bluff the river only"
+    ],
+    "correct": 1,
+    "explanation": "This is the classic float: calling a flop c-bet with nothing, specifically because you have position and a plan — if CO checks the turn (showing they've given up), you bet and take the pot right there. It only works with the right combination of position and a read that they'll often check back a missed continuation. Call as a float — the point isn't your hand, it's the plan: attack a giving-up range on the turn if they check to you."
+  },
+  {
+    "id": "cal_13",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a BTN open on the BB with 6♠6♥. Flop 6♦9♣2♠ — you flopped a set on a fairly dry board. PFR c-bets.",
+    "question": "You have a flopped set on a fairly dry board. Raise now or call to keep the trap going?",
+    "options": [
+      "Raise big immediately for the maximum value now",
+      "Fold — sets are overrated",
+      "Call — let them keep betting into you",
+      "Check-raise the flop for value"
+    ],
+    "correct": 2,
+    "explanation": "On a dry board with little to draw to, raising the flop with a set often just ends the hand right there against a capped opponent — you make more money letting them keep betting into a hand they think is ahead. Calling here keeps their whole range in, including the bluffs and worse pairs that would fold to a raise. Call and let the trap play out — a set on a dry board doesn't need protection, so extracting the most value matters more than raising immediately."
+  },
+  {
+    "id": "cal_14",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You called a BTN c-bet on the flop as a float with A♦4♦ (nothing, backdoor equity only), planning to bet if checked to. BTN checks the turn as expected — you bet as planned — but BTN then CHECK-RAISES your bet.",
+    "question": "Your float plan worked (they checked) but they check-raised your follow-up bet instead of folding. Now what?",
+    "options": [
+      "Call again — you already committed to the float",
+      "Re-raise to represent even more strength",
+      "Call, planning to bluff the river anyway",
+      "Fold — the check-raise reveals real strength"
+    ],
+    "correct": 3,
+    "explanation": "A check-raise after you bet into a checked pot is a strong, costly action for your opponent to take with nothing — it's a real hand far more often than a counter-bluff, especially from a player who was willing to check the turn in the first place. The float plan already extracted its value (a free look at a check); it wasn't designed to survive a check-raise. Fold — a check-raise against your float bluff is a strong signal; don't turn one bluff into two by continuing with nothing behind it."
+  },
+  {
+    "id": "cal_15",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BB with A♣Q♣. Flop J♠7♦4♥ — ace-high, nothing made. CO is known to barrel the turn and river a very high percentage of the time regardless of their hand (a habitual over-barreler). CO c-bets the flop.",
+    "question": "Facing a known habitual multi-street barreler, with just ace-high. Continue?",
+    "options": [
+      "Fold — you have nothing to catch it with",
+      "Call — over-barrelers are always bluffing",
+      "Call and plan to bluff-raise the turn",
+      "Raise the flop to end it early"
+    ],
+    "correct": 0,
+    "explanation": "Knowing someone barrels a lot doesn't automatically mean you should call more — it means their range is wide and hard to read, which cuts both ways. With literally nothing (ace-high, no draw), you still don't have a hand that can profitably bluff-catch three streets, regardless of how often they're firing without a real hand. Fold — a habitual barreler is a reason to eventually call DOWN with a decent hand you'd otherwise fold, not a reason to continue with pure air that can't even get to a showdown."
+  },
+  {
+    "id": "cal_16",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "Effective stacks are 18bb. You called a BTN open on the BB with 5♠5♥. Flop 5♦9♣2♥ — a flopped set. BTN c-bets.",
+    "question": "Very short stacks (18bb) and you flopped a set. Does the usual slowplay-and-trap plan still apply?",
+    "options": [
+      "Yes — always slowplay a set the same way",
+      "No — raise/shove, stacks are too short to slowplay",
+      "Yes — but only call, never raise",
+      "No — fold, sets are simply too risky when this short-stacked"
+    ],
+    "correct": 1,
+    "explanation": "Slowplaying works when there's meaningful stack depth left to extract across multiple streets — at 18bb, there's barely any of that room to begin with, and letting a card come that could cost you the pot (or scare your opponent off) for no real gain isn't worth it. Get the money in now while you're way ahead. Raise/shove — short effective stacks remove the benefit of a slowplay; get the set's value in immediately instead of hoping for a bigger pot the stack size can't support anyway."
+  },
+  {
+    "id": "cal_17",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BB with A♠K♠ (no pair after the flop). Flop Q♠J♦4♠ — you have a flush draw plus you block the nut flush (A♠) and hold a broadway blocker (K♠, blocks some AK/KQ-type value). CO c-bets.",
+    "question": "You missed the pair but hold the nut flush blocker plus a broadway blocker. Does that support raising as a semi-bluff?",
+    "options": [
+      "No — you only have a draw here, so you should never raise it at all",
+      "No — blockers don't matter, only equity",
+      "Yes — the blockers add extra fold equity to a real draw",
+      "Yes — but only because of position"
+    ],
+    "correct": 2,
+    "explanation": "You already have a legitimate draw (a flush draw is a fine hand to raise as a semi-bluff on its own), and the blockers are the bonus that pushes this from 'fine' to 'clearly good' — holding the nut flush card makes it less likely CO has the exact hand that busts your raise, and the king blocks some of their strongest continuing combos. Raise as a semi-bluff — real equity plus supporting blockers is a textbook combination for a caller's semi-bluff raise, not a bluff riding on blockers alone."
+  },
+  {
+    "id": "cal_18",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a UTG open (a tight range) on the BB with A♣J♣. Flop A♠8♦4♥ — top pair, mediocre kicker, against a tight UTG range. UTG bets flop, then bets again on a blank turn.",
+    "question": "Top pair, weak-ish kicker, against a tight range that's now bet twice. What should cross your mind?",
+    "options": [
+      "Nothing — top pair is top pair",
+      "Raise to find out where you're at",
+      "Fold immediately without ever calling either of those bets",
+      "Domination risk — tight ranges skew toward AK/AQ here"
+    ],
+    "correct": 3,
+    "explanation": "Against a genuinely tight opener, the hands that both open UTG and keep betting into you are disproportionately going to be exactly the aces you're dominated by (AK, AQ, sometimes AA), not random worse aces — tight players don't have many of those to begin with. That doesn't mean auto-fold, but it should shape how many streets you're willing to call. Recognize the domination risk — a tight UTG range firing twice skews toward hands with your kicker beaten; call with a plan for the river, don't call reflexively just because 'it's top pair.'"
+  },
+  {
+    "id": "cal_19",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BTN with J♦T♦. Flop 9♦8♦2♣ — open-ended straight draw + flush draw (another huge combo draw). CO c-bets BIG (90% pot) on a scary board.",
+    "question": "A huge combo draw facing an oversized c-bet. Does the big sizing change the call?",
+    "options": [
+      "No — the equity and implied odds still justify it",
+      "Yes — you should fold to any oversized bet with just a draw",
+      "Yes — but only if you also have position",
+      "No — but only call, never raise this"
+    ],
+    "correct": 0,
+    "explanation": "A combo draw this strong (~15 outs) has enough raw equity that even a big bet doesn't price you out, especially combined with the implied odds of stacking a made hand afterward. Big sizing tightens what's profitable to continue with, but a genuine near-50%-equity hand like this survives that tightening easily. Continue — the draw is strong enough to profitably continue against a big bet; oversized sizing matters much more against thin equity than against a hand this live."
+  },
+  {
+    "id": "cal_20",
+    "module": "5",
+    "category": "As the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a BTN open on the BB with Q♥J♥. Flop 9♠5♦2♣ — total miss, no draw at all. BTN c-bets, and this specific BTN almost never bluffs postflop (a very straightforward, value-only bettor).",
+    "question": "Even though this module is about calling ranges, does every spot here actually call?",
+    "options": [
+      "Yes — always continue at least once as the caller",
+      "No — total miss, no draw, and a value-only opponent means fold",
+      "Yes — call to keep your range balanced",
+      "No — but raise as a bluff instead of folding"
+    ],
+    "correct": 1,
+    "explanation": "Being 'the caller' preflop doesn't create an obligation to continue on every flop — it's just a label for who has the option to fold, call, or raise. With zero pair, zero draw, and a specific, credible read that this opponent doesn't bluff, there's no case for continuing at all. Fold — no equity and a read that rules out bluffing is an easy fold regardless of which module or category it's filed under; don't let the category label do your thinking for you."
+  },
+  {
+    "id": "cal_21",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "easy",
+    "scenario": "You call a CO open from the BB with K♦Q♣ (two overcards, no pair, no draw). Flop J♠T♠9♠ (monotone spades, straight-heavy). CO bets big (pot-sized).",
+    "question": "Two overcards, zero pair, zero draw, on a monotone straight-heavy board, facing a pot-sized bet. Continue?",
+    "options": [
+      "Call — overcards can still improve",
+      "Raise as a bluff to fold out draws",
+      "Fold — no pair, no draw, terrible board",
+      "Donk-raise for protection"
+    ],
+    "correct": 2,
+    "explanation": "There's no case for continuing here at all — two overcards with zero pair and zero draw on a board this dangerous (flush AND multiple straights possible) isn't close. A pot-sized bet on a board like this is exactly the kind of bet you should be folding to reflexively, not looking for a reason to stay in. Fold — this is about as clean a fold as exists: no equity, a scary board, and a big bet all pointing the same direction."
+  },
+  {
+    "id": "cal_22",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You floated the flop (called with 8♣7♣, backdoor equity only) planning to bet the turn if checked to. BTN checks the turn as expected — you bet as planned — but BTN then CHECK-RAISES your bluff.",
+    "question": "Your float plan worked (they checked) but they check-raised your follow-up bet instead of folding. Now what?",
+    "options": [
+      "Call the raise, sunk cost from the float",
+      "Re-raise as a bluff to represent even more",
+      "Call, planning to bluff the river anyway",
+      "Fold — the check-raise reveals real strength"
+    ],
+    "correct": 3,
+    "explanation": "A check-raise after you bet into a checked pot is a strong, costly action for your opponent to take with nothing — it's a real hand far more often than a counter-bluff, especially from a player who was willing to check the turn in the first place. The float plan already extracted its value (a free look at a check); it wasn't designed to survive a check-raise. Fold — a check-raise against your float bluff is a strong signal; don't turn one bluff into two by continuing with nothing behind it."
+  },
+  {
+    "id": "cal_23",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a CO open on the BTN with K♣T♣ (a speculative, not premium, call). The SB then 3-bets, and CO calls the 3-bet. You're now facing a 3-bet and a call behind you, still with just KTs.",
+    "question": "You called with a speculative hand, and now face a 3-bet plus a call from the original raiser. Continue?",
+    "options": [
+      "Fold — the pot got too expensive for this hand",
+      "Call — you already invested, see the flop",
+      "4-bet as a bluff",
+      "Call, planning to fold to any flop aggression"
+    ],
+    "correct": 0,
+    "explanation": "The hand you called with was fine to see a cheap flop with against one opponent's opening range — it's not fine against a 3-bet plus a flat-call, which means facing two much stronger ranges for a lot more money. The original plan doesn't survive the pot getting this much more expensive and dangerous. Fold — a speculative call was reasonable heads-up preflop; once a 3-bet and a call are added behind you, that same hand isn't worth continuing with."
+  },
+  {
+    "id": "cal_24",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "medium",
+    "scenario": "You call a CO open on the BB with 7♦6♦. Flop 9♣8♠2♥ — you have a single gutshot only (need exactly a 5, and it doesn't even make the nuts). CO c-bets big (85% pot).",
+    "question": "A weak, lone gutshot (4 outs, non-nut) facing a big bet. Call for the price?",
+    "options": [
+      "Yes — any draw is worth chasing",
+      "No — the price is wrong for a weak, non-nut gutshot",
+      "Yes — implied odds always justify it",
+      "No — but raise as a bluff instead"
+    ],
+    "correct": 1,
+    "explanation": "A single gutshot is only about a 17% chance to hit by the river, and this one doesn't even make the nuts when it gets there — against an 85%-pot bet, the direct pot odds alone don't come close to justifying a call, and the implied odds are weak too since it's not a hand that wins a huge pot when it connects. Fold — weak, non-nut, low-out draws need a cheap price to be worth chasing; a big bet prices this exact hand out."
+  },
+  {
+    "id": "cal_25",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a BTN open on the BB with K♣K♦. Flop A♠7♦2♣ — an ace flops, you have an overpair below it. BTN c-bets, you call. Turn blank, BTN bets again (pot-sized this time, a big jump in sizing). River blank, BTN bets pot again.",
+    "question": "KK below an ace, facing an escalating bet pattern from BTN. By the river, what's the read?",
+    "options": [
+      "Call — kings are too strong to fold anywhere",
+      "Raise — represent a set",
+      "Fold — the pattern reads as a real ace",
+      "Call the turn, auto-fold the river no matter what"
+    ],
+    "correct": 2,
+    "explanation": "Kings below an ace are a real, if dicey, hand on the flop, but a bet pattern that escalates in size across two more streets — rather than staying consistent or shrinking, the way many bluffs do — usually means the opponent is getting more confident, not less. By the river, this specific pattern is a common tell for a real ace rather than a bluff running out of steam. Fold on the river — an escalating bet size across three streets skews heavily toward genuine strength; KK below top pair doesn't have to pay off every story."
+  },
+  {
+    "id": "cal_26",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BB with A♦T♦. Flop K♠9♣4♥ — total miss. CO c-bets, you call as a float. Turn 6♠ (blank), CO checks as expected — you bet, CO calls. River 3♦, CO leads out big (this player is known to only bet the river for real value, essentially never as a bluff).",
+    "question": "Your float worked through the turn, but CO leads the river big — and you know this player basically never bluffs a river lead. Call anyway?",
+    "options": [
+      "Yes — you already have money in from the float",
+      "Yes — you might have the best hand still",
+      "Raise to represent even more",
+      "No — the specific river-lead read says fold"
+    ],
+    "correct": 3,
+    "explanation": "This is exactly the situation where a specific, reliable read should override the general size of the pot or how the hand got there — a player who essentially never bluffs a river lead means this bet is telling you the truth almost every time. Your ace-high has nothing to beat in that value range. Fold — a strong, specific read (this player doesn't bluff river leads) beats any generic argument about pot size or prior investment; believe the read."
+  },
+  {
+    "id": "cal_27",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "Effective stacks are 15bb. You call a BTN open on the BB with 6♠5♠. Flop 9♠7♦2♣ — open-ended straight draw. BTN c-bets, putting you to a decision for nearly a third of your remaining stack.",
+    "question": "A real draw (OESD), but stacks are very short and the bet is a big chunk of what's left. Call?",
+    "options": [
+      "Fold — short stacks kill the implied odds",
+      "Call — OESD is always worth continuing with",
+      "Raise/shove as a semi-bluff",
+      "Call, then fold to any further aggression"
+    ],
+    "correct": 0,
+    "explanation": "An open-ended straight draw is usually a clear continue, but that's built on implied odds — getting paid a big pot when you hit. At 15bb effective, there's barely anything left to win beyond what's already in the pot, so the draw's true value collapses even though the raw odds of hitting haven't changed. Fold — this is a case where stack depth alone flips a normally-easy continue into a fold; the draw needs implied odds a short stack simply can't provide."
+  },
+  {
+    "id": "cal_28",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a CO open on the BTN with A♣Q♦. There are two other callers, so it's four-way to the flop. Flop Q♠8♣3♥ — top pair, decent kicker. One of the OTHER callers (not the original PFR) leads out with a bet before CO acts.",
+    "question": "A different player leads into a four-way pot, and CO hasn't even acted yet. Your top pair — call, or something else?",
+    "options": [
+      "Raise now before CO can act",
+      "Fold — you'd face two ranges, not one",
+      "Call, ignore that CO hasn't acted yet",
+      "Call, then fold to CO if they raise"
+    ],
+    "correct": 1,
+    "explanation": "This is more dangerous than a normal one-on-one continue: you're not just deciding whether to beat the donk-bettor's leading range, you still have to get through the original preflop raiser acting after you, in a four-way pot where a random lead usually means a real hand. Top pair decent kicker isn't enough to shoulder both of those risks in one call. Fold — facing a donk bet in a four-way pot with a raiser still to act behind you means clearing two hurdles, not one."
+  },
+  {
+    "id": "cal_29",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a BTN open on the BB with A♠J♠. Flop Q♥T♠4♠ — a gutshot to the nuts plus a flush draw plus backup ace equity, on a board that superficially looks scary (two broadway cards). PFR c-bets a standard size.",
+    "question": "The board LOOKS scary (two big cards), but does your actual equity here support folding?",
+    "options": [
+      "Fold — two broadway cards is too dangerous",
+      "Fold — always respect broadway-heavy boards",
+      "It doesn't — this combo draw is strong enough to continue",
+      "Fold — you don't have a pair yet"
+    ],
+    "correct": 2,
+    "explanation": "A board 'looking' scary because of two big cards isn't the same as it actually being bad for your specific hand — here you have a gutshot to the nut straight, a flush draw, and backup ace equity, which adds up to a very live, continuing hand regardless of how intimidating the two broadway cards look on the surface. Call — don't let a board's surface appearance override an actual equity count; this specific combination of outs is well worth continuing with, category label aside."
+  },
+  {
+    "id": "cal_30",
+    "module": "5",
+    "category": "When to Fold as the Caller",
+    "difficulty": "hard",
+    "scenario": "You call a UTG open (tight range) on the BB with J♦J♣. Flop J♠8♦3♥ — you flopped top set, feels amazing. UTG c-bets, you raise, UTG re-raises big, you call. Turn blank, UTG bets pot-sized again. River blank, UTG shoves the rest of a very deep stack.",
+    "question": "Top set felt incredible on the flop, but UTG has re-raised your raise and then jammed a deep river. Still an easy call?",
+    "options": [
+      "Yes — top set is too strong to ever fold",
+      "Yes — you raised first, so you're pot-committed",
+      "It doesn't matter, raise/call is the same here",
+      "No — this escalation isn't a bluff from a tight range"
+    ],
+    "correct": 3,
+    "explanation": "Top set is a monster on the flop, but the hand didn't stop there — a tight UTG player who re-raises your flop raise and then jams a deep river is representing a hand that beats a set (a bigger set, or a completed monster the board allows), and tight players don't manufacture this exact escalating line as a bluff. Even a great flop hand has to be foldable somewhere if the story told across every street points at something better. This is a genuinely hard, deep fold — not automatic just because the hand started as a set."
   }
 ]
