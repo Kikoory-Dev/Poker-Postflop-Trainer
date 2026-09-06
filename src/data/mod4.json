@@ -94,5 +94,389 @@
     ],
     "correct": 1,
     "explanation": "This IS a barrel — and shows barreling isn't always wrong. Hardin criteria: you have a value hand worth betting (QQ overpair, dry board with little that beat you), and the opponent folds to turn cbets 55% (good fold equity). Bet for value and denial. The skill is distinguishing THIS (strong value, dry board, foldy opponent) from the previous spot (medium hand, scare card, sticky opponent). Same action, opposite reasoning — read the factors. Double barrel for value + denial — QQ is a strong value hand worth betting, the board is dry (low straight/flush risk), and the opponent over-folds turns; bet to extract from worse and deny equity."
+  },
+  {
+    "id": "trb_07",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You raised preflop and c-bet A♥K♥ on J♠7♦2♣, one caller. Turn 9♥ completes a backdoor-ish heart texture that connects far more with YOUR suited-broadway raising range than with a capped BB calling range. You still have just ace-high with a flush draw now.",
+    "question": "The turn card favors your range more than theirs, even though you personally just picked up a draw. Barrel again?",
+    "options": [
+      "Bet — the card favors your range",
+      "Check — still no pair",
+      "Give up, too scary a river coming",
+      "Bet only if checked twice"
+    ],
+    "correct": 0,
+    "explanation": "A scare card is only scary for the player whose range it doesn't fit. Here the new heart favors YOUR raising range (suited broadways) more than BB's capped flatting range, on top of which you also picked up a flush draw of your own. Both the range-based scare-card criterion and the equity-gain criterion point the same way. Double barrel — the turn card hits your range harder than theirs, and you also picked up real equity; this is a clean semi-bluff, not a coinflip."
+  },
+  {
+    "id": "trb_08",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet 8♠8♦ on K♣8♥3♣, flopping a set, one caller. Turn 6♦ (blank). Opponent is a loose-passive calling station who rarely folds once they've called a flop bet.",
+    "question": "You have a set, the caller is sticky, the turn is a total blank. Does low fold equity change anything?",
+    "options": [
+      "Check — you have no fold equity to lean on",
+      "Bet — pure value, folds don't matter",
+      "Bet small just in case",
+      "Check anyway, for deception"
+    ],
+    "correct": 1,
+    "explanation": "Fold equity only matters for bluffs — a made hand this strong doesn't need anyone to fold. A set on a dry-ish board against a station who calls with worse pairs and kings is a value bet regardless of what their fold-to-turn-cbet number says. Hardin's criterion #1 (a value hand worth betting) is met on its own; you don't need the other three. Bet for value — a set doesn't care about fold equity; a station who never folds is exactly who you want to keep betting into."
+  },
+  {
+    "id": "trb_09",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You c-bet A♣K♦ on A♠8♠3♥, top pair top kicker, one caller. Turn 8♦ pairs the board. This caller's preflop range (a BB defend vs your CO open) is wide but very light on random 8x combos.",
+    "question": "The turn pairs the board — does that automatically make barreling dangerous?",
+    "options": [
+      "Check — any paired turn is risky",
+      "Check unless you have the case card",
+      "Bet — wide range rarely holds it",
+      "Bet half pot to be safe"
+    ],
+    "correct": 2,
+    "explanation": "A paired board only threatens you if the opponent's continuing range actually contains that rank in real volume. A wide BB-defense range is built from suited connectors, broadways, and small-to-mid pairs, not a heavy concentration of exactly one specific rank like 8x — and pairing the board also removes combos of it from the deck. Your TPTK barely loses value here. Double barrel for value — a paired turn is often safe to barrel into a wide, unselective range, since that range rarely holds the exact card that paired in real numbers."
+  },
+  {
+    "id": "trb_10",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet K♠K♥ on Q♦7♣2♠, one caller, effective stacks still 3x the pot after the flop bet. Turn 4♥ (blank).",
+    "question": "You have a big value hand and stacks are deep enough for a third barrel to matter. Does planning ahead change your turn sizing?",
+    "options": [
+      "Bet the same size always",
+      "Check to save money",
+      "Shove the entire stack right now instead",
+      "Bet — size with the river in mind"
+    ],
+    "correct": 3,
+    "explanation": "With a real value hand and real stack depth left, the turn bet isn't just about this street — it's setting up the river. Sizing the turn so a pot-sized (or larger) river bet still fits the remaining stack keeps your triple-barrel line coherent and threatening, rather than either under-betting and running out of room, or overbetting the turn and leaving an awkward river. Bet the turn with the river in mind — good barreling plans the whole hand's sizing, not just the current street."
+  },
+  {
+    "id": "trb_11",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You c-bet Q♠J♠ on T♠4♦2♠ (flush draw + gutshot), one caller. Turn 8♠ completes your flush outright — you now hold the nuts.",
+    "question": "You just made the nut flush. Bet big or small?",
+    "options": [
+      "Bet big — nuts, charge now",
+      "Bet small to keep them in",
+      "Check to trap",
+      "Match the flop-sized bet"
+    ],
+    "correct": 0,
+    "explanation": "Once you have the actual nuts on a board with a live flush possibility, the priority flips from 'induce action cheaply' to 'get paid before the scare factor keeps them from calling at all.' A big bet here still gets called by any made hand or draw the caller has, and there's no future street where this is more +EV to check back. Bet big — with the nuts made, extract now rather than trying to be cute; the hand only gets harder to get paid on from here."
+  },
+  {
+    "id": "trb_12",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You 3-bet from the BB, BTN calls. You c-bet A♦T♣ on K♥7♣3♦, missed entirely. Turn is A♠ — you now have top pair, and this is exactly the kind of card that BTN's capped calling range (already missing most premium Ax after facing your 3-bet) doesn't hold.",
+    "question": "3-bet pot, the turn ace both gives you a pair AND is a card BTN's range is light on. Barrel?",
+    "options": [
+      "Check — an ace on board is always scary",
+      "Bet — improved, avoids their range",
+      "Check, should've given up on flop",
+      "Bet a tiny size only"
+    ],
+    "correct": 1,
+    "explanation": "This combines two criteria at once: you now have a real, if thin, value hand (top pair), and the specific card favors YOUR continuing range in a 3-bet pot (most weak aces already folded to your 3-bet preflop, so BTN's calling range was never full of aces to begin with). Double barrel — you both improved and picked a card that BTN's range doesn't want to see; this is a strong combined spot, not a coin flip."
+  },
+  {
+    "id": "trb_13",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet 9♣9♦ on 9♠5♥2♣ (flopped a set), one caller. Turn 7♠ (mostly blank). This is a 3-way pot — one more caller besides you and the original flop-caller — wait: two other players also called your flop bet, so it's now three-way going to the turn.",
+    "question": "You have a set in a three-way pot. Does the extra opponent change whether you should keep betting?",
+    "options": [
+      "Check — sets too risky multiway",
+      "Bet only a small, token-sized amount here",
+      "Bet — a real hand still bets multiway",
+      "Bet vs only one of the two"
+    ],
+    "correct": 2,
+    "explanation": "Multiway caution is about vulnerable one-pair hands, not about strong made hands. A flopped set on a dry-ish, unpaired board is still well ahead of two full ranges' worth of continuing hands, and more opponents in the pot is actually more potential value, not more danger, when your hand is this far ahead. Bet for value — a real hand like a set doesn't get weaker just because more people are watching; the multiway caution is for overpairs and top pair, not sets."
+  },
+  {
+    "id": "trb_14",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You raised BTN, BB called. You checked back the flop (6♦4♣2♥, total whiff) planning a delayed c-bet. Turn J♥ gives you a backdoor gutshot-ish overcard pair candidate — actually you now hold two overcards to a paired-nothing board plus a running gutshot possibility. BB checks again.",
+    "question": "You checked the flop planning to attack later. BB checks turn too — does this change anything?",
+    "options": [
+      "Check — already gave up on flop",
+      "Never bet after checking a flop",
+      "Bet only with a made hand",
+      "Bet — two checks signals weakness"
+    ],
+    "correct": 3,
+    "explanation": "Checking back the flop wasn't giving up — it was a delayed c-bet plan, and BB's second consecutive check is real information: their range likely missed the flop too and still hasn't improved. This is exactly the spot a delayed c-bet is designed for. Bet the turn — two checks from BB signals a weak, giving-up range; this is the moment the delayed plan pays off, not a reason to check a third time."
+  },
+  {
+    "id": "trb_15",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♣Q♣ on K♦9♦4♥, missed, one caller with a fold-to-turn-cbet of 74%. Turn 2♠ (total blank, changes nothing).",
+    "question": "You still have zero equity, but the opponent folds to turn c-bets 74% of the time. Barrel anyway?",
+    "options": [
+      "Bet — high fold rate alone is enough",
+      "Check — zero equity always means you check",
+      "Only barrel with a gutshot",
+      "Bet the river only, not the turn"
+    ],
+    "correct": 0,
+    "explanation": "Hardin's four criteria don't all need to be present at once — a strong enough read on any single one can be enough by itself. A 74% fold-to-turn-cbet rate means three times out of four this bet just wins the pot outright, which comfortably justifies firing with air. Bet as a pure bluff — an extreme fold-to-cbet stat can carry a barrel on its own, even with zero added equity; compare this to a sticky opponent, where the same air hand should just check."
+  },
+  {
+    "id": "trb_16",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You c-bet K♣J♣ on Q♠T♦4♣ (gutshot + overcard + backdoor flush), one caller. Turn 9♣ completes both your straight draw into a made hand AND your flush draw into a made flush — you now have the nut straight flush... no, correction: you now hold the nut flush (K♣J♣ with three clubs out).",
+    "question": "You went from a combo draw to the nut flush on the turn. How does your plan change?",
+    "options": [
+      "Slow down, check to trap",
+      "Bet — same action, now for value",
+      "Check, you already had fold equity",
+      "Keep the flop-sized bet, no change"
+    ],
+    "correct": 1,
+    "explanation": "The bet stays the same (bet), but the reason behind it flips entirely — you're no longer betting for fold equity plus backup outs, you're betting because you now have the best possible hand. Recognizing that shift matters for sizing (go bigger, you want value, not just folds) and for how you react to a raise (you're now likely ahead, not just semi-bluffing). Bet, now for value — the action doesn't change, but the reasoning and correct sizing do, once a draw actually completes into the nuts."
+  },
+  {
+    "id": "trb_17",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♠9♠ on 9♦6♠3♠ (top pair, backdoor flush draw), one caller. Turn 5♠ completes your flush — you hold the nut flush now, and this card also looks scary to any Kx/Qx-type hand the caller might have floated with.",
+    "question": "You made the nuts AND the card looks scary to their likely floats. Does that change sizing from a normal value bet?",
+    "options": [
+      "Bet smaller than usual",
+      "Check instead of betting",
+      "Normal value size, no change",
+      "Min-bet just to guarantee you get a call"
+    ],
+    "correct": 2,
+    "explanation": "A card being scary to a float range mostly matters for BLUFFS (more fold equity) — it doesn't change how much a made hand should bet for value against the part of their range that does continue (pairs, better draws before this card, or a slower-played big hand). Treat this as a normal value bet with the nuts: size for what a calling range will pay, not smaller just because some of their range folds anyway. Bet a normal value size — the scare-card effect helps bluffs get folds; it doesn't mean you should shrink a genuine value bet with the nuts."
+  },
+  {
+    "id": "trb_18",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You c-bet T♥T♦ on 9♠5♦2♣ (overpair), one caller. Turn 9♥ pairs the board — but you hold no 9 and the caller is a wide, unselective calling station who defends with almost anything.",
+    "question": "The turn pairs a card you don't hold, against a caller wide enough to sometimes have that exact card. Bet or check?",
+    "options": [
+      "Check — too risky vs a wide range",
+      "Bet min-size only",
+      "Check-raise instead of betting",
+      "Bet — still mostly worse hands"
+    ],
+    "correct": 3,
+    "explanation": "Yes, a truly wide, unselective range is more likely than a narrow one to contain the odd 9x combo — but 'more likely' doesn't mean 'usually.' The overwhelming majority of a wide calling range is still worse pairs, ace-high, and busted draws, all of which TT still beats even after the board pairs. Bet for value — a wide station range is bad news in raw frequency of trips compared to a tight range, but it's still mostly worse hands; don't let one bad-case scenario override the math."
+  },
+  {
+    "id": "trb_19",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♦K♠ on K♦9♣4♦, top pair top kicker, one caller. Turn 3♦ brings a third diamond to the board — you hold the A♦, blocking the nut flush.",
+    "question": "A flush just became possible and you hold the ace of the flush suit. Does that blocker support continuing to bet?",
+    "options": [
+      "Bet — the blocker supports it",
+      "Check — a third suited card, always",
+      "Check unless you also pair that suit",
+      "Bet, but checking is safer"
+    ],
+    "correct": 0,
+    "explanation": "A flush becoming possible doesn't mean you're facing one — it means you should account for how likely it actually is, and holding the nut card of that suit directly lowers that likelihood while also meaning that if you're ever raised, it's less likely to be the flush specifically. Betting still charges the large part of their range that doesn't have three diamonds. Bet for value/protection — the nut blocker both reduces the flush's likelihood and improves your position if you do get raised; this is a reason to keep betting, not to slow down."
+  },
+  {
+    "id": "trb_20",
+    "module": "4",
+    "category": "Double Barrel",
+    "difficulty": "hard",
+    "scenario": "You raised BTN, BB called — you are in position. You c-bet J♦T♦ on 9♠8♦2♣ (gutshot + backdoor flush + two overcards worth of range advantage), one caller. Turn 7♦ gives you an open-ended straight draw plus your flush draw is now also live.",
+    "question": "In position, you picked up a monster combo draw on the turn. Bet, or check back to control the pot since you're IP?",
+    "options": [
+      "Check back, take the free card",
+      "Bet — equity beats a free card",
+      "Check back, then raise if bet into",
+      "Bet the minimum size only"
+    ],
+    "correct": 1,
+    "explanation": "Being in position gives you the OPTION to check back profitably — it doesn't mean checking is always better. With an open-ended straight draw and a flush draw combined (a huge number of outs) plus real fold equity on top, betting captures value a free card can't: it wins the pot outright a good chunk of the time, and builds a pot for when you do complete. Bet — a monster combo draw is a bet, not a check, in position or not; the free-card option is only worth taking when there isn't this much to gain from betting."
+  },
+  {
+    "id": "trb_21",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♣J♦ on Q♠8♥3♣, missed, one caller with a fold-to-turn-cbet of only 18%. Turn 6♦ (blank, changes nothing).",
+    "question": "You have zero equity and the opponent almost never folds a turn c-bet. Fire again anyway?",
+    "options": [
+      "Bet anyway, keep the pressure",
+      "Bet an even bigger overbet than usual",
+      "Check — fold rate too low to bluff",
+      "Should've folded preflop instead"
+    ],
+    "correct": 2,
+    "explanation": "None of Hardin's four criteria are met: no value hand, no new equity, a blank turn (no favorable scare card), and — the clincher — an 18% fold-to-turn-cbet rate means this bet gets called or raised over four times out of five. A pure bluff with a stat this bad is just burning money. Check and give up — an extremely low fold-to-turn-cbet rate is disqualifying on its own for a zero-equity bluff, regardless of anything else about the hand."
+  },
+  {
+    "id": "trb_22",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "hard",
+    "scenario": "You c-bet A♠A♦ on J♦9♦4♣ (overpair, no diamond), one caller who floated the flop with a wide range including a lot of diamond draws. Turn 2♦ completes a third diamond.",
+    "question": "The turn card is exactly the suit your caller was likely drawing to, and you hold none of it. Barrel your overpair?",
+    "options": [
+      "Bet big regardless",
+      "Bet small to see where you're at",
+      "Bet, then auto-fold to a raise",
+      "Check — card favors their range"
+    ],
+    "correct": 3,
+    "explanation": "This is the textbook 'barreling into the card that helped them' mistake. If you know their flop-calling range was diamond-heavy, the third diamond is the single worst turn card for your overpair, and you hold no blocker to soften it. AA is still a real hand, but this specific card should trigger a pot-control check, not a continued bet. Check — a scare card that specifically fits the range you're facing is exactly when to slow down, even with a big pocket pair."
+  },
+  {
+    "id": "trb_23",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet K♥Q♠ on K♦7♣2♥ (top pair, weak-ish kicker for the situation), one caller, but this pot is three-way — two other players also called your flop bet. Turn 9♠ (blank).",
+    "question": "Top pair, no kicker help, and now three-way. Keep betting for value/protection?",
+    "options": [
+      "Check — too much exposure 3-way",
+      "Bet — top pair always bets",
+      "Bet bigger to fold out both",
+      "Should've checked the flop instead"
+    ],
+    "correct": 0,
+    "explanation": "This is the flip side of the earlier set example — a genuinely big hand (a set) can still bet multiway, but a merely decent hand like top pair with a so-so kicker gets much more dangerous the more live ranges are behind it. Two callers combined are far more likely to have two pair, a set, or a better kicker than one caller alone. Check or bet small with a give-up plan — multiway pots need real strength to keep firing; top pair alone often isn't enough against two live opponents."
+  },
+  {
+    "id": "trb_24",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "hard",
+    "scenario": "You c-bet A♥K♥ on K♠9♦4♣ (top pair top kicker), one caller. Turn 9♣ pairs the board (unrelated to your hand). You have decent showdown value already, and betting a polarized range here would mean folding out worse kings while only getting called by 9x/better.",
+    "question": "You have real showdown value, but betting mostly folds out worse and gets called by better. What's the better plan?",
+    "options": [
+      "Bet big to protect vs trips",
+      "Check — take the free showdown",
+      "Bet small to induce a raise",
+      "Bet, then fold to any raise"
+    ],
+    "correct": 1,
+    "explanation": "This is the 'polarization' trap — a hand with real but not overwhelming showdown value often does worse by betting than by checking, when a bet's likely responses are 'fold something worse' or 'call/raise with something better.' Checking lets you realize the showdown value you already have without paying to find out you're behind. Check — TPTK with genuine showdown value doesn't need to bet a paired, mostly-irrelevant turn; let the hand play itself out cheaply instead."
+  },
+  {
+    "id": "trb_25",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "hard",
+    "scenario": "You c-bet A♦Q♦ on Q♣8♠5♦ (top pair top kicker), and the caller check-raised your flop c-bet — you called the check-raise. Turn 2♠ (blank).",
+    "question": "You called a flop check-raise (a strong action from most players) and now face a decision on the turn. Lead out again?",
+    "options": [
+      "Bet — keep up the pressure",
+      "Bet big to find out where you stand",
+      "Check — they already showed strength",
+      "Should've folded the check-raise"
+    ],
+    "correct": 2,
+    "explanation": "A check-raise is one of the strongest signals in poker — most players don't check-raise as a pure bluff nearly as often as they do it for value or a strong draw. Calling it was reasonable with TPTK, but leading out again on the turn ignores the information you already paid to see. Check — a flop check-raise already told you a lot; let them act first on the turn rather than betting into a range that already showed strength."
+  },
+  {
+    "id": "trb_26",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "Effective stacks are very deep (250bb+). You c-bet Q♣J♣ on J♠8♦3♣ (top pair, no draw beyond the pair itself), one caller. Turn 5♥ (blank, no new equity, no scare card for either range).",
+    "question": "Deep stacks, no new equity gained, a blank that doesn't especially favor either range. Barrel again?",
+    "options": [
+      "Bet — deep stacks demand pressure",
+      "Bet bigger since it's deep",
+      "Fold outright instead of checking",
+      "Check — nothing actually improved"
+    ],
+    "correct": 3,
+    "explanation": "Stack depth doesn't create a reason to barrel on its own — it just raises the stakes of the decision you'd otherwise make. Nothing changed here: no new equity, no favorable card, no read given on fold-to-turn-cbet. Firing into a deep stack with only a middling top pair on a static board is how a small mistake turns into an expensive one. Check for pot control — deep stacks are a reason to be MORE careful with a marginal hand, not a blanket reason to keep betting."
+  },
+  {
+    "id": "trb_27",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "hard",
+    "scenario": "You c-bet 7♣6♣ on 9♦5♣2♥ (open-ended straight draw, no pair), one caller. Turn K♠ bricks your draw completely (no new outs, and it's an overcard that doesn't help your hand at all).",
+    "question": "Your draw missed, the turn is a total brick for your hand, and you have nothing. Bet as a pure bluff?",
+    "options": [
+      "Check — no real basis to bluff",
+      "Bet — represent the king",
+      "Bet big, it's now or never",
+      "Call one more street instead"
+    ],
+    "correct": 0,
+    "explanation": "A card 'looking scary' in the abstract isn't a reason to bluff by itself — you need an actual basis for believing it works (a range read, a fold-to-cbet stat, or genuine leftover equity), none of which are present here. Betting just because a king showed up, with no supporting read, is hoping rather than reasoning. Check and give up — 'it looks like a scare card' isn't one of Hardin's real criteria; without a fold-equity read or backup equity, this bluff has no actual basis."
+  },
+  {
+    "id": "trb_28",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♠K♣ on K♦8♠4♥ (top pair top kicker), one caller you've specifically noted 'never folds any pair, ever' in past hands. Turn 2♣ (blank).",
+    "question": "You have a real value hand, but does 'they never fold a pair' change how you think about a check here versus a normal opponent?",
+    "options": [
+      "Check — betting accomplishes nothing",
+      "Bet — sticky reads support value bets",
+      "Bet the same amount regardless",
+      "Check, but only due to the blank"
+    ],
+    "correct": 1,
+    "explanation": "It's worth pausing on this one: a 'never folds a pair' read is actually a reason TO bet, not to check — it means worse pairs and worse kickers will pay you off, which is exactly what a value bet wants. The trap would be thinking 'they never fold, so betting accomplishes nothing' — that logic applies to bluffs (no fold equity), not to value bets (which don't need folds to profit). Bet for value — a sticky opponent who never folds a pair is a green light for betting a genuine hand, not a reason to check; don't confuse the bluffing logic with the value-betting logic."
+  },
+  {
+    "id": "trb_29",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "hard",
+    "scenario": "You raised UTG, BB called — you are out of position for the rest of the hand. You c-bet K♠Q♠ on Q♥9♣4♠ (top pair, decent kicker), one caller who has raised your turn bets in two prior hands you remember, both times with the actual best hand. Turn 6♥ (blank).",
+    "question": "Out of position, facing a caller who's shown they raise turns for real value, with only a decent (not great) top pair. Bet again?",
+    "options": [
+      "Bet — a decent kicker is enough",
+      "Bet bigger to fold them out",
+      "Check — OOP vs a proven value-raiser",
+      "Should've checked the flop too"
+    ],
+    "correct": 2,
+    "explanation": "Being out of position means a raise is more costly to deal with — you can't just check back and control the river the way you could in position. Combined with a specific, credible read that this player raises turns with real hands (not speculatively), betting a good-but-not-great top pair into that exact pattern is asking to face a decision you don't want. Check — OOP against a player who's shown they raise for value, a merely-good hand should take the free card and reassess on the river instead of bet-folding into a bad spot."
+  },
+  {
+    "id": "trb_30",
+    "module": "4",
+    "category": "Give Up",
+    "difficulty": "medium",
+    "scenario": "You c-bet A♦4♦ on K♣9♦5♦ (backdoor flush draw only, no pair, no real draw yet beyond two diamonds), one caller. Turn 2♠ bricks completely — no diamond, no pair, no straight card, nothing.",
+    "question": "A backdoor draw that never materialized, a total brick turn, and no pair. Fire a second bluff barrel?",
+    "options": [
+      "Bet — already committed, keep going",
+      "Bet bigger to make up for it",
+      "Call if they lead the river instead",
+      "Check — sunk cost, no new basis"
+    ],
+    "correct": 3,
+    "explanation": "Having already bet the flop isn't a reason to keep betting the turn — that's sunk-cost thinking, not a real barrel criterion. The backdoor flush draw needed running diamonds and didn't get help on the turn, leaving you with nothing: no value, no equity, and (absent a specific fold-equity read) no clear basis to keep firing. Check and give up — money already put in the pot doesn't justify more; evaluate the turn barrel decision fresh, based on what's true now, not on what you already bet."
   }
 ]
