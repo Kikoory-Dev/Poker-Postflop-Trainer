@@ -185,5 +185,328 @@
     ],
     "correct": 1,
     "explanation": "Villain (nit) leading big = strong made hand (set, two pair, top pair strong kicker), almost never a bluff. But you have the nut flush draw plus an ace overcard — real equity. The read tells you you're behind NOW, but your draw justifies continuing if the pot odds are right. Don't raise (they won't fold), just call and realize your equity. Reading the type tells you it's a made hand; the math tells you to draw. They have a strong made hand — but your draw + overcard has equity, call with proper odds."
+  },
+  {
+    "id": "pt_id_04",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "easy",
+    "scenario": "Your HUD on this player over 300 hands.",
+    "hud": "VPIP 22 · PFR 19 · Fold to CBet 45% · 3Bet 8%",
+    "question": "What player type is this?",
+    "options": [
+      "TAG",
+      "Nit",
+      "Calling station",
+      "Maniac"
+    ],
+    "correct": 0,
+    "explanation": "VPIP 22 with PFR 19 is a small, tight gap — they raise almost everything they play, the mark of a solid TAG. Fold-to-cbet (45%) and 3-bet (8%) are both near-standard. Not tight enough to be a Nit, not loose enough for a station. Play straightforward, well-timed poker against a TAG — they won't hand you free chips, but they won't outplay you with pure aggression either."
+  },
+  {
+    "id": "pt_id_05",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "Your HUD on this player over 500 hands.",
+    "hud": "VPIP 27 · PFR 23 · Fold to CBet 40% · 3Bet 9%",
+    "question": "What player type is this?",
+    "options": [
+      "Maniac",
+      "LAG",
+      "Nit",
+      "Calling station"
+    ],
+    "correct": 1,
+    "explanation": "VPIP 27 / PFR 23 is loose but with a tight VPIP-PFR gap — they raise almost everything they play, unlike a maniac's uncontrolled stats (65/53 territory) or a station's big passive gap. A controlled 3-bet% (9%) rules out maniac too. This is a good, thinking LAG: a wide range, but purposeful aggression. Respect their raises more than you would a maniac's."
+  },
+  {
+    "id": "pt_id_06",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "You just sat down. After only 14 hands, your HUD already shows a number.",
+    "hud": "14 hands · VPIP 43 · PFR 43",
+    "question": "How much should you trust this read right now?",
+    "options": [
+      "Trust it fully, play exploits now",
+      "Ignore it, stats are meaningless",
+      "Weak lean only, watch and reassess soon",
+      "Assume worst case, they're a maniac"
+    ],
+    "correct": 2,
+    "explanation": "14 hands is nowhere near a reliable sample — VPIP/PFR need 200+ hands to mean much, 3-bet% needs 500+. A 43/43 read after 14 hands could be a genuinely loose player or just a run of decent starting cards. Treat it as a weak lean, keep watching their actual decisions, and update as the sample grows. Don't play a full exploit off noise."
+  },
+  {
+    "id": "pt_id_07",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "Two stats catch your eye: this player's Fold to C-Bet is 68%, but their 3-Bet% is only 3%.",
+    "hud": "Fold to CBet 68% · 3Bet 3%",
+    "question": "What should you do with this information?",
+    "options": [
+      "3-bet them constantly",
+      "Never bother c-betting",
+      "Ignore it, stats cancel out",
+      "Bet into them often"
+    ],
+    "correct": 3,
+    "explanation": "The two stats answer different questions — 3-bet% tells you about their preflop reraising, fold-to-cbet tells you about their postflop folding. They're unrelated here, not contradictory. A 68% fold-to-cbet is a massive postflop leak: bet into them often and take down the pot regardless of your cards. The low 3-bet% is a separate, smaller leak you can also exploit by opening wider."
+  },
+  {
+    "id": "pt_id_08",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "hard",
+    "scenario": "HUD shows Went to Showdown 18% but Won $ at Showdown 78%.",
+    "hud": "WTSD 18% · W$SD 78%",
+    "question": "What does this combination tell you?",
+    "options": [
+      "Rarely bluff, respect showdowns",
+      "They bluff constantly, call them",
+      "They tilt easily, exploit it",
+      "Sample's too small to trust"
+    ],
+    "correct": 0,
+    "explanation": "Low WTSD (18%) means they rarely take hands to showdown — they're folding out along the way. High W$SD (78%) means that when they DO show up at showdown, they usually win. Put together: this player only reaches showdown with strong holdings. When they're still in the hand on the river, give real respect — this isn't someone bluffing their way to showdown."
+  },
+  {
+    "id": "pt_id_09",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "HUD shows VPIP 26, PFR 5 — plays a lot of hands, but almost never raises.",
+    "hud": "VPIP 26 · PFR 5",
+    "question": "What does the big VPIP-PFR gap tell you preflop?",
+    "options": [
+      "Aggressive raiser, respect raises",
+      "Tight nit, tread carefully",
+      "Passive limper who rarely raises — isolate them",
+      "Balanced, hard to read"
+    ],
+    "correct": 2,
+    "explanation": "A wide VPIP (26) paired with a tiny PFR (5) is the signature of a passive limper — they'll play a lot of hands but almost always by limping or calling, rarely by raising. Isolate them with a raise when they limp in front of you: you get to play a wide, weak range heads-up and in position, with initiative on your side."
+  },
+  {
+    "id": "pt_id_10",
+    "module": "7",
+    "category": "Read the HUD",
+    "difficulty": "medium",
+    "scenario": "Blinds show Fold to Steal (BTN/CO) at 82%.",
+    "hud": "Fold to Steal 82%",
+    "question": "How should this change your late-position opens?",
+    "options": [
+      "No change, standard range",
+      "Tighten up, they'll defend",
+      "Only open premium hands",
+      "Widen and steal often"
+    ],
+    "correct": 3,
+    "explanation": "An 82% fold-to-steal is an enormous leak in the blinds — they're giving up the pot uncontested more than four times out of five. Widen your late-position opening range significantly and attack their blinds relentlessly; the dead money is free equity. If they wake up with a 3-bet, give it credit and let go of the junk hands."
+  },
+  {
+    "id": "pt_tp_maniac",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "hard",
+    "scenario": "You hold A♣J♦ on J♥7♠3♣ (TPTK). You bet flop, Villain (maniac) raises big.",
+    "hud": "Villain: MANIAC (VPIP 65 · raises constantly)",
+    "question": "Villain (maniac) raises your flop c-bet. What do you do with TPTK?",
+    "options": [
+      "Fold, respect any raise",
+      "Re-raise for value",
+      "Check back next street",
+      "Call, their raising range is full of bluffs"
+    ],
+    "correct": 3,
+    "explanation": "A maniac's raising range is nothing like a Nit's or even a LAG's — it's stuffed with weak pairs, draws, and pure air, because they raise on volume rather than strength. TPTK crushes that range. Call and keep pot control (raising just folds out their bluffs and gets called only by hands that beat you). This is the opposite adjustment from the Villain (nit) spot."
+  },
+  {
+    "id": "pt_tp_tag",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "hard",
+    "scenario": "Same A♣J♦ on J♥7♠3♣ (TPTK), but now Villain (TAG) raises your flop bet.",
+    "hud": "Villain: TAG (VPIP 22 · disciplined, rarely bluffs)",
+    "question": "Villain (TAG) raises the flop. How does this compare to the maniac spot above?",
+    "options": [
+      "Fold, range skews strong",
+      "Same wide adjustment either way",
+      "Raise again for value",
+      "Check-call passively"
+    ],
+    "correct": 0,
+    "explanation": "A disciplined TAG doesn't raise the flop for no reason — their range here is mostly sets, two pair, and strong overpairs, occasionally a well-timed semi-bluff but not the flood of air a maniac would show up with. It's not as automatic a fold as against a Nit, but the range still favors them. Lean fold and keep the difference between villain types clear in your mind."
+  },
+  {
+    "id": "pt_bc_nit",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "medium",
+    "scenario": "River: you have a weak bluffcatcher (2nd pair). Villain (nit) fires a big river bet.",
+    "hud": "Villain: NIT (almost never bluffs)",
+    "question": "Villain (nit) bets big on the river. What do you do with a weak bluffcatcher?",
+    "options": [
+      "Fold, real value bet",
+      "Call, could be a bluff",
+      "Raise as a bluff",
+      "Call to keep them honest"
+    ],
+    "correct": 0,
+    "explanation": "A Nit betting big on the river is about as close to a guaranteed value bet as poker gets — this player type simply doesn't fire big rivers as a bluff. Your weak bluffcatcher is beat almost every time. Fold and save the bet; 'keeping them honest' against a player who is already honest just burns chips."
+  },
+  {
+    "id": "pt_bc_station",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "medium",
+    "scenario": "Same weak bluffcatcher spot, but now Villain (calling station) bets the river.",
+    "hud": "Villain: CALLING STATION (bets thin value, almost never bluffs)",
+    "question": "Villain (station) bets river. Different action than vs the nit above?",
+    "options": [
+      "Still fold, same read",
+      "Raise, they'll call worse",
+      "Call, their value range is thin here",
+      "Fold, stations bet the nuts only"
+    ],
+    "correct": 2,
+    "explanation": "Stations rarely bluff, but unlike a Nit they also rarely bet ONLY the nuts — passive players who do bet the river often do it with thin value (second pair, weak top pair) because they can't help themselves. Your bluffcatcher beats more of that range than it beats a Nit's. Call — don't apply the same fold you'd give a Nit."
+  },
+  {
+    "id": "pt_bc_maniac",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "medium",
+    "scenario": "Same weak bluffcatcher, Villain (maniac) fires the river.",
+    "hud": "Villain: MANIAC (bets everything, bluffs constantly)",
+    "question": "Villain (maniac) bets river. What's different from the nit spot?",
+    "options": [
+      "Fold, same as the nit",
+      "Raise, force a fold",
+      "Check behind first",
+      "Call, full of bluffs"
+    ],
+    "correct": 3,
+    "explanation": "A maniac's river bet carries almost none of the information a Nit's does — they fire regardless of hand strength, so a big chunk of their betting range is pure air or a busted draw. Your weak bluffcatcher is a clear call here, the exact opposite read from the Nit spot even though the bet itself looks the same."
+  },
+  {
+    "id": "pt_bc_lag",
+    "module": "7",
+    "category": "Same Spot · Different Villain",
+    "difficulty": "hard",
+    "scenario": "Same bluffcatcher spot, Villain (LAG) bets the river, sizing looks polarized.",
+    "hud": "Villain: LAG (aggressive, balanced range, bluffs sometimes)",
+    "question": "Villain (LAG) bets river. Call or fold?",
+    "options": [
+      "Fold, too risky",
+      "Lean call, has bluffs",
+      "Raise as a bluff",
+      "Check the pot size first"
+    ],
+    "correct": 1,
+    "explanation": "A good LAG's river betting range is genuinely mixed — real value plus a meaningful bluff frequency, unlike a Nit's near-zero bluff rate or a station's near-zero bluff rate for a different reason. Against a thinking, balanced aggressor, a bluffcatcher becomes a real, close call rather than an easy fold. Lean call and adjust as you learn more about this specific player."
+  },
+  {
+    "id": "pt_bluff_lag",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Villain (LAG) has 3-bet you twice this session already.",
+    "hud": "Villain: LAG (3Bet 11%)",
+    "question": "How should you respond to their next open?",
+    "options": [
+      "Fold everything, they're too tough",
+      "Never open again vs them",
+      "Widen your range and call their 3-bets more often",
+      "Only continue with premiums"
+    ],
+    "correct": 2,
+    "explanation": "A LAG's elevated 3-bet frequency means their 3-betting range is wide, not just aces and kings. Folding everything or only continuing with premiums lets them run you over. Widen the range of hands you're willing to call (or 4-bet) their 3-bets with — you're not facing the tight range you'd assume from a Nit or TAG doing the same thing."
+  },
+  {
+    "id": "pt_bluff_maniac",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Villain (maniac) has bet every street for three hands in a row. You have air again.",
+    "hud": "Villain: MANIAC",
+    "question": "Should you try to bluff-raise them off a hand?",
+    "options": [
+      "Yes, keep applying more pressure",
+      "No, let them barrel into you",
+      "Yes, they respect it",
+      "Only on the river"
+    ],
+    "correct": 1,
+    "explanation": "Maniacs don't fold to pressure the way a normal player does — that's the whole point of being a maniac. Bluff-raising them just turns your air into a bigger loss when they call or re-raise back. The correct exploit is patience: give up the bluffs, wait for an actual hand, and let their uncontrolled aggression barrel chips into your strong holdings instead."
+  },
+  {
+    "id": "pt_pre_lag",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Villain (LAG) 3-bets you constantly from the blinds when you open the BTN.",
+    "hud": "Villain: LAG in the blinds",
+    "question": "How do you adjust your BTN opens against them?",
+    "options": [
+      "Stop opening any light hands at all",
+      "Keep opening, don't over-fold",
+      "Only open pairs, broadways",
+      "Fold to every 3-bet"
+    ],
+    "correct": 1,
+    "explanation": "A high 3-bet frequency from a LAG in the blinds is a leak, not a reason to play scared. Keep opening your normal wide range and plan to continue (call or 4-bet) more often than you would against a tight 3-bettor. Tightening up or folding to every 3-bet is exactly the exploit they're hoping you'll make."
+  },
+  {
+    "id": "pt_pre_tag",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "Villain (TAG) 3-bets you from the blinds — same spot as the LAG above, different villain.",
+    "hud": "Villain: TAG in the blinds",
+    "question": "How does your response differ from the LAG spot?",
+    "options": [
+      "Same wide adjustment either way",
+      "Fold more, range is stronger",
+      "4-bet bluff them constantly",
+      "Never open vs a TAG"
+    ],
+    "correct": 1,
+    "explanation": "A TAG's 3-bet range is built on real hands, not volume — the opposite lesson from the LAG spot above. Continue less often, fold more of your marginal opens, and save your 4-bets for genuine value. Treating every 3-bettor the same, regardless of type, is exactly the mistake this module keeps drilling: same action, different villain, different answer."
+  },
+  {
+    "id": "pt_size_station",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "easy",
+    "scenario": "You have the nuts on the river. Villain (calling station) is still in the hand.",
+    "hud": "Villain: CALLING STATION",
+    "question": "How should you size your value bet?",
+    "options": [
+      "Overbet, they call all",
+      "Standard half-pot sizing",
+      "Check to induce a bluff",
+      "Small bet, look weak"
+    ],
+    "correct": 0,
+    "explanation": "Against a calling station, sizing up is close to free money — they call with hands far worse than yours regardless of bet size, so there's little reason to leave value on the table with a standard or small sizing. Overbet or bet large with your strong hands; save the small, deceptive sizings for players who actually think about folding."
+  },
+  {
+    "id": "pt_size_nit",
+    "module": "7",
+    "category": "Exploit Decision",
+    "difficulty": "medium",
+    "scenario": "You're bluffing the river on a scary board. Villain is a NIT.",
+    "hud": "Villain: NIT",
+    "question": "How should you size the bluff?",
+    "options": [
+      "Max overbet for maximum fold equity",
+      "Check, don't risk it",
+      "Pot-size bet, standard",
+      "Small bet is enough, they fold to almost anything"
+    ],
+    "correct": 3,
+    "explanation": "A Nit already folds to a high percentage of bets — you don't need to risk a big overbet to get the same fold you'd get from a minimum-sized one. Bluff cheaply: a smaller sizing gets the job done against a player who is looking for reasons to fold, and it caps your loss on the rare occasion they do have the goods and call."
   }
 ]
