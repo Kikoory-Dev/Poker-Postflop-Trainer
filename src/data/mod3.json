@@ -452,7 +452,7 @@
     "module": "3",
     "category": "When NOT to C-Bet",
     "difficulty": "hard",
-    "scenario": "You raise, BB (a player you've tagged as tight preflop, but who you've also seen call down very wide and never fold once they see a flop) calls. Flop K♥ J♥ 9♠ (two broadway cards, drawy). You have Q♣ T♠ (nothing but a gutshot to the nut straight).",
+    "scenario": "You raise, BB (a player you've tagged as tight preflop, but who you've also seen call down very wide and never fold once they see a flop) calls. Flop K♥ J♥ 9♠ (two broadway cards, drawy). You have Q♣ 8♦ (nothing but a gutshot to the nut straight).",
     "question": "This player is 'tight' by preflop stats, but their actual postflop tendency is to never fold once in a hand. Which read should drive your c-bet decision?",
     "options": [
       "Their tight preflop stat",
