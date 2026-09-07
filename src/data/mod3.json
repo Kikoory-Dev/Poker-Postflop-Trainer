@@ -87,13 +87,13 @@
     "scenario": "You raise CO, BTN (a thinking TAG) calls — you are OUT of position. Flop A♠T♦6♣. You have K♣Q♦ (no pair, gutshot to the broadway).",
     "question": "OOP vs a TAG on A-T-6 with KQ gutshot. C-bet?",
     "options": [
-      "Always c-bet — you have the ace advantage",
+      "Check — no pair, no business betting",
       "Small c-bet, one-and-done",
-      "Bet big",
-      "Check-fold always"
+      "Bet big to protect your equity",
+      "Small c-bet, then keep barreling if called"
     ],
     "correct": 1,
-    "explanation": "Position is a c-bet factor. The A-T-6 board favors your range (you have the aces), so a small c-bet as a range bet is fine — and KQ has a gutshot + backdoors. But you're OOP with no made hand: plan to give up if raised or if called and you don't improve. Don't turn a one-time range bet into multi-street spew without equity. C-bet, then proceed honestly. Small c-bet is defensible (range favors you, you have a backdoor + gutshot), but be ready to give up vs a raise; OOP without a made hand, one-and-done is fine."
+    "explanation": "Position is a c-bet factor. The A-T-6 board favors your range (you have the aces), so a small c-bet as a range bet is fine -- and KQ has a gutshot + backdoors, so it's not pure air either. But you're OOP with no made hand: plan to give up if raised, or if called and you don't improve. Checking gives up a profitable range bet for no reason; a big bet risks more than the hand justifies; barreling multiple streets without equity is the classic OOP-overcommitment leak. C-bet small once, then proceed honestly based on what happens next."
   },
   {
     "id": "cbd_07",
@@ -132,8 +132,8 @@
     "module": "3",
     "category": "C-Bet Factors",
     "difficulty": "medium",
-    "scenario": "You raise CO, a tight-passive BB (folds to c-bet 78% of the time, rarely continues without a real hand) calls. Flop Q♣ 8♦ 3♥ (dry, rainbow). You have 6♣ 5♣ (nothing, backdoor flush + gutshot).",
-    "question": "Against a nit who folds to c-bets 78% of the time, does your hand strength matter much here?",
+    "scenario": "You raise CO, a tight-passive BB (folds to c-bet 78% of the time, rarely continues without a real hand) calls. Flop Q♣ 8♦ 3♥ (dry, rainbow). You have 6♣ 5♣ (nothing, backdoor flush + backdoor straight).",
+    "question": "You have 6-5 with backdoors only — no pair, no live draw. Against a nit folding to c-bets 78% of the time, what's the right play?",
     "options": [
       "Need a pair first",
       "Bet — fold equity alone",
@@ -213,12 +213,12 @@
     "category": "C-Bet Factors",
     "difficulty": "medium",
     "scenario": "Two players limp, you raise from the CO (isolating). Only the first limper (a wide, passive limp-caller) calls. Flop J♠ 6♣ 3♦ (dry, disconnected). You have 8♣ 7♣ (nothing, backdoor flush + backdoor straight).",
-    "question": "You isolated a limper who almost never limp-raises with a big hand. Does that capped range change your c-bet frequency here?",
+    "question": "You isolated a limper whose range is capped (almost never limp-raises with a big hand). What's your c-bet frequency on this flop?",
     "options": [
-      "No — a limper could still have anything",
-      "No — only bet actual made hands",
-      "Bet more — their range is capped",
-      "Yes — but only with a big sizing"
+      "Bet less often — could still be strong",
+      "Bet your normal frequency",
+      "Bet more than usual — the range is capped",
+      "Check — a limper could have anything"
     ],
     "correct": 2,
     "explanation": "Preflop action shapes ranges just as much as the board does. A player who limps and then just calls a raise (rather than 3-betting) is very unlikely to be sitting on AA/KK/AK — those hands usually raise. Their range is wide but weak on a J-6-3 board, which makes this an easy, high-frequency c-bet even with zero pair equity. Bet — the limp-call line caps this opponent's range hard, and a dry disconnected flop mostly misses what's left of it."
@@ -309,7 +309,7 @@
     "category": "C-Bet Factors",
     "difficulty": "medium",
     "scenario": "You raise SB, BB calls (a wide, unselective calling range from BB in this matchup). Flop A♠ 8♣ 3♠ (dry, rainbow). You have K♣ K♥ (overpair, second-nut pair).",
-    "question": "Overpair below the ace on a dry ace-high board — does the ace change how you view KK here?",
+    "question": "You have KK, an overpair below the ace, on a dry ace-high board. What's your play?",
     "options": [
       "Bet — still beats most continues",
       "Check — an ace out is too scary",

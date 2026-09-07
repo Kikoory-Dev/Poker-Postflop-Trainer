@@ -142,7 +142,7 @@ export default function App(){
   const [progress, setProgress] = useState(loadProgress);
   const [moduleF, setModuleF] = useState("all");
   const [sessionSize, setSessionSize] = useState(15);
-  const APP_VERSION = "2.0";
+  const APP_VERSION = "2.1";
   const [queue, setQueue] = useState([]);
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState(null);
