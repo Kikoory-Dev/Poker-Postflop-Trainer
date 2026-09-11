@@ -25,12 +25,12 @@
     "hud": "VPIP 50 · PFR 8 · Fold to CBet 15% · Fold to 3Bet 12%",
     "question": "What player type is this?",
     "options": [
-      "Nit",
       "Calling station",
+      "Nit",
       "TAG",
       "Maniac"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "High VPIP (50) with low PFR (8) = loose-passive. The giveaway for a calling STATION specifically is the very low fold-to-cbet (15%) and fold-to-3bet (12%) — they hate to fold. Never bluff this player. Value bet relentlessly and size up: they'll call with bottom pair or ace-high."
   },
   {
@@ -43,11 +43,11 @@
     "question": "What player type is this?",
     "options": [
       "LAG (good loose-aggressive)",
-      "Maniac (bad aggressive)",
       "TAG",
+      "Maniac (bad aggressive)",
       "Nit"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "VPIP 65 / PFR 53 is extreme — far looser and more aggressive than even Villain (LAG) (30/28). This is a Maniac: uncontrolled aggression, betting and raising relentlessly without a sound plan. Don't try to out-bluff them. Trap with strong hands and let them barrel into you — they'll stack off light."
   },
   {
@@ -60,11 +60,11 @@
     "question": "Villain (nit) just raised your turn bet. What do you do with top pair top kicker?",
     "options": [
       "Call — it's only top pair",
-      "Fold — it's the near-nuts",
       "Re-raise for value",
+      "Fold — it's the near-nuts",
       "Shove"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "This is the textbook hero-fold spot. Villain (nit) raising the turn means a set, two pair, or better — they do not bluff and don't raise worse for value. Hardin: 'If there is ever a time to make a big hero fold with top-pair-top-kicker, it's against Villain (nit).' TPTK is a strong hand, but against THIS player it's beat. Fold. Villain (nit)'s raise is the near-nuts."
   },
   {
@@ -77,11 +77,11 @@
     "question": "It's checked to you on the flop against Villain (calling station). Best line with TPTK?",
     "options": [
       "Check — pot control vs a tough player",
-      "Bet large for value",
       "Bet small to keep them in",
+      "Bet large for value",
       "Bluff-bet to fold them out"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "Against Villain (calling station), value bet LARGE with your strong hands. They call with bottom pair, ace-high, gutshots — hands far worse than your TPTK. The mistake players make is betting small or checking 'to control the pot.' No — extract maximum. They won't fold, so charge them. Never bluff them, always value-bet thin and big. They call with worse."
   },
   {
@@ -94,11 +94,11 @@
     "question": "Villain (LAG) bets after you check the turn. What do you do with TPTK?",
     "options": [
       "Fold — they have a strong range",
-      "Call — full of bluffs",
+      "Check-fold future streets",
       "Always raise",
-      "Check-fold future streets"
+      "Call — full of bluffs"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Against Villain (LAG), do NOT respect aggression the way you would Villain (nit). Their betting range includes mediocre made hands, weak draws, and pure bluffs. TPTK is a clear call — you beat the large bluffing portion of their range. Hardin: make hero calls vs LAGs you'd never make vs Villain (nit). Same hand, opposite decision from Villain (nit) spot above. Their betting range is full of bluffs."
   },
   {
@@ -111,11 +111,11 @@
     "question": "Should you fire a second barrel as a bluff?",
     "options": [
       "Yes — keep applying pressure",
-      "No — never bluff a station",
+      "Only if the river is scary",
       "Yes — they might fold this time",
-      "Only if the river is scary"
+      "No — never bluff a station"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Never bluff Villain (calling station). They hate to fold and will call you down with bottom pair or ace-high. A second barrel here just spews chips. Give up, check it down, and hope your ace-high is good. Save your bets for when you have a real hand — then value bet large."
   },
   {
@@ -128,11 +128,11 @@
     "question": "You have a marginal hand. Best play?",
     "options": [
       "Check behind — pot control",
-      "C-bet — high fold rate",
+      "Give up",
       "Only bet with made hands",
-      "Give up"
+      "C-bet — high fold rate"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Exploit Villain (nit)'s biggest leak: they fold to a high percentage of c-bets. Bet relentlessly on dry boards — your actual hand barely matters because they fold so often when they miss. When they DON'T fold (call or raise), believe them and shut down. The fold equity alone makes c-betting hugely profitable here. They fold far too often."
   },
   {

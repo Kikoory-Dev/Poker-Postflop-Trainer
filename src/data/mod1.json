@@ -1,1066 +1,1066 @@
 [
- {
-  "id": "bt_flop_01",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "K♥ 7♦ 2♣",
-  "street": "flop",
-  "question": "Classify this flop: K♥ 7♦ 2♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "draws": "None — rainbow, unconnected, no flush or straight draws possible.",
-  "explanation": "TEXTURE: DRY. Rainbow, three unconnected ranks — no flush draw, no straight draws of any kind.\n\nGOING FORWARD: Hands are made or not; nobody's chasing. Bet for value without worrying about protection, and don't expect much redraw equity to run you down.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — range advantage is huge and folds come easy from air.\nCALLER: defend selectively; without a pair or overcards you're mostly folding to continued aggression, since there's no draw to stick around with.\n\nREADING VILLAIN: With no draws live, any check-raise or donk-bet is almost always a real hand (top pair+) rather than a semi-bluff — respect it more than you would on a coordinated board.",
-  "difficulty": "easy"
- },
- {
-  "id": "bt_flop_02",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "Q♠ 7♠ 2♠",
-  "street": "flop",
-  "question": "Classify this flop: Q♠ 7♠ 2♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Flush draws — any single spade has a draw, made flushes possible.",
-  "explanation": "TEXTURE: WET. Monotone — a flush is already possible and every single spade is a one-card draw. No straight connectivity, but a maxed flush dimension alone is enough to call this wet.\n\nGOING FORWARD: Ranges holding one spade dominate. Bet for value but don't stack off non-flush holdings, and expect big pots here mainly when someone actually has the suit.\n\nHERO ACTION:\nAGGRESSOR: bet to charge one-card draws, but check back marginal non-spade hands rather than barrel blind.\nCALLER: with a spade, you can call and even raise as a semi-bluff; without one, treat top pair as a bluff-catcher and don't overcommit.\n\nREADING VILLAIN: Raises and big bets skew toward the flush (made or drawing) far more than on a normal board — a bluff-raise is rarer here because the monotone texture gives so many legitimate flush combos to raise with instead.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_03",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "9♠ 8♠ 7♦",
-  "street": "flop",
-  "question": "Classify this flop: 9♠ 8♠ 7♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Flush draw (spades), multiple straight draws (JT, T6, 65, J6), made straights possible (JT, 65).",
-  "explanation": "TEXTURE: WET. Connected and two-tone — JT and 65 are already made straights, and any T/J/6/5 adds a draw on top of the spade flush draw. One of the wettest flop types possible.\n\nGOING FORWARD: Equities run very close. Protect and charge with big bets; slow-playing anything less than the nuts is dangerous since the board changes constantly.\n\nHERO ACTION:\nAGGRESSOR: bet bigger than usual to make draws pay full price, and be ready to check back marginal one-pair hands against resistance.\nCALLER: you can profitably call or raise with straight and flush draws — the implied odds and fold equity are both real here.\n\nREADING VILLAIN: Aggression from either side is a genuine mix of value and strong draws — don't assume a raise is \"just a draw,\" and don't assume it's \"just value\" either. Play your own equity.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_04",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "Q♦ T♦ 8♥",
-  "street": "flop",
-  "question": "Classify this flop: Q♦ T♦ 8♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Flush draw (diamonds), straight draws (J9 made, K9, 97, AJ gutshots).",
-  "explanation": "TEXTURE: WET. Connected and two-tone — J9 is already a straight, KJ/97/J7 have open-enders or gutshots, and diamonds add a flush draw on top.\n\nGOING FORWARD: Classic wet board — bet big to charge the many draws, and treat one pair as vulnerable rather than a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, and don't be afraid to check back thinner value against big resistance since so many hands beat one pair here.\nCALLER: draws (gutshots, open-enders, the flush draw) are worth continuing with, especially in position where you can realize equity.\n\nREADING VILLAIN: This board supports real semi-bluffing ranges, so raises deserve respect — but it also supports value raises from made straights, so a big raise from a tight player is more often for value than a bluff.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_05",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "K♣ 8♦ 2♣",
-  "street": "flop",
-  "question": "Classify this flop: K♣ 8♦ 2♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "draws": "Club flush draw only — no realistic straight draws.",
-  "explanation": "TEXTURE: SEMI-WET. Two clubs bring a flush draw, but the ranks (K-8-2) are too spread out for any real straight draw. One live category only.\n\nGOING FORWARD: Drier than a fully connected board but wetter than rainbow — the flush draw is the only thing to actually worry about.\n\nHERO ACTION:\nAGGRESSOR: c-bet as normal, size a bit up if you want to directly charge the flush draw, and barrel non-club turns fairly freely.\nCALLER: a backdoor or made flush draw is worth continuing with; without clubs you need a king or better to keep going.\n\nREADING VILLAIN: Since straights aren't in play, treat aggression as either about the flush draw or about a king/overpair — there's no third category (a straight-based semi-bluff) to worry about.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_06",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "A♥ K♦ 4♣",
-  "street": "flop",
-  "question": "Classify this flop: A♥ K♦ 4♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
-  "explanation": "TEXTURE: DRY. Rainbow with two disconnected big cards and a low card. Gutshots do technically exist — QJ, QT, or JT each complete a straight needing one exact card — but the ace caps the top of the run, so none of them can ever be open-ended; they're capped at a 4-out gutshot, and each needs one specific two-card combo. Thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, AA, KK) connects with this board far more often than the caller's does. But dry isn't the same as safe — a caller who called with A4, K4, or 44 already has two pair or a set, not a draw, so real aggression still deserves respect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — fold equity is high and protection is barely a concern against a range this thin on draws.\nCALLER: without top pair or better you're usually giving this up; the rare gutshot (QJ/QT/JT) isn't wide or strong enough to continue for on its own.\n\nREADING VILLAIN: A check-raise here means two pair or better — A4, K4, 44-type hands, or a slow-played monster. There's no real drawing range to semi-bluff with, so take it at face value and fold marginal one-pair hands.",
-  "difficulty": "easy"
- },
- {
-  "id": "bt_flop_07",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "7♥ 7♦ 2♣",
-  "street": "flop",
-  "question": "Classify this flop: 7♥ 7♦ 2♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "draws": "None — paired, rainbow, unconnected.",
-  "explanation": "TEXTURE: DRY. Paired rainbow board, no flush draw, no straight draw — the driest board type in poker.\n\nGOING FORWARD: Nearly binary — someone has trips/a strong pair, or they have nothing. Bluffing is effective precisely because so few hands connect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide, or even check back your whole range sometimes since so little changes on future streets.\nCALLER: without a seven or an overpair, most hands are just giving up to continued pressure.\n\nREADING VILLAIN: Escalating aggression (a raise, not just a call) is a strong signal of trips or better — paired boards don't offer much to bluff-raise with, so take it seriously.",
-  "difficulty": "easy"
- },
- {
-  "id": "bt_flop_08",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "J♥ T♥ 9♥",
-  "street": "flop",
-  "question": "Classify this flop: J♥ T♥ 9♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Made flushes, made straights (KQ, Q8, 87), every heart a flush draw, all straight draws live.",
-  "explanation": "TEXTURE: WET. Monotone and fully connected at once — the wettest possible flop. KQ/87 are made straights, any heart is a flush draw, and even sets are vulnerable to everything.\n\nGOING FORWARD: This is a board where the nuts change hands constantly. Big bets are for protection and value, not just \"getting money in.\"\n\nHERO ACTION:\nAGGRESSOR: bet big with strong hands, but be genuinely willing to check back or fold overpairs and worse to real resistance.\nCALLER: flush draws, straight draws, and combo draws are all worth playing aggressively — you often have more outs than you think.\n\nREADING VILLAIN: On a board this coordinated, raises are a legitimate mix of nutted hands and strong draws in roughly equal measure — play your own hand's equity and blockers rather than trying to narrow it down.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_09",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "A♠ 9♦ 4♠",
-  "street": "flop",
-  "question": "Classify this flop: A♠ 9♦ 4♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "draws": "Spade flush draw; wheel gutshots (23, 35, 25 need two cards — minimal).",
-  "explanation": "TEXTURE: SEMI-WET. Two-tone brings a spade flush draw; the disconnected ranks (A-9-4) leave straight draws essentially irrelevant.\n\nGOING FORWARD: One live category — protect against the flush draw, but otherwise this plays like a value-focused ace-high board.\n\nHERO ACTION:\nAGGRESSOR: bet for value, sizing up a touch if you want to directly punish the flush draw.\nCALLER: a spade is worth continuing with; without one, you need an ace or a strong pair to keep playing.\n\nREADING VILLAIN: Watch for the flush completing (a third spade) as the one real scare card — outside of that, treat aggression as ace-heavy value rather than a wide bluffing range.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_10",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "6♣ 5♦ 4♣",
-  "street": "flop",
-  "question": "Classify this flop: 6♣ 5♦ 4♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Made straights (87, 32), open-enders everywhere (any 7, 3), club flush draw.",
-  "explanation": "TEXTURE: WET. Low, connected, two-tone — 87 and 32 are made straights, any 7 or 3 adds huge equity, and clubs bring a flush draw on top.\n\nGOING FORWARD: Low wet boards actually connect harder with calling ranges (suited connectors, small pairs) than with a typical preflop raiser's range — expect the caller to have more of this board than usual.\n\nHERO ACTION:\nAGGRESSOR: don't assume range advantage just because you raised preflop — size up for value/protection and be ready to give up against real resistance.\nCALLER: this is exactly the kind of board your suited connectors and small pairs were built for; play draws aggressively.\n\nREADING VILLAIN: Because the caller's range hits this board hard, raises and check-raises deserve more credit here than on a high-card board — don't default to \"it's probably a bluff.\"",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_11",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "K♦ Q♣ 2♥",
-  "street": "flop",
-  "question": "Classify this flop: K♦ Q♣ 2♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "draws": "Straight draws only: JT open-ender, AJ/AT/J9 gutshots. No flush draws.",
-  "explanation": "TEXTURE: SEMI-WET. Rainbow (no flush draw), but two connected broadways give real straight equity — JT has an open-ender, AJ a gutshot.\n\nGOING FORWARD: The connectivity alone is enough to lift this out of \"dry\" even without a flush draw — treat it as moderately dangerous, not safe.\n\nHERO ACTION:\nAGGRESSOR: c-bet as usual, but recognize JT/AJ-type hands have real outs, so barrel turns that complete a straight less confidently.\nCALLER: an open-ender or gutshot here is worth a call, especially with overcard backup (AJ, AT).\n\nREADING VILLAIN: Raises are more believable as straight-draw semi-bluffs than on a truly dry board, but still lean toward value (Kx, QQ+) since there's no flush draw inflating the bluffing range.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_12",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "T♦ 9♣ 2♦",
-  "street": "flop",
-  "question": "Classify this flop: T♦ 9♣ 2♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Diamond flush draw, JQ/J8/87 straight draws around the T9.",
-  "explanation": "TEXTURE: WET. Both categories live — a diamond flush draw and real straight draws (T-9 connects with QJ, J8, 87, 86).\n\nGOING FORWARD: With both axes active, bet bigger with value to charge everything at once, and commit strong made hands now — equity shifts a lot by the river.\n\nHERO ACTION:\nAGGRESSOR: size up and don't slow-play sets — too many turns flip who's ahead.\nCALLER: draws here are live and often correctly priced or better, especially combo draws (a diamond plus a gutshot).\n\nREADING VILLAIN: Big aggression is a real mix of value and semi-bluffs; don't overfold to raises with a strong made hand, but don't call down blind either — the board keeps moving.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_13",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "A♣ A♦ 7♠",
-  "street": "flop",
-  "question": "Classify this flop: A♣ A♦ 7♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "draws": "None — paired ace board, rainbow.",
-  "explanation": "TEXTURE: DRY. Paired ace rainbow board — whoever has the ace has trips, and there are no draws of any kind.\n\nGOING FORWARD: Extremely binary. Bluffing is effective because the board misses almost everyone, but real hands (trips, full houses) are also live.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — this board favors your range if you raised with more aces.\nCALLER: without an ace or a strong pocket pair, you're usually folding quickly.\n\nREADING VILLAIN: A check-raise here almost always means trips or a monster; there's nothing to semi-bluff with, so take escalating aggression at face value.",
-  "difficulty": "easy"
- },
- {
-  "id": "bt_flop_14",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "8♥ 4♦ 3♥",
-  "street": "flop",
-  "question": "Classify this flop: 8♥ 4♦ 3♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Heart flush draw; 65/52/A2/A5 wheel-ish gutshots and open-enders.",
-  "explanation": "TEXTURE: WET (softer side). A heart flush draw plus live low straight draws (4-3 connects with 65, 56, A2, 67 types) — both categories active.\n\nGOING FORWARD: Wet, but fewer premium preflop hands connect with 8-4-3 than with a high wet board, so you can be a bit more selective barrelling than on, say, QJT.\n\nHERO ACTION:\nAGGRESSOR: size up to charge the flush and straight draws, but recognize your range hits this less often, so barrel selectively rather than on autopilot.\nCALLER: low suited connectors and small pairs do well here — play draws for equity and fold equity both.\n\nREADING VILLAIN: Aggression is a real mix, but slightly more caller-favored than a high wet board — give a bit more credit to raises from the caller's side of the pot.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_flop_15",
-  "module": "1",
-  "category": "Flop Texture",
-  "board": "Q♥ J♦ T♣",
-  "street": "flop",
-  "question": "Classify this flop: Q♥ J♦ T♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "draws": "Made straights (AK, 98, K9), every broadway has a draw, no flush draws (rainbow).",
-  "explanation": "TEXTURE: WET. Rainbow (no flush draw), but the straight dimension is maxed — AK is already a straight, and any K or 9 makes one. Full connectivity alone plays just as wet as a flush draw would.\n\nGOING FORWARD: Equities run close even without a flush draw. Bet big with value and made straights, and treat one-pair hands as vulnerable, not a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, but don't overcommit an overpair — this board hits a caller's range (KQ, JT, T9, QJ) hard.\nCALLER: any broadway connects here, so calling and even raising with open-enders or pair-plus-draw combos is well justified.\n\nREADING VILLAIN: Made straights are common enough on this texture that big aggression deserves real respect — a rainbow board doesn't mean safe, and this is the clearest example of why.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_01",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "Q♦ T♦ 8♥",
-  "street": "flop",
-  "question": "Board: Q♦ T♦ 8♥. Which made straight is possible on this flop?",
-  "options": [
-   "J9",
-   "KJ",
-   "97",
-   "AK"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "J9 makes the nut straight (J-9 fills Q-T-8 → Q-J-T-9-8). KJ and 97 are draws (gutshot/open-ender), not made hands. This distinction — made vs drawing — drives every postflop decision.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_02",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "9♠ 8♠ 7♦",
-  "street": "flop",
-  "question": "Board: 9♠ 8♠ 7♦. Which TWO hands flopped made straights?",
-  "options": [
-   "JT and 65",
-   "T9 and 76",
-   "QJ and 54",
-   "T8 and 96"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "JT makes J-T-9-8-7, 65 makes 9-8-7-6-5. T9/76 made pairs+draws. On triple-connected boards always check which two-card combos complete straights immediately.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_03",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "K♣ 8♦ 2♣",
-  "street": "flop",
-  "question": "Board: K♣ 8♦ 2♣. A player holds A♣ 5♣. What do they have?",
-  "options": [
-   "Nut flush draw",
-   "Made flush",
-   "Straight draw",
-   "Nothing"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Two clubs in hand + two on board = four clubs, needing one more: nut flush draw (ace-high). ~36% to complete by river with two cards to come.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_04",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "J♥ T♥ 9♥",
-  "street": "flop",
-  "question": "Board: J♥ T♥ 9♥. A player holds Q♥ 2♦. What do they have?",
-  "options": [
-   "Flush draw + open-ended straight draw",
-   "Made flush",
-   "Only a gutshot",
-   "Nothing"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Q♥ gives a flush draw (four hearts). The Q also gives an open-ended straight draw (K or 8 completes). Monster combo draw — roughly 54% equity vs one pair.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_05",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "A♥ K♦ 4♣",
-  "street": "flop",
-  "question": "Board: A♥ K♦ 4♣. A player holds Q♠ J♠. What do they have?",
-  "options": [
-   "Gutshot straight draw",
-   "Open-ended straight draw",
-   "Flush draw",
-   "Nothing"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "QJ on AK4 needs exactly a ten for Broadway (A-K-Q-J-T): gutshot, 4 outs, ~16% by river. Not an open-ender — only one rank completes it.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_draw_06",
-  "module": "1",
-  "category": "Draw Reading",
-  "board": "6♣ 5♦ 4♣",
-  "street": "flop",
-  "question": "Board: 6♣ 5♦ 4♣. A player holds 8♣ 7♣. What do they have?",
-  "options": [
-   "Made straight + flush draw",
-   "Only a flush draw",
-   "Only a straight draw",
-   "Two pair"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "87 completes 8-7-6-5-4 — a made straight — and two clubs add a flush draw to improve to even stronger. Monster hand: fast-play it.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_01",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "K♥ 7♦ 2♣ → J♦",
-  "street": "turn",
-  "question": "Flop: K♥ 7♦ 2♣. Turn: J♦. How does the J♦ turn change this dry flop?",
-  "options": [
-   "Brings backdoor flush draw + gutshots — now semi-wet",
-   "Still completely dry",
-   "Completes a flush",
-   "Completes a straight"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Hardin's exact example: the dry K72 rainbow turns semi-wet on the J♦. AT/QT now have gutshots, diamond hands picked up backdoor flush draws. Hands that floated the flop just gained equity — barreling now needs more caution.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_02",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "Q♦ T♦ 8♥ → 4♥",
-  "street": "turn",
-  "question": "Flop: Q♦ T♦ 8♥. Turn: 4♥. How does the 4♥ turn change this wet flop?",
-  "options": [
-   "Adds a backdoor heart draw — board stays wet, slightly wetter",
-   "Board is now dry",
-   "Completes the diamond flush",
-   "Kills all straight draws"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "The 4♥ completes nothing but adds backdoor heart possibilities. K♥J♥-type hands gained extra equity. All original draws (diamonds, straights) remain live. Wet stays wet.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_03",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "9♠ 8♠ 7♦ → 6♠",
-  "street": "turn",
-  "question": "Flop: 9♠ 8♠ 7♦. Turn: 6♠. How does the 6♠ turn change this board?",
-  "options": [
-   "Completes flushes AND the T-or-5 straight — maximum danger",
-   "Safe blank card",
-   "Only helps sets",
-   "Dries out the board"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Disaster card for one-pair hands: the 6♠ completes every spade flush draw AND now any T or 5 plays a straight. Two-pair and sets are in serious trouble. Value hands must re-evaluate immediately.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_04",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "K♣ 8♦ 2♣ → 8♥",
-  "street": "turn",
-  "question": "Flop: K♣ 8♦ 2♣. Turn: 8♥. How does pairing the board (8♥) change things?",
-  "options": [
-   "Trips possible, flush draw still live — counterfeits some two-pair outs",
-   "Completes the flush",
-   "Brings new straight draws",
-   "Nothing changes"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Pairing the 8 gives trip eights to anyone holding just one 8 — the board itself now supplies the second 8, so a lone 8x jumps straight past any two-pair hand that doesn't include an 8 (like K2). That's the counterfeit: a hand that was behind before the turn is now ahead of a two-pair hand it used to lose to. The club flush draw is unaffected and still live. It also makes bluffing tougher — a station who called with 'any 8' now has trips, not just a pair, so more pressure doesn't fold them.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_05",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "A♥ K♦ 4♣ → T♠",
-  "street": "turn",
-  "question": "Flop: A♥ K♦ 4♣. Turn: T♠. How does the T♠ turn change this board?",
-  "options": [
-   "QJ completes Broadway — the only straight is now made",
-   "Board stays unchanged",
-   "Flush completes",
-   "Pairs the board"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "The T completes QJ's gutshot — Broadway (A-K-Q-J-T) is now made. If villain floated the flop with QJ, this is their card. Also gives J-x new gutshots. High boards + connecting turns favor preflop raisers' ranges.",
-  "difficulty": "medium"
- },
- {
-  "id": "bt_turn_06",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "7♥ 7♦ 2♣ → 2♦",
-  "street": "turn",
-  "question": "Flop: 7♥ 7♦ 2♣. Turn: 2♦. How does the 2♦ turn change this paired board?",
-  "options": [
-   "Double-paired — full houses possible, flush draw arrives",
-   "Completes a straight",
-   "Still no draws at all",
-   "Unpairs the board"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Board is now double-paired (77-22): any 7 has a full house, any 2 has a smaller one. The 2♦ also starts a backdoor diamond draw. Overpairs now beat fewer combos — counterfeiting matters.",
-  "difficulty": "hard"
- },
- {
-  "id": "bt_turn_07",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "6♣ 5♦ 4♣ → 3♣",
-  "street": "turn",
-  "question": "Flop: 6♣ 5♦ 4♣. Turn: 3♣. How does the 3♣ turn change this board?",
-  "options": [
-   "Completes flushes AND 7/2 straights — extremely dangerous",
-   "Blank — nothing changes",
-   "Only helps two pair",
-   "Dries the board"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Triple threat: the 3♣ completes club flushes, any 7 now plays 7-6-5-4-3, any 2 plays 6-5-4-3-2. One of the worst possible turns for a flop value hand like a set of sixes.",
-  "difficulty": "hard"
- },
- {
-  "id": "bt_turn_08",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "Q♥ J♦ T♣ → T♠",
-  "street": "turn",
-  "question": "Flop: Q♥ J♦ T♣. Turn: T♠. How does pairing the ten change this wet board?",
-  "options": [
-   "Trips/boats arrive — straights lose value, bluff-catching changes",
-   "Completes a flush",
-   "Brings new straight draws",
-   "Nothing changes"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Pairing the T means flopped straights (AK, 98) are no longer the nuts — TT/QT/JT boats and trips beat them. Straight holders must slow down. Paired wet boards shift power to sets and two pair.",
-  "difficulty": "hard"
- },
- {
-  "id": "bt_turn_09",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "A♠ 9♦ 4♠ → K♠",
-  "street": "turn",
-  "question": "Flop: A♠ 9♦ 4♠. Turn: K♠. How does the K♠ turn change this board?",
-  "options": [
-   "Completes the spade flush — flush is now made",
-   "Just a high card",
-   "Brings a straight draw only",
-   "Pairs the board"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "Third spade completes every flush draw. AK-type hands also picked up top two. Any single high spade now has a strong made hand. Bet-sizing and calling ranges change completely once the flush arrives.",
-  "difficulty": "hard"
- },
- {
-  "id": "bt_turn_10",
-  "module": "1",
-  "category": "Turn Dynamics",
-  "board": "8♥ 4♦ 3♥ → 2♥",
-  "street": "turn",
-  "question": "Flop: 8♥ 4♦ 3♥. Turn: 2♥. How does the 2♥ turn change this board?",
-  "options": [
-   "Flush completes AND A5/65 straights arrive",
-   "Blank card",
-   "Only pairs matter now",
-   "Kills the draws"
-  ],
-  "correct": 0,
-  "draws": "",
-  "explanation": "The 2♥ completes heart flushes AND now A5 plays the wheel (5-4-3-2-A) while 65 makes 6-5-4-3-2. Low coordinated runouts hit calling ranges hard — proceed carefully with overpairs.",
-  "difficulty": "hard"
- },
- {
-  "id": "whose_01",
-  "module": "1",
-  "category": "High / dry",
-  "difficulty": "medium",
-  "board": "A♥ K♦ 4♣",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Ace-high dry boards massively favor the preflop raiser. The CO has all the strong aces — AK flopped top two, plus AQ, AJ, AA. The BB rarely holds an ace (most good Ax 3-bets or folds pre). The caller can't continue enough; bet small and relentlessly.",
-  "stat_raiser": "8% nutted · 13% strong+",
-  "stat_caller": "2% nutted · 3% strong+"
- },
- {
-  "id": "whose_02",
-  "module": "1",
-  "category": "High / dry",
-  "difficulty": "medium",
-  "board": "K♠ Q♦ 7♣",
-  "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "KQ7 rainbow favors the tight UTG raiser. They hold KQ (top two), AK, KJ, AQ, plus overpairs. The BB's wide range connects weakly — a few Kx and Qx but mostly air. Strong c-bet board.",
-  "stat_raiser": "17% nutted · 38% strong+",
-  "stat_caller": "6% nutted · 13% strong+"
- },
- {
-  "id": "whose_03",
-  "module": "1",
-  "category": "High / two-tone",
-  "difficulty": "medium",
-  "board": "A♠ Q♠ 5♦",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Even with a flush draw present, AQ5 favors the raiser. The CO has AQ (top two), AA, AK, plus spade draws to the nuts. The BB has few aces or queens. The two-tone texture means bet for value AND protection, but the range edge is clearly the raiser's.",
-  "stat_raiser": "8% nutted · 18% strong+",
-  "stat_caller": "5% nutted · 11% strong+"
- },
- {
-  "id": "whose_04",
-  "module": "1",
-  "category": "Mid / connected",
-  "difficulty": "medium",
-  "board": "8♠ 7♠ 6♥",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board that connects well with the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
-  "stat_raiser": "9% nutted · 41% strong+",
-  "stat_caller": "17% nutted · 46% strong+"
- },
- {
-  "id": "whose_05",
-  "module": "1",
-  "category": "Mid / connected",
-  "difficulty": "medium",
-  "board": "9♥ 8♦ 7♣",
-  "scenario": "Villain (MP, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "987 rainbow favors the caller despite the raiser's overpairs. The BB holds T9, 98, 87, 76, JT, plus 65 and 56 — made straights and huge draws. MP's AA/KK are strong but vulnerable. The caller connects far better with this texture.",
-  "stat_raiser": "8% nutted · 52% strong+",
-  "stat_caller": "15% nutted · 49% strong+"
- },
- {
-  "id": "whose_06",
-  "module": "1",
-  "category": "Mid / two-tone",
-  "difficulty": "medium",
-  "board": "T♦ 9♦ 6♣",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "T96 two-tone strongly favors the caller. The BB has T9 (top two), 98, 87 draws, plus all the diamond flush draws and 66/99 sets. The caller's combined made+draw equity beats the raiser's overpair-heavy range. Caller can check-raise aggressively.",
-  "stat_raiser": "6% nutted · 37% strong+",
-  "stat_caller": "10% nutted · 36% strong+"
- },
- {
-  "id": "whose_07",
-  "module": "1",
-  "category": "Low / connected",
-  "difficulty": "medium",
-  "board": "6♥ 5♦ 4♣",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "Low connected boards favor the caller despite the raiser having more overpairs. On 654 those overpairs are vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44 — straights, sets, draws. Their nutted share is higher even though overpairs look strong.",
-  "stat_raiser": "5% nutted · 30% strong+",
-  "stat_caller": "7% nutted · 31% strong+"
- },
- {
-  "id": "whose_08",
-  "module": "1",
-  "category": "Low / two-tone",
-  "difficulty": "medium",
-  "board": "5♠ 4♠ 2♥",
-  "scenario": "Villain (BTN, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "542 two-tone favors the caller. The BB defends 54s (top two), 53s, 43s, A5s, A4s, plus spade draws and wheel gutshots. The BTN's wide range has overcards and overpairs that whiffed. The caller's draw-heavy connection wins this texture.",
-  "stat_raiser": "7% nutted · 30% strong+",
-  "stat_caller": "7% nutted · 38% strong+"
- },
- {
-  "id": "whose_09",
-  "module": "1",
-  "category": "Paired",
-  "difficulty": "medium",
-  "board": "K♥ K♦ 4♣",
-  "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Paired king boards favor the tight raiser. UTG has more Kx (AK, KQ, KJ) giving trips, plus overpairs. The BB rarely has a king in their defending range. Paired boards reduce the caller's two-pair combos and let the raiser barrel relentlessly — bluffs work because villain so often has nothing.",
-  "stat_raiser": "1% nutted · 21% strong+",
-  "stat_caller": "1% nutted · 5% strong+"
- },
- {
-  "id": "whose_10",
-  "module": "1",
-  "category": "Paired / low",
-  "difficulty": "hard",
-  "board": "8♠ 8♦ 3♥",
-  "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Paired 8s on a low board narrowly favors the raiser. Their overpairs (99-AA) all beat an unpaired 8, and they have the same trip-8 combos (88 is in both ranges). The CO's strong+ share edges out the BB's. It's close — the key lesson is that paired boards generally favor the preflop aggressor because the caller's two-pair combos are removed. Barrel with overpairs, but size down.",
-  "stat_raiser": "1% nutted · 15% strong+",
-  "stat_caller": "2% nutted · 13% strong+"
- },
- {
-  "id": "whose_11",
-  "module": "1",
-  "category": "Dry / disconnected",
-  "difficulty": "medium",
-  "board": "K♠ 7♦ 2♣",
-  "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that connect well with it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
-  "stat_raiser": "5% nutted · 31% strong+",
-  "stat_caller": "2% nutted · 7% strong+"
- },
- {
-  "id": "whose_12",
-  "module": "1",
-  "category": "Dry / disconnected",
-  "difficulty": "medium",
-  "board": "Q♦ 8♣ 3♠",
-  "scenario": "Villain (MP, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Q83 rainbow favors the raiser. MP holds QJ, QT, AQ, KQ (top pair good kicker) plus overpairs. The BB's Qx is weaker (Q9, QT) and most of their range is air. Standard small c-bet board.",
-  "stat_raiser": "4% nutted · 28% strong+",
-  "stat_caller": "4% nutted · 10% strong+"
- },
- {
-  "id": "whose_13",
-  "module": "1",
-  "category": "Multiway / connected",
-  "difficulty": "hard",
-  "board": "J♥ T♥ 9♣",
-  "scenario": "Villain (CO, TAG) opens. Two players call. Flop comes. (multiway)",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 1,
-  "explanation": "On JT9 multiway the callers' ranges are favored — 25% nutted vs 16% — and nutted hands matter far more with two opponents. Someone often has a straight (KQ, Q8, 87) or a monster draw. The raiser's overpairs crater in value multiway. Lesson: only continue with nutted hands or strong draws; check everything marginal and never bluff into two players on a board this wet.",
-  "stat_raiser": "16% nutted · 56% strong+",
-  "stat_caller": "25% nutted · 62% strong+"
- },
- {
-  "id": "whose_14",
-  "module": "1",
-  "category": "Paired / ace",
-  "difficulty": "medium",
-  "board": "A♦ A♠ 6♣",
-  "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
-  "question": "Whose range does this flop favor?",
-  "options": [
-   "The preflop raiser",
-   "The caller(s)",
-   "Split — roughly even",
-   "Impossible to say"
-  ],
-  "correct": 0,
-  "explanation": "Paired aces overwhelmingly favor the raiser. UTG has many more aces (AK, AQ, AJ, AT) giving trips, plus the BB almost never has an ace. This is the driest board type — bluff relentlessly since villain connects almost never, and value bet trips thin.",
-  "stat_raiser": "4% nutted · 21% strong+",
-  "stat_caller": "2% nutted · 3% strong+"
- },
- {
-  "id": "bt_flop_16",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: J♣ 6♣ 2♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with J-6-2 too disconnected for any real straight draw.\n\nGOING FORWARD: Moderate danger. The flush draw is the only thing to actually track; everything else about this board plays dry.\n\nHERO ACTION:\nAGGRESSOR: c-bet and barrel fairly freely — you only need to slow down when a third club lands.\nCALLER: a club (made or drawing) is worth continuing with; without one, treat this like a dry board and don't overextend.\n\nREADING VILLAIN: Aggression away from a club scare card is almost always about a jack or better, not a straight-based bluff — there isn't one to have."
- },
- {
-  "id": "bt_flop_17",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: 8♦ 7♦ 6♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "explanation": "TEXTURE: WET. Both categories maxed — a diamond flush draw and a hugely connected run (any 5, 9, or T makes a straight, with open-enders everywhere).\n\nGOING FORWARD: This connects hard with a caller's range. Bet big with value and made straights, and don't stack off one pair or even an overpair.\n\nHERO ACTION:\nAGGRESSOR: size up to charge draws, and be honest with yourself about how often you're actually ahead with just one pair here.\nCALLER: this is a great board to defend and play back on with draws — both equity and fold equity are real.\n\nREADING VILLAIN: Give real credit to aggression from either side; too many hands beat one pair here for a raise to be dismissed as \"probably nothing.\""
- },
- {
-  "id": "bt_flop_18",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: A♠ A♦ K♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Paired top card, one other big card, rainbow. Gutshots technically exist (QJ, QT, or JT, each needing one exact card), but the ace caps the run so none can be open-ended, and there's no flush draw — thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, KK) connects far more often than the caller's does. But dry isn't safe — a caller who called with a king already has two pair (kings and aces), and pocket kings flopped a full house. Neither is a draw, both are real value.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — folds come easily from air, and protection is barely a concern.\nCALLER: without a king, an ace, or a big pocket pair, most hands are giving this one up quickly.\n\nREADING VILLAIN: A check-raise on a paired dry board like this means trips or better — usually a king (two pair) or the case ace/full house. There's no drawing range to semi-bluff with, so believe it."
- },
- {
-  "id": "bt_flop_19",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: T♥ T♦ 4♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Paired board, low side card, rainbow, no draws of any kind.\n\nGOING FORWARD: Ranges barely connect with this board — a great small-bet bluffing spot, since most hands missed entirely.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — fold equity is high and there's nothing to protect against.\nCALLER: without a ten or an overpair, one pair is a bluff-catcher at best against real pressure.\n\nREADING VILLAIN: Big aggression here is usually a ten or an overpair, not a bluff — treat one pair as a call-down candidate rather than a hand to raise with."
- },
- {
-  "id": "bt_flop_20",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: Q♠ J♠ 4♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "explanation": "TEXTURE: WET. Both categories live — a spade flush draw and genuine straight equity (Q-J is highly connected: KT is a full open-ender, T9/AK/AT add more).\n\nGOING FORWARD: This favors a caller's range (KQ, QJ, JT, KT, T9) with lots of equity in play. Size up with value to charge the draws.\n\nHERO ACTION:\nAGGRESSOR: bet bigger, and be cautious stacking off one-pair hands — many turns change who's ahead.\nCALLER: open-enders and flush draws are both worth playing for value and fold equity here.\n\nREADING VILLAIN: Aggression is a real mix of value and strong draws; don't assume a raise is \"just\" a flush draw when the straight equity is this live too."
- },
- {
-  "id": "bt_flop_21",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: 9♥ 5♦ 2♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Rainbow and widely spaced (9-5-2). A few minor gutshots exist (6-7, 3-4 types) but they're too sparse and low-frequency to count.\n\nGOING FORWARD: Classic dry board — few legitimate draws means few legitimate check-raises.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — range advantage and fold equity are both high.\nCALLER: without a pair of nines or better, most hands are folding to continued pressure.\n\nREADING VILLAIN: Treat big aggression as value-heavy; the sparse straight equity here isn't enough to support a real semi-bluffing range."
- },
- {
-  "id": "bt_flop_22",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: K♠ Q♠ J♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "explanation": "TEXTURE: WET. Monotone and fully connected at once — both axes maxed. Made flushes exist, AT is a made straight, and broadway draws are everywhere.\n\nGOING FORWARD: Extreme caution without a strong spade or made hand — even top set wants to tread carefully here.\n\nHERO ACTION:\nAGGRESSOR: bet big with the nuts, but fold marginal hands to heavy resistance rather than force it.\nCALLER: strong spades and made straights should be played fast; weaker holdings need a plan for when it gets expensive.\n\nREADING VILLAIN: This is as close to \"believe the aggression\" as poker gets — the range of hands that connect this well with the board is deep, so heavy pressure is rarely a pure bluff."
- },
- {
-  "id": "bt_flop_23",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: 7♠ 7♥ K♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no draws.\n\nGOING FORWARD: Favors the raiser's range (Kx, overpairs). A good spot to c-bet small and wide.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — a raise back reps trips or an overpair, so you can fold marginal hands to real resistance without much regret.\nCALLER: one pair (a king) is fine for one street, but don't chase escalating aggression — boats are live on a paired board.\n\nREADING VILLAIN: A raise here reps trips or an overpair specifically; there's no draw-based bluffing range to muddy the read."
- },
- {
-  "id": "bt_flop_24",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: 6♦ 5♦ 4♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "explanation": "TEXTURE: WET. A diamond flush draw plus maxed straight connectivity — any 3, 7, or 8 completes a straight, on top of 78/87/A2-type draws.\n\nGOING FORWARD: This connects hard with a caller's range — charge draws with big bets and commit strong made hands now.\n\nHERO ACTION:\nAGGRESSOR: size up, and never slow-play a set here — the board changes on a huge fraction of turns.\nCALLER: low connected boards like this are where suited connectors and small pairs earn their keep; play draws aggressively.\n\nREADING VILLAIN: Give real credit to aggression from the caller's side especially — this board disproportionately favors hands that call preflop over hands that raise."
- },
- {
-  "id": "bt_flop_25",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: A♣ 7♦ 2♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Rainbow, ace-high, widely disconnected. The only draw is a backdoor wheel gutshot (34/45/35 using the A-2), which needs runner-runner — too marginal to count as semi-wet.\n\nGOING FORWARD: The range advantage (more aces) sits with the preflop raiser, and fold equity is high. But a caller who called with A7, A2, 72, 22, or 77 already has two pair or trips, not a draw — those specific combos are live traps even though the overall range still favors the raiser.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and frequently — this is a range-bet spot, not a hand-by-hand decision.\nCALLER: without an ace or a pair that matches the board, most hands are giving this up quickly and cheaply.\n\nREADING VILLAIN: Donk-bets and check-raises here are rarely bluffs — with almost nothing to draw to, aggression is either a weak lead or genuine two pair/trips, not a semi-bluff."
- },
- {
-  "id": "bt_flop_26",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: J♦ T♦ 9♠",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 2,
-  "explanation": "TEXTURE: WET. A diamond flush draw plus an extremely connected run — KQ, Q8, and 87 are all already made straights, and any Q or 8 completes one.\n\nGOING FORWARD: A big danger board that connects hard with a caller's range (KQ, QT, JT, T9). Size up with strong value.\n\nHERO ACTION:\nAGGRESSOR: be very cautious with overpairs and one-pair hands — they're often already behind a made straight here.\nCALLER: this is one of the best boards to play back on aggressively, since made straights and strong draws are both live in your range.\n\nREADING VILLAIN: Especially out of position, big aggression on this board is genuinely scary — made straights are common enough that folding overpairs to heavy pressure is often correct."
- },
- {
-  "id": "bt_flop_27",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: K♥ 5♠ 5♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no straight or flush draws.\n\nGOING FORWARD: Favors the raiser — a great spot to c-bet small with your whole range.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, and don't be afraid to give up cheaply when it goes wrong since little is invested.\nCALLER: one pair is fine for a street, but don't stack off — escalating aggression on a paired board threatens a full house.\n\nREADING VILLAIN: A check-raise reps a five or an overpair specifically — there's no draw-based semi-bluffing range on a board like this."
- },
- {
-  "id": "bt_flop_28",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: Q♣ 9♣ 5♥",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with only minor straight presence (Q-9 leaves a thin JT-type gutshot).\n\nGOING FORWARD: Moderate board — charge the flush draw with value, but straights are sparse enough to mostly ignore.\n\nHERO ACTION:\nAGGRESSOR: barrel non-club turns fairly freely; you're mainly playing around one scare card.\nCALLER: a club is worth continuing with; without one, you need a queen or better to keep going.\n\nREADING VILLAIN: Watch for the flush completing as the main danger — outside of that, treat aggression as value-heavy rather than a wide semi-bluffing range."
- },
- {
-  "id": "bt_flop_29",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: 8♠ 8♦ 8♣",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 0,
-  "explanation": "TEXTURE: DRY (trips board). Three of a kind on board, rainbow, no flush draw, no straight draws — ranges barely differ from each other here.\n\nGOING FORWARD: Plays dry despite looking unusual — c-bet small with your whole range, or check to induce since so little is at stake for most hands.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, or check back to keep the pot manageable — either is fine given how little separates most holdings.\nCALLER: one pair is mostly a bluff-catcher; only a big kicker or the case eight really wants to build the pot.\n\nREADING VILLAIN: Big aggression reps an overpair, a big kicker, or the case eight specifically — there's no draw to bluff with on a trips board."
- },
- {
-  "id": "bt_flop_30",
-  "module": "1",
-  "category": "Board Texture",
-  "difficulty": "medium",
-  "scenario": "",
-  "question": "Classify this flop: T♣ 8♣ 3♦",
-  "options": [
-   "Dry",
-   "Semi-wet",
-   "Wet",
-   "Cannot classify"
-  ],
-  "correct": 1,
-  "explanation": "TEXTURE: SEMI-WET, right on the dry side of the line. Two categories are technically live — a club flush draw and some straight potential — but they're not equal: the flush draw is full-strength (any two clubs is a 9-out draw), while the T-8 gap means most of the straight equity is a gutshot (Q9, 96-type) rather than a clean open-ender — only a 9-x hand with the right side card (J9, 79) gets a full open-ended draw. It's semi-wet because only one of the two categories carries a full out-count.\n\nGOING FORWARD: Charge the flush draw and reassess if a 9 or a club lands — those are the two cards that actually change this board.\n\nHERO ACTION:\nAGGRESSOR: barrel selectively rather than on autopilot — the board is calmer than a true wet board but not as safe as a dry one.\nCALLER: a club or a nine-based draw is worth continuing with; otherwise treat it close to a dry board.\n\nREADING VILLAIN: Aggression on a completing card (9 or club) deserves real respect; away from those, lean toward treating raises as value."
- }
+  {
+    "id": "bt_flop_01",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "K♥ 7♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: K♥ 7♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — rainbow, unconnected, no flush or straight draws possible.",
+    "explanation": "TEXTURE: DRY. Rainbow, three unconnected ranks — no flush draw, no straight draws of any kind.\n\nGOING FORWARD: Hands are made or not; nobody's chasing. Bet for value without worrying about protection, and don't expect much redraw equity to run you down.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — range advantage is huge and folds come easy from air.\nCALLER: defend selectively; without a pair or overcards you're mostly folding to continued aggression, since there's no draw to stick around with.\n\nREADING VILLAIN: With no draws live, any check-raise or donk-bet is almost always a real hand (top pair+) rather than a semi-bluff — respect it more than you would on a coordinated board.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_02",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "Q♠ 7♠ 2♠",
+    "street": "flop",
+    "question": "Classify this flop: Q♠ 7♠ 2♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draws — any single spade has a draw, made flushes possible.",
+    "explanation": "TEXTURE: WET. Monotone — a flush is already possible and every single spade is a one-card draw. No straight connectivity, but a maxed flush dimension alone is enough to call this wet.\n\nGOING FORWARD: Ranges holding one spade dominate. Bet for value but don't stack off non-flush holdings, and expect big pots here mainly when someone actually has the suit.\n\nHERO ACTION:\nAGGRESSOR: bet to charge one-card draws, but check back marginal non-spade hands rather than barrel blind.\nCALLER: with a spade, you can call and even raise as a semi-bluff; without one, treat top pair as a bluff-catcher and don't overcommit.\n\nREADING VILLAIN: Raises and big bets skew toward the flush (made or drawing) far more than on a normal board — a bluff-raise is rarer here because the monotone texture gives so many legitimate flush combos to raise with instead.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_03",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "9♠ 8♠ 7♦",
+    "street": "flop",
+    "question": "Classify this flop: 9♠ 8♠ 7♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draw (spades), multiple straight draws (JT, T6, 65, J6), made straights possible (JT, 65).",
+    "explanation": "TEXTURE: WET. Connected and two-tone — JT and 65 are already made straights, and any T/J/6/5 adds a draw on top of the spade flush draw. One of the wettest flop types possible.\n\nGOING FORWARD: Equities run very close. Protect and charge with big bets; slow-playing anything less than the nuts is dangerous since the board changes constantly.\n\nHERO ACTION:\nAGGRESSOR: bet bigger than usual to make draws pay full price, and be ready to check back marginal one-pair hands against resistance.\nCALLER: you can profitably call or raise with straight and flush draws — the implied odds and fold equity are both real here.\n\nREADING VILLAIN: Aggression from either side is a genuine mix of value and strong draws — don't assume a raise is \"just a draw,\" and don't assume it's \"just value\" either. Play your own equity.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_04",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "Q♦ T♦ 8♥",
+    "street": "flop",
+    "question": "Classify this flop: Q♦ T♦ 8♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Flush draw (diamonds), straight draws (J9 made, K9, 97, AJ gutshots).",
+    "explanation": "TEXTURE: WET. Connected and two-tone — J9 is already a straight, KJ/97/J7 have open-enders or gutshots, and diamonds add a flush draw on top.\n\nGOING FORWARD: Classic wet board — bet big to charge the many draws, and treat one pair as vulnerable rather than a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, and don't be afraid to check back thinner value against big resistance since so many hands beat one pair here.\nCALLER: draws (gutshots, open-enders, the flush draw) are worth continuing with, especially in position where you can realize equity.\n\nREADING VILLAIN: This board supports real semi-bluffing ranges, so raises deserve respect — but it also supports value raises from made straights, so a big raise from a tight player is more often for value than a bluff.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_05",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "K♣ 8♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: K♣ 8♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Club flush draw only — no realistic straight draws.",
+    "explanation": "TEXTURE: SEMI-WET. Two clubs bring a flush draw, but the ranks (K-8-2) are too spread out for any real straight draw. One live category only.\n\nGOING FORWARD: Drier than a fully connected board but wetter than rainbow — the flush draw is the only thing to actually worry about.\n\nHERO ACTION:\nAGGRESSOR: c-bet as normal, size a bit up if you want to directly charge the flush draw, and barrel non-club turns fairly freely.\nCALLER: a backdoor or made flush draw is worth continuing with; without clubs you need a king or better to keep going.\n\nREADING VILLAIN: Since straights aren't in play, treat aggression as either about the flush draw or about a king/overpair — there's no third category (a straight-based semi-bluff) to worry about.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_06",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "A♥ K♦ 4♣",
+    "street": "flop",
+    "question": "Classify this flop: A♥ K♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "Only gutshots (QJ, QT need runner or gutshot straight).",
+    "explanation": "TEXTURE: DRY. Rainbow with two disconnected big cards and a low card. Gutshots do technically exist — QJ, QT, or JT each complete a straight needing one exact card — but the ace caps the top of the run, so none of them can ever be open-ended; they're capped at a 4-out gutshot, and each needs one specific two-card combo. Thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, AA, KK) connects with this board far more often than the caller's does. But dry isn't the same as safe — a caller who called with A4, K4, or 44 already has two pair or a set, not a draw, so real aggression still deserves respect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — fold equity is high and protection is barely a concern against a range this thin on draws.\nCALLER: without top pair or better you're usually giving this up; the rare gutshot (QJ/QT/JT) isn't wide or strong enough to continue for on its own.\n\nREADING VILLAIN: A check-raise here means two pair or better — A4, K4, 44-type hands, or a slow-played monster. There's no real drawing range to semi-bluff with, so take it at face value and fold marginal one-pair hands.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_07",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "7♥ 7♦ 2♣",
+    "street": "flop",
+    "question": "Classify this flop: 7♥ 7♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — paired, rainbow, unconnected.",
+    "explanation": "TEXTURE: DRY. Paired rainbow board, no flush draw, no straight draw — the driest board type in poker.\n\nGOING FORWARD: Nearly binary — someone has trips/a strong pair, or they have nothing. Bluffing is effective precisely because so few hands connect.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide, or even check back your whole range sometimes since so little changes on future streets.\nCALLER: without a seven or an overpair, most hands are just giving up to continued pressure.\n\nREADING VILLAIN: Escalating aggression (a raise, not just a call) is a strong signal of trips or better — paired boards don't offer much to bluff-raise with, so take it seriously.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_08",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "J♥ T♥ 9♥",
+    "street": "flop",
+    "question": "Classify this flop: J♥ T♥ 9♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made flushes, made straights (KQ, Q8, 87), every heart a flush draw, all straight draws live.",
+    "explanation": "TEXTURE: WET. Monotone and fully connected at once — the wettest possible flop. KQ/87 are made straights, any heart is a flush draw, and even sets are vulnerable to everything.\n\nGOING FORWARD: This is a board where the nuts change hands constantly. Big bets are for protection and value, not just \"getting money in.\"\n\nHERO ACTION:\nAGGRESSOR: bet big with strong hands, but be genuinely willing to check back or fold overpairs and worse to real resistance.\nCALLER: flush draws, straight draws, and combo draws are all worth playing aggressively — you often have more outs than you think.\n\nREADING VILLAIN: On a board this coordinated, raises are a legitimate mix of nutted hands and strong draws in roughly equal measure — play your own hand's equity and blockers rather than trying to narrow it down.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_09",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "A♠ 9♦ 4♠",
+    "street": "flop",
+    "question": "Classify this flop: A♠ 9♦ 4♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Spade flush draw; wheel gutshots (23, 35, 25 need two cards — minimal).",
+    "explanation": "TEXTURE: SEMI-WET. Two-tone brings a spade flush draw; the disconnected ranks (A-9-4) leave straight draws essentially irrelevant.\n\nGOING FORWARD: One live category — protect against the flush draw, but otherwise this plays like a value-focused ace-high board.\n\nHERO ACTION:\nAGGRESSOR: bet for value, sizing up a touch if you want to directly punish the flush draw.\nCALLER: a spade is worth continuing with; without one, you need an ace or a strong pair to keep playing.\n\nREADING VILLAIN: Watch for the flush completing (a third spade) as the one real scare card — outside of that, treat aggression as ace-heavy value rather than a wide bluffing range.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_10",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "6♣ 5♦ 4♣",
+    "street": "flop",
+    "question": "Classify this flop: 6♣ 5♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made straights (87, 32), open-enders everywhere (any 7, 3), club flush draw.",
+    "explanation": "TEXTURE: WET. Low, connected, two-tone — 87 and 32 are made straights, any 7 or 3 adds huge equity, and clubs bring a flush draw on top.\n\nGOING FORWARD: Low wet boards actually connect harder with calling ranges (suited connectors, small pairs) than with a typical preflop raiser's range — expect the caller to have more of this board than usual.\n\nHERO ACTION:\nAGGRESSOR: don't assume range advantage just because you raised preflop — size up for value/protection and be ready to give up against real resistance.\nCALLER: this is exactly the kind of board your suited connectors and small pairs were built for; play draws aggressively.\n\nREADING VILLAIN: Because the caller's range hits this board hard, raises and check-raises deserve more credit here than on a high-card board — don't default to \"it's probably a bluff.\"",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_11",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "K♦ Q♣ 2♥",
+    "street": "flop",
+    "question": "Classify this flop: K♦ Q♣ 2♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "draws": "Straight draws only: JT open-ender, AJ/AT/J9 gutshots. No flush draws.",
+    "explanation": "TEXTURE: SEMI-WET. Rainbow (no flush draw), but two connected broadways give real straight equity — JT has an open-ender, AJ a gutshot.\n\nGOING FORWARD: The connectivity alone is enough to lift this out of \"dry\" even without a flush draw — treat it as moderately dangerous, not safe.\n\nHERO ACTION:\nAGGRESSOR: c-bet as usual, but recognize JT/AJ-type hands have real outs, so barrel turns that complete a straight less confidently.\nCALLER: an open-ender or gutshot here is worth a call, especially with overcard backup (AJ, AT).\n\nREADING VILLAIN: Raises are more believable as straight-draw semi-bluffs than on a truly dry board, but still lean toward value (Kx, QQ+) since there's no flush draw inflating the bluffing range.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_12",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "T♦ 9♣ 2♦",
+    "street": "flop",
+    "question": "Classify this flop: T♦ 9♣ 2♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Diamond flush draw, JQ/J8/87 straight draws around the T9.",
+    "explanation": "TEXTURE: WET. Both categories live — a diamond flush draw and real straight draws (T-9 connects with QJ, J8, 87, 86).\n\nGOING FORWARD: With both axes active, bet bigger with value to charge everything at once, and commit strong made hands now — equity shifts a lot by the river.\n\nHERO ACTION:\nAGGRESSOR: size up and don't slow-play sets — too many turns flip who's ahead.\nCALLER: draws here are live and often correctly priced or better, especially combo draws (a diamond plus a gutshot).\n\nREADING VILLAIN: Big aggression is a real mix of value and semi-bluffs; don't overfold to raises with a strong made hand, but don't call down blind either — the board keeps moving.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_13",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "A♣ A♦ 7♠",
+    "street": "flop",
+    "question": "Classify this flop: A♣ A♦ 7♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "draws": "None — paired ace board, rainbow.",
+    "explanation": "TEXTURE: DRY. Paired ace rainbow board — whoever has the ace has trips, and there are no draws of any kind.\n\nGOING FORWARD: Extremely binary. Bluffing is effective because the board misses almost everyone, but real hands (trips, full houses) are also live.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — this board favors your range if you raised with more aces.\nCALLER: without an ace or a strong pocket pair, you're usually folding quickly.\n\nREADING VILLAIN: A check-raise here almost always means trips or a monster; there's nothing to semi-bluff with, so take escalating aggression at face value.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "bt_flop_14",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "8♥ 4♦ 3♥",
+    "street": "flop",
+    "question": "Classify this flop: 8♥ 4♦ 3♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Heart flush draw; 65/52/A2/A5 wheel-ish gutshots and open-enders.",
+    "explanation": "TEXTURE: WET (softer side). A heart flush draw plus live low straight draws (4-3 connects with 65, 56, A2, 67 types) — both categories active.\n\nGOING FORWARD: Wet, but fewer premium preflop hands connect with 8-4-3 than with a high wet board, so you can be a bit more selective barrelling than on, say, QJT.\n\nHERO ACTION:\nAGGRESSOR: size up to charge the flush and straight draws, but recognize your range hits this less often, so barrel selectively rather than on autopilot.\nCALLER: low suited connectors and small pairs do well here — play draws for equity and fold equity both.\n\nREADING VILLAIN: Aggression is a real mix, but slightly more caller-favored than a high wet board — give a bit more credit to raises from the caller's side of the pot.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_flop_15",
+    "module": "1",
+    "category": "Flop Texture",
+    "board": "Q♥ J♦ T♣",
+    "street": "flop",
+    "question": "Classify this flop: Q♥ J♦ T♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "draws": "Made straights (AK, 98, K9), every broadway has a draw, no flush draws (rainbow).",
+    "explanation": "TEXTURE: WET. Rainbow (no flush draw), but the straight dimension is maxed — AK is already a straight, and any K or 9 makes one. Full connectivity alone plays just as wet as a flush draw would.\n\nGOING FORWARD: Equities run close even without a flush draw. Bet big with value and made straights, and treat one-pair hands as vulnerable, not a hand to stack off with.\n\nHERO ACTION:\nAGGRESSOR: size up, but don't overcommit an overpair — this board hits a caller's range (KQ, JT, T9, QJ) hard.\nCALLER: any broadway connects here, so calling and even raising with open-enders or pair-plus-draw combos is well justified.\n\nREADING VILLAIN: Made straights are common enough on this texture that big aggression deserves real respect — a rainbow board doesn't mean safe, and this is the clearest example of why.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_01",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "Q♦ T♦ 8♥",
+    "street": "flop",
+    "question": "Board: Q♦ T♦ 8♥. Which made straight is possible on this flop?",
+    "options": [
+      "J9",
+      "KJ",
+      "97",
+      "AK"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "J9 makes the nut straight (J-9 fills Q-T-8 → Q-J-T-9-8). KJ and 97 are draws (gutshot/open-ender), not made hands. This distinction — made vs drawing — drives every postflop decision.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_02",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "9♠ 8♠ 7♦",
+    "street": "flop",
+    "question": "Board: 9♠ 8♠ 7♦. Which TWO hands flopped made straights?",
+    "options": [
+      "JT and 65",
+      "T9 and 76",
+      "QJ and 54",
+      "T8 and 96"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "JT makes J-T-9-8-7, 65 makes 9-8-7-6-5. T9/76 made pairs+draws. On triple-connected boards always check which two-card combos complete straights immediately.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_03",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "K♣ 8♦ 2♣",
+    "street": "flop",
+    "question": "Board: K♣ 8♦ 2♣. A player holds A♣ 5♣. What do they have?",
+    "options": [
+      "Nut flush draw",
+      "Made flush",
+      "Straight draw",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Two clubs in hand + two on board = four clubs, needing one more: nut flush draw (ace-high). ~36% to complete by river with two cards to come.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_04",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "J♥ T♥ 9♥",
+    "street": "flop",
+    "question": "Board: J♥ T♥ 9♥. A player holds Q♥ 2♦. What do they have?",
+    "options": [
+      "Flush draw + open-ended straight draw",
+      "Made flush",
+      "Only a gutshot",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Q♥ gives a flush draw (four hearts). The Q also gives an open-ended straight draw (K or 8 completes). Monster combo draw — roughly 54% equity vs one pair.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_05",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "A♥ K♦ 4♣",
+    "street": "flop",
+    "question": "Board: A♥ K♦ 4♣. A player holds Q♠ J♠. What do they have?",
+    "options": [
+      "Gutshot straight draw",
+      "Open-ended straight draw",
+      "Flush draw",
+      "Nothing"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "QJ on AK4 needs exactly a ten for Broadway (A-K-Q-J-T): gutshot, 4 outs, ~16% by river. Not an open-ender — only one rank completes it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_draw_06",
+    "module": "1",
+    "category": "Draw Reading",
+    "board": "6♣ 5♦ 4♣",
+    "street": "flop",
+    "question": "Board: 6♣ 5♦ 4♣. A player holds 8♣ 7♣. What do they have?",
+    "options": [
+      "Made straight + flush draw",
+      "Only a flush draw",
+      "Only a straight draw",
+      "Two pair"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "87 completes 8-7-6-5-4 — a made straight — and two clubs add a flush draw to improve to even stronger. Monster hand: fast-play it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_01",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "K♥ 7♦ 2♣ → J♦",
+    "street": "turn",
+    "question": "Flop: K♥ 7♦ 2♣. Turn: J♦. How does the J♦ turn change this dry flop?",
+    "options": [
+      "Brings backdoor flush draw + gutshots — now semi-wet",
+      "Still completely dry",
+      "Completes a flush",
+      "Completes a straight"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Hardin's exact example: the dry K72 rainbow turns semi-wet on the J♦. AT/QT now have gutshots, diamond hands picked up backdoor flush draws. Hands that floated the flop just gained equity — barreling now needs more caution.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_02",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "Q♦ T♦ 8♥ → 4♥",
+    "street": "turn",
+    "question": "Flop: Q♦ T♦ 8♥. Turn: 4♥. How does the 4♥ turn change this wet flop?",
+    "options": [
+      "Adds a backdoor heart draw — board stays wet, slightly wetter",
+      "Board is now dry",
+      "Completes the diamond flush",
+      "Kills all straight draws"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The 4♥ completes nothing but adds backdoor heart possibilities. K♥J♥-type hands gained extra equity. All original draws (diamonds, straights) remain live. Wet stays wet.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_03",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "9♠ 8♠ 7♦ → 6♠",
+    "street": "turn",
+    "question": "Flop: 9♠ 8♠ 7♦. Turn: 6♠. How does the 6♠ turn change this board?",
+    "options": [
+      "Completes flushes AND the T-or-5 straight — maximum danger",
+      "Safe blank card",
+      "Only helps sets",
+      "Dries out the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Disaster card for one-pair hands: the 6♠ completes every spade flush draw AND now any T or 5 plays a straight. Two-pair and sets are in serious trouble. Value hands must re-evaluate immediately.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_04",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "K♣ 8♦ 2♣ → 8♥",
+    "street": "turn",
+    "question": "Flop: K♣ 8♦ 2♣. Turn: 8♥. How does pairing the board (8♥) change things?",
+    "options": [
+      "Trips possible, flush draw still live — counterfeits some two-pair outs",
+      "Completes the flush",
+      "Brings new straight draws",
+      "Nothing changes"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Pairing the 8 gives trip eights to anyone holding just one 8 — the board itself now supplies the second 8, so a lone 8x jumps straight past any two-pair hand that doesn't include an 8 (like K2). That's the counterfeit: a hand that was behind before the turn is now ahead of a two-pair hand it used to lose to. The club flush draw is unaffected and still live. It also makes bluffing tougher — a station who called with 'any 8' now has trips, not just a pair, so more pressure doesn't fold them.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_05",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "A♥ K♦ 4♣ → T♠",
+    "street": "turn",
+    "question": "Flop: A♥ K♦ 4♣. Turn: T♠. How does the T♠ turn change this board?",
+    "options": [
+      "QJ completes Broadway — the only straight is now made",
+      "Board stays unchanged",
+      "Flush completes",
+      "Pairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The T completes QJ's gutshot — Broadway (A-K-Q-J-T) is now made. If villain floated the flop with QJ, this is their card. Also gives J-x new gutshots. High boards + connecting turns favor preflop raisers' ranges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "bt_turn_06",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "7♥ 7♦ 2♣ → 2♦",
+    "street": "turn",
+    "question": "Flop: 7♥ 7♦ 2♣. Turn: 2♦. How does the 2♦ turn change this paired board?",
+    "options": [
+      "Double-paired — full houses possible, flush draw arrives",
+      "Completes a straight",
+      "Still no draws at all",
+      "Unpairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Board is now double-paired (77-22): any 7 has a full house, any 2 has a smaller one. The 2♦ also starts a backdoor diamond draw. Overpairs now beat fewer combos — counterfeiting matters.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_07",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "6♣ 5♦ 4♣ → 3♣",
+    "street": "turn",
+    "question": "Flop: 6♣ 5♦ 4♣. Turn: 3♣. How does the 3♣ turn change this board?",
+    "options": [
+      "Completes flushes AND 7/2 straights — extremely dangerous",
+      "Blank — nothing changes",
+      "Only helps two pair",
+      "Dries the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Triple threat: the 3♣ completes club flushes, any 7 now plays 7-6-5-4-3, any 2 plays 6-5-4-3-2. One of the worst possible turns for a flop value hand like a set of sixes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_08",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "Q♥ J♦ T♣ → T♠",
+    "street": "turn",
+    "question": "Flop: Q♥ J♦ T♣. Turn: T♠. How does pairing the ten change this wet board?",
+    "options": [
+      "Trips/boats arrive — straights lose value, bluff-catching changes",
+      "Completes a flush",
+      "Brings new straight draws",
+      "Nothing changes"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Pairing the T means flopped straights (AK, 98) are no longer the nuts — TT/QT/JT boats and trips beat them. Straight holders must slow down. Paired wet boards shift power to sets and two pair.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_09",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "A♠ 9♦ 4♠ → K♠",
+    "street": "turn",
+    "question": "Flop: A♠ 9♦ 4♠. Turn: K♠. How does the K♠ turn change this board?",
+    "options": [
+      "Completes the spade flush — flush is now made",
+      "Just a high card",
+      "Brings a straight draw only",
+      "Pairs the board"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "Third spade completes every flush draw. AK-type hands also picked up top two. Any single high spade now has a strong made hand. Bet-sizing and calling ranges change completely once the flush arrives.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "bt_turn_10",
+    "module": "1",
+    "category": "Turn Dynamics",
+    "board": "8♥ 4♦ 3♥ → 2♥",
+    "street": "turn",
+    "question": "Flop: 8♥ 4♦ 3♥. Turn: 2♥. How does the 2♥ turn change this board?",
+    "options": [
+      "Flush completes AND A5/65 straights arrive",
+      "Blank card",
+      "Only pairs matter now",
+      "Kills the draws"
+    ],
+    "correct": 0,
+    "draws": "",
+    "explanation": "The 2♥ completes heart flushes AND now A5 plays the wheel (5-4-3-2-A) while 65 makes 6-5-4-3-2. Low coordinated runouts hit calling ranges hard — proceed carefully with overpairs.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "whose_01",
+    "module": "1",
+    "category": "High / dry",
+    "difficulty": "medium",
+    "board": "A♥ K♦ 4♣",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Ace-high dry boards massively favor the preflop raiser. The CO has all the strong aces — AK flopped top two, plus AQ, AJ, AA. The BB rarely holds an ace (most good Ax 3-bets or folds pre). The caller can't continue enough; bet small and relentlessly.",
+    "stat_raiser": "8% nutted · 13% strong+",
+    "stat_caller": "2% nutted · 3% strong+"
+  },
+  {
+    "id": "whose_02",
+    "module": "1",
+    "category": "High / dry",
+    "difficulty": "medium",
+    "board": "K♠ Q♦ 7♣",
+    "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "KQ7 rainbow favors the tight UTG raiser. They hold KQ (top two), AK, KJ, AQ, plus overpairs. The BB's wide range connects weakly — a few Kx and Qx but mostly air. Strong c-bet board.",
+    "stat_raiser": "17% nutted · 38% strong+",
+    "stat_caller": "6% nutted · 13% strong+"
+  },
+  {
+    "id": "whose_03",
+    "module": "1",
+    "category": "High / two-tone",
+    "difficulty": "medium",
+    "board": "A♠ Q♠ 5♦",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Even with a flush draw present, AQ5 favors the raiser. The CO has AQ (top two), AA, AK, plus spade draws to the nuts. The BB has few aces or queens. The two-tone texture means bet for value AND protection, but the range edge is clearly the raiser's.",
+    "stat_raiser": "8% nutted · 18% strong+",
+    "stat_caller": "5% nutted · 11% strong+"
+  },
+  {
+    "id": "whose_04",
+    "module": "1",
+    "category": "Mid / connected",
+    "difficulty": "medium",
+    "board": "8♠ 7♠ 6♥",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board that connects well with the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
+    "stat_raiser": "9% nutted · 41% strong+",
+    "stat_caller": "17% nutted · 46% strong+"
+  },
+  {
+    "id": "whose_05",
+    "module": "1",
+    "category": "Mid / connected",
+    "difficulty": "medium",
+    "board": "9♥ 8♦ 7♣",
+    "scenario": "Villain (MP, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "987 rainbow favors the caller despite the raiser's overpairs. The BB holds T9, 98, 87, 76, JT, plus 65 and 56 — made straights and huge draws. MP's AA/KK are strong but vulnerable. The caller connects far better with this texture.",
+    "stat_raiser": "8% nutted · 52% strong+",
+    "stat_caller": "15% nutted · 49% strong+"
+  },
+  {
+    "id": "whose_06",
+    "module": "1",
+    "category": "Mid / two-tone",
+    "difficulty": "medium",
+    "board": "T♦ 9♦ 6♣",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "T96 two-tone strongly favors the caller. The BB has T9 (top two), 98, 87 draws, plus all the diamond flush draws and 66/99 sets. The caller's combined made+draw equity beats the raiser's overpair-heavy range. Caller can check-raise aggressively.",
+    "stat_raiser": "6% nutted · 37% strong+",
+    "stat_caller": "10% nutted · 36% strong+"
+  },
+  {
+    "id": "whose_07",
+    "module": "1",
+    "category": "Low / connected",
+    "difficulty": "medium",
+    "board": "6♥ 5♦ 4♣",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "Low connected boards favor the caller despite the raiser having more overpairs. On 654 those overpairs are vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44 — straights, sets, draws. Their nutted share is higher even though overpairs look strong.",
+    "stat_raiser": "5% nutted · 30% strong+",
+    "stat_caller": "7% nutted · 31% strong+"
+  },
+  {
+    "id": "whose_08",
+    "module": "1",
+    "category": "Low / two-tone",
+    "difficulty": "medium",
+    "board": "5♠ 4♠ 2♥",
+    "scenario": "Villain (BTN, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "542 two-tone favors the caller. The BB defends 54s (top two), 53s, 43s, A5s, A4s, plus spade draws and wheel gutshots. The BTN's wide range has overcards and overpairs that whiffed. The caller's draw-heavy connection wins this texture.",
+    "stat_raiser": "7% nutted · 30% strong+",
+    "stat_caller": "7% nutted · 38% strong+"
+  },
+  {
+    "id": "whose_09",
+    "module": "1",
+    "category": "Paired",
+    "difficulty": "medium",
+    "board": "K♥ K♦ 4♣",
+    "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired king boards favor the tight raiser. UTG has more Kx (AK, KQ, KJ) giving trips, plus overpairs. The BB rarely has a king in their defending range. Paired boards reduce the caller's two-pair combos and let the raiser barrel relentlessly — bluffs work because villain so often has nothing.",
+    "stat_raiser": "1% nutted · 21% strong+",
+    "stat_caller": "1% nutted · 5% strong+"
+  },
+  {
+    "id": "whose_10",
+    "module": "1",
+    "category": "Paired / low",
+    "difficulty": "hard",
+    "board": "8♠ 8♦ 3♥",
+    "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired 8s on a low board narrowly favors the raiser. Their overpairs (99-AA) all beat an unpaired 8, and they have the same trip-8 combos (88 is in both ranges). The CO's strong+ share edges out the BB's. It's close — the key lesson is that paired boards generally favor the preflop aggressor because the caller's two-pair combos are removed. Barrel with overpairs, but size down.",
+    "stat_raiser": "1% nutted · 15% strong+",
+    "stat_caller": "2% nutted · 13% strong+"
+  },
+  {
+    "id": "whose_11",
+    "module": "1",
+    "category": "Dry / disconnected",
+    "difficulty": "medium",
+    "board": "K♠ 7♦ 2♣",
+    "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that connect well with it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
+    "stat_raiser": "5% nutted · 31% strong+",
+    "stat_caller": "2% nutted · 7% strong+"
+  },
+  {
+    "id": "whose_12",
+    "module": "1",
+    "category": "Dry / disconnected",
+    "difficulty": "medium",
+    "board": "Q♦ 8♣ 3♠",
+    "scenario": "Villain (MP, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Q83 rainbow favors the raiser. MP holds QJ, QT, AQ, KQ (top pair good kicker) plus overpairs. The BB's Qx is weaker (Q9, QT) and most of their range is air. Standard small c-bet board.",
+    "stat_raiser": "4% nutted · 28% strong+",
+    "stat_caller": "4% nutted · 10% strong+"
+  },
+  {
+    "id": "whose_13",
+    "module": "1",
+    "category": "Multiway / connected",
+    "difficulty": "hard",
+    "board": "J♥ T♥ 9♣",
+    "scenario": "Villain (CO, TAG) opens. Two players call. Flop comes. (multiway)",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 1,
+    "explanation": "On JT9 multiway the callers' ranges are favored — 25% nutted vs 16% — and nutted hands matter far more with two opponents. Someone often has a straight (KQ, Q8, 87) or a monster draw. The raiser's overpairs crater in value multiway. Lesson: only continue with nutted hands or strong draws; check everything marginal and never bluff into two players on a board this wet.",
+    "stat_raiser": "16% nutted · 56% strong+",
+    "stat_caller": "25% nutted · 62% strong+"
+  },
+  {
+    "id": "whose_14",
+    "module": "1",
+    "category": "Paired / ace",
+    "difficulty": "medium",
+    "board": "A♦ A♠ 6♣",
+    "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
+    "question": "Whose range does this flop favor?",
+    "options": [
+      "The preflop raiser",
+      "The caller(s)",
+      "Split — roughly even",
+      "Impossible to say"
+    ],
+    "correct": 0,
+    "explanation": "Paired aces overwhelmingly favor the raiser. UTG has many more aces (AK, AQ, AJ, AT) giving trips, plus the BB almost never has an ace. This is the driest board type — bluff relentlessly since villain connects almost never, and value bet trips thin.",
+    "stat_raiser": "4% nutted · 21% strong+",
+    "stat_caller": "2% nutted · 3% strong+"
+  },
+  {
+    "id": "bt_flop_16",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: J♣ 6♣ 2♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with J-6-2 too disconnected for any real straight draw.\n\nGOING FORWARD: Moderate danger. The flush draw is the only thing to actually track; everything else about this board plays dry.\n\nHERO ACTION:\nAGGRESSOR: c-bet and barrel fairly freely — you only need to slow down when a third club lands.\nCALLER: a club (made or drawing) is worth continuing with; without one, treat this like a dry board and don't overextend.\n\nREADING VILLAIN: Aggression away from a club scare card is almost always about a jack or better, not a straight-based bluff — there isn't one to have."
+  },
+  {
+    "id": "bt_flop_17",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 8♦ 7♦ 6♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "TEXTURE: WET. Both categories maxed — a diamond flush draw and a hugely connected run (any 5, 9, or T makes a straight, with open-enders everywhere).\n\nGOING FORWARD: This connects hard with a caller's range. Bet big with value and made straights, and don't stack off one pair or even an overpair.\n\nHERO ACTION:\nAGGRESSOR: size up to charge draws, and be honest with yourself about how often you're actually ahead with just one pair here.\nCALLER: this is a great board to defend and play back on with draws — both equity and fold equity are real.\n\nREADING VILLAIN: Give real credit to aggression from either side; too many hands beat one pair here for a raise to be dismissed as \"probably nothing.\""
+  },
+  {
+    "id": "bt_flop_18",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: A♠ A♦ K♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Paired top card, one other big card, rainbow. Gutshots technically exist (QJ, QT, or JT, each needing one exact card), but the ace caps the run so none can be open-ended, and there's no flush draw — thin enough to round down to dry.\n\nGOING FORWARD: The raiser's range (AK, AQ, KK) connects far more often than the caller's does. But dry isn't safe — a caller who called with a king already has two pair (kings and aces), and pocket kings flopped a full house. Neither is a draw, both are real value.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and often — folds come easily from air, and protection is barely a concern.\nCALLER: without a king, an ace, or a big pocket pair, most hands are giving this one up quickly.\n\nREADING VILLAIN: A check-raise on a paired dry board like this means trips or better — usually a king (two pair) or the case ace/full house. There's no drawing range to semi-bluff with, so believe it."
+  },
+  {
+    "id": "bt_flop_19",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: T♥ T♦ 4♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Paired board, low side card, rainbow, no draws of any kind.\n\nGOING FORWARD: Ranges barely connect with this board — a great small-bet bluffing spot, since most hands missed entirely.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and wide — fold equity is high and there's nothing to protect against.\nCALLER: without a ten or an overpair, one pair is a bluff-catcher at best against real pressure.\n\nREADING VILLAIN: Big aggression here is usually a ten or an overpair, not a bluff — treat one pair as a call-down candidate rather than a hand to raise with."
+  },
+  {
+    "id": "bt_flop_20",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: Q♠ J♠ 4♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "TEXTURE: WET. Both categories live — a spade flush draw and genuine straight equity (Q-J is highly connected: KT is a full open-ender, T9/AK/AT add more).\n\nGOING FORWARD: This favors a caller's range (KQ, QJ, JT, KT, T9) with lots of equity in play. Size up with value to charge the draws.\n\nHERO ACTION:\nAGGRESSOR: bet bigger, and be cautious stacking off one-pair hands — many turns change who's ahead.\nCALLER: open-enders and flush draws are both worth playing for value and fold equity here.\n\nREADING VILLAIN: Aggression is a real mix of value and strong draws; don't assume a raise is \"just\" a flush draw when the straight equity is this live too."
+  },
+  {
+    "id": "bt_flop_21",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 9♥ 5♦ 2♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Rainbow and widely spaced (9-5-2). A few minor gutshots exist (6-7, 3-4 types) but they're too sparse and low-frequency to count.\n\nGOING FORWARD: Classic dry board — few legitimate draws means few legitimate check-raises.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — range advantage and fold equity are both high.\nCALLER: without a pair of nines or better, most hands are folding to continued pressure.\n\nREADING VILLAIN: Treat big aggression as value-heavy; the sparse straight equity here isn't enough to support a real semi-bluffing range."
+  },
+  {
+    "id": "bt_flop_22",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: K♠ Q♠ J♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "TEXTURE: WET. Monotone and fully connected at once — both axes maxed. Made flushes exist, AT is a made straight, and broadway draws are everywhere.\n\nGOING FORWARD: Extreme caution without a strong spade or made hand — even top set wants to tread carefully here.\n\nHERO ACTION:\nAGGRESSOR: bet big with the nuts, but fold marginal hands to heavy resistance rather than force it.\nCALLER: strong spades and made straights should be played fast; weaker holdings need a plan for when it gets expensive.\n\nREADING VILLAIN: This is as close to \"believe the aggression\" as poker gets — the range of hands that connect this well with the board is deep, so heavy pressure is rarely a pure bluff."
+  },
+  {
+    "id": "bt_flop_23",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 7♠ 7♥ K♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no draws.\n\nGOING FORWARD: Favors the raiser's range (Kx, overpairs). A good spot to c-bet small and wide.\n\nHERO ACTION:\nAGGRESSOR: c-bet small — a raise back reps trips or an overpair, so you can fold marginal hands to real resistance without much regret.\nCALLER: one pair (a king) is fine for one street, but don't chase escalating aggression — boats are live on a paired board.\n\nREADING VILLAIN: A raise here reps trips or an overpair specifically; there's no draw-based bluffing range to muddy the read."
+  },
+  {
+    "id": "bt_flop_24",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 6♦ 5♦ 4♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "TEXTURE: WET. A diamond flush draw plus maxed straight connectivity — any 3, 7, or 8 completes a straight, on top of 78/87/A2-type draws.\n\nGOING FORWARD: This connects hard with a caller's range — charge draws with big bets and commit strong made hands now.\n\nHERO ACTION:\nAGGRESSOR: size up, and never slow-play a set here — the board changes on a huge fraction of turns.\nCALLER: low connected boards like this are where suited connectors and small pairs earn their keep; play draws aggressively.\n\nREADING VILLAIN: Give real credit to aggression from the caller's side especially — this board disproportionately favors hands that call preflop over hands that raise."
+  },
+  {
+    "id": "bt_flop_25",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: A♣ 7♦ 2♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Rainbow, ace-high, widely disconnected. The only draw is a backdoor wheel gutshot (34/45/35 using the A-2), which needs runner-runner — too marginal to count as semi-wet.\n\nGOING FORWARD: The range advantage (more aces) sits with the preflop raiser, and fold equity is high. But a caller who called with A7, A2, 72, 22, or 77 already has two pair or trips, not a draw — those specific combos are live traps even though the overall range still favors the raiser.\n\nHERO ACTION:\nAGGRESSOR: c-bet small and frequently — this is a range-bet spot, not a hand-by-hand decision.\nCALLER: without an ace or a pair that matches the board, most hands are giving this up quickly and cheaply.\n\nREADING VILLAIN: Donk-bets and check-raises here are rarely bluffs — with almost nothing to draw to, aggression is either a weak lead or genuine two pair/trips, not a semi-bluff."
+  },
+  {
+    "id": "bt_flop_26",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: J♦ T♦ 9♠",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "TEXTURE: WET. A diamond flush draw plus an extremely connected run — KQ, Q8, and 87 are all already made straights, and any Q or 8 completes one.\n\nGOING FORWARD: A big danger board that connects hard with a caller's range (KQ, QT, JT, T9). Size up with strong value.\n\nHERO ACTION:\nAGGRESSOR: be very cautious with overpairs and one-pair hands — they're often already behind a made straight here.\nCALLER: this is one of the best boards to play back on aggressively, since made straights and strong draws are both live in your range.\n\nREADING VILLAIN: Especially out of position, big aggression on this board is genuinely scary — made straights are common enough that folding overpairs to heavy pressure is often correct."
+  },
+  {
+    "id": "bt_flop_27",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: K♥ 5♠ 5♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY. Paired board, rainbow, one high card, no straight or flush draws.\n\nGOING FORWARD: Favors the raiser — a great spot to c-bet small with your whole range.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, and don't be afraid to give up cheaply when it goes wrong since little is invested.\nCALLER: one pair is fine for a street, but don't stack off — escalating aggression on a paired board threatens a full house.\n\nREADING VILLAIN: A check-raise reps a five or an overpair specifically — there's no draw-based semi-bluffing range on a board like this."
+  },
+  {
+    "id": "bt_flop_28",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: Q♣ 9♣ 5♥",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 1,
+    "explanation": "TEXTURE: SEMI-WET. One category live — a club flush draw — with only minor straight presence (Q-9 leaves a thin JT-type gutshot).\n\nGOING FORWARD: Moderate board — charge the flush draw with value, but straights are sparse enough to mostly ignore.\n\nHERO ACTION:\nAGGRESSOR: barrel non-club turns fairly freely; you're mainly playing around one scare card.\nCALLER: a club is worth continuing with; without one, you need a queen or better to keep going.\n\nREADING VILLAIN: Watch for the flush completing as the main danger — outside of that, treat aggression as value-heavy rather than a wide semi-bluffing range."
+  },
+  {
+    "id": "bt_flop_29",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: 8♠ 8♦ 8♣",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 0,
+    "explanation": "TEXTURE: DRY (trips board). Three of a kind on board, rainbow, no flush draw, no straight draws — ranges barely differ from each other here.\n\nGOING FORWARD: Plays dry despite looking unusual — c-bet small with your whole range, or check to induce since so little is at stake for most hands.\n\nHERO ACTION:\nAGGRESSOR: bet small and wide, or check back to keep the pot manageable — either is fine given how little separates most holdings.\nCALLER: one pair is mostly a bluff-catcher; only a big kicker or the case eight really wants to build the pot.\n\nREADING VILLAIN: Big aggression reps an overpair, a big kicker, or the case eight specifically — there's no draw to bluff with on a trips board."
+  },
+  {
+    "id": "bt_flop_30",
+    "module": "1",
+    "category": "Board Texture",
+    "difficulty": "medium",
+    "scenario": "",
+    "question": "Classify this flop: T♣ 8♣ 3♦",
+    "options": [
+      "Dry",
+      "Semi-wet",
+      "Wet",
+      "Cannot classify"
+    ],
+    "correct": 2,
+    "explanation": "WET. Two draw categories are live: a club flush draw (two clubs) and straight draws (T-8 gives J9 and 97 open-enders plus gutshots). Two live categories = wet by definition — the earlier 'semi-wet' read miscounted. Play it as wet: bet to charge the draws, and reassess if a club or a 9 lands, since those complete them."
+  }
 ]

@@ -478,5 +478,53 @@
     ],
     "correct": 3,
     "explanation": "Top set is a monster on the flop, but the hand didn't stop there — a tight UTG player who re-raises your flop raise and then jams a deep river is representing a hand that beats a set (a bigger set, or a completed monster the board allows), and tight players don't manufacture this exact escalating line as a bluff. Even a great flop hand has to be foldable somewhere if the story told across every street points at something better. This is a genuinely hard, deep fold — not automatic just because the hand started as a set."
+  },
+  {
+    "id": "cal_marginal_real",
+    "module": 5,
+    "category": "When to Fold as the Caller",
+    "difficulty": "medium",
+    "scenario": "You raise BTN with A♠9♦; the BB calls. Flop A♣ Q♦ 8♣ — you have top pair, weak kicker. The BB donk-leads 3/4 pot.",
+    "question": "Top pair, weak kicker facing a donk-lead on a two-flush board — best response?",
+    "options": [
+      "Fold — the kicker is too weak here",
+      "Raise for value and protection",
+      "Call once, then reassess",
+      "Call down, it has showdown value"
+    ],
+    "correct": 2,
+    "explanation": "Continue, but cheaply. Top pair with a weak kicker is ahead of the draws and worse pairs a donk-lead is 'protecting' against — so folding to one bet is too tight. But the 9 kicker is behind AQ/AK/AJ, so this is not a hand to raise (it folds out worse and gets called by better) or to stack off. Call once, keep the pot small, and fold if he keeps betting big. The middle path: don't over-fold a made hand, don't over-commit a weak kicker."
+  },
+  {
+    "id": "cal_marginal_concept",
+    "module": 5,
+    "category": "When to Fold as the Caller",
+    "difficulty": "medium",
+    "scenario": "You hold a marginal made hand — top pair weak kicker, or middle pair — facing a single bet on the flop.",
+    "question": "General plan with a marginal made hand facing one bet?",
+    "options": [
+      "Fold; save the chips",
+      "Bet or raise for thin value",
+      "Call every street to showdown",
+      "Continue cheap, fold to heat"
+    ],
+    "correct": 3,
+    "explanation": "A marginal made hand is a call-one, showdown-value hand — too good to fold to a single bet, too thin to build a pot with. Continue cheaply for one street to realize its value, and fold when the action escalates (a raise, or a second/third big barrel), because sustained aggression means you are beaten. Betting or raising only folds out worse and gets called by better."
+  },
+  {
+    "id": "cal_marginal_escalation",
+    "module": 5,
+    "category": "When to Fold as the Caller",
+    "difficulty": "medium",
+    "scenario": "You called a flop bet with middle pair. The turn brings a bigger barrel, and on the river he jams all-in.",
+    "question": "Your middle pair facing a turn-barrel then a river jam?",
+    "options": [
+      "Fold — he's escalating",
+      "Call — bluff-catch it",
+      "Raise — he's bluffing",
+      "Snap-call, he's polarized"
+    ],
+    "correct": 0,
+    "explanation": "Continue-cheap ends the moment the price stops being cheap. Middle pair can call one bet for showdown value, but a turn barrel followed by a river jam is a range that has you crushed — at these stakes that line is value, not bluffs. Fold. The whole point of the marginal-made-hand plan is that it stays cheap; when it turns expensive, you're done."
   }
 ]
