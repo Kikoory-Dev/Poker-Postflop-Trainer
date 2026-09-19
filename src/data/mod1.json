@@ -295,12 +295,12 @@
     "street": "flop",
     "question": "Board: 9♠ 8♠ 7♦. Which TWO hands flopped made straights?",
     "options": [
-      "JT and 65",
       "T9 and 76",
+      "JT and 65",
       "QJ and 54",
       "T8 and 96"
     ],
-    "correct": 0,
+    "correct": 1,
     "draws": "",
     "explanation": "JT makes J-T-9-8-7, 65 makes 9-8-7-6-5. T9/76 made pairs+draws. On triple-connected boards always check which two-card combos complete straights immediately.",
     "difficulty": "medium"
@@ -313,12 +313,12 @@
     "street": "flop",
     "question": "Board: K♣ 8♦ 2♣. A player holds A♣ 5♣. What do they have?",
     "options": [
-      "Nut flush draw",
-      "Made flush",
       "Straight draw",
+      "Made flush",
+      "Nut flush draw",
       "Nothing"
     ],
-    "correct": 0,
+    "correct": 2,
     "draws": "",
     "explanation": "Two clubs in hand + two on board = four clubs, needing one more: nut flush draw (ace-high). ~36% to complete by river with two cards to come.",
     "difficulty": "medium"
@@ -331,12 +331,12 @@
     "street": "flop",
     "question": "Board: J♥ T♥ 9♥. A player holds Q♥ 2♦. What do they have?",
     "options": [
-      "Flush draw + open-ended straight draw",
+      "Nothing",
       "Made flush",
       "Only a gutshot",
-      "Nothing"
+      "Flush draw + open-ended straight draw"
     ],
-    "correct": 0,
+    "correct": 3,
     "draws": "",
     "explanation": "Q♥ gives a flush draw (four hearts). The Q also gives an open-ended straight draw (K or 8 completes). Monster combo draw — roughly 54% equity vs one pair.",
     "difficulty": "medium"
@@ -349,12 +349,12 @@
     "street": "flop",
     "question": "Board: A♥ K♦ 4♣. A player holds Q♠ J♠. What do they have?",
     "options": [
-      "Gutshot straight draw",
-      "Open-ended straight draw",
       "Flush draw",
+      "Open-ended straight draw",
+      "Gutshot straight draw",
       "Nothing"
     ],
-    "correct": 0,
+    "correct": 2,
     "draws": "",
     "explanation": "QJ on AK4 needs exactly a ten for Broadway (A-K-Q-J-T): gutshot, 4 outs, ~16% by river. Not an open-ender — only one rank completes it.",
     "difficulty": "medium"
@@ -367,12 +367,12 @@
     "street": "flop",
     "question": "Board: 6♣ 5♦ 4♣. A player holds 8♣ 7♣. What do they have?",
     "options": [
-      "Made straight + flush draw",
       "Only a flush draw",
+      "Made straight + flush draw",
       "Only a straight draw",
       "Two pair"
     ],
-    "correct": 0,
+    "correct": 1,
     "draws": "",
     "explanation": "87 completes 8-7-6-5-4 — a made straight — and two clubs add a flush draw to improve to even stronger. Monster hand: fast-play it.",
     "difficulty": "medium"
@@ -385,12 +385,12 @@
     "street": "turn",
     "question": "Flop: K♥ 7♦ 2♣. Turn: J♦. How does the J♦ turn change this dry flop?",
     "options": [
-      "Brings backdoor flush draw + gutshots — now semi-wet",
+      "Completes a straight",
       "Still completely dry",
       "Completes a flush",
-      "Completes a straight"
+      "Brings backdoor flush draw + gutshots — now semi-wet"
     ],
-    "correct": 0,
+    "correct": 3,
     "draws": "",
     "explanation": "Hardin's exact example: the dry K72 rainbow turns semi-wet on the J♦. AT/QT now have gutshots, diamond hands picked up backdoor flush draws. Hands that floated the flop just gained equity — barreling now needs more caution.",
     "difficulty": "medium"
@@ -439,12 +439,12 @@
     "street": "turn",
     "question": "Flop: K♣ 8♦ 2♣. Turn: 8♥. How does pairing the board (8♥) change things?",
     "options": [
-      "Trips possible, flush draw still live — counterfeits some two-pair outs",
       "Completes the flush",
+      "Trips possible, flush draw still live — counterfeits some two-pair outs",
       "Brings new straight draws",
       "Nothing changes"
     ],
-    "correct": 0,
+    "correct": 1,
     "draws": "",
     "explanation": "Pairing the 8 gives trip eights to anyone holding just one 8 — the board itself now supplies the second 8, so a lone 8x jumps straight past any two-pair hand that doesn't include an 8 (like K2). That's the counterfeit: a hand that was behind before the turn is now ahead of a two-pair hand it used to lose to. The club flush draw is unaffected and still live. It also makes bluffing tougher — a station who called with 'any 8' now has trips, not just a pair, so more pressure doesn't fold them.",
     "difficulty": "medium"
@@ -457,12 +457,12 @@
     "street": "turn",
     "question": "Flop: A♥ K♦ 4♣. Turn: T♠. How does the T♠ turn change this board?",
     "options": [
-      "QJ completes Broadway — the only straight is now made",
-      "Board stays unchanged",
       "Flush completes",
+      "Board stays unchanged",
+      "QJ completes Broadway — the only straight is now made",
       "Pairs the board"
     ],
-    "correct": 0,
+    "correct": 2,
     "draws": "",
     "explanation": "The T completes QJ's gutshot — Broadway (A-K-Q-J-T) is now made. If villain floated the flop with QJ, this is their card. Also gives J-x new gutshots. High boards + connecting turns favor preflop raisers' ranges.",
     "difficulty": "medium"
@@ -475,12 +475,12 @@
     "street": "turn",
     "question": "Flop: 7♥ 7♦ 2♣. Turn: 2♦. How does the 2♦ turn change this paired board?",
     "options": [
-      "Double-paired — full houses possible, flush draw arrives",
+      "Unpairs the board",
       "Completes a straight",
       "Still no draws at all",
-      "Unpairs the board"
+      "Double-paired — full houses possible, flush draw arrives"
     ],
-    "correct": 0,
+    "correct": 3,
     "draws": "",
     "explanation": "Board is now double-paired (77-22): any 7 has a full house, any 2 has a smaller one. The 2♦ also starts a backdoor diamond draw. Overpairs now beat fewer combos — counterfeiting matters.",
     "difficulty": "hard"
@@ -493,12 +493,12 @@
     "street": "turn",
     "question": "Flop: 6♣ 5♦ 4♣. Turn: 3♣. How does the 3♣ turn change this board?",
     "options": [
-      "Completes flushes AND 7/2 straights — extremely dangerous",
-      "Blank — nothing changes",
       "Only helps two pair",
+      "Blank — nothing changes",
+      "Completes flushes AND 7/2 straights — extremely dangerous",
       "Dries the board"
     ],
-    "correct": 0,
+    "correct": 2,
     "draws": "",
     "explanation": "Triple threat: the 3♣ completes club flushes, any 7 now plays 7-6-5-4-3, any 2 plays 6-5-4-3-2. One of the worst possible turns for a flop value hand like a set of sixes.",
     "difficulty": "hard"
@@ -511,12 +511,12 @@
     "street": "turn",
     "question": "Flop: Q♥ J♦ T♣. Turn: T♠. How does pairing the ten change this wet board?",
     "options": [
-      "Trips/boats arrive — straights lose value, bluff-catching changes",
       "Completes a flush",
+      "Trips/boats arrive — straights lose value, bluff-catching changes",
       "Brings new straight draws",
       "Nothing changes"
     ],
-    "correct": 0,
+    "correct": 1,
     "draws": "",
     "explanation": "Pairing the T means flopped straights (AK, 98) are no longer the nuts — TT/QT/JT boats and trips beat them. Straight holders must slow down. Paired wet boards shift power to sets and two pair.",
     "difficulty": "hard"
@@ -529,12 +529,12 @@
     "street": "turn",
     "question": "Flop: A♠ 9♦ 4♠. Turn: K♠. How does the K♠ turn change this board?",
     "options": [
-      "Completes the spade flush — flush is now made",
+      "Pairs the board",
       "Just a high card",
       "Brings a straight draw only",
-      "Pairs the board"
+      "Completes the spade flush — flush is now made"
     ],
-    "correct": 0,
+    "correct": 3,
     "draws": "",
     "explanation": "Third spade completes every flush draw. AK-type hands also picked up top two. Any single high spade now has a strong made hand. Bet-sizing and calling ranges change completely once the flush arrives.",
     "difficulty": "hard"
@@ -585,12 +585,12 @@
     "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
       "The caller(s)",
+      "The preflop raiser",
       "Split — roughly even",
       "Impossible to say"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "KQ7 rainbow favors the tight UTG raiser. They hold KQ (top two), AK, KJ, AQ, plus overpairs. The BB's wide range connects weakly — a few Kx and Qx but mostly air. Strong c-bet board.",
     "stat_raiser": "17% nutted · 38% strong+",
     "stat_caller": "6% nutted · 13% strong+"
@@ -604,12 +604,12 @@
     "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
-      "The caller(s)",
       "Split — roughly even",
+      "The caller(s)",
+      "The preflop raiser",
       "Impossible to say"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "Even with a flush draw present, AQ5 favors the raiser. The CO has AQ (top two), AA, AK, plus spade draws to the nuts. The BB has few aces or queens. The two-tone texture means bet for value AND protection, but the range edge is clearly the raiser's.",
     "stat_raiser": "8% nutted · 18% strong+",
     "stat_caller": "5% nutted · 11% strong+"
@@ -624,11 +624,11 @@
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller(s)",
+      "Impossible to say",
       "Split — roughly even",
-      "Impossible to say"
+      "The caller(s)"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Middling connected boards favor the wide caller. The BB has 87s (top two), 65s, T9s, 55, 66, plus tons of draws. The CO's overpairs are strong but face a board that connects well with the caller's suited connectors. The caller's nutted+draw share is higher. Check-heavy for the raiser.",
     "stat_raiser": "9% nutted · 41% strong+",
     "stat_caller": "17% nutted · 46% strong+"
@@ -643,11 +643,11 @@
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller(s)",
       "Split — roughly even",
+      "The caller(s)",
       "Impossible to say"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "987 rainbow favors the caller despite the raiser's overpairs. The BB holds T9, 98, 87, 76, JT, plus 65 and 56 — made straights and huge draws. MP's AA/KK are strong but vulnerable. The caller connects far better with this texture.",
     "stat_raiser": "8% nutted · 52% strong+",
     "stat_caller": "15% nutted · 49% strong+"
@@ -681,11 +681,11 @@
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller(s)",
+      "Impossible to say",
       "Split — roughly even",
-      "Impossible to say"
+      "The caller(s)"
     ],
-    "correct": 1,
+    "correct": 3,
     "explanation": "Low connected boards favor the caller despite the raiser having more overpairs. On 654 those overpairs are vulnerable to every straight and two-pair the caller holds. The BB has 87s, 76s, 65s, 55, 44 — straights, sets, draws. Their nutted share is higher even though overpairs look strong.",
     "stat_raiser": "5% nutted · 30% strong+",
     "stat_caller": "7% nutted · 31% strong+"
@@ -699,12 +699,12 @@
     "scenario": "Villain (BTN, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
       "The caller(s)",
+      "The preflop raiser",
       "Split — roughly even",
       "Impossible to say"
     ],
-    "correct": 1,
+    "correct": 0,
     "explanation": "542 two-tone favors the caller. The BB defends 54s (top two), 53s, 43s, A5s, A4s, plus spade draws and wheel gutshots. The BTN's wide range has overcards and overpairs that whiffed. The caller's draw-heavy connection wins this texture.",
     "stat_raiser": "7% nutted · 30% strong+",
     "stat_caller": "7% nutted · 38% strong+"
@@ -737,12 +737,12 @@
     "scenario": "Villain (CO, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
       "The caller(s)",
+      "The preflop raiser",
       "Split — roughly even",
       "Impossible to say"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Paired 8s on a low board narrowly favors the raiser. Their overpairs (99-AA) all beat an unpaired 8, and they have the same trip-8 combos (88 is in both ranges). The CO's strong+ share edges out the BB's. It's close — the key lesson is that paired boards generally favor the preflop aggressor because the caller's two-pair combos are removed. Barrel with overpairs, but size down.",
     "stat_raiser": "1% nutted · 15% strong+",
     "stat_caller": "2% nutted · 13% strong+"
@@ -756,12 +756,12 @@
     "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
-      "The caller(s)",
       "Split — roughly even",
+      "The caller(s)",
+      "The preflop raiser",
       "Impossible to say"
     ],
-    "correct": 0,
+    "correct": 2,
     "explanation": "K72 rainbow is the textbook raiser board. UTG's tight range is full of Kx and overpairs that connect well with it; the BB's wide range has few kings and connects poorly with disconnected high cards. C-bet almost the entire range — the caller folds far too often to make calling profitable.",
     "stat_raiser": "5% nutted · 31% strong+",
     "stat_caller": "2% nutted · 7% strong+"
@@ -775,12 +775,12 @@
     "scenario": "Villain (MP, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
+      "Impossible to say",
       "The caller(s)",
       "Split — roughly even",
-      "Impossible to say"
+      "The preflop raiser"
     ],
-    "correct": 0,
+    "correct": 3,
     "explanation": "Q83 rainbow favors the raiser. MP holds QJ, QT, AQ, KQ (top pair good kicker) plus overpairs. The BB's Qx is weaker (Q9, QT) and most of their range is air. Standard small c-bet board.",
     "stat_raiser": "4% nutted · 28% strong+",
     "stat_caller": "4% nutted · 10% strong+"
@@ -795,11 +795,11 @@
     "question": "Whose range does this flop favor?",
     "options": [
       "The preflop raiser",
-      "The caller(s)",
       "Split — roughly even",
+      "The caller(s)",
       "Impossible to say"
     ],
-    "correct": 1,
+    "correct": 2,
     "explanation": "On JT9 multiway the callers' ranges are favored — 25% nutted vs 16% — and nutted hands matter far more with two opponents. Someone often has a straight (KQ, Q8, 87) or a monster draw. The raiser's overpairs crater in value multiway. Lesson: only continue with nutted hands or strong draws; check everything marginal and never bluff into two players on a board this wet.",
     "stat_raiser": "16% nutted · 56% strong+",
     "stat_caller": "25% nutted · 62% strong+"
@@ -813,12 +813,12 @@
     "scenario": "Villain (UTG, TAG) opens. Hero (BB) calls. Flop comes.",
     "question": "Whose range does this flop favor?",
     "options": [
-      "The preflop raiser",
       "The caller(s)",
+      "The preflop raiser",
       "Split — roughly even",
       "Impossible to say"
     ],
-    "correct": 0,
+    "correct": 1,
     "explanation": "Paired aces overwhelmingly favor the raiser. UTG has many more aces (AK, AQ, AJ, AT) giving trips, plus the BB almost never has an ace. This is the driest board type — bluff relentlessly since villain connects almost never, and value bet trips thin.",
     "stat_raiser": "4% nutted · 21% strong+",
     "stat_caller": "2% nutted · 3% strong+"
