@@ -180,16 +180,16 @@
     "module": "9",
     "category": "Commitment · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND. AQ, BB, 100bb+ deep. Board 4d-8d-Ad-6s (three diamonds by the turn). You flop trip aces, bet, get called. Turn: you bet, villain check-raises, you RE-RAISE all-in, villain calls.",
-    "question": "Trip aces on a three-flush board. Villain check-raises your turn bet. Best response?",
+    "scenario": "YOUR HAND (−163.1bb). AQ, you 3-bet preflop from the BB, villain (BTN) calls. Flop A♦8♦4♦ — three diamonds already on the flop. You bet (c-bet), villain calls. Turn 6♠ (blank): you bet again, villain raises, you RE-RAISE all-in, villain calls. River J♦ — a fourth diamond.",
+    "question": "Top pair, aces, on a three-flush flop. Villain raises your turn bet. Best response?",
     "options": [
-      "Fold — trips can't call a raise",
+      "Fold — top pair can't call a raise",
       "Call, don't re-raise",
-      "Re-raise all-in, trips is huge",
+      "Re-raise all-in, top pair is huge",
       "Check back and give up"
     ],
     "correct": 1,
-    "explanation": "Your real hand (villain had 7d-Td — a flush already made by the flop). Trip aces LOOKS like a monster, but on a board with three of one suit, a raise is exactly the action a made flush takes. Folding trips outright is too weak given how strong the hand looks and plays; but re-raising all-in — what actually happened — turns a bad spot into the worst possible one. The disciplined middle path is to call and let the hand go if more flush-consistent action follows, not to pile in more chips on a board built for someone else's hand."
+    "explanation": "Your real hand (villain had 7♦T♦ — a flush already made on the flop itself, before you even bet). Top pair with the best kicker LOOKS like a monster, but on a three-flush flop, a raise is exactly the action a made flush takes — the fourth diamond on the river only reinforces that, it doesn't create the danger. Folding it outright is too weak given how strong the hand looks and plays; but re-raising all-in — what actually happened — turns a bad spot into the worst possible one. The disciplined middle path is to call and let the hand go if more flush-consistent action follows, not to pile in more chips on a board built for someone else's hand."
   },
   {
     "id": "cm_real_06",
@@ -308,7 +308,7 @@
     "module": "9",
     "category": "Commitment · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND (−109.1bb). AQ, SB. Board runs Q-2-K-2-2 (the board itself makes trip deuces by the river). You have top kicker over the board's trips. Villain bets big the river; you call.",
+    "scenario": "YOUR HAND (−109.1bb). AJ, SB. Board runs Q-2-K-2-2 (the board itself makes trip deuces by the river). You have top kicker over the board's trips. Villain bets big the river; you call.",
     "question": "The board has trip deuces by the river. You're just playing top kicker over it. Villain bets big. Call?",
     "options": [
       "Call — you have the best kicker",
@@ -317,7 +317,7 @@
       "Fold — you never had a pair at all"
     ],
     "correct": 1,
-    "explanation": "Your real hand (villain had AA — aces full of deuces). When the board itself makes trips, your kicker is the only thing separating you from anyone else who didn't pair up — which means ANY pocket pair in villain's hand instantly makes a full house that beats you. 'I have the best kicker' stops mattering the moment a full house is possible. This is the paired-board lesson taken to its extreme: three of a kind on the board is a loud warning, not a green light."
+    "explanation": "Your real hand (villain had AA — deuces full of aces). When the board itself makes trips, your kicker is the only thing separating you from anyone else who didn't pair up — which means ANY pocket pair in villain's hand instantly makes a full house that beats you. 'I have the best kicker' stops mattering the moment a full house is possible. This is the paired-board lesson taken to its extreme: three of a kind on the board is a loud warning, not a green light."
   },
   {
     "id": "cm_real_14",
@@ -388,7 +388,7 @@
     "module": "9",
     "category": "Commitment · Concept",
     "difficulty": "medium",
-    "scenario": "Reviewing your last 50 big losses shows most came from one-pair hands with strong kickers (AJ, AQ, KQ) rather than pure garbage hands.",
+    "scenario": "Say you review a stretch of your biggest losses and most of them came from one-pair hands with strong kickers (AJ, AQ, KQ) rather than pure garbage hands.",
     "question": "What does this pattern suggest as the fix?",
     "options": [
       "Play fewer hands preflop overall",

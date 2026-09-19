@@ -20,7 +20,7 @@
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "hard",
-    "scenario": "You semi-bluff c-bet J♠T♠ on 9♠6♦2♣ (flop) with a flush draw + overcards, one caller. Turn 8♥ — you pick up an open-ended straight draw too (now OESD + flush draw).",
+    "scenario": "You semi-bluff c-bet J♠T♠ on 9♠6♦2♣ (flop) with a backdoor flush draw + overcards, one caller. Turn 8♠ brings your flush draw fully live and gives you an open-ended straight draw too (now OESD + flush draw).",
     "question": "Turn gave you a monster combo draw. Barrel?",
     "options": [
       "Check — you still have nothing made",
@@ -100,7 +100,7 @@
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "hard",
-    "scenario": "You raised preflop and c-bet A♥K♥ on J♠7♦2♣, one caller. Turn 9♥ completes a backdoor-ish heart texture that connects far more with YOUR suited-broadway raising range than with a capped BB calling range. You still have just ace-high with a flush draw now.",
+    "scenario": "You raised preflop and c-bet A♥K♥ on J♠7♥2♣, one caller. Turn 9♥ completes a backdoor-ish heart texture that connects far more with YOUR suited-broadway raising range than with a capped BB calling range. You still have just ace-high with a flush draw now.",
     "question": "The turn card favors your range more than theirs, even though you personally just picked up a draw. Barrel again?",
     "options": [
       "Bet — the card favors your range",
@@ -164,7 +164,7 @@
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "hard",
-    "scenario": "You c-bet Q♠J♠ on T♠4♦2♠ (flush draw + gutshot), one caller. Turn 8♠ completes your flush outright — you now hold the nuts.",
+    "scenario": "You c-bet Q♠J♠ on T♠4♦2♠ (flush draw + backdoor straight draw), one caller. Turn 8♠ completes your flush outright — you now hold the nuts.",
     "question": "You just made the nut flush. Bet big or small?",
     "options": [
       "Bet big — nuts, charge now",
@@ -244,8 +244,8 @@
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "hard",
-    "scenario": "You c-bet K♣J♣ on Q♠T♦4♣ (gutshot + overcard + backdoor flush), one caller. Turn 9♣ completes both your straight draw into a made hand AND your flush draw into a made flush — you now have the nut straight flush... no, correction: you now hold the nut flush (K♣J♣ with three clubs out).",
-    "question": "You went from a combo draw to the nut flush on the turn. How does your plan change?",
+    "scenario": "You c-bet K♣J♣ on Q♠T♦4♣ (open-ended + overcard + backdoor flush), one caller. Turn 9♣ completes your straight into a made hand (the nut straight) and brings your club count to four — a real flush draw now too, one club away from the nut flush on top of the made straight.",
+    "question": "You went from a combo draw to a made straight (with a flush draw working alongside it) on the turn. How does your plan change?",
     "options": [
       "Slow down, check to trap",
       "Bet — same action, now for value",
@@ -292,32 +292,32 @@
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "medium",
-    "scenario": "You c-bet A♦K♠ on K♦9♣4♦, top pair top kicker, one caller. Turn 3♦ brings a third diamond to the board — you hold the A♦, blocking the nut flush.",
-    "question": "A flush just became possible and you hold the ace of the flush suit. Does that blocker support continuing to bet?",
+    "scenario": "You c-bet A♦K♠ on K♦9♣4♦, top pair top kicker, one caller. Turn 3♦ brings a third diamond to the board — you hold the A♦, which both blocks the nut flush AND gives you a live flush draw of your own (four diamonds).",
+    "question": "A flush just became possible and you hold the ace of the flush suit — both blocking the nuts and drawing to them yourself. Does that support continuing to bet?",
     "options": [
-      "Bet — the blocker supports it",
+      "Bet — the blocker and the draw both support it",
       "Check — a third suited card, always",
       "Check unless you also pair that suit",
       "Bet, but checking is safer"
     ],
     "correct": 0,
-    "explanation": "A flush becoming possible doesn't mean you're facing one — it means you should account for how likely it actually is, and holding the nut card of that suit directly lowers that likelihood while also meaning that if you're ever raised, it's less likely to be the flush specifically. Betting still charges the large part of their range that doesn't have three diamonds. Bet for value/protection — the nut blocker both reduces the flush's likelihood and improves your position if you do get raised; this is a reason to keep betting, not to slow down."
+    "explanation": "A flush becoming possible doesn't mean you're facing one — it means you should account for how likely it actually is, and holding the nut card of that suit directly lowers that likelihood while also meaning that if you're ever raised, it's less likely to be the flush specifically. On top of that, you're not just blocking here — with three diamonds on board and the ace in your hand, you have a live flush draw of your own, real extra equity behind your top pair. Betting still charges the large part of their range that doesn't have three diamonds. Bet for value/protection — the nut blocker reduces the flush's likelihood and improves your position if you get raised, and you're also drawing to the nuts yourself; this is a reason to keep betting, not to slow down."
   },
   {
     "id": "trb_20",
     "module": "4",
     "category": "Double Barrel",
     "difficulty": "hard",
-    "scenario": "You raised BTN, BB called — you are in position. You c-bet J♦T♦ on 9♠8♦2♣ (gutshot + backdoor flush + two overcards worth of range advantage), one caller. Turn 7♦ gives you an open-ended straight draw plus your flush draw is now also live.",
-    "question": "In position, you picked up a monster combo draw on the turn. Bet, or check back to control the pot since you're IP?",
+    "scenario": "You raised BTN, BB called — you are in position. You c-bet J♦T♦ on 9♠8♦2♣ (open-ended + backdoor flush + two overcards worth of range advantage), one caller. Turn 7♦ completes your straight into a made hand, and your flush draw is now also live (four diamonds).",
+    "question": "In position, your open-ended draw from the flop just turned into a made straight, and you picked up a flush draw on top of it. Bet, or check back to control the pot since you're IP?",
     "options": [
       "Check back, take the free card",
-      "Bet — equity beats a free card",
+      "Bet — value plus extra equity beats a free card",
       "Check back, then raise if bet into",
       "Bet the minimum size only"
     ],
     "correct": 1,
-    "explanation": "Being in position gives you the OPTION to check back profitably — it doesn't mean checking is always better. With an open-ended straight draw and a flush draw combined (a huge number of outs) plus real fold equity on top, betting captures value a free card can't: it wins the pot outright a good chunk of the time, and builds a pot for when you do complete. Bet — a monster combo draw is a bet, not a check, in position or not; the free-card option is only worth taking when there isn't this much to gain from betting."
+    "explanation": "Being in position gives you the OPTION to check back profitably — it doesn't mean checking is always better. Your straight is already made, and you picked up a flush draw on top of it (four diamonds) — this is exactly the kind of hand you want to be betting for value and protection, not slow-playing: a free card risks a scare card killing action later, and you have both made-hand value now and extra redraw equity if you get raised. Bet — a made hand with a live flush draw behind it is a bet, not a check, in position or not; the free-card option is only worth taking when there isn't this much to gain from betting."
   },
   {
     "id": "trb_21",
@@ -420,7 +420,7 @@
     "module": "4",
     "category": "Give Up",
     "difficulty": "hard",
-    "scenario": "You c-bet 7♣6♣ on 9♦5♣2♥ (open-ended straight draw, no pair), one caller. Turn K♠ bricks your draw completely (no new outs, and it's an overcard that doesn't help your hand at all).",
+    "scenario": "You c-bet 7♣6♣ on 9♦5♣2♥ (gutshot straight draw, no pair), one caller. Turn K♠ bricks your draw completely (no new outs, and it's an overcard that doesn't help your hand at all).",
     "question": "Your draw missed, the turn is a total brick for your hand, and you have nothing. Bet as a pure bluff?",
     "options": [
       "Check — no real basis to bluff",

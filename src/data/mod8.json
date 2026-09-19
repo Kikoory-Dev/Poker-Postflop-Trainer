@@ -68,16 +68,16 @@
     "module": "8",
     "category": "Facing Aggression · Real",
     "difficulty": "medium",
-    "scenario": "YOUR HAND. AQo full house on Q-2-2 (you have Q + board pairs = Qs full of 2s... actually trips/boat). Flop checks through, turn you bet 13bb (called), river 2: you check, Villain bets 23bb. Villain had AA.",
-    "question": "This time you have a genuine STRONG hand (Q full house). Villain bets the river. Did calling lose value or was it correct?",
+    "scenario": "YOUR HAND (−109.1bb). AQo, SB, 3-bet pot — you 3-bet preflop, villain 4-bets, you call. Flop Q♥ 2♦ K♥ checks through. Turn 2♠: you bet, villain calls. River 2♥ — the board is now K-Q-2-2-2, trip deuces on its own, giving you 2s full of queens (a genuine full house). You check, villain bets, you call. Villain had A♥A♠ — 2s full of aces, a bigger boat.",
+    "question": "You called a 4-bet with AQo. The board pairs out to trip deuces (K-Q-2-2-2) and you make 2s full of queens — a genuine full house. Villain bets the river after check-calling your turn bet. What's the read?",
     "options": [
-      "Call, but you lost river value",
-      "You should have folded",
-      "Check-call is the only option",
-      "You played it perfectly"
+      "Bet/raise big — a full house is always for value",
+      "Call is fine, but recognize this specific boat can easily be second-best",
+      "Fold — a full house can never be good enough here",
+      "Raise as a bluff to fold out better hands"
     ],
-    "correct": 0,
-    "explanation": "Your real hand (you actually won vs AA here, or it was close — the lesson stands). With a near-nutted full house, checking the river is a missed-value line: you want to bet/raise to extract from worse hands (AA, AK, any Q). Check-calling only wins what villain chooses to bet. The flip side of the discipline lessons: when you DO have the strong hand, maximize — don't get so cautious that you under-bet your monsters. Strong value = extract. Calling was correct, but you LOST VALUE by checking the river — with a full house you should bet/raise for value, not check-call."
+    "correct": 1,
+    "explanation": "Your real hand (villain had A♥A♠ — 2s full of aces). Once the board itself makes trip deuces, ANY pocket pair in villain's range instantly makes a full house too — and whether it beats you comes down to whose pair-kicker is bigger. In a pot where villain 4-bet preflop, their continuing range is almost entirely AA/KK/QQ, and every one of those either beats your queens-paired boat (AA, KK) or chops with it (QQ) — there's essentially no continuing 4-bet hand your boat beats outright. Calling was the right level of caution here, not a missed-value spot: raising would only get action from the hands that already have you beat, and this exact hand is the live example of why. The lesson: a 'genuine boat' off a board that pairs to trips on its own isn't automatically the best hand — check what pocket pairs are actually live in villain's range before assuming you're ahead."
   },
   {
     "id": "sz_gen_01",
@@ -196,7 +196,7 @@
     "module": "8",
     "category": "Facing Aggression · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND (−105bb). QJs (two pair, Q+J) on 7h-Qc-Th flop (TWO hearts). Villain check-raises flop (2bb→6bb), bets turn 12bb, bets river 25bb. You called all three. Board ran out 7h Qc Th Jh 5d (third heart on turn).",
+    "scenario": "YOUR HAND (−105bb). QJs — top pair (queens) on 7h-Qc-Th flop (TWO hearts), turning into two pair (queens and jacks) once the Jh falls. Villain check-raises flop (2bb→6bb), bets turn 12bb, bets river 25bb. You called all three. Board ran out 7h Qc Th Jh 5d (third heart on turn).",
     "question": "You have two pair, but villain check-raises a two-flush board then barrels as the flush completes. Action by the river?",
     "options": [
       "Fold by turn/river",
@@ -212,8 +212,8 @@
     "module": "8",
     "category": "Facing Aggression · Real",
     "difficulty": "hard",
-    "scenario": "YOUR HAND (−102bb). A5o, you flop a SET of fives on 2-5-5-K-3. River: villain bets 4bb, you raise to 15bb, villain RE-RAISES to 38bb, you call. Villain had KK (turned a bigger boat: kings full).",
-    "question": "You have trip/full-house fives, but when you raise the river villain re-raises big. Is this a fold or a cooler?",
+    "scenario": "YOUR HAND (−102bb). A5o, you flop TRIP fives (your 5 plus the board's paired 5s) on 2-5-5-K-3. River: villain bets 4bb, you raise to 15bb, villain RE-RAISES to 38bb, you call. Villain had KK (turned a bigger boat: kings full).",
+    "question": "You have trip fives (no boat — your other card is a lone ace kicker), but when you raise the river villain re-raises big. Is this a fold or a cooler?",
     "options": [
       "Snap-call, trips is the nuts",
       "Mostly a cooler — but folding is ok",
@@ -221,7 +221,7 @@
       "Always fold trips"
     ],
     "correct": 1,
-    "explanation": "Your real hand (villain had KK = kings full, beating your fives full... actually 555+K = fives full of kings, vs KK = kings full of fives, which wins). This is closer to a cooler, but there's a lesson: on a PAIRED board, when villain re-raises your river raise, their range is full houses that beat your trips/lower boat. With a weak-kicker trips on a paired board, a re-raise is a yellow flag. You won't always fold here, but recognizing that the re-raise rep beats you is the skill — don't auto-stack-off trips on paired boards vs a re-raise. The re-raise over your raise should give pause; on a paired board (5-5 + K), villain's re-raise range is boats that beat trips (KK, 33, K5). Folding trips-with-weak-kicker to a re-raise is defensible."
+    "explanation": "Your real hand (villain had KK = kings full of fives — beats your trip fives outright, since you don't have a boat of your own, just trips with a lone ace kicker). This is closer to a cooler, but there's a lesson: on a PAIRED board, when villain re-raises your river raise, their range is full houses that beat your trips. With trips on a paired board — even with the best possible kicker, one that can't itself make a boat — a re-raise is a yellow flag. You won't always fold here, but recognizing that the re-raise rep beats you is the skill — don't auto-stack-off trips on paired boards vs a re-raise. The re-raise over your raise should give pause; on a paired board (5-5 + K), villain's re-raise range is boats that beat trips (KK, 33, K5). Folding trips on a paired board to a re-raise is defensible, even with top kicker."
   },
   {
     "id": "sz_real_08",
@@ -276,7 +276,7 @@
     "module": "8",
     "category": "Facing Aggression · Real",
     "difficulty": "medium",
-    "scenario": "YOUR HAND (−100bb). AKo, two pair (A+K) on Ts-Qc-Ah-Qs-8s. You bet flop 6bb (called), bet turn 26bb, villain RAISES to 32bb, you call. The board is also THREE spades by the river. Villain had QhTh.",
+    "scenario": "YOUR HAND (−100bb). AKo, two pair (A+Q, using the board's paired queen) on Ts-Qc-Ah-Qs-8s. You bet flop 6bb (called), bet turn 26bb, villain RAISES to 32bb, you call. The board is also THREE spades by the river. Villain had QhTh.",
     "question": "You have two pair (aces and queens) but villain raises your turn bet on a board going three-spades. Read?",
     "options": [
       "Snap it off, aces up is huge",

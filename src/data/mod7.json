@@ -276,7 +276,7 @@
     "module": "7",
     "category": "Read the HUD",
     "difficulty": "medium",
-    "scenario": "HUD shows VPIP 26, PFR 5 — plays a lot of hands, but almost never raises.",
+    "scenario": "HUD shows VPIP 26, PFR 5 — a fairly ordinary, only mildly loose VPIP, but almost none of it comes from raising.",
     "hud": "VPIP 26 · PFR 5",
     "question": "What does the big VPIP-PFR gap tell you preflop?",
     "options": [
@@ -286,7 +286,7 @@
       "Balanced, hard to read"
     ],
     "correct": 2,
-    "explanation": "A wide VPIP (26) paired with a tiny PFR (5) is the signature of a passive limper — they'll play a lot of hands but almost always by limping or calling, rarely by raising. Isolate them with a raise when they limp in front of you: you get to play a wide, weak range heads-up and in position, with initiative on your side."
+    "explanation": "VPIP 26 on its own isn't extreme — it's only a bit above a standard TAG's range (~20-22%), nowhere close to a station's (50+). What actually matters here is the GAP: a PFR of just 5 means barely a fifth of the hands they voluntarily play involve a raise — the rest are limps and calls. That gap, not the raw VPIP number, is the signature of a passive limper. Isolate them with a raise when they limp in front of you: you get to play a wide, weak range heads-up and in position, with initiative on your side."
   },
   {
     "id": "pt_id_10",
@@ -329,7 +329,7 @@
     "difficulty": "hard",
     "scenario": "Same A♣J♦ on J♥7♠3♣ (TPTK), but now Villain (TAG) raises your flop bet.",
     "hud": "Villain: TAG (VPIP 22 · disciplined, rarely bluffs)",
-    "question": "Villain (TAG) raises the flop. How does this compare to the maniac spot above?",
+    "question": "Villain (TAG) raises the flop. How should a disciplined TAG's raise be read here, compared to a maniac's?",
     "options": [
       "Fold, range skews strong",
       "Same wide adjustment either way",
@@ -363,7 +363,7 @@
     "difficulty": "medium",
     "scenario": "Same weak bluffcatcher spot, but now Villain (calling station) bets the river.",
     "hud": "Villain: CALLING STATION (bets thin value, almost never bluffs)",
-    "question": "Villain (station) bets river. Different action than vs the nit above?",
+    "question": "A calling station bets the river into your weak bluffcatcher. Same fold you'd give a Nit here, or different?",
     "options": [
       "Still fold, same read",
       "Raise, they'll call worse",
@@ -371,7 +371,7 @@
       "Fold, stations bet the nuts only"
     ],
     "correct": 2,
-    "explanation": "Stations rarely bluff, but unlike a Nit they also rarely bet ONLY the nuts — passive players who do bet the river often do it with thin value (second pair, weak top pair) because they can't help themselves. Your bluffcatcher beats more of that range than it beats a Nit's. Call — don't apply the same fold you'd give a Nit."
+    "explanation": "Both a Nit and a Station rarely bluff the river — that part's the same. The difference is what fills their VALUE range. A Nit only bets when they have it big, so almost their entire betting range beats you. A Station's 'almost never bluffs' comes with a much wider value range — they can't help betting thin stuff like second pair or a weak top pair too, not just their best hands. Same low bluff frequency, very different value-range width — that's why the identical-looking weak bluffcatcher becomes a call here instead of a fold."
   },
   {
     "id": "pt_bc_maniac",
@@ -380,7 +380,7 @@
     "difficulty": "medium",
     "scenario": "Same weak bluffcatcher, Villain (maniac) fires the river.",
     "hud": "Villain: MANIAC (bets everything, bluffs constantly)",
-    "question": "Villain (maniac) bets river. What's different from the nit spot?",
+    "question": "A maniac bets the river into your weak bluffcatcher. How should that read differ from a Nit doing the same thing?",
     "options": [
       "Fold, same as the nit",
       "Raise, force a fold",
@@ -388,7 +388,7 @@
       "Call, full of bluffs"
     ],
     "correct": 3,
-    "explanation": "A maniac's river bet carries almost none of the information a Nit's does — they fire regardless of hand strength, so a big chunk of their betting range is pure air or a busted draw. Your weak bluffcatcher is a clear call here, the exact opposite read from the Nit spot even though the bet itself looks the same."
+    "explanation": "A maniac's river bet carries almost none of the information a Nit's does — they fire regardless of hand strength, so a big chunk of their betting range is pure air or a busted draw. A Nit's big river bet is close to a guaranteed value bet; a maniac's is close to a coinflip on whether it's even a made hand. Your weak bluffcatcher is a clear call here — the opposite read from a Nit's bet, even though the bet size itself can look identical."
   },
   {
     "id": "pt_bc_lag",

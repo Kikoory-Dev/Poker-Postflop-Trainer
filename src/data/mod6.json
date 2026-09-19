@@ -815,8 +815,6 @@
     "correctRange": [
       "AA",
       "KK",
-      "QQ",
-      "JJ",
       "88",
       "55",
       "33",
@@ -840,7 +838,7 @@
       "87s",
       "86s"
     ],
-    "explanation": "The K♥ turn is a classic barrel card — it favors the raiser's range (they have AK, KQ, KK; you rarely do as the BB caller). Value now: KK (set), AK/KQ (new top pair), AA/QQ/JJ (overpairs still good), sets (88, 55, 33). Note TT/99 and the weak top-pair eights (A8s, 98s, 87s) often CHECK now — they're no longer comfortable barreling for value with the king out there. A TAG also adds heart flush draws as bluffs. When this player barrels a scare card, respect it — their range is now king-heavy and strong."
+    "explanation": "The K♥ turn is a classic barrel card — it favors the raiser's range (they have AK, KQ, KK; you rarely do as the BB caller). Value now: KK (set), AK/KQ (new top pair), AA (still a clean overpair to the king), sets (88, 55, 33). Note QQ/JJ/TT/99 and the weak top-pair eights (A8s, 98s, 87s) often CHECK now — they're all one-pair hands below the king and no longer comfortable barreling for value with it out there. A TAG also adds heart flush draws as bluffs. When this player barrels a scare card, respect it — their range is now king-heavy and strong."
   },
   {
     "id": "pt_yr_01",
@@ -881,7 +879,7 @@
     "module": "6",
     "category": "Your Hand · Real",
     "difficulty": "medium",
-    "scenario": "YOUR HAND. Multiway limped pot, you over-limp T♠8♠ on the BTN. Flop A♠T♣3♥. Checks to you, you check back. Turn 8♣ gives you two pair-ish (tens and eights... actually pair of tens + pair... you have T8 = two pair tens and eights). You bet, one caller. River J♠. Villain bets big.",
+    "scenario": "YOUR HAND. Multiway limped pot, you over-limp T♠8♠ on the BTN. Flop A♠T♣3♥. Checks to you, you check back. Turn 8♣ gives you two pair (tens and eights). You bet, one caller. River J♠. Villain bets big.",
     "hud": "Villain: unknown limper, called your turn bet, leads river",
     "question": "You have T8 (two pair: tens & eights) on A-T-3-8-J. Villain check-calls turn then leads river big. How does the river change things?",
     "options": [
@@ -891,7 +889,7 @@
       "Fold instantly — two pair is trash here"
     ],
     "correct": 1,
-    "explanation": "Based on your real T8s hand. Two pair feels strong, but locate it in villain's range: the A-T-3 flop means many of their calling hands contain an ace (Ax two pair now beats your tens-and-eights), and the J completes Q-T and K-Q straights. A passive limper who suddenly leads big into you on the river is rarely bluffing at micro. Your 'two pair' is actually a weak bluff-catcher because the better two pairs (Ax) and straights all got there. This is the over-limp downstream cost: you build a multiway pot with a hand that makes second-best hands. J completes QT/KQ straights and the A-J two pair beats you; a limper leading big into you on the river often has it."
+    "explanation": "Two pair feels strong, but locate it in villain's range: the A-T-3 flop means many of their calling hands contain an ace (Ax two pair now beats your tens-and-eights), and the J completes Q-T and K-Q straights. A passive limper who suddenly leads big into you on the river is rarely bluffing at micro. Your 'two pair' is actually a weak bluff-catcher because the better two pairs (Ax) and straights all got there. This is the over-limp downstream cost: you build a multiway pot with a hand that makes second-best hands. J completes QT/KQ straights and the A-J two pair beats you; a limper leading big into you on the river often has it."
   },
   {
     "id": "pt_g_01",
@@ -979,15 +977,15 @@
     "category": "Whose Range · Drill",
     "difficulty": "hard",
     "scenario": "You 3-bet preflop with A♥K♥, original raiser (TAG) calls. Flop 9♣6♠2♦ (dry, low).",
-    "question": "You have AK-high (no pair) on 9-6-2. Whose range does the board favor, and what's your play?",
+    "question": "You have AK-high (no pair) on 9-6-2 in a 3-bet pot. Whose range does the board actually favor, and what's your play?",
     "options": [
       "Check — you missed",
-      "C-bet — board favors your range",
+      "C-bet small — even though the board favors the caller, your range/initiative still support a bet",
       "Give up — AK is just ace-high",
       "Check-call to bluff-catch"
     ],
     "correct": 1,
-    "explanation": "As the 3-bettor, your range is the strong one: AA, KK, QQ, AK — the overpairs dominate a 9-6-2 board. The caller's range (which would 4-bet AA/KK at micro) is capped at hands like TT-JJ, AQ, suited connectors. A c-bet leverages your range advantage: you credibly represent the overpairs they rarely hold, and even though you have only ace-high, you have two overcards and backdoor equity. This is range-based c-betting — the board favors your range, so you bet regardless of your specific holding. As the 3-bettor, this dry low board favors YOUR range (overpairs AA-TT) far more than their flat-calling range; your AK has backdoors + overcards and a c-bet folds out their air."
+    "explanation": "Low, dry boards like 9-6-2 actually favor the CALLER in 3-bet pots: the flatting range keeps more of the 55-99-type hands that smash this exact texture, while your 3-betting range is concentrated in AA-QQ/AK and mostly whiffs these ranks. Don't fool yourself into thinking you have a texture edge here. What you DO have: their range is capped (no slowplayed AA/KK — that gets 4-bet preflop), and your range still contains the single biggest hands in the pot (AA-QQ, a set of 99). A small c-bet leverages that: cheap enough that missing doesn't cost much, and it denies easy equity to the many capped hands that now face a decision. This is a 'bet despite the board' spot, not a 'bet because the board favors you' spot — know the difference."
   },
   {
     "id": "pt_g_07",

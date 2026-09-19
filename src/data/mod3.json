@@ -292,8 +292,8 @@
     "module": "3",
     "category": "C-Bet Factors",
     "difficulty": "medium",
-    "scenario": "You raise BTN, BB calls. Flop J♠ T♠ 4♥ (two-tone, one gap). You have J♥ 9♥ (top pair, plus a flush draw of your own on a different suit — no, correction: you have the flush draw live on hearts, top pair of jacks).",
-    "question": "Top pair with a flush draw of your own, on a two-tone board where BB could easily have a spade draw too. Bet small to keep the pot manageable, or bet big to charge draws?",
+    "scenario": "You raise BTN, BB calls. Flop J♠ T♠ 4♥ (two-tone, one gap). You have J♥ 9♥ (top pair of jacks, plus a backdoor flush draw on hearts — only 4♥ is a heart on this board, so it's not live yet).",
+    "question": "Top pair, with a backdoor flush draw of your own, on a two-tone board where BB could easily have a spade draw. Bet small to keep the pot manageable, or bet big to charge draws?",
     "options": [
       "Bet small — no need to inflate",
       "Check — too many draws live",
@@ -308,8 +308,8 @@
     "module": "3",
     "category": "C-Bet Factors",
     "difficulty": "medium",
-    "scenario": "You raise SB, BB calls (a wide, unselective calling range from BB in this matchup). Flop A♠ 8♣ 3♠ (dry, rainbow). You have K♣ K♥ (overpair, second-nut pair).",
-    "question": "You have KK, an overpair below the ace, on a dry ace-high board. What's your play?",
+    "scenario": "You raise SB, BB calls (a wide, unselective calling range from BB in this matchup). Flop A♠ 8♣ 3♠ (dry, rainbow). You have K♣ K♥ (second-nut pair — the ace on board means this isn't an overpair).",
+    "question": "You have KK, a big pair below the ace, on a dry ace-high board. What's your play?",
     "options": [
       "Bet — still beats most continues",
       "Check — an ace out is too scary",
@@ -324,7 +324,7 @@
     "module": "3",
     "category": "C-Bet Factors",
     "difficulty": "hard",
-    "scenario": "You raise CO, BB calls (BB folds to c-bet 70%+, and you hold blockers: A♠ K♠ on a board with two spades). Flop Q♠ 8♠ 4♥ (two-tone, dry underneath). You have nothing but ace-king with the nut flush blocker.",
+    "scenario": "You raise CO, BB calls (BB folds to c-bet 70%+, and you hold the nut flush blocker: A♠ on a board with two spades). Flop Q♠ 8♠ 4♥ (two-tone, dry underneath). You have nothing but ace-king (A♠ K♦) with the nut flush blocker.",
     "question": "Fold equity is high, range favors you, AND you block the nut flush — three factors stacking in the same direction. How confidently should you c-bet?",
     "options": [
       "Cautiously — it's a coincidence",
@@ -356,7 +356,7 @@
     "module": "3",
     "category": "When NOT to C-Bet",
     "difficulty": "medium",
-    "scenario": "You raise, get called by THREE players. Flop K♠ 6♥ 2♣ (fairly dry, rainbow). You have Q♥ J♥ (nothing, backdoor flush + gutshot).",
+    "scenario": "You raise, get called by THREE players. Flop K♠ 6♥ 2♣ (fairly dry, rainbow). You have Q♥ J♥ (nothing, backdoor flush + backdoor straight draw).",
     "question": "Three callers, a fairly dry board, you have nothing. Does the dry texture make this a good bluff anyway?",
     "options": [
       "Yes — dry boards are always good",
@@ -388,7 +388,7 @@
     "module": "3",
     "category": "When NOT to C-Bet",
     "difficulty": "easy",
-    "scenario": "You raise, a loose-passive calling station calls. Flop J♠ T♥ 4♣ (two-tone, connected). You have 8♥ 6♥ (gutshot only — needs exactly a 9 — no overcards, no flush draw of your own suit that matters here).",
+    "scenario": "You raise, a loose-passive calling station calls. Flop J♠ T♥ 4♣ (two-tone, connected). You have 8♥ 7♥ (gutshot only — needs exactly a 9 — no overcards, no flush draw of your own suit that matters here).",
     "question": "A weak gutshot, no overcards, against a station who never folds. C-bet as a semi-bluff?",
     "options": [
       "Yes — any draw is worth a bet",

@@ -61,7 +61,7 @@
       "Snap-call always"
     ],
     "correct": 1,
-    "explanation": "Your real T8s hand. Playing as the caller in a limped multiway pot, you made a vulnerable two pair. The river J completes obvious straights and your tens-and-eights loses to any Ax two pair and all straights. A passive limper leading big into you is screaming value at micro. Two pair FEELS strong but its relative strength here is weak — bluff-catcher at best. This over-limp set up a hand that makes second-best hands — the leak started preflop. The J completes KQ/QT straights, the ace-high flop means Ax two pair beats you; a passive player leading big on the river rarely bluffs. Your two pair is a bluff-catcher at best."
+    "explanation": "Playing as the caller in a limped multiway pot, you made a vulnerable two pair. Villain limped (not raised) preflop, so their Ax is skewed toward speculative/weaker aces rather than AK/AQ — plenty of players still limp big hands at micro, so don't fully eliminate them, but they're a minority of the Ax combos here, not the majority. The turn 8♣ gives you two pair and you bet; villain just calling (not raising) keeps some Kx/Qx and backdoor-ish hands in their range too. The J♠ river matters two ways: it completes KQ/QT-type straights that could have called a reasonable turn bet, and it means any Ax two pair villain already had now beats your tens-and-eights outright. A passive limper who check-called the turn then leads BIG on this river is a real value signal at these stakes — rarely a busted-draw bluff. Two pair FEELS strong, but the honest read is that it's a bluff-catcher at best here; the leak started preflop with the over-limp, which let a hand this good on the turn turn into second-best by the river."
   },
   {
     "id": "cal_05",
@@ -324,8 +324,8 @@
     "module": "5",
     "category": "When to Fold as the Caller",
     "difficulty": "easy",
-    "scenario": "You call a CO open from the BB with K♦Q♣ (two overcards, no pair, no draw). Flop J♠T♠9♠ (monotone spades, straight-heavy). CO bets big (pot-sized).",
-    "question": "Two overcards, zero pair, zero draw, on a monotone straight-heavy board, facing a pot-sized bet. Continue?",
+    "scenario": "You call a CO open from the BB with K♦Q♣ (two overcards, no pair, no draw). Flop J♠8♠3♠ (monotone spades — a flush is already possible for anyone holding two). CO bets big (pot-sized).",
+    "question": "Two overcards, zero pair, zero draw, on a monotone board where a flush is already live, facing a pot-sized bet. Continue?",
     "options": [
       "Call — overcards can still improve",
       "Raise as a bluff to fold out draws",
@@ -333,7 +333,7 @@
       "Donk-raise for protection"
     ],
     "correct": 2,
-    "explanation": "There's no case for continuing here at all — two overcards with zero pair and zero draw on a board this dangerous (flush AND multiple straights possible) isn't close. A pot-sized bet on a board like this is exactly the kind of bet you should be folding to reflexively, not looking for a reason to stay in. Fold — this is about as clean a fold as exists: no equity, a scary board, and a big bet all pointing the same direction."
+    "explanation": "There's no case for continuing here at all — two overcards with zero pair and zero draw on a board this dangerous (a flush is already live for anyone holding two spades) isn't close. A pot-sized bet on a board like this is exactly the kind of bet you should be folding to reflexively, not looking for a reason to stay in. Fold — this is about as clean a fold as exists: no equity, a scary board, and a big bet all pointing the same direction."
   },
   {
     "id": "cal_22",
@@ -372,7 +372,7 @@
     "module": "5",
     "category": "When to Fold as the Caller",
     "difficulty": "medium",
-    "scenario": "You call a CO open on the BB with 7♦6♦. Flop 9♣8♠2♥ — you have a single gutshot only (need exactly a 5, and it doesn't even make the nuts). CO c-bets big (85% pot).",
+    "scenario": "You call a CO open on the BB with 7♦6♦. Flop 8♠4♣2♥ — you have a single gutshot only (need exactly a 5, and it doesn't even make the nuts). CO c-bets big (85% pot).",
     "question": "A weak, lone gutshot (4 outs, non-nut) facing a big bet. Call for the price?",
     "options": [
       "Yes — any draw is worth chasing",
@@ -388,7 +388,7 @@
     "module": "5",
     "category": "When to Fold as the Caller",
     "difficulty": "hard",
-    "scenario": "You call a BTN open on the BB with K♣K♦. Flop A♠7♦2♣ — an ace flops, you have an overpair below it. BTN c-bets, you call. Turn blank, BTN bets again (pot-sized this time, a big jump in sizing). River blank, BTN bets pot again.",
+    "scenario": "You call a BTN open on the BB with K♣K♦. Flop A♠7♦2♣ — an ace flops, you have a big pair, but it's second-best (below the ace, not an overpair). BTN c-bets, you call. Turn blank, BTN bets again (pot-sized this time, a big jump in sizing). River blank, BTN bets pot again.",
     "question": "KK below an ace, facing an escalating bet pattern from BTN. By the river, what's the read?",
     "options": [
       "Call — kings are too strong to fold anywhere",
@@ -420,23 +420,23 @@
     "module": "5",
     "category": "When to Fold as the Caller",
     "difficulty": "hard",
-    "scenario": "Effective stacks are 15bb. You call a BTN open on the BB with 6♠5♠. Flop 9♠7♦2♣ — open-ended straight draw. BTN c-bets, putting you to a decision for nearly a third of your remaining stack.",
-    "question": "A real draw (OESD), but stacks are very short and the bet is a big chunk of what's left. Call?",
+    "scenario": "Effective stacks are 15bb. You call a BTN open on the BB with 6♠5♠. Flop 9♠7♦2♣ — a gutshot straight draw (need exactly an 8). BTN c-bets, putting you to a decision for nearly a third of your remaining stack.",
+    "question": "A weak gutshot, and stacks are very short with the bet a big chunk of what's left. Call?",
     "options": [
       "Fold — short stacks kill the implied odds",
-      "Call — OESD is always worth continuing with",
+      "Call — any draw is always worth continuing with",
       "Raise/shove as a semi-bluff",
       "Call, then fold to any further aggression"
     ],
     "correct": 0,
-    "explanation": "An open-ended straight draw is usually a clear continue, but that's built on implied odds — getting paid a big pot when you hit. At 15bb effective, there's barely anything left to win beyond what's already in the pot, so the draw's true value collapses even though the raw odds of hitting haven't changed. Fold — this is a case where stack depth alone flips a normally-easy continue into a fold; the draw needs implied odds a short stack simply can't provide."
+    "explanation": "A gutshot straight draw is thin to begin with, and whatever marginal case it has relies on implied odds — getting paid a big pot when you hit. At 15bb effective, there's barely anything left to win beyond what's already in the pot, so the draw's already-weak value collapses further even though the raw odds of hitting haven't changed. Fold — this is a case where stack depth alone makes an already-marginal draw an easy fold; a weak gutshot needs implied odds a short stack simply can't provide."
   },
   {
     "id": "cal_28",
     "module": "5",
     "category": "When to Fold as the Caller",
     "difficulty": "hard",
-    "scenario": "You call a CO open on the BTN with A♣Q♦. There are two other callers, so it's four-way to the flop. Flop Q♠8♣3♥ — top pair, decent kicker. One of the OTHER callers (not the original PFR) leads out with a bet before CO acts.",
+    "scenario": "You call a CO open on the BTN with A♣Q♦. There are two other callers, so it's four-way to the flop. Flop Q♠8♣3♥ — top pair, top kicker (the ace). One of the OTHER callers (not the original PFR) leads out with a bet before CO acts.",
     "question": "A different player leads into a four-way pot, and CO hasn't even acted yet. Your top pair — call, or something else?",
     "options": [
       "Raise now before CO can act",
@@ -445,7 +445,7 @@
       "Call, then fold to CO if they raise"
     ],
     "correct": 1,
-    "explanation": "This is more dangerous than a normal one-on-one continue: you're not just deciding whether to beat the donk-bettor's leading range, you still have to get through the original preflop raiser acting after you, in a four-way pot where a random lead usually means a real hand. Top pair decent kicker isn't enough to shoulder both of those risks in one call. Fold — facing a donk bet in a four-way pot with a raiser still to act behind you means clearing two hurdles, not one."
+    "explanation": "This is more dangerous than a normal one-on-one continue: you're not just deciding whether to beat the donk-bettor's leading range, you still have to get through the original preflop raiser acting after you, in a four-way pot where a random lead usually means a real hand. Even top pair with the best kicker possible isn't enough to shoulder both of those risks in one call — the problem was never kicker quality. Fold — facing a donk bet in a four-way pot with a raiser still to act behind you means clearing two hurdles, not one."
   },
   {
     "id": "cal_29",
